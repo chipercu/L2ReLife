@@ -19,7 +19,7 @@ import java.util.logging.Logger;
 public class Scripts {
     private static final Logger _log = Logger.getLogger(Scripts.class.getName());
 
-    public static boolean JAR;
+    public static boolean JAR = true;
 
     private static Scripts _instance;
 
@@ -84,7 +84,7 @@ public class Scripts {
         boolean error = false;
         Class<?> c;
 
-        JAR = new File("lib/tsrsvp.jar").exists();
+//        JAR = new File("lib/tsrsvp.jar").exists();
 
         if (JAR) {
             GArray<File> scriptFiles = new GArray<File>();
@@ -114,23 +114,23 @@ public class Scripts {
                 _log.warning("Can't compile scripts!");
                 error = true;
             }
-            JarClassLoader jcl;
-            try {
-                jcl = new JarClassLoader("lib/tsrsvp.jar");
-                for (String name : jcl.getClassNames()) {
-                    if (!name.contains(".class"))
-                        continue;
-                    if (name.contains("$"))
-                        continue; // пропускаем вложенные классы
-                    name = name.replace(".class", "").replace("/", ".");
-                    c = jcl.loadClass(name);
-                    Script s = new Script(c);
-                    _classes.put(c.getName(), s);
-                }
-            } catch (Exception e) {
-                error = true;
-                e.printStackTrace();
-            }
+//            JarClassLoader jcl;
+//            try {
+//                jcl = new JarClassLoader("lib/tsrsvp.jar");
+//                for (String name : jcl.getClassNames()) {
+//                    if (!name.contains(".class"))
+//                        continue;
+//                    if (name.contains("$"))
+//                        continue; // пропускаем вложенные классы
+//                    name = name.replace(".class", "").replace("/", ".");
+//                    c = jcl.loadClass(name);
+//                    Script s = new Script(c);
+//                    _classes.put(c.getName(), s);
+//                }
+//            } catch (Exception e) {
+//                error = true;
+//                e.printStackTrace();
+//            }
         }
 
         if (error) {

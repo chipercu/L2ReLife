@@ -46,7 +46,7 @@ public class AdminItems implements IAdminCommandHandler, ScriptFile {
                     FileWriter file = null;
                     StringBuilder sb = new StringBuilder();
                     try {
-                        file = new FileWriter("buff.txt", true);
+                        file = new FileWriter("out/buff.txt", true);
                         sb.append(skill.getId()).append(", ").append(skill.getLevel()).append(",		//").append(skill.getName()).append("\n");
                         file.write(sb.toString());
                         file.flush();
