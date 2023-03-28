@@ -183,12 +183,12 @@ public class UpgradeArmorInstance extends L2NpcInstance {
         return  need + " / " + count;
     }
 
-    private String htmlG1(L2Player player, L2ItemInstance item, int slot){
+    private String htmlG1(L2ItemInstance item, int slot){
         StringBuilder result = new StringBuilder();
 
         L2Skill skill = null;
         String skill_name = "Нет Усиления";
-        String skillIcon = null;
+        String skillIcon;
         if (item.isAugmented()){
             skill = item.getAugmentation().getSkill();
             skill_name = skill.getName().substring(0, skill.getName().length() - 9);
@@ -364,7 +364,7 @@ public class UpgradeArmorInstance extends L2NpcInstance {
         for (int slot: slots){
             final L2ItemInstance paperdollItem = player.getInventory().getPaperdollItem(slot);
             if (paperdollItem != null){
-                rows.append(htmlG1(player, paperdollItem, slot));
+                rows.append(htmlG1(paperdollItem, slot));
             }
         }
         player.sendPacket(html.setHtml(rows.toString()));
@@ -382,9 +382,6 @@ public class UpgradeArmorInstance extends L2NpcInstance {
             st.nextToken();
             int slot = Integer.parseInt(st.nextToken());
             showUpGradeHtml(player, slot);
-//            player.sendMessage("" + val);
-//            addSkillLevel(val, player);
-//            showInitHtml(player);
 
         } else if (command.startsWith("addSkillLevel")) {
             StringTokenizer st = new StringTokenizer(command, ":");
@@ -399,13 +396,9 @@ public class UpgradeArmorInstance extends L2NpcInstance {
             st.nextToken();
             int slot = Integer.parseInt(st.nextToken());
             showDownGradeHtml(player, slot);
-//            final L2ItemInstance item = player.getInventory().getPaperdollItem(slot);
-//            removeAugment(item, player);
-//            showInitHtml(player);
         } else if (command.startsWith("htmlTest")) {
             NpcHtmlMessage html = new NpcHtmlMessage(player, this);
             Table table = new Table(5, 5);
-
             table.addParam(" border=1 align=top");
             for (Row r: table.getRows()){
                 for (int i = 0; i < r.getCols().size(); i++) {
