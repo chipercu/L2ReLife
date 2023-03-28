@@ -1,16 +1,9 @@
 package ai.BotPlayers;
 
-import l2open.common.ThreadPoolManager;
 import l2open.gameserver.model.L2Character;
-import l2open.gameserver.model.L2ObjectsStorage;
-import l2open.gameserver.model.L2Player;
-import l2open.gameserver.serverpackets.Say2;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;

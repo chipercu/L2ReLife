@@ -1,4 +1,4 @@
-package scripts.ai;
+package ai;
 
 import l2open.common.RunnableImpl;
 import l2open.common.ThreadPoolManager;

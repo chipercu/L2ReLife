@@ -1,16 +1,14 @@
-package scripts.commands.admin;
+package commands.admin;
 
-import scripts.ai.PlayerTest;
-import l2open.config.ConfigValue;
-import l2open.extensions.network.MMOConnection;
 import l2open.extensions.scripts.ScriptFile;
-import l2open.gameserver.ai.L2CharacterAI;
 import l2open.gameserver.handler.AdminCommandHandler;
 import l2open.gameserver.handler.IAdminCommandHandler;
-import l2open.gameserver.model.*;
+import l2open.gameserver.model.EffectList;
+import l2open.gameserver.model.L2Effect;
+import l2open.gameserver.model.L2Player;
+import l2open.gameserver.model.L2Skill;
 import l2open.gameserver.model.items.Inventory;
 import l2open.gameserver.model.items.L2ItemInstance;
-import l2open.gameserver.network.L2GameClient;
 import l2open.gameserver.templates.L2Item;
 
 import java.io.FileWriter;
