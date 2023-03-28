@@ -1,4 +1,4 @@
-package scripts.commands.admin;
+package commands.admin;
 
 import l2open.config.ConfigValue;
 import l2open.database.mysql;
@@ -27,10 +27,10 @@ import l2open.gameserver.templates.L2PlayerTemplate;
 import l2open.gameserver.xml.ItemTemplates;
 import l2open.util.GArray;
 import l2open.util.Rnd;
-import scripts.ai.BotPlayers.BerserkerAI;
-import scripts.ai.BotPlayers.Gladiator;
-import scripts.ai.BotPlayers.GladiatorAI;
-import scripts.ai.PlayerTest;
+import ai.BotPlayers.BerserkerAI;
+import ai.BotPlayers.Gladiator;
+import ai.BotPlayers.GladiatorAI;
+import ai.PlayerTest;
 
 import java.io.FileWriter;
 import java.io.IOException;

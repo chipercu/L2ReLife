@@ -4,8 +4,6 @@ import l2open.common.ThreadPoolManager;
 import l2open.gameserver.model.L2Character;
 import l2open.gameserver.model.L2Player;
 import l2open.gameserver.model.L2Skill;
-import l2open.gameserver.model.instances.L2NpcInstance;
-import l2open.util.GArray;
 
 import java.util.ArrayList;
 import java.util.List;

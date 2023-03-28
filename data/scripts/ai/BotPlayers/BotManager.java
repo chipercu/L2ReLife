@@ -11,7 +11,7 @@ import l2open.gameserver.model.L2World;
 import l2open.gameserver.model.base.ClassId;
 import l2open.gameserver.network.L2GameClient;
 import l2open.util.GArray;
-import scripts.ai.PlayerTest;
+import ai.PlayerTest;
 
 import java.util.Collection;
 import java.util.HashMap;
