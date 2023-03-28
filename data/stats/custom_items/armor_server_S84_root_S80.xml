@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <armor id="5010170" name="Baylor's Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_dynasty_earing_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="487"/>
+     <set name="m_def" val="71"/>
+     <set name="mp_bonus" val="31"/>
+     <set name="att_def_type" val="0;0;0;0;0;30"/>
+     <set name="price" val="14622000"/>
+    </armor>
+    <armor id="5015606" name="Moirai Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="606"/>
+     <set name="p_def" val="104"/>
+     <set name="price" val="15152400"/>
+    </armor>
+    <armor id="5015607" name="Moirai Leather Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i00"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="606"/>
+     <set name="p_def" val="104"/>
+     <set name="price" val="15152400"/>
+    </armor>
+    <armor id="5015608" name="Moirai Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_circlet_i00"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="606"/>
+     <set name="p_def" val="104"/>
+     <set name="price" val="15152400"/>
+    </armor>
+    <armor id="5015609" name="Moirai Breastplate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t100_u_i00"/>
+     <set name="weight" val="7520"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="1616"/>
+     <set name="p_def" val="260"/>
+     <set name="price" val="40406400"/>
+    </armor>
+    <armor id="5015610" name="Moirai Leather Breastplate" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t101_u_i00"/>
+     <set name="weight" val="4140"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="194"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="5015611" name="Moirai Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t102_u_i00"/>
+     <set name="weight" val="1750"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="130"/>
+     <set name="mp_bonus" val="637"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="5015612" name="Moirai Gaiters" type="HEAVY">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t100_l_i00"/>
+     <set name="weight" val="3170"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="1010"/>
+     <set name="p_def" val="162"/>
+     <set name="price" val="40407600"/>
+    </armor>
+    <armor id="5015613" name="Moirai Leather Leggings" type="LIGHT">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t101_l_i00"/>
+     <set name="weight" val="1320"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="758"/>
+     <set name="p_def" val="121"/>
+     <set name="price" val="18940800"/>
+    </armor>
+    <armor id="5015614" name="Moirai Stockings" type="MAGIC">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t102_l_i00"/>
+     <set name="weight" val="850"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="758"/>
+     <set name="p_def" val="80"/>
+     <set name="mp_bonus" val="415"/>
+     <set name="price" val="18940800"/>
+    </armor>
+    <armor id="5015615" name="Moirai Gauntlets" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t100_g_i00"/>
+     <set name="weight" val="510"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="404"/>
+     <set name="p_def" val="69"/>
+     <set name="price" val="10101600"/>
+    </armor>
+    <armor id="5015616" name="Moirai Leather Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t101_g_i00"/>
+     <set name="weight" val="510"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="404"/>
+     <set name="p_def" val="69"/>
+     <set name="price" val="10101600"/>
+    </armor>
+    <armor id="5015617" name="Moirai Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t102_g_i00"/>
+     <set name="weight" val="510"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="404"/>
+     <set name="p_def" val="69"/>
+     <set name="price" val="10101600"/>
+    </armor>
+    <armor id="5015618" name="Moirai Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t100_b_i00"/>
+     <set name="weight" val="1070"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="404"/>
+     <set name="p_def" val="69"/>
+     <set name="price" val="10101600"/>
+    </armor>
+    <armor id="5015619" name="Moirai Leather Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t101_b_i00"/>
+     <set name="weight" val="1070"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="404"/>
+     <set name="p_def" val="69"/>
+     <set name="price" val="10101600"/>
+    </armor>
+    <armor id="5015620" name="Moirai Footwear" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t102_b_i00"/>
+     <set name="weight" val="1070"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="404"/>
+     <set name="p_def" val="69"/>
+     <set name="price" val="10101600"/>
+    </armor>
+    <armor id="5015622" name="Moirai Sigil" type="SIGIL">
+     <set name="bodypart" val="LHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_sigil_i01"/>
+     <set name="weight" val="930"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="424"/>
+     <set name="avoid_modify" val="-8"/>
+     <set name="p_def" val="17"/>
+     <set name="price" val="10599600"/>
+    </armor>
+    <armor id="5015694" name="Sealed Moirai Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i02"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="606"/>
+     <set name="p_def" val="104"/>
+     <set name="price" val="15152400"/>
+    </armor>
+    <armor id="5015695" name="Sealed Moirai Leather Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i02"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="606"/>
+     <set name="p_def" val="104"/>
+     <set name="price" val="15152400"/>
+    </armor>
+    <armor id="5015696" name="Sealed Moirai Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_circlet_i02"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="606"/>
+     <set name="p_def" val="104"/>
+     <set name="price" val="15152400"/>
+    </armor>
+    <armor id="5015697" name="Sealed Moirai Breastplate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t94_u_i02"/>
+     <set name="weight" val="7520"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="1616"/>
+     <set name="p_def" val="245"/>
+     <set name="price" val="40406400"/>
+    </armor>
+    <armor id="5015698" name="Sealed Moirai Leather Breastplate" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t95_u_i02"/>
+     <set name="weight" val="4140"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="184"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="5015699" name="Sealed Moirai Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t96_u_i02"/>
+     <set name="weight" val="1750"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="122"/>
+     <set name="mp_bonus" val="637"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="5015700" name="Sealed Moirai Gaiters" type="HEAVY">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t94_l_i02"/>
+     <set name="weight" val="3170"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="1010"/>
+     <set name="p_def" val="154"/>
+     <set name="price" val="40407600"/>
+    </armor>
+    <armor id="5015701" name="Sealed Moirai Leather Leggings" type="LIGHT">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t95_l_i02"/>
+     <set name="weight" val="1320"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="758"/>
+     <set name="p_def" val="114"/>
+     <set name="price" val="18940800"/>
+    </armor>
+    <armor id="5015702" name="Sealed Moirai Stockings" type="MAGIC">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t96_l_i02"/>
+     <set name="weight" val="850"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="758"/>
+     <set name="p_def" val="76"/>
+     <set name="mp_bonus" val="415"/>
+     <set name="price" val="18940800"/>
+    </armor>
+    <armor id="5015703" name="Sealed Moirai Gauntlets" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t94_g_i02"/>
+     <set name="weight" val="510"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="404"/>
+     <set name="p_def" val="69"/>
+     <set name="price" val="10101600"/>
+    </armor>
+    <armor id="5015704" name="Sealed Moirai Leather Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t95_g_i02"/>
+     <set name="weight" val="510"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="404"/>
+     <set name="p_def" val="69"/>
+     <set name="price" val="10101600"/>
+    </armor>
+    <armor id="5015705" name="Sealed Moirai Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t96_g_i02"/>
+     <set name="weight" val="510"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="404"/>
+     <set name="p_def" val="69"/>
+     <set name="price" val="10101600"/>
+    </armor>
+    <armor id="5015706" name="Sealed Moirai Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t94_b_i02"/>
+     <set name="weight" val="1070"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="404"/>
+     <set name="p_def" val="69"/>
+     <set name="price" val="10101600"/>
+    </armor>
+    <armor id="5015707" name="Sealed Moirai Leather Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t95_b_i02"/>
+     <set name="weight" val="1070"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="404"/>
+     <set name="p_def" val="69"/>
+     <set name="price" val="10101600"/>
+    </armor>
+    <armor id="5015708" name="Sealed Moirai Footwear" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t96_b_i02"/>
+     <set name="weight" val="1070"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="404"/>
+     <set name="p_def" val="69"/>
+     <set name="price" val="10101600"/>
+    </armor>
+    <armor id="5015709" name="Sealed Moirai Sigil" type="SIGIL">
+     <set name="bodypart" val="LHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_sigil_i00"/>
+     <set name="weight" val="930"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="424"/>
+     <set name="avoid_modify" val="-8"/>
+     <set name="p_def" val="16"/>
+     <set name="price" val="10599600"/>
+    </armor>
+    <armor id="5015723" name="Moirai Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_bluelycan_ring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="263"/>
+     <set name="m_def" val="61"/>
+     <set name="mp_bonus" val="24"/>
+     <set name="price" val="6576000"/>
+    </armor>
+    <armor id="5015724" name="Moirai Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_bluelycan_earring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="395"/>
+     <set name="m_def" val="86"/>
+     <set name="mp_bonus" val="36"/>
+     <set name="price" val="9865200"/>
+    </armor>
+    <armor id="5015725" name="Moirai Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_bluelycan_necklace_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="526"/>
+     <set name="m_def" val="115"/>
+     <set name="mp_bonus" val="48"/>
+     <set name="price" val="13153200"/>
+    </armor>
+    <armor id="5015766" name="Sealed Moirai Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_sealed_bluelycan_ring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="263"/>
+     <set name="m_def" val="54"/>
+     <set name="price" val="6576000"/>
+    </armor>
+    <armor id="5015767" name="Sealed Moirai Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_sealed_bluelycan_earring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="395"/>
+     <set name="m_def" val="76"/>
+     <set name="price" val="9865200"/>
+    </armor>
+    <armor id="5015768" name="Sealed Moirai Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_sealed_bluelycan_necklace_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="526"/>
+     <set name="m_def" val="101"/>
+     <set name="price" val="13153200"/>
+    </armor>
+    <armor id="5016289" name="Moirai Helmet" type="NONE">
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="bodypart" val="HEAD"/>
+     <set name="crystal_count" val="606"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="530"/>
+     <set name="price" val="15152400"/>
+     <set name="p_def" val="104"/>
+   <skills>
+       <skill id="8418" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016290" name="Moirai Leather Helmet" type="NONE">
+     <set name="icon" val="icon.armor_leather_helmet_i00"/>
+     <set name="bodypart" val="HEAD"/>
+     <set name="crystal_count" val="606"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="530"/>
+     <set name="price" val="15152400"/>
+     <set name="p_def" val="104"/>
+   <skills>
+       <skill id="8424" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016291" name="Moirai Circlet" type="NONE">
+     <set name="icon" val="icon.armor_circlet_i00"/>
+     <set name="bodypart" val="HEAD"/>
+     <set name="crystal_count" val="606"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="530"/>
+     <set name="price" val="15152400"/>
+     <set name="p_def" val="104"/>
+   <skills>
+       <skill id="8429" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016292" name="Moirai Breastplate" type="HEAVY">
+     <set name="icon" val="icon.armor_t100_u_i00"/>
+     <set name="bodypart" val="CHEST"/>
+     <set name="crystal_count" val="1616"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="7520"/>
+     <set name="price" val="40407600"/>
+     <set name="p_def" val="260"/>
+   <skills>
+       <skill id="8419" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016293" name="Moirai Leather Breastplate" type="LIGHT">
+     <set name="icon" val="icon.armor_t101_u_i00"/>
+     <set name="bodypart" val="CHEST"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="4140"/>
+     <set name="price" val="30306000"/>
+     <set name="p_def" val="194"/>
+   <skills>
+       <skill id="8425" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016294" name="Moirai Tunic" type="MAGIC">
+     <set name="icon" val="icon.armor_t102_u_i00"/>
+     <set name="bodypart" val="CHEST"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="1750"/>
+     <set name="price" val="30306000"/>
+     <set name="p_def" val="130"/>
+     <set name="mp_bonus" val="637"/>
+   <skills>
+       <skill id="8430" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016295" name="Moirai Gaiter" type="HEAVY">
+     <set name="icon" val="icon.armor_t100_l_i00"/>
+     <set name="bodypart" val="LEGS"/>
+     <set name="crystal_count" val="1010"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="3170"/>
+     <set name="price" val="25255200"/>
+     <set name="p_def" val="162"/>
+   <skills>
+       <skill id="8420" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016296" name="Moirai Leather Legging" type="LIGHT">
+     <set name="icon" val="icon.armor_t101_l_i00"/>
+     <set name="bodypart" val="LEGS"/>
+     <set name="crystal_count" val="758"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="1320"/>
+     <set name="price" val="18940800"/>
+     <set name="p_def" val="121"/>
+   <skills>
+       <skill id="8426" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016297" name="Moirai Stockings" type="MAGIC">
+     <set name="icon" val="icon.armor_t102_l_i00"/>
+     <set name="bodypart" val="LEGS"/>
+     <set name="crystal_count" val="758"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="850"/>
+     <set name="price" val="18940800"/>
+     <set name="p_def" val="80"/>
+     <set name="mp_bonus" val="415"/>
+   <skills>
+       <skill id="8431" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016298" name="Moirai Gauntlet" type="NONE">
+     <set name="icon" val="icon.armor_t100_g_i00"/>
+     <set name="bodypart" val="GLOVES"/>
+     <set name="crystal_count" val="404"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="510"/>
+     <set name="price" val="10101600"/>
+     <set name="p_def" val="69"/>
+   <skills>
+       <skill id="8421" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016299" name="Moirai Leather Gloves" type="NONE">
+     <set name="icon" val="icon.armor_t101_g_i00"/>
+     <set name="bodypart" val="GLOVES"/>
+     <set name="crystal_count" val="404"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="510"/>
+     <set name="price" val="10101600"/>
+     <set name="p_def" val="69"/>
+   <skills>
+       <skill id="8427" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016300" name="Moirai Gloves" type="NONE">
+     <set name="icon" val="icon.armor_t102_g_i00"/>
+     <set name="bodypart" val="GLOVES"/>
+     <set name="crystal_count" val="404"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="510"/>
+     <set name="price" val="10101600"/>
+     <set name="p_def" val="69"/>
+   <skills>
+       <skill id="8432" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016301" name="Moirai Boots" type="NONE">
+     <set name="icon" val="icon.armor_t100_b_i00"/>
+     <set name="bodypart" val="FEET"/>
+     <set name="crystal_count" val="404"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="1070"/>
+     <set name="price" val="10101600"/>
+     <set name="p_def" val="69"/>
+   <skills>
+       <skill id="8422" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016302" name="Moirai Leather Boots" type="NONE">
+     <set name="icon" val="icon.armor_t101_b_i00"/>
+     <set name="bodypart" val="FEET"/>
+     <set name="crystal_count" val="404"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="1070"/>
+     <set name="price" val="10101600"/>
+     <set name="p_def" val="69"/>
+   <skills>
+       <skill id="8428" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016303" name="Moirai Shoes" type="NONE">
+     <set name="icon" val="icon.armor_t102_b_i00"/>
+     <set name="bodypart" val="FEET"/>
+     <set name="crystal_count" val="404"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="1070"/>
+     <set name="price" val="10101600"/>
+     <set name="p_def" val="69"/>
+   <skills>
+       <skill id="8433" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016305" name="Moirai Sigil" type="SIGIL">
+     <set name="icon" val="icon.weapon_tysandy_sigil_i01"/>
+     <set name="bodypart" val="LHAND"/>
+     <set name="crystal_count" val="424"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="920"/>
+     <set name="price" val="10606800"/>
+     <set name="avoid_modify" val="-8"/>
+     <set name="p_def" val="17"/>
+   <skills>
+       <skill id="8434" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016323" name="Sealed Moirai Helmet" type="NONE">
+     <set name="icon" val="icon.armor_helmet_i02"/>
+     <set name="bodypart" val="HEAD"/>
+     <set name="crystal_count" val="606"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="530"/>
+     <set name="price" val="15152400"/>
+     <set name="p_def" val="104"/>
+    </armor>
+    <armor id="5016324" name="Sealed Moirai Leather Helmet" type="NONE">
+     <set name="icon" val="icon.armor_leather_helmet_i02"/>
+     <set name="bodypart" val="HEAD"/>
+     <set name="crystal_count" val="606"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="530"/>
+     <set name="price" val="15152400"/>
+     <set name="p_def" val="104"/>
+    </armor>
+    <armor id="5016325" name="Sealed Moirai Circlet" type="NONE">
+     <set name="icon" val="icon.armor_circlet_i02"/>
+     <set name="bodypart" val="HEAD"/>
+     <set name="crystal_count" val="606"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="530"/>
+     <set name="price" val="15152400"/>
+     <set name="p_def" val="104"/>
+    </armor>
+    <armor id="5016326" name="Sealed Moirai Breastplate" type="HEAVY">
+     <set name="icon" val="icon.armor_t94_u_i02"/>
+     <set name="bodypart" val="CHEST"/>
+     <set name="crystal_count" val="1616"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="7520"/>
+     <set name="price" val="40407600"/>
+     <set name="p_def" val="245"/>
+    </armor>
+    <armor id="5016327" name="Sealed Moirai Leather Breastplate" type="LIGHT">
+     <set name="icon" val="icon.armor_t95_u_i02"/>
+     <set name="bodypart" val="CHEST"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="4140"/>
+     <set name="price" val="30306000"/>
+     <set name="p_def" val="184"/>
+    </armor>
+    <armor id="5016328" name="Sealed Moirai Tunic" type="MAGIC">
+     <set name="icon" val="icon.armor_t96_u_i02"/>
+     <set name="bodypart" val="CHEST"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="1750"/>
+     <set name="price" val="30306000"/>
+     <set name="p_def" val="122"/>
+    </armor>
+    <armor id="5016329" name="Sealed Moirai Gaiter" type="HEAVY">
+     <set name="icon" val="icon.armor_t94_l_i02"/>
+     <set name="bodypart" val="LEGS"/>
+     <set name="crystal_count" val="1010"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="3170"/>
+     <set name="price" val="25255200"/>
+     <set name="p_def" val="154"/>
+    </armor>
+    <armor id="5016330" name="Sealed Moirai Leather Legging" type="LIGHT">
+     <set name="icon" val="icon.armor_t95_l_i02"/>
+     <set name="bodypart" val="LEGS"/>
+     <set name="crystal_count" val="758"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="1320"/>
+     <set name="price" val="18940800"/>
+     <set name="p_def" val="114"/>
+    </armor>
+    <armor id="5016331" name="Sealed Moirai Stockings" type="MAGIC">
+     <set name="icon" val="icon.armor_t96_l_i02"/>
+     <set name="bodypart" val="LEGS"/>
+     <set name="crystal_count" val="758"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="850"/>
+     <set name="price" val="18940800"/>
+     <set name="p_def" val="76"/>
+    </armor>
+    <armor id="5016332" name="Sealed Moirai Gauntlet" type="NONE">
+     <set name="icon" val="icon.armor_t94_g_i02"/>
+     <set name="bodypart" val="GLOVES"/>
+     <set name="crystal_count" val="404"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="510"/>
+     <set name="price" val="10101600"/>
+     <set name="p_def" val="69"/>
+    </armor>
+    <armor id="5016333" name="Sealed Moirai Leather GLOVES" type="NONE">
+     <set name="icon" val="icon.armor_t95_g_i02"/>
+     <set name="bodypart" val="GLOVES"/>
+     <set name="crystal_count" val="404"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="510"/>
+     <set name="price" val="10101600"/>
+     <set name="p_def" val="69"/>
+    </armor>
+    <armor id="5016334" name="Sealed Moirai GLOVES" type="NONE">
+     <set name="icon" val="icon.armor_t96_g_i02"/>
+     <set name="bodypart" val="GLOVES"/>
+     <set name="crystal_count" val="404"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="510"/>
+     <set name="price" val="10101600"/>
+     <set name="p_def" val="69"/>
+    </armor>
+    <armor id="5016335" name="Sealed Moirai Boots" type="NONE">
+     <set name="icon" val="icon.armor_t94_b_i02"/>
+     <set name="bodypart" val="FEET"/>
+     <set name="crystal_count" val="404"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="1070"/>
+     <set name="price" val="10101600"/>
+     <set name="p_def" val="69"/>
+    </armor>
+    <armor id="5016336" name="Sealed Moirai Leather Boots" type="NONE">
+     <set name="icon" val="icon.armor_t95_b_i02"/>
+     <set name="bodypart" val="FEET"/>
+     <set name="crystal_count" val="404"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="1070"/>
+     <set name="price" val="10101600"/>
+     <set name="p_def" val="69"/>
+    </armor>
+    <armor id="5016337" name="Sealed Moirai Shoes" type="NONE">
+     <set name="icon" val="icon.armor_t96_b_i02"/>
+     <set name="bodypart" val="FEET"/>
+     <set name="crystal_count" val="404"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="1070"/>
+     <set name="price" val="10101600"/>
+     <set name="p_def" val="69"/>
+    </armor>
+    <armor id="5016338" name="Sealed Moirai Shield" type="NONE">
+     <set name="icon" val="icon.weapon_tysandy_shield_i00"/>
+     <set name="bodypart" val="LHAND"/>
+     <set name="crystal_count" val="424"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="1190"/>
+     <set name="price" val="10606800"/>
+     <set name="shield_def" val="337"/>
+     <set name="avoid_modify" val="-8"/>
+     <set name="shield_def_rate" val="20"/>
+    </armor>
+    <armor id="5016339" name="Sealed Moirai Sigil" type="SIGIL">
+     <set name="icon" val="icon.weapon_tysandy_sigil_i00"/>
+     <set name="crystal_count" val="424"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="weight" val="920"/>
+     <set name="price" val="10606800"/>
+     <set name="avoid_modify" val="-8"/>
+     <set name="p_def" val="17"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="5016372" name="Sealed Moirai Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_sealed_bluelycan_ring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="263"/>
+     <set name="m_def" val="54"/>
+     <set name="price" val="6576000"/>
+    </armor>
+    <armor id="5016373" name="Sealed Moirai Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_sealed_bluelycan_earring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="395"/>
+     <set name="m_def" val="76"/>
+     <set name="price" val="9865200"/>
+    </armor>
+    <armor id="5016374" name="Sealed Moirai Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_sealed_bluelycan_necklace_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="526"/>
+     <set name="m_def" val="101"/>
+     <set name="price" val="13153200"/>
+    </armor>
+    <armor id="5016378" name="Moirai Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_bluelycan_ring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="263"/>
+     <set name="m_def" val="61"/>
+     <set name="mp_bonus" val="24"/>
+     <set name="price" val="6576000"/>
+   <skills>
+       <skill id="8454" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016379" name="Moirai Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_bluelycan_earring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="395"/>
+     <set name="m_def" val="86"/>
+     <set name="mp_bonus" val="36"/>
+     <set name="price" val="9865200"/>
+   <skills>
+       <skill id="8452" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="5016380" name="Moirai Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_bluelycan_necklace_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="526"/>
+     <set name="m_def" val="115"/>
+     <set name="mp_bonus" val="48"/>
+     <set name="price" val="13153200"/>
+   <skills>
+       <skill id="8453" lvl="1"/>
+   </skills>
+    </armor>
+</list>

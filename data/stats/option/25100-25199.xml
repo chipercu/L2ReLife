@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "option_data.dtd">
+<list>
+    <option_data id="25100">
+       <skills>
+           <skill id="26092" level="10" /> <!--Item Skill:Защита Хаоса-Неудержимость-->
+       </skills>
+   </option_data>
+    <option_data id="25101">
+       <skills>
+           <skill id="26092" level="11" /> <!--Item Skill:Защита Хаоса-Неудержимость-->
+       </skills>
+   </option_data>
+    <option_data id="25102">
+       <skills>
+           <skill id="26092" level="12" /> <!--Item Skill:Защита Хаоса-Неудержимость-->
+       </skills>
+   </option_data>
+    <option_data id="25103">
+       <skills>
+           <skill id="26092" level="13" /> <!--Item Skill:Защита Хаоса-Неудержимость-->
+       </skills>
+   </option_data>
+    <option_data id="25104">
+       <skills>
+           <skill id="26092" level="14" /> <!--Item Skill:Защита Хаоса-Неудержимость-->
+       </skills>
+   </option_data>
+    <option_data id="25105">
+       <skills>
+           <skill id="26092" level="15" /> <!--Item Skill:Защита Хаоса-Неудержимость-->
+       </skills>
+   </option_data>
+       <option_data id="25106">
+       <skills>
+           <skill id="26093" level="1" /> <!--Item Skill:Защита Хаоса-Иммунитет-->
+       </skills>
+   </option_data>
+    <option_data id="25107">
+       <skills>
+           <skill id="26093" level="2" /> <!--Item Skill:Защита Хаоса-Иммунитет-->
+       </skills>
+   </option_data>
+    <option_data id="25108">
+       <skills>
+           <skill id="26093" level="3" /> <!--Item Skill:Защита Хаоса-Иммунитет-->
+       </skills>
+   </option_data>
+    <option_data id="25109">
+       <skills>
+           <skill id="26093" level="4" /> <!--Item Skill:Защита Хаоса-Иммунитет-->
+       </skills>
+   </option_data>
+    <option_data id="25110">
+       <skills>
+           <skill id="26093" level="5" /> <!--Item Skill:Защита Хаоса-Иммунитет-->
+       </skills>
+   </option_data>
+    <option_data id="25111">
+       <skills>
+           <skill id="26093" level="6" /> <!--Item Skill:Защита Хаоса-Иммунитет-->
+       </skills>
+   </option_data>
+    <option_data id="25112">
+       <skills>
+           <skill id="26093" level="7" /> <!--Item Skill:Защита Хаоса-Иммунитет-->
+       </skills>
+   </option_data>
+    <option_data id="25113">
+       <skills>
+           <skill id="26093" level="8" /> <!--Item Skill:Защита Хаоса-Иммунитет-->
+       </skills>
+   </option_data>
+    <option_data id="25114">
+       <skills>
+           <skill id="26093" level="9" /> <!--Item Skill:Защита Хаоса-Иммунитет-->
+       </skills>
+   </option_data>
+    <option_data id="25115">
+       <skills>
+           <skill id="26093" level="10" /> <!--Item Skill:Защита Хаоса-Иммунитет-->
+       </skills>
+   </option_data>
+    <option_data id="25116">
+       <skills>
+           <skill id="26093" level="11" /> <!--Item Skill:Защита Хаоса-Иммунитет-->
+       </skills>
+   </option_data>
+    <option_data id="25117">
+       <skills>
+           <skill id="26093" level="12" /> <!--Item Skill:Защита Хаоса-Иммунитет-->
+       </skills>
+   </option_data>
+    <option_data id="25118">
+       <skills>
+           <skill id="26093" level="13" /> <!--Item Skill:Защита Хаоса-Иммунитет-->
+       </skills>
+   </option_data>
+    <option_data id="25119">
+       <skills>
+           <skill id="26093" level="14" /> <!--Item Skill:Защита Хаоса-Иммунитет-->
+       </skills>
+   </option_data>
+    <option_data id="25120">
+       <skills>
+           <skill id="26093" level="15" /> <!--Item Skill:Защита Хаоса-Иммунитет-->
+       </skills>
+   </option_data>
+</list>

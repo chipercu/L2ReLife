@@ -1,0 +1,5177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<weapon id="4100082" name="God's Blade" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_forgotten_blade_i00"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="1900"/>
+	<set name="p_dam" val="296"/>
+	<set name="m_dam" val="143"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="54720000"/>
+	</weapon>
+	<weapon id="4100214" name="The Staff" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_imperial_staff_i00"/>
+	<set name="weight" val="910"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="1765"/>
+	<set name="p_dam" val="291"/>
+	<set name="m_dam" val="187"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="50832000"/>
+	</weapon>
+	<weapon id="4100237" name="Dragon's Tooth" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_angel_slayer_i00"/>
+	<set name="weight" val="950"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="1765"/>
+	<set name="p_dam" val="262"/>
+	<set name="m_dam" val="140"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="50832000"/>
+	</weapon>
+	<weapon id="4100290" name="The Bow" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_shining_bow_i00"/>
+	<set name="weight" val="1650"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="1765"/>
+	<set name="p_dam" val="575"/>
+	<set name="m_dam" val="140"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="10"/>
+	<set name="price" val="50832000"/>
+	</weapon>
+	<weapon id="4100306" name="Dragon Claw Axe" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dragon_hunter_axe_i00"/>
+	<set name="weight" val="1820"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="1765"/>
+	<set name="p_dam" val="299"/>
+	<set name="m_dam" val="140"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="50832000"/>
+	</weapon>
+	<weapon id="4100307" name="Aurakyria Lance" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_saint_spear_i00"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="p_dam" val="320"/>
+	<set name="m_dam" val="147"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	</weapon>
+	<weapon id="4100634" name="Dragon Shield" type="NONE">
+	<set name="bodypart" val="LHAND"/>
+	<set name="icon" val="icon.shield_shield_of_nightmare_i00"/>
+	<set name="weight" val="1170"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="125"/>
+	<set name="shield_def" val="269"/>
+	<set name="shield_def_rate" val="20"/>
+	<set name="price" val="2806560"/>
+	<set name="avoid_modify" val="-8"/>
+	</weapon>
+	<weapon id="4106364" name="Forgotten Blade" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_forgotten_blade_i00"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+	<set name="kamaelAnalog" val="4109364"/>
+	</weapon>
+	<weapon id="4106365" name="Basalt Battlehammer" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_basalt_battlehammer_i00"/>
+	<set name="weight" val="1570"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+	</weapon>
+	<weapon id="4106366" name="Imperial Staff" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_imperial_staff_i00"/>
+	<set name="weight" val="910"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="326"/>
+	<set name="m_dam" val="223"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+	</weapon>
+	<weapon id="4106367" name="Angel Slayer" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_angel_slayer_i00"/>
+	<set name="weight" val="950"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="292"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="61573536"/>
+	</weapon>
+	<weapon id="4106368" name="Shining Bow" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_shining_bow_i00"/>
+	<set name="weight" val="1650"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="643"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="11"/>
+	<set name="price" val="70272000"/>
+	</weapon>
+	<weapon id="4106369" name="Dragon Hunter Axe" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dragon_hunter_axe_i00"/>
+	<set name="weight" val="1820"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+	</weapon>
+	<weapon id="4106370" name="Saint Spear" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_saint_spear_i00"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+	</weapon>
+	<weapon id="4106371" name="Demon Splinter" type="DUALFIST">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_demon_splinter_i00"/>
+	<set name="weight" val="1350"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+	</weapon>
+	<weapon id="4106372" name="Heaven's Divider" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_heavens_divider_i00"/>
+	<set name="weight" val="1380"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+	<set name="kamaelAnalog" val="4109368"/>
+	</weapon>
+	<weapon id="4106377" name="Imperial Crusader Shield" type="NONE">
+	<set name="bodypart" val="LHAND"/>
+	<set name="icon" val="icon.shield_imperial_crusader_shield_i00"/>
+	<set name="weight" val="1170"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="161"/>
+	<set name="shield_def" val="290"/>
+	<set name="shield_def_rate" val="20"/>
+	<set name="price" val="4831200"/>
+	<set name="avoid_modify" val="-8"/>
+	</weapon>
+	<weapon id="4106534" name="Triton Pole" type="ROD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_fishing_rod_i05"/>
+	<set name="weight" val="1000"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="p_dam" val="1"/>
+	<set name="m_dam" val="1"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="1"/>
+	<set name="price" val="14400000"/>
+   <skills>
+       <skill id="-1" lvl="-1"/>
+   </skills>
+	</weapon>
+	<weapon id="4106579" name="Arcana Mace" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_arcana_mace_i00"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="267"/>
+	<set name="m_dam" val="203"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+	</weapon>
+	<weapon id="4106580" name="Tallum Blade*Dark Legion's Edge" type="DUAL">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dual_sword_i00"/>
+	<set name="weight" val="2080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+   </skills>
+  <enchant4_skill id="3570" lvl="1"/>
+	</weapon>
+	<weapon id="4106581" name="Forgotten Blade" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_forgotten_blade_i01"/>
+	<set name="additional_name" val="Haste"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3564" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109365"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106582" name="Forgotten Blade" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_forgotten_blade_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3013" lvl="3"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109366"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106583" name="Forgotten Blade" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_forgotten_blade_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3566" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109367"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106584" name="Basalt Battlehammer" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_basalt_battlehammer_i01"/>
+	<set name="additional_name" val="HP Drain"/>
+	<set name="weight" val="1570"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3568" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106585" name="Basalt Battlehammer" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_basalt_battlehammer_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1570"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3013" lvl="3"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106586" name="Basalt Battlehammer" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_basalt_battlehammer_i01"/>
+	<set name="additional_name" val="HP Regeneration"/>
+	<set name="weight" val="1570"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3569" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106587" name="Imperial Staff" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_imperial_staff_i01"/>
+	<set name="additional_name" val="Empower"/>
+	<set name="weight" val="910"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="326"/>
+	<set name="m_dam" val="223"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3575" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106588" name="Imperial Staff" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_imperial_staff_i01"/>
+	<set name="additional_name" val="MP Regeneration"/>
+	<set name="weight" val="910"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="326"/>
+	<set name="m_dam" val="223"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3576" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106589" name="Imperial Staff" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_imperial_staff_i01"/>
+	<set name="additional_name" val="Magic Hold"/>
+	<set name="weight" val="910"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="326"/>
+	<set name="m_dam" val="223"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106590" name="Angel Slayer" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_angel_slayer_i01"/>
+	<set name="additional_name" val="Critical Damage"/>
+	<set name="weight" val="950"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="292"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3572" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106591" name="Angel Slayer" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_angel_slayer_i01"/>
+	<set name="additional_name" val="HP Drain"/>
+	<set name="weight" val="950"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="292"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3568" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106592" name="Angel Slayer" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_angel_slayer_i01"/>
+	<set name="additional_name" val="Haste"/>
+	<set name="weight" val="950"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="292"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3564" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106593" name="Shining Bow" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_shining_bow_i01"/>
+	<set name="additional_name" val="Cheap Shot"/>
+	<set name="weight" val="1650"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2440"/>
+	<set name="p_dam" val="643"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="11"/>
+	<set name="cheapShot" val="1"/>
+	<set name="cheapShotChance" val="26"/>
+	<set name="price" val="70272000"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106594" name="Shining Bow" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_shining_bow_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1650"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2440"/>
+	<set name="p_dam" val="643"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="11"/>
+	<set name="price" val="70272000"/>
+   <skills>
+       <skill id="3010" lvl="6"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106595" name="Shining Bow" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_shining_bow_i01"/>
+	<set name="additional_name" val="Critical Slow"/>
+	<set name="weight" val="1650"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2440"/>
+	<set name="p_dam" val="643"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="11"/>
+	<set name="price" val="70272000"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106596" name="Dragon Hunter Axe" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dragon_hunter_axe_i01"/>
+	<set name="additional_name" val="HP Regeneration"/>
+	<set name="weight" val="1820"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3569" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106597" name="Dragon Hunter Axe" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dragon_hunter_axe_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1820"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3013" lvl="3"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106598" name="Dragon Hunter Axe" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dragon_hunter_axe_i01"/>
+	<set name="additional_name" val="HP Drain"/>
+	<set name="weight" val="1820"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3568" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106599" name="Saint Spear" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_saint_spear_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3013" lvl="4"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106600" name="Saint Spear" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_saint_spear_i01"/>
+	<set name="additional_name" val="Guidance"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3602" lvl="9"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106601" name="Saint Spear" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_saint_spear_i01"/>
+	<set name="additional_name" val="Haste"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3601" lvl="9"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106602" name="Demon Splinter" type="DUALFIST">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_demon_splinter_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1350"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3565" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106603" name="Demon Splinter" type="DUALFIST">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_demon_splinter_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1350"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3013" lvl="3"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106604" name="Demon Splinter" type="DUALFIST">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_demon_splinter_i01"/>
+	<set name="additional_name" val="Critical Stun"/>
+	<set name="weight" val="1350"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106605" name="Heavens Divider" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_heavens_divider_i01"/>
+	<set name="additional_name" val="Haste"/>
+	<set name="weight" val="1380"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3564" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109369"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106606" name="Heavens Divider" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_heavens_divider_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1380"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3013" lvl="3"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109370"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106607" name="Heavens Divider" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_heavens_divider_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1380"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3566" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109371"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106608" name="Arcana Mace" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_arcana_mace_i01"/>
+	<set name="additional_name" val="Acumen"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="267"/>
+	<set name="m_dam" val="203"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3047" lvl="2"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106609" name="Arcana Mace" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_arcana_mace_i01"/>
+	<set name="additional_name" val="MP Regeneration"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="267"/>
+	<set name="m_dam" val="203"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3576" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106610" name="Arcana Mace" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_arcana_mace_i01"/>
+	<set name="additional_name" val="Mana Up"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="267"/>
+	<set name="m_dam" val="203"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3014" lvl="2"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4106678" name="Sealed Imperial Crusader Shield" type="NONE">
+	<set name="bodypart" val="LHAND"/>
+	<set name="icon" val="icon.shield_imperial_crusader_shield_i02"/>
+	<set name="weight" val="1170"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="161"/>
+	<set name="shield_def" val="276"/>
+	<set name="shield_def_rate" val="20"/>
+	<set name="price" val="4831200"/>
+	<set name="avoid_modify" val="-8"/>
+	</weapon>
+	<weapon id="4107575" name="Draconic Bow" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_draconic_bow_i00"/>
+	<set name="weight" val="1650"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="643"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="6"/>
+	<set name="price" val="61573536"/>
+	<set name="kamaelAnalog" val="4109372"/>
+	</weapon>
+	<weapon id="4107576" name="Draconic Bow" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_draconic_bow_i01"/>
+	<set name="additional_name" val="Cheap Shot"/>
+	<set name="weight" val="1650"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="643"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="6"/>
+	<set name="cheapShot" val="1"/>
+	<set name="cheapShotChance" val="26"/>
+	<set name="price" val="61573536"/>
+	<set name="kamaelAnalog" val="4109373"/>
+	<set name="isSa" val="true"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	</weapon>
+	<weapon id="4107577" name="Draconic Bow" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_draconic_bow_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1650"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="643"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="6"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3567" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109374"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4107578" name="Draconic Bow" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_draconic_bow_i01"/>
+	<set name="additional_name" val="Critical Slow"/>
+	<set name="weight" val="1650"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="643"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="6"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109375"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109364" name="Laevateinn" type="RAPIER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_leavatein_i00"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="293"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="406"/>
+	<set name="rnd_dam" val="40"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="61573536"/>
+  <enchant4_skill id="3426" lvl="1"/>
+	<set name="kamaelAnalog" val="4106364"/>
+	</weapon>
+	<weapon id="4109365" name="Laevateinn" type="RAPIER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_leavatein_i01"/>
+	<set name="additional_name" val="Haste"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="303"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="406"/>
+	<set name="rnd_dam" val="40"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3564" lvl="1"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+	<set name="kamaelAnalog" val="4106581"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109366" name="Laevateinn" type="RAPIER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_leavatein_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="303"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="406"/>
+	<set name="rnd_dam" val="40"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3013" lvl="3"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+	<set name="kamaelAnalog" val="4106582"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109367" name="Laevateinn" type="RAPIER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_leavatein_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="303"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="406"/>
+	<set name="rnd_dam" val="40"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3566" lvl="1"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+	<set name="kamaelAnalog" val="4106583"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109368" name="Gram" type="ANCIENTSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_gram_i00"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="362"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="350"/>
+	<set name="rnd_dam" val="15"/>
+	<set name="critical" val="8"/>
+	<set name="hit_modify" val="2"/>
+	<set name="price" val="61573536"/>
+	<set name="kamaelAnalog" val="4106372"/>
+	</weapon>
+	<weapon id="4109369" name="Gram" type="ANCIENTSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_gram_i01"/>
+	<set name="additional_name" val="Haste"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="362"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="350"/>
+	<set name="rnd_dam" val="15"/>
+	<set name="critical" val="8"/>
+	<set name="hit_modify" val="2"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3564" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4106605"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109370" name="Gram" type="ANCIENTSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_gram_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="362"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="350"/>
+	<set name="rnd_dam" val="15"/>
+	<set name="critical" val="8"/>
+	<set name="hit_modify" val="2"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3013" lvl="3"/>
+   </skills>
+	<set name="kamaelAnalog" val="4106606"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109371" name="Gram" type="ANCIENTSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_gram_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="362"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="350"/>
+	<set name="rnd_dam" val="15"/>
+	<set name="critical" val="8"/>
+	<set name="hit_modify" val="2"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3566" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4106607"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109372" name="Sarnga" type="CROSSBOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_sarnga_i00"/>
+	<set name="weight" val="1600"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="394"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="303"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="61573536"/>
+	<set name="kamaelAnalog" val="4107575"/>
+	</weapon>
+	<weapon id="4109373" name="Sarnga" type="CROSSBOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_sarnga_i01"/>
+	<set name="additional_name" val="Cheap Shot"/>
+	<set name="weight" val="1600"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="394"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="303"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="61573536"/>
+	<set name="kamaelAnalog" val="4107576"/>
+	<set name="isSa" val="true"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3360" lvl="1"/>
+   </skills>
+	</weapon>
+	<weapon id="4109374" name="Sarnga" type="CROSSBOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_sarnga_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1600"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="394"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="303"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3567" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4107577"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109375" name="Sarnga" type="CROSSBOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_sarnga_i01"/>
+	<set name="additional_name" val="Critical Slow"/>
+	<set name="weight" val="1600"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="394"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="303"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3872" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4107578"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109376" name="Dynasty Rapier" type="RAPIER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_rapier_i00"/>
+	<set name="weight" val="1280"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="359"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="406"/>
+	<set name="rnd_dam" val="40"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="107922240"/>
+  <enchant4_skill id="3426" lvl="1"/>
+	<set name="kamaelAnalog" val="4109442"/>
+	</weapon>
+	<weapon id="4109377" name="Dynasty Rapier" type="RAPIER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_rapier_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1280"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="359"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="406"/>
+	<set name="rnd_dam" val="40"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+	<set name="kamaelAnalog" val="4109854"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109378" name="Dynasty Rapier" type="RAPIER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_rapier_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1280"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="359"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="406"/>
+	<set name="rnd_dam" val="40"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+	<set name="kamaelAnalog" val="4109855"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109379" name="Dynasty Rapier" type="RAPIER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_rapier_i01"/>
+	<set name="additional_name" val="Light"/>
+	<set name="weight" val="1280"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="359"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="406"/>
+	<set name="rnd_dam" val="40"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3498" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+	<set name="kamaelAnalog" val="4109856"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109380" name="Dynasty Ancient Sword" type="ANCIENTSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_ancient_sword_i00"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="430"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="350"/>
+	<set name="rnd_dam" val="15"/>
+	<set name="critical" val="8"/>
+	<set name="hit_modify" val="2"/>
+	<set name="price" val="107922240"/>
+	<set name="kamaelAnalog" val="4109443"/>
+	</weapon>
+	<weapon id="4109381" name="Dynasty Ancient Sword" type="ANCIENTSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_ancient_sword_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="430"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="350"/>
+	<set name="rnd_dam" val="15"/>
+	<set name="critical" val="8"/>
+	<set name="hit_modify" val="2"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109857"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109382" name="Dynasty Ancient Sword" type="ANCIENTSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_ancient_sword_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="430"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="350"/>
+	<set name="rnd_dam" val="15"/>
+	<set name="critical" val="8"/>
+	<set name="hit_modify" val="2"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109858"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109383" name="Dynasty Ancient Sword" type="ANCIENTSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_ancient_sword_i01"/>
+	<set name="additional_name" val="Light"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="430"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="350"/>
+	<set name="rnd_dam" val="15"/>
+	<set name="critical" val="8"/>
+	<set name="hit_modify" val="2"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3498" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109859"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109384" name="Dynasty Crossbow" type="CROSSBOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_crossbow_i00"/>
+	<set name="weight" val="1580"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="444"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="303"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="107922240"/>
+	<set name="kamaelAnalog" val="4109445"/>
+	</weapon>
+	<weapon id="4109385" name="Dynasty Crossbow" type="CROSSBOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_crossbow_i01"/>
+	<set name="additional_name" val="Cheap Shot"/>
+	<set name="weight" val="1580"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="444"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="303"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="107922240"/>
+	<set name="kamaelAnalog" val="4109863"/>
+	<set name="isSa" val="true"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3360" lvl="1"/>
+   </skills>
+	</weapon>
+	<weapon id="4109386" name="Dynasty Crossbow" type="CROSSBOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_crossbow_i01"/>
+	<set name="additional_name" val="Guidance"/>
+	<set name="weight" val="1580"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="444"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="303"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3008" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109864"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109387" name="Dynasty Crossbow" type="CROSSBOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_crossbow_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1580"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="444"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="303"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3567" lvl="3"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109865"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109441" name="Dynasty Shield" type="NONE">
+	<set name="bodypart" val="LHAND"/>
+	<set name="icon" val="icon.shield_dynasty_shield_i00"/>
+	<set name="weight" val="1150"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="307"/>
+	<set name="shield_def" val="321"/>
+	<set name="shield_def_rate" val="20"/>
+	<set name="price" val="9221760"/>
+	<set name="avoid_modify" val="-8"/>
+	</weapon>
+	<weapon id="4109442" name="Dynasty Sword" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_blade_i00"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+	<set name="kamaelAnalog" val="4109376"/>
+	</weapon>
+	<weapon id="4109443" name="Dynasty Blade" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_twohand_sword_i00"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+	<set name="kamaelAnalog" val="4109380"/>
+	</weapon>
+	<weapon id="4109444" name="Dynasty Phantom" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_magic_sword_i00"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="317"/>
+	<set name="m_dam" val="234"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+	</weapon>
+	<weapon id="4109445" name="Dynasty Bow" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_bow_i00"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="724"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="6"/>
+	<set name="price" val="107922240"/>
+	<set name="kamaelAnalog" val="4109384"/>
+	</weapon>
+	<weapon id="4109446" name="Dynasty Knife" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_dagger_i00"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="346"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="107922240"/>
+	</weapon>
+	<weapon id="4109447" name="Dynasty Halberd" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_spear_i00"/>
+	<set name="weight" val="2010"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+	</weapon>
+	<weapon id="4109448" name="Dynasty Cudgel" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_hammer_i00"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+	</weapon>
+	<weapon id="4109449" name="Dynasty Mace" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_staff_i00"/>
+	<set name="weight" val="1080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="317"/>
+	<set name="m_dam" val="234"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+	</weapon>
+	<weapon id="4109450" name="Dynasty Bagh-Nakh" type="DUALFIST">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_jamadhr_i00"/>
+	<set name="weight" val="1550"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+	</weapon>
+	<weapon id="4109529" name="Sealed Dynasty Shield" type="NONE">
+	<set name="bodypart" val="LHAND"/>
+	<set name="icon" val="icon.shield_dynasty_shield_i01"/>
+	<set name="weight" val="1150"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="307"/>
+	<set name="shield_def" val="305"/>
+	<set name="shield_def_rate" val="20"/>
+	<set name="price" val="9221760"/>
+	<set name="avoid_modify" val="-8"/>
+	</weapon>
+	<weapon id="4109854" name="Dynasty Sword" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_blade_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="383"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109377"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109855" name="Dynasty Sword" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_blade_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109378"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109856" name="Dynasty Sword" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_blade_i01"/>
+	<set name="additional_name" val="Light"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3498" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109379"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109857" name="Dynasty Blade" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_twohand_sword_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109381"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109858" name="Dynasty Blade" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_twohand_sword_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109382"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109859" name="Dynasty Blade" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_twohand_sword_i01"/>
+	<set name="additional_name" val="Light"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3498" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109383"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109860" name="Dynasty Phantom" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_magic_sword_i01"/>
+	<set name="additional_name" val="Acumen"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="317"/>
+	<set name="m_dam" val="234"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3047" lvl="2"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109861" name="Dynasty Phantom" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_magic_sword_i01"/>
+	<set name="additional_name" val="Mana Up"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="317"/>
+	<set name="m_dam" val="234"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3014" lvl="2"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109862" name="Dynasty Phantom" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_magic_sword_i01"/>
+	<set name="additional_name" val="Conversion"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="317"/>
+	<set name="m_dam" val="234"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3048" lvl="3"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109863" name="Dynasty Bow" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_bow_i01"/>
+	<set name="additional_name" val="Cheap Shot"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="724"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="6"/>
+	<set name="price" val="107922240"/>
+	<set name="kamaelAnalog" val="4109385"/>
+	<set name="isSa" val="true"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="8312" lvl="1"/>
+   </skills>
+	</weapon>
+	<weapon id="4109864" name="Dynasty Bow" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_bow_i01"/>
+	<set name="additional_name" val="Guidance"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="724"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="6"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3008" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109386"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109865" name="Dynasty Bow" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_bow_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="724"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="6"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4109387"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109866" name="Dynasty Knife" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_dagger_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="346"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109867" name="Dynasty Knife" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_dagger_i01"/>
+	<set name="additional_name" val="Evasion"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="346"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3009" lvl="8"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109868" name="Dynasty Knife" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_dagger_i01"/>
+	<set name="additional_name" val="Critical Damage"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="346"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3066" lvl="4"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109869" name="Dynasty Halberd" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_spear_i01"/>
+	<set name="additional_name" val="Anger"/>
+	<set name="weight" val="2010"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3600" lvl="10"/>
+       <skill id="3552" lvl="2"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109870" name="Dynasty Halberd" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_spear_i01"/>
+	<set name="additional_name" val="Critical Stun"/>
+	<set name="weight" val="2010"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3552" lvl="2"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109871" name="Dynasty Halberd" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_spear_i01"/>
+	<set name="additional_name" val="Light"/>
+	<set name="weight" val="2010"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3498" lvl="1"/>
+       <skill id="3552" lvl="2"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109872" name="Dynasty Cudgel" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_hammer_i01"/>
+	<set name="additional_name" val="Anger"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3057" lvl="3"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109873" name="Dynasty Cudgel" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_hammer_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109874" name="Dynasty Cudgel" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_hammer_i01"/>
+	<set name="additional_name" val="Rsk. Focus"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3071" lvl="2"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109875" name="Dynasty Mace" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_staff_i01"/>
+	<set name="additional_name" val="Mana Up"/>
+	<set name="weight" val="1080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="317"/>
+	<set name="m_dam" val="234"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3014" lvl="2"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109876" name="Dynasty Mace" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_staff_i01"/>
+	<set name="additional_name" val="Conversion"/>
+	<set name="weight" val="1080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="317"/>
+	<set name="m_dam" val="234"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3048" lvl="3"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109877" name="Dynasty Mace" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_staff_i01"/>
+	<set name="additional_name" val="Acumen"/>
+	<set name="weight" val="1080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="317"/>
+	<set name="m_dam" val="234"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3047" lvl="3"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109878" name="Dynasty Bagh-Nakh" type="DUALFIST">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_jamadhr_i01"/>
+	<set name="additional_name" val="Rsk. Evasion"/>
+	<set name="weight" val="1550"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3069" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109879" name="Dynasty Bagh-Nakh" type="DUALFIST">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_jamadhr_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1550"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3565" lvl="2"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4109880" name="Dynasty Bagh-Nakh" type="DUALFIST">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_jamadhr_i01"/>
+	<set name="additional_name" val="Haste"/>
+	<set name="weight" val="1550"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3564" lvl="2"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4110004" name="Dynasty Dual Sword" type="DUAL">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dual_sword_i00"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+   </skills>
+  <enchant4_skill id="3411" lvl="1"/>
+	</weapon>
+	<weapon id="4110252" name="Dynasty Staff" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_twohand_staff_i00"/>
+	<set name="weight" val="1080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="373"/>
+	<set name="m_dam" val="257"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+	</weapon>
+	<weapon id="4110253" name="Dynasty Crusher" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_crusher_i00"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+	</weapon>
+	<weapon id="4110527" name="Dynasty Staff" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01"/>
+	<set name="additional_name" val="Mana Up"/>
+	<set name="weight" val="1080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="387"/>
+	<set name="m_dam" val="257"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3014" lvl="3"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4110528" name="Dynasty Staff" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01"/>
+	<set name="additional_name" val="Conversion"/>
+	<set name="weight" val="1080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="387"/>
+	<set name="m_dam" val="257"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3048" lvl="3"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4110529" name="Dynasty Staff" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01"/>
+	<set name="additional_name" val="Acumen"/>
+	<set name="weight" val="1080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="387"/>
+	<set name="m_dam" val="257"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3047" lvl="3"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4110530" name="Dynasty Crusher" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_crusher_i01"/>
+	<set name="additional_name" val="Anger"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3057" lvl="3"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4110531" name="Dynasty Crusher" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_crusher_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4110532" name="Dynasty Crusher" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_crusher_i01"/>
+	<set name="additional_name" val="Rsk. Focus"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3027" lvl="7"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111190" name="Gram - Thunder" type="ANCIENTSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_gram_i00"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="349"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="350"/>
+	<set name="rnd_dam" val="15"/>
+	<set name="critical" val="8"/>
+	<set name="hit_modify" val="2"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3850" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111239"/>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111191" name="Gram - Thunder" type="ANCIENTSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_gram_i01"/>
+	<set name="additional_name" val="Haste"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="362"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="350"/>
+	<set name="rnd_dam" val="15"/>
+	<set name="critical" val="8"/>
+	<set name="hit_modify" val="2"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3564" lvl="1"/>
+       <skill id="3850" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111240"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111192" name="Gram - Thunder" type="ANCIENTSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_gram_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="362"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="350"/>
+	<set name="rnd_dam" val="15"/>
+	<set name="critical" val="8"/>
+	<set name="hit_modify" val="2"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3013" lvl="3"/>
+       <skill id="3850" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111241"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111193" name="Gram - Thunder" type="ANCIENTSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_gram_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="362"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="350"/>
+	<set name="rnd_dam" val="15"/>
+	<set name="critical" val="8"/>
+	<set name="hit_modify" val="2"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3566" lvl="1"/>
+       <skill id="3850" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111242"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111194" name="Demon Splinter - Thunder" type="DUALFIST">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_demon_splinter_i00"/>
+	<set name="weight" val="1350"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3883" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111195" name="Demon Splinter - Thunder" type="DUALFIST">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_demon_splinter_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1350"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3565" lvl="1"/>
+       <skill id="3883" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111196" name="Demon Splinter - Thunder" type="DUALFIST">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_demon_splinter_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1350"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3013" lvl="3"/>
+       <skill id="3883" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111197" name="Demon Splinter - Thunder" type="DUALFIST">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_demon_splinter_i01"/>
+	<set name="additional_name" val="Critical Stun"/>
+	<set name="weight" val="1350"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3883" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111198" name="Draconic Bow - Earth" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_draconic_bow_i00"/>
+	<set name="weight" val="1650"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="643"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="11"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3867" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111214"/>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111199" name="Draconic Bow - Earth" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_draconic_bow_i01"/>
+	<set name="additional_name" val="Cheap Shot"/>
+	<set name="weight" val="1650"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="643"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="11"/>
+	<set name="cheapShot" val="1"/>
+	<set name="cheapShotChance" val="26"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3867" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111215"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111200" name="Draconic Bow - Earth" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_draconic_bow_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1650"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="643"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="11"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3567" lvl="1"/>
+       <skill id="3867" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111216"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111201" name="Draconic Bow - Earth" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_draconic_bow_i01"/>
+	<set name="additional_name" val="Critical Slow"/>
+	<set name="weight" val="1650"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="643"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="11"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3867" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111217"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111202" name="Dragon Hunter Axe - Thunder" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dragon_hunter_axe_i00"/>
+	<set name="weight" val="1820"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3894" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111203" name="Dragon Hunter Axe - Thunder" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dragon_hunter_axe_i01"/>
+	<set name="additional_name" val="HP Regeneration"/>
+	<set name="weight" val="1820"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3569" lvl="1"/>
+       <skill id="3894" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111204" name="Dragon Hunter Axe - Thunder" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dragon_hunter_axe_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1820"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3013" lvl="3"/>
+       <skill id="3894" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111205" name="Dragon Hunter Axe - Thunder" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dragon_hunter_axe_i01"/>
+	<set name="additional_name" val="HP Drain"/>
+	<set name="weight" val="1820"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3568" lvl="1"/>
+       <skill id="3894" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111206" name="Laevateinn - Lightning" type="RAPIER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_leavatein_i00"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="303"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="406"/>
+	<set name="rnd_dam" val="40"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3833" lvl="1"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+	<set name="kamaelAnalog" val="4111235"/>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111207" name="Laevateinn - Lightning" type="RAPIER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_leavatein_i01"/>
+	<set name="additional_name" val="Haste"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="303"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="406"/>
+	<set name="rnd_dam" val="40"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3564" lvl="1"/>
+       <skill id="3833" lvl="1"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+	<set name="kamaelAnalog" val="4111236"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111208" name="Laevateinn - Lightning" type="RAPIER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_leavatein_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="303"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="406"/>
+	<set name="rnd_dam" val="40"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3013" lvl="3"/>
+       <skill id="3833" lvl="1"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+	<set name="kamaelAnalog" val="4111237"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111209" name="Laevateinn - Lightning" type="RAPIER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_leavatein_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="303"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="406"/>
+	<set name="rnd_dam" val="40"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3566" lvl="1"/>
+       <skill id="3833" lvl="1"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+	<set name="kamaelAnalog" val="4111238"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111210" name="Basalt Battlehammer - Concentration" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_basalt_battlehammer_i00"/>
+	<set name="weight" val="1570"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3888" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111211" name="Basalt Battlehammer - Concentration" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_basalt_battlehammer_i01"/>
+	<set name="additional_name" val="HP Drain"/>
+	<set name="weight" val="1570"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3568" lvl="1"/>
+       <skill id="3888" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111212" name="Basalt Battlehammer - Concentration" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_basalt_battlehammer_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1570"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3013" lvl="3"/>
+       <skill id="3888" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111213" name="Basalt Battlehammer - Concentration" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_basalt_battlehammer_i01"/>
+	<set name="additional_name" val="HP Regeneration"/>
+	<set name="weight" val="1570"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3569" lvl="1"/>
+       <skill id="3888" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111214" name="Sarunga - Earth" type="CROSSBOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_sarnga_i00"/>
+	<set name="weight" val="1600"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="394"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="303"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3872" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111198"/>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111215" name="Sarunga - Earth" type="CROSSBOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_sarnga_i01"/>
+	<set name="additional_name" val="Cheap Shot"/>
+	<set name="weight" val="1600"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="394"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="303"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3872" lvl="1"/>
+       <skill id="3360" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111199"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111216" name="Sarunga - Earth" type="CROSSBOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_sarnga_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1600"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="394"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="303"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3567" lvl="1"/>
+       <skill id="3872" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111200"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111217" name="Sarunga - Earth" type="CROSSBOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_sarnga_i01"/>
+	<set name="additional_name" val="Critical Slow"/>
+	<set name="weight" val="1600"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="394"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="303"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3872" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111201"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111218" name="Saint Spear - Destruction" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_saint_spear_i00"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3878" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111219" name="Saint Spear - Destruction" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_saint_spear_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3013" lvl="4"/>
+       <skill id="3878" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111220" name="Saint Spear - Destruction" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_saint_spear_i01"/>
+	<set name="additional_name" val="Guidance"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3602" lvl="9"/>
+       <skill id="3878" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111221" name="Saint Spear - Destruction" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_saint_spear_i01"/>
+	<set name="additional_name" val="Haste"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3601" lvl="9"/>
+       <skill id="3878" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111222" name="Arcana Mace - Nature" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_arcana_mace_i00"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="267"/>
+	<set name="m_dam" val="203"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3890" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111223" name="Arcana Mace - Nature" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_arcana_mace_i01"/>
+	<set name="additional_name" val="Acumen"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="267"/>
+	<set name="m_dam" val="203"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3047" lvl="2"/>
+       <skill id="3890" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111224" name="Arcana Mace - Nature" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_arcana_mace_i01"/>
+	<set name="additional_name" val="MP Regeneration"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="267"/>
+	<set name="m_dam" val="203"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3576" lvl="1"/>
+       <skill id="3890" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111225" name="Arcana Mace - Nature" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_arcana_mace_i01"/>
+	<set name="additional_name" val="Mana Up"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="267"/>
+	<set name="m_dam" val="203"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3014" lvl="2"/>
+       <skill id="3890" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111226" name="Angel Slayer - Concentration" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_angel_slayer_i00"/>
+	<set name="weight" val="950"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="292"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3862" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111227" name="Angel Slayer - Concentration" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_angel_slayer_i01"/>
+	<set name="additional_name" val="Critical Damage"/>
+	<set name="weight" val="950"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="292"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3572" lvl="1"/>
+       <skill id="3862" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111228" name="Angel Slayer - Concentration" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_angel_slayer_i01"/>
+	<set name="additional_name" val="HP Drain"/>
+	<set name="weight" val="950"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="292"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3568" lvl="1"/>
+       <skill id="3862" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111229" name="Angel Slayer - Concentration" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_angel_slayer_i01"/>
+	<set name="additional_name" val="Haste"/>
+	<set name="weight" val="950"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="292"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3564" lvl="1"/>
+       <skill id="3862" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111230" name="Imperial Staff - Nature" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_imperial_staff_i00"/>
+	<set name="weight" val="910"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="326"/>
+	<set name="m_dam" val="223"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3901" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111231" name="Imperial Staff - Nature" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_imperial_staff_i01"/>
+	<set name="additional_name" val="Empower"/>
+	<set name="weight" val="910"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="326"/>
+	<set name="m_dam" val="223"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3575" lvl="1"/>
+       <skill id="3901" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111232" name="Imperial Staff - Nature" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_imperial_staff_i01"/>
+	<set name="additional_name" val="MP Regeneration"/>
+	<set name="weight" val="910"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="326"/>
+	<set name="m_dam" val="223"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3576" lvl="1"/>
+       <skill id="3901" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111233" name="Imperial Staff - Nature" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_imperial_staff_i01"/>
+	<set name="additional_name" val="Magic Hold"/>
+	<set name="weight" val="910"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="326"/>
+	<set name="m_dam" val="223"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3901" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111234" name="Tallum Blade*Dark Legion's Edge - Lightning" type="DUAL">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dual_sword_i00"/>
+	<set name="weight" val="2080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3838" lvl="1"/>
+   </skills>
+  <enchant4_skill id="3570" lvl="1"/>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111235" name="Forgotten Blade - Lightning" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_forgotten_blade_i00"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3828" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111206"/>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111236" name="Forgotten Blade - Lightning" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_forgotten_blade_i01"/>
+	<set name="additional_name" val="Haste"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3564" lvl="1"/>
+       <skill id="3828" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111207"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111237" name="Forgotten Blade - Lightning" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_forgotten_blade_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3013" lvl="3"/>
+       <skill id="3828" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111208"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111238" name="Forgotten Blade - Lightning" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_forgotten_blade_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1300"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="334"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3566" lvl="1"/>
+       <skill id="3828" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111209"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111239" name="Heaven's Divider - Thunder" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_heavens_divider_i00"/>
+	<set name="weight" val="1380"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3844" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111190"/>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111240" name="Heaven's Divider - Thunder" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_heavens_divider_i01"/>
+	<set name="additional_name" val="Haste"/>
+	<set name="weight" val="1380"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3564" lvl="1"/>
+       <skill id="3844" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111191"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111241" name="Heaven's Divider - Thunder" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_heavens_divider_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1380"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3013" lvl="3"/>
+       <skill id="3844" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111192"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111242" name="Heaven's Divider - Thunder" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_heavens_divider_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1380"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="2052"/>
+	<set name="p_dam" val="407"/>
+	<set name="m_dam" val="152"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="61573536"/>
+   <skills>
+       <skill id="3566" lvl="1"/>
+       <skill id="3844" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111193"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111243" name="Dynasty Ancient Sword - Great Gale" type="ANCIENTSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_ancient_sword_i00"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="430"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="350"/>
+	<set name="rnd_dam" val="15"/>
+	<set name="critical" val="8"/>
+	<set name="hit_modify" val="2"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3846" lvl="2"/>
+       <skill id="3846" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111268"/>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111244" name="Dynasty Ancient Sword - Great Gale" type="ANCIENTSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_ancient_sword_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="430"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="350"/>
+	<set name="rnd_dam" val="15"/>
+	<set name="critical" val="8"/>
+	<set name="hit_modify" val="2"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3566" lvl="2"/>
+       <skill id="3846" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111269"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111245" name="Dynasty Ancient Sword - Great Gale" type="ANCIENTSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_ancient_sword_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="430"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="350"/>
+	<set name="rnd_dam" val="15"/>
+	<set name="critical" val="8"/>
+	<set name="hit_modify" val="2"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+       <skill id="3846" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111270"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111246" name="Dynasty Ancient Sword - Great Gale" type="ANCIENTSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_ancient_sword_i01"/>
+	<set name="additional_name" val="Light"/>
+	<set name="weight" val="1800"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="430"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="350"/>
+	<set name="rnd_dam" val="15"/>
+	<set name="critical" val="8"/>
+	<set name="hit_modify" val="2"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3498" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+       <skill id="3846" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111271"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111247" name="Dynasty Knife - Great Gale" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_dagger_i00"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="346"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3859" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111248" name="Dynasty Knife - Great Gale" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_dagger_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="346"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+       <skill id="3859" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111249" name="Dynasty Knife - Great Gale" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_dagger_i01"/>
+	<set name="additional_name" val="Evasion"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="346"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3009" lvl="8"/>
+       <skill id="3859" lvl="2"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111250" name="Dynasty Knife - Great Gale" type="DAGGER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_dagger_i01"/>
+	<set name="additional_name" val="Critical Damage"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="346"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3066" lvl="4"/>
+       <skill id="3859" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111251" name="Dynasty Dual Sword - Earth" type="DUAL">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dual_sword_i00"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3836" lvl="2"/>
+   </skills>
+  <enchant4_skill id="3411" lvl="1"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111252" name="Dynasty Rapier - Earth" type="RAPIER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_rapier_i00"/>
+	<set name="weight" val="1280"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="359"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="406"/>
+	<set name="rnd_dam" val="40"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3831" lvl="2"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+	<set name="kamaelAnalog" val="4111272"/>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111253" name="Dynasty Rapier - Earth" type="RAPIER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_rapier_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1280"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="359"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="406"/>
+	<set name="rnd_dam" val="40"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+       <skill id="3831" lvl="2"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+	<set name="kamaelAnalog" val="4111273"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111254" name="Dynasty Rapier - Earth" type="RAPIER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_rapier_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1280"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="359"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="406"/>
+	<set name="rnd_dam" val="40"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+       <skill id="3831" lvl="2"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+	<set name="kamaelAnalog" val="4111274"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111255" name="Dynasty Rapier - Earth" type="RAPIER">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_rapier_i01"/>
+	<set name="additional_name" val="Light"/>
+	<set name="weight" val="1280"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="359"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="406"/>
+	<set name="rnd_dam" val="40"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3498" lvl="1"/>
+       <skill id="3831" lvl="2"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+	<set name="kamaelAnalog" val="4111275"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111256" name="Dynasty Mace - Earth" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_staff_i00"/>
+	<set name="weight" val="1080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="317"/>
+	<set name="m_dam" val="234"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3891" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111257" name="Dynasty Mace - Earth" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_staff_i01"/>
+	<set name="additional_name" val="Mana Up"/>
+	<set name="weight" val="1080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="317"/>
+	<set name="m_dam" val="234"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3014" lvl="2"/>
+       <skill id="3843" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111258" name="Dynasty Mace - Earth" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_staff_i01"/>
+	<set name="additional_name" val="Updown"/>
+	<set name="weight" val="1080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="317"/>
+	<set name="m_dam" val="234"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3048" lvl="3"/>
+       <skill id="3843" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111259" name="Dynasty Mace - Earth" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_staff_i01"/>
+	<set name="additional_name" val="Acumen"/>
+	<set name="weight" val="1080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="317"/>
+	<set name="m_dam" val="234"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3047" lvl="3"/>
+       <skill id="3891" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111260" name="Dynasty Bagh-Nakh - Great Gale" type="DUALFIST">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_jamadhr_i00"/>
+	<set name="weight" val="1550"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3880" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111261" name="Dynasty Bagh-Nakh - Great Gale" type="DUALFIST">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_jamadhr_i01"/>
+	<set name="additional_name" val="Rsk. Evasion"/>
+	<set name="weight" val="1550"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3069" lvl="1"/>
+       <skill id="3880" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111262" name="Dynasty Bagh-Nakh - Great Gale" type="DUALFIST">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_jamadhr_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1550"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3565" lvl="2"/>
+       <skill id="3880" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111263" name="Dynasty Bagh-Nakh - Great Gale" type="DUALFIST">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_jamadhr_i01"/>
+	<set name="additional_name" val="Haste"/>
+	<set name="weight" val="1550"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3564" lvl="2"/>
+       <skill id="3880" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111264" name="Dynasty Bow - Great Gale" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_bow_i00"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="724"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="11"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3864" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111288"/>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111265" name="Dynasty Bow - Great Gale" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_bow_i01"/>
+	<set name="additional_name" val="Cheap Shot"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="724"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="11"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3864" lvl="2"/>
+       <skill id="8312" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111289"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111266" name="Dynasty Bow - Great Gale" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_bow_i01"/>
+	<set name="additional_name" val="Guidance"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="724"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="11"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3008" lvl="1"/>
+       <skill id="3864" lvl="2"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111290"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111267" name="Dynasty Bow - Great Gale" type="BOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_bow_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="724"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="293"/>
+	<set name="rnd_dam" val="5"/>
+	<set name="critical" val="12"/>
+	<set name="mp_consume" val="11"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+       <skill id="3864" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111291"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111268" name="Dynasty Blade - Great Gale" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_twohand_sword_i00"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3840" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111243"/>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111269" name="Dynasty Blade - Great Gale" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_twohand_sword_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3566" lvl="2"/>
+       <skill id="3840" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111244"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111270" name="Dynasty Blade - Great Gale" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_twohand_sword_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+       <skill id="3840" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111245"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111271" name="Dynasty Blade - Great Gale" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_twohand_sword_i01"/>
+	<set name="additional_name" val="Light"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3498" lvl="1"/>
+       <skill id="3840" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111246"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111272" name="Dynasty Sword - Earth" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_blade_i00"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3826" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111252"/>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111273" name="Dynasty Sword - Earth" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_blade_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+       <skill id="3826" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111253"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111274" name="Dynasty Sword - Earth" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_blade_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+       <skill id="3826" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111254"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111275" name="Dynasty Sword - Earth" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_blade_i01"/>
+	<set name="additional_name" val="Light"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3498" lvl="1"/>
+       <skill id="3826" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111255"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111276" name="Dynasty Staff - Holy Spirit" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_twohand_staff_i00"/>
+	<set name="weight" val="1080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="387"/>
+	<set name="m_dam" val="257"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3900" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111277" name="Dynasty Staff - Holy Spirit" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01"/>
+	<set name="additional_name" val="Mana Up"/>
+	<set name="weight" val="1080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="387"/>
+	<set name="m_dam" val="257"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3014" lvl="3"/>
+       <skill id="3900" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111278" name="Dynasty Staff - Holy Spirit" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01"/>
+	<set name="additional_name" val="Updown"/>
+	<set name="weight" val="1080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="387"/>
+	<set name="m_dam" val="257"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3048" lvl="3"/>
+       <skill id="3900" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111279" name="Dynasty Staff - Holy Spirit" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01"/>
+	<set name="additional_name" val="Acumen"/>
+	<set name="weight" val="1080"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="387"/>
+	<set name="m_dam" val="257"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3047" lvl="3"/>
+       <skill id="3900" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111280" name="Dynasty Cudgel - Landslide" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_hammer_i00"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3885" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111281" name="Dynasty Cudgel - Landslide" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_hammer_i01"/>
+	<set name="additional_name" val="Anger"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3057" lvl="3"/>
+       <skill id="3885" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111282" name="Dynasty Cudgel - Landslide" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_hammer_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+       <skill id="3885" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111283" name="Dynasty Cudgel - Landslide" type="BLUNT">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_hammer_i01"/>
+	<set name="additional_name" val="Rsk. Focus"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3071" lvl="2"/>
+       <skill id="3885" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111284" name="Dynasty Crusher - Great Gale" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_crusher_i00"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3896" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111285" name="Dynasty Crusher - Great Gale" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_crusher_i01"/>
+	<set name="additional_name" val="Anger"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3057" lvl="3"/>
+       <skill id="3886" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111286" name="Dynasty Crusher - Great Gale" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_crusher_i01"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+       <skill id="3886" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111287" name="Dynasty Crusher - Great Gale" type="BIGBLUNT">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_crusher_i01"/>
+	<set name="additional_name" val="Rsk. Focus"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="20"/>
+	<set name="critical" val="4"/>
+	<set name="hit_modify" val="4"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3071" lvl="2"/>
+       <skill id="3886" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111288" name="Dynasty Crossbow - Great Gale" type="CROSSBOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_crossbow_i00"/>
+	<set name="weight" val="1580"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="444"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="303"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3869" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111264"/>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111289" name="Dynasty Crossbow - Great Gale" type="CROSSBOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_crossbow_i01"/>
+	<set name="additional_name" val="Cheap Shot"/>
+	<set name="weight" val="1580"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="444"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="303"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3869" lvl="2"/>
+       <skill id="3360" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111265"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111290" name="Dynasty Crossbow - Great Gale" type="CROSSBOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_crossbow_i01"/>
+	<set name="additional_name" val="Guidance"/>
+	<set name="weight" val="1580"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="444"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="303"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3008" lvl="1"/>
+       <skill id="3869" lvl="2"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111266"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111291" name="Dynasty Crossbow - Great Gale" type="CROSSBOW">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_crossbow_i01"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1580"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="444"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="303"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="10"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+       <skill id="3869" lvl="2"/>
+   </skills>
+	<set name="kamaelAnalog" val="4111267"/>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111292" name="Dynasty Phantom - Nature" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_magic_sword_i00"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="317"/>
+	<set name="m_dam" val="234"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3852" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111293" name="Dynasty Phantom - Nature" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_magic_sword_i01"/>
+	<set name="additional_name" val="Acumen"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="317"/>
+	<set name="m_dam" val="234"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3047" lvl="2"/>
+       <skill id="3852" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111294" name="Dynasty Phantom - Nature" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_magic_sword_i01"/>
+	<set name="additional_name" val="Mana Up"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="317"/>
+	<set name="m_dam" val="234"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3014" lvl="2"/>
+       <skill id="3852" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111295" name="Dynasty Phantom - Nature" type="SWORD">
+	<set name="bodypart" val="RHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_magic_sword_i01"/>
+	<set name="additional_name" val="Updown"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="317"/>
+	<set name="m_dam" val="234"/>
+	<set name="atk_speed" val="379"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3048" lvl="2"/>
+       <skill id="3852" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111296" name="Dynasty Halberd - Earth" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_spear_i00"/>
+	<set name="weight" val="2010"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3877" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4111297" name="Dynasty Halberd - Earth" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_spear_i01"/>
+	<set name="additional_name" val="Anger"/>
+	<set name="weight" val="2010"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3600" lvl="10"/>
+       <skill id="3877" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111298" name="Dynasty Halberd - Earth" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_spear_i01"/>
+	<set name="additional_name" val="Critical Stun"/>
+	<set name="weight" val="2010"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3552" lvl="2"/>
+       <skill id="3877" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111299" name="Dynasty Halberd - Earth" type="POLE">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.weapon_dynasty_spear_i01"/>
+	<set name="additional_name" val="Light"/>
+	<set name="weight" val="2010"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="396"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+	<set name="price" val="107922240"/>
+   <skills>
+       <skill id="3552" lvl="2"/>
+       <skill id="3498" lvl="1"/>
+       <skill id="3877" lvl="2"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4111502" name="Sealed Imperial Crusader Shield" type="NONE">
+	<set name="bodypart" val="LHAND"/>
+	<set name="icon" val="icon.shield_imperial_crusader_shield_i02"/>
+	<set name="weight" val="1170"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="161"/>
+	<set name="shield_def" val="276"/>
+	<set name="shield_def_rate" val="20"/>
+	<set name="price" val="4831200"/>
+	<set name="isRare" val="true"/>
+	<set name="avoid_modify" val="-8"/>
+	</weapon>
+	<weapon id="4111508" name="Imperial Crusader Shield" type="NONE">
+	<set name="bodypart" val="LHAND"/>
+	<set name="icon" val="icon.shield_imperial_crusader_shield_i00"/>
+	<set name="weight" val="1170"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="161"/>
+	<set name="shield_def" val="290"/>
+	<set name="shield_def_rate" val="20"/>
+	<set name="price" val="4831200"/>
+   <skills>
+       <skill id="3786" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="avoid_modify" val="-8"/>
+	</weapon>
+	<weapon id="4111532" name="Dynasty Shield" type="NONE">
+	<set name="bodypart" val="LHAND"/>
+	<set name="icon" val="icon.shield_dynasty_shield_i00"/>
+	<set name="weight" val="1390"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="307"/>
+	<set name="shield_def" val="321"/>
+	<set name="shield_def_rate" val="20"/>
+	<set name="price" val="9221760"/>
+   <skills>
+       <skill id="3793" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	<set name="avoid_modify" val="-8"/>
+	</weapon>
+	<weapon id="4111569" name="Sealed Dynasty Shield" type="NONE">
+	<set name="bodypart" val="LHAND"/>
+	<set name="icon" val="icon.shield_dynasty_shield_i01"/>
+	<set name="weight" val="1370"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="307"/>
+	<set name="shield_def" val="305"/>
+	<set name="shield_def_rate" val="20"/>
+	<set name="price" val="9221760"/>
+	<set name="isRare" val="true"/>
+	<set name="avoid_modify" val="-8"/>
+	</weapon>
+	<weapon id="4113882" name="Dynasty Dual Daggers" type="DUALDAGGER">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="icon.dual_dagger_i00"/>
+	<set name="weight" val="2150"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="4219"/>
+	<set name="p_dam" val="362"/>
+	<set name="m_dam" val="181"/>
+	<set name="atk_speed" val="433"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="12"/>
+	<set name="price" val="126577440"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+   </skills>
+  <enchant4_skill id="3044" lvl="20"/>
+	</weapon>
+	<weapon id="4121955" name="Blades of Delusion" type="DUAL">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="BranchSys2.icon.br_wp_astarot_i00"/>
+	<set name="price" val="107922240"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+  <enchant4_skill id="3411" lvl="1"/>
+   <skills>
+       <skill id="21255" lvl="1"/>
+   </skills>
+	</weapon>
+	<weapon id="4121957" name="Blades of Delusion - Earth" type="DUAL">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="BranchSys2.icon.br_wp_astarot_i00"/>
+	<set name="price" val="107922240"/>
+	<set name="weight" val="1520"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+  <enchant4_skill id="3411" lvl="1"/>
+   <skills>
+       <skill id="3836" lvl="2"/>
+       <skill id="21255" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4121959" name="Blood Brother" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="BranchSys2.icon.br_wp_tirbing_i00"/>
+	<set name="price" val="107922240"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+   <skills>
+       <skill id="21256" lvl="1"/>
+   </skills>
+	</weapon>
+	<weapon id="4121960" name="Blood Brother" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="BranchSys2.icon.br_wp_tirbing_i00"/>
+	<set name="price" val="107922240"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+   <skills>
+       <skill id="3566" lvl="1"/>
+       <skill id="21256" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4121961" name="Blood Brother" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="BranchSys2.icon.br_wp_tirbing_i00"/>
+	<set name="price" val="107922240"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+       <skill id="21256" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4121962" name="Blood Brother" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="BranchSys2.icon.br_wp_tirbing_i00"/>
+	<set name="price" val="107922240"/>
+	<set name="additional_name" val="Light"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+   <skills>
+       <skill id="3498" lvl="1"/>
+       <skill id="21256" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	</weapon>
+	<weapon id="4121966" name="Blood Brother - Great Gale" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="BranchSys2.icon.br_wp_tirbing_i00"/>
+	<set name="price" val="107922240"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+   <skills>
+       <skill id="3840" lvl="1"/>
+       <skill id="21256" lvl="1"/>
+   </skills>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4121967" name="Blood Brother - Great Gale" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="BranchSys2.icon.br_wp_tirbing_i00"/>
+	<set name="price" val="107922240"/>
+	<set name="additional_name" val="Focus"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+   <skills>
+       <skill id="3566" lvl="2"/>
+       <skill id="3840" lvl="2"/>
+       <skill id="21256" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4121968" name="Blood Brother - Great Gale" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="BranchSys2.icon.br_wp_tirbing_i00"/>
+	<set name="price" val="107922240"/>
+	<set name="additional_name" val="Health"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+       <skill id="3840" lvl="1"/>
+       <skill id="21256" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	<set name="isRare" val="true"/>
+	</weapon>
+	<weapon id="4121969" name="Blood Brother - Great Gale" type="BIGSWORD">
+	<set name="bodypart" val="LRHAND"/>
+	<set name="icon" val="BranchSys2.icon.br_wp_tirbing_i00"/>
+	<set name="price" val="107922240"/>
+	<set name="additional_name" val="Light"/>
+	<set name="weight" val="1740"/>
+	<set name="soulshots" val="1"/>
+	<set name="spiritshots" val="1"/>
+	<set name="crystal_type" val="S84"/>
+	<set name="crystal_count" val="3597"/>
+	<set name="p_dam" val="482"/>
+	<set name="m_dam" val="174"/>
+	<set name="atk_speed" val="325"/>
+	<set name="rnd_dam" val="10"/>
+	<set name="critical" val="8"/>
+   <skills>
+       <skill id="3498" lvl="1"/>
+       <skill id="3840" lvl="1"/>
+       <skill id="21256" lvl="1"/>
+   </skills>
+	<set name="isSa" val="true"/>
+	<set name="isRare" val="true"/>
+	</weapon>
+</list>

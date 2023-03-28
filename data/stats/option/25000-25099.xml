@@ -1,0 +1,499 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "option_data.dtd">
+<list>
+    <option_data id="25001">
+       <skills>
+           <skill id="26086" level="1" /> <!--Item Skill:Физическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25002">
+       <skills>
+           <skill id="26086" level="2" /> <!--Item Skill:Физическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25003">
+       <skills>
+           <skill id="26086" level="3" /> <!--Item Skill:Физическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25004">
+       <skills>
+           <skill id="26086" level="4" /> <!--Item Skill:Физическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25005">
+       <skills>
+           <skill id="26086" level="5" /> <!--Item Skill:Физическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25006">
+       <skills>
+           <skill id="26086" level="6" /> <!--Item Skill:Физическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25007">
+       <skills>
+           <skill id="26086" level="7" /> <!--Item Skill:Физическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25008">
+       <skills>
+           <skill id="26086" level="8" /> <!--Item Skill:Физическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25009">
+       <skills>
+           <skill id="26086" level="9" /> <!--Item Skill:Физическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25010">
+       <skills>
+           <skill id="26086" level="10" /> <!--Item Skill:Физическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25011">
+       <skills>
+           <skill id="26086" level="11" /> <!--Item Skill:Физическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25012">
+       <skills>
+           <skill id="26086" level="12" /> <!--Item Skill:Физическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25013">
+       <skills>
+           <skill id="26086" level="13" /> <!--Item Skill:Физическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25014">
+       <skills>
+           <skill id="26086" level="14" /> <!--Item Skill:Физическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25015">
+       <skills>
+           <skill id="26086" level="15" /> <!--Item Skill:Физическая Защита Хаоса-->
+       </skills>
+   </option_data>
+       <option_data id="25016">
+       <skills>
+           <skill id="26087" level="1" /> <!--Item Skill:Магическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25017">
+       <skills>
+           <skill id="26087" level="2" /> <!--Item Skill:Магическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25018">
+       <skills>
+           <skill id="26087" level="3" /> <!--Item Skill:Магическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25019">
+       <skills>
+           <skill id="26087" level="4" /> <!--Item Skill:Магическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25020">
+       <skills>
+           <skill id="26087" level="5" /> <!--Item Skill:Магическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25021">
+       <skills>
+           <skill id="26087" level="6" /> <!--Item Skill:Магическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25022">
+       <skills>
+           <skill id="26087" level="7" /> <!--Item Skill:Магическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25023">
+       <skills>
+           <skill id="26087" level="8" /> <!--Item Skill:Магическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25024">
+       <skills>
+           <skill id="26087" level="9" /> <!--Item Skill:Магическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25025">
+       <skills>
+           <skill id="26087" level="10" /> <!--Item Skill:Магическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25026">
+       <skills>
+           <skill id="26087" level="11" /> <!--Item Skill:Магическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25027">
+       <skills>
+           <skill id="26087" level="12" /> <!--Item Skill:Магическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25028">
+       <skills>
+           <skill id="26087" level="13" /> <!--Item Skill:Магическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25029">
+       <skills>
+           <skill id="26087" level="14" /> <!--Item Skill:Магическая Защита Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25030">
+       <skills>
+           <skill id="26087" level="15" /> <!--Item Skill:Магическая Защита Хаоса-->
+       </skills>
+   </option_data>
+       <option_data id="25031">
+       <skills>
+           <skill id="26088" level="1" /> <!--Item Skill:Защита Хаоса-Оглушение-->
+       </skills>
+   </option_data>
+    <option_data id="25032">
+       <skills>
+           <skill id="26088" level="2" /> <!--Item Skill:Защита Хаоса-Оглушение-->
+       </skills>
+   </option_data>
+    <option_data id="25033">
+       <skills>
+           <skill id="26088" level="3" /> <!--Item Skill:Защита Хаоса-Оглушение-->
+       </skills>
+   </option_data>
+    <option_data id="25034">
+       <skills>
+           <skill id="26088" level="4" /> <!--Item Skill:Защита Хаоса-Оглушение-->
+       </skills>
+   </option_data>
+    <option_data id="25035">
+       <skills>
+           <skill id="26088" level="5" /> <!--Item Skill:Защита Хаоса-Оглушение-->
+       </skills>
+   </option_data>
+    <option_data id="25036">
+       <skills>
+           <skill id="26088" level="6" /> <!--Item Skill:Защита Хаоса-Оглушение-->
+       </skills>
+   </option_data>
+    <option_data id="25037">
+       <skills>
+           <skill id="26088" level="7" /> <!--Item Skill:Защита Хаоса-Оглушение-->
+       </skills>
+   </option_data>
+    <option_data id="25038">
+       <skills>
+           <skill id="26088" level="8" /> <!--Item Skill:Защита Хаоса-Оглушение-->
+       </skills>
+   </option_data>
+    <option_data id="25039">
+       <skills>
+           <skill id="26088" level="9" /> <!--Item Skill:Защита Хаоса-Оглушение-->
+       </skills>
+   </option_data>
+    <option_data id="25040">
+       <skills>
+           <skill id="26088" level="10" /> <!--Item Skill:Защита Хаоса-Оглушение-->
+       </skills>
+   </option_data>
+    <option_data id="25041">
+       <skills>
+           <skill id="26088" level="11" /> <!--Item Skill:Защита Хаоса-Оглушение-->
+       </skills>
+   </option_data>
+    <option_data id="25042">
+       <skills>
+           <skill id="26088" level="12" /> <!--Item Skill:Защита Хаоса-Оглушение-->
+       </skills>
+   </option_data>
+    <option_data id="25043">
+       <skills>
+           <skill id="26088" level="13" /> <!--Item Skill:Защита Хаоса-Оглушение-->
+       </skills>
+   </option_data>
+    <option_data id="25044">
+       <skills>
+           <skill id="26088" level="14" /> <!--Item Skill:Защита Хаоса-Оглушение-->
+       </skills>
+   </option_data>
+    <option_data id="25045">
+       <skills>
+           <skill id="26088" level="15" /> <!--Item Skill:Защита Хаоса-Оглушение-->
+       </skills>
+   </option_data>
+       <option_data id="25046">
+       <skills>
+           <skill id="26089" level="1" /> <!--Item Skill:Защита Хаоса-Паралич-->
+       </skills>
+   </option_data>
+    <option_data id="25047">
+       <skills>
+           <skill id="26089" level="2" /> <!--Item Skill:Защита Хаоса-Паралич-->
+       </skills>
+   </option_data>
+    <option_data id="25048">
+       <skills>
+           <skill id="26089" level="3" /> <!--Item Skill:Защита Хаоса-Паралич-->
+       </skills>
+   </option_data>
+    <option_data id="25049">
+       <skills>
+           <skill id="26089" level="4" /> <!--Item Skill:Защита Хаоса-Паралич-->
+       </skills>
+   </option_data>
+    <option_data id="25050">
+       <skills>
+           <skill id="26089" level="5" /> <!--Item Skill:Защита Хаоса-Паралич-->
+       </skills>
+   </option_data>
+    <option_data id="25051">
+       <skills>
+           <skill id="26089" level="6" /> <!--Item Skill:Защита Хаоса-Паралич-->
+       </skills>
+   </option_data>
+    <option_data id="25052">
+       <skills>
+           <skill id="26089" level="7" /> <!--Item Skill:Защита Хаоса-Паралич-->
+       </skills>
+   </option_data>
+    <option_data id="25053">
+       <skills>
+           <skill id="26089" level="8" /> <!--Item Skill:Защита Хаоса-Паралич-->
+       </skills>
+   </option_data>
+    <option_data id="25054">
+       <skills>
+           <skill id="26089" level="9" /> <!--Item Skill:Защита Хаоса-Паралич-->
+       </skills>
+   </option_data>
+    <option_data id="25055">
+       <skills>
+           <skill id="26089" level="10" /> <!--Item Skill:Защита Хаоса-Паралич-->
+       </skills>
+   </option_data>
+    <option_data id="25056">
+       <skills>
+           <skill id="26089" level="11" /> <!--Item Skill:Защита Хаоса-Паралич-->
+       </skills>
+   </option_data>
+    <option_data id="25057">
+       <skills>
+           <skill id="26089" level="12" /> <!--Item Skill:Защита Хаоса-Паралич-->
+       </skills>
+   </option_data>
+    <option_data id="25058">
+       <skills>
+           <skill id="26089" level="13" /> <!--Item Skill:Защита Хаоса-Паралич-->
+       </skills>
+   </option_data>
+    <option_data id="25059">
+       <skills>
+           <skill id="26089" level="14" /> <!--Item Skill:Защита Хаоса-Паралич-->
+       </skills>
+   </option_data>
+    <option_data id="25060">
+       <skills>
+           <skill id="26089" level="15" /> <!--Item Skill:Защита Хаоса-Паралич-->
+       </skills>
+   </option_data>
+       <option_data id="25061">
+       <skills>
+           <skill id="26090" level="1" /> <!--Item Skill:Фокусировка Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25062">
+       <skills>
+           <skill id="26090" level="2" /> <!--Item Skill:Фокусировка Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25063">
+       <skills>
+           <skill id="26090" level="3" /> <!--Item Skill:Фокусировка Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25064">
+       <skills>
+           <skill id="26090" level="4" /> <!--Item Skill:Фокусировка Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25065">
+       <skills>
+           <skill id="26090" level="5" /> <!--Item Skill:Фокусировка Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25066">
+       <skills>
+           <skill id="26090" level="6" /> <!--Item Skill:Фокусировка Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25067">
+       <skills>
+           <skill id="26090" level="7" /> <!--Item Skill:Фокусировка Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25068">
+       <skills>
+           <skill id="26090" level="8" /> <!--Item Skill:Фокусировка Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25069">
+       <skills>
+           <skill id="26090" level="9" /> <!--Item Skill:Фокусировка Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25070">
+       <skills>
+           <skill id="26090" level="10" /> <!--Item Skill:Фокусировка Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25071">
+       <skills>
+           <skill id="26090" level="11" /> <!--Item Skill:Фокусировка Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25072">
+       <skills>
+           <skill id="26090" level="12" /> <!--Item Skill:Фокусировка Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25073">
+       <skills>
+           <skill id="26090" level="13" /> <!--Item Skill:Фокусировка Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25074">
+       <skills>
+           <skill id="26090" level="14" /> <!--Item Skill:Фокусировка Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25075">
+       <skills>
+           <skill id="26090" level="15" /> <!--Item Skill:Фокусировка Хаоса-->
+       </skills>
+   </option_data>
+       <option_data id="25076">
+       <skills>
+           <skill id="26091" level="1" /> <!--Item Skill:Броня Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25077">
+       <skills>
+           <skill id="26091" level="2" /> <!--Item Skill:Броня Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25078">
+       <skills>
+           <skill id="26091" level="3" /> <!--Item Skill:Броня Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25079">
+       <skills>
+           <skill id="26091" level="4" /> <!--Item Skill:Броня Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25080">
+       <skills>
+           <skill id="26091" level="5" /> <!--Item Skill:Броня Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25081">
+       <skills>
+           <skill id="26091" level="6" /> <!--Item Skill:Броня Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25082">
+       <skills>
+           <skill id="26091" level="7" /> <!--Item Skill:Броня Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25083">
+       <skills>
+           <skill id="26091" level="8" /> <!--Item Skill:Броня Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25084">
+       <skills>
+           <skill id="26091" level="9" /> <!--Item Skill:Броня Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25085">
+       <skills>
+           <skill id="26091" level="10" /> <!--Item Skill:Броня Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25086">
+       <skills>
+           <skill id="26091" level="11" /> <!--Item Skill:Броня Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25087">
+       <skills>
+           <skill id="26091" level="12" /> <!--Item Skill:Броня Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25088">
+       <skills>
+           <skill id="26091" level="13" /> <!--Item Skill:Броня Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25089">
+       <skills>
+           <skill id="26091" level="14" /> <!--Item Skill:Броня Хаоса-->
+       </skills>
+   </option_data>
+    <option_data id="25090">
+       <skills>
+           <skill id="26091" level="15" /> <!--Item Skill:Броня Хаоса-->
+       </skills>
+   </option_data>
+       <option_data id="25091">
+       <skills>
+           <skill id="26092" level="1" /> <!--Item Skill:Защита Хаоса-Неудержимость-->
+       </skills>
+   </option_data>
+    <option_data id="25092">
+       <skills>
+           <skill id="26092" level="2" /> <!--Item Skill:Защита Хаоса-Неудержимость-->
+       </skills>
+   </option_data>
+    <option_data id="25093">
+       <skills>
+           <skill id="26092" level="3" /> <!--Item Skill:Защита Хаоса-Неудержимость-->
+       </skills>
+   </option_data>
+    <option_data id="25094">
+       <skills>
+           <skill id="26092" level="4" /> <!--Item Skill:Защита Хаоса-Неудержимость-->
+       </skills>
+   </option_data>
+    <option_data id="25095">
+       <skills>
+           <skill id="26092" level="5" /> <!--Item Skill:Защита Хаоса-Неудержимость-->
+       </skills>
+   </option_data>
+    <option_data id="25096">
+       <skills>
+           <skill id="26092" level="6" /> <!--Item Skill:Защита Хаоса-Неудержимость-->
+       </skills>
+   </option_data>
+    <option_data id="25097">
+       <skills>
+           <skill id="26092" level="7" /> <!--Item Skill:Защита Хаоса-Неудержимость-->
+       </skills>
+   </option_data>
+    <option_data id="25098">
+       <skills>
+           <skill id="26092" level="8" /> <!--Item Skill:Защита Хаоса-Неудержимость-->
+       </skills>
+   </option_data>
+    <option_data id="25099">
+       <skills>
+           <skill id="26092" level="9" /> <!--Item Skill:Защита Хаоса-Неудержимость-->
+       </skills>
+   </option_data>
+</list>

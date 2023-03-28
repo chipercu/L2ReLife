@@ -1,0 +1,3227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <armor id="4000375" name="Dragon Scale Mail" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t15_u_i00"/>
+     <set name="weight" val="7620"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="525"/>
+     <set name="p_def" val="216"/>
+     <set name="price" val="9949200"/>
+    </armor>
+    <armor id="4000389" name="Dragon Scale Gaiters" type="HEAVY">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t15_l_i00"/>
+     <set name="weight" val="3260"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="299"/>
+     <set name="p_def" val="133"/>
+     <set name="price" val="5568000"/>
+    </armor>
+    <armor id="4000411" name="Dragon Leather Armor" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t45_ul_i00"/>
+     <set name="weight" val="4950"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="525"/>
+     <set name="p_def" val="258"/>
+     <set name="price" val="10856400"/>
+    </armor>
+    <armor id="4000460" name="The Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t44_ul_i00"/>
+     <set name="weight" val="2300"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="525"/>
+     <set name="p_def" val="172"/>
+     <set name="mp_bonus" val="773"/>
+     <set name="price" val="10856400"/>
+    </armor>
+    <armor id="4000504" name="Dragon Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="179"/>
+     <set name="p_def" val="84"/>
+     <set name="price" val="3340800"/>
+    </armor>
+    <armor id="4000685" name="Crystal Swimsuit Set" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.armor_underwear02"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="65"/>
+     <set name="p_def" val="28"/>
+     <set name="price" val="1572000"/>
+    </armor>
+    <armor id="4000858" name="Tateossian Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessory_tateossian_earring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="157"/>
+     <set name="m_def" val="71"/>
+     <set name="mp_bonus" val="31"/>
+     <set name="price" val="3924000"/>
+    </armor>
+    <armor id="4000889" name="Tateossian Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessory_tateossian_ring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="105"/>
+     <set name="m_def" val="48"/>
+     <set name="mp_bonus" val="21"/>
+     <set name="price" val="2616000"/>
+    </armor>
+    <armor id="4000920" name="Tateossian Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessory_tateossian_necklace_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="209"/>
+     <set name="m_def" val="95"/>
+     <set name="mp_bonus" val="42"/>
+     <set name="price" val="5233200"/>
+    </armor>
+    <armor id="4002420" name="Dragon Headgear" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i00"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="179"/>
+     <set name="p_def" val="84"/>
+     <set name="price" val="3340800"/>
+    </armor>
+    <armor id="4002421" name="The Hood" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i00"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="179"/>
+     <set name="p_def" val="84"/>
+     <set name="price" val="3340800"/>
+    </armor>
+    <armor id="4002443" name="Dragon Leather Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t45_b_i00"/>
+     <set name="weight" val="1100"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="119"/>
+     <set name="p_def" val="55"/>
+     <set name="price" val="2227200"/>
+    </armor>
+    <armor id="4002444" name="The Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t44_b_i00"/>
+     <set name="weight" val="1100"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="119"/>
+     <set name="p_def" val="55"/>
+     <set name="price" val="2227200"/>
+    </armor>
+    <armor id="4002473" name="The Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t44_g_i00"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="119"/>
+     <set name="p_def" val="55"/>
+     <set name="price" val="2227200"/>
+    </armor>
+    <armor id="4002476" name="Dragon Gauntlets" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t15_g_i00"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="130"/>
+     <set name="p_def" val="56"/>
+     <set name="price" val="2487600"/>
+    </armor>
+    <armor id="4002477" name="Dragon Leather Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t45_g_i00"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="119"/>
+     <set name="p_def" val="55"/>
+     <set name="price" val="2227200"/>
+    </armor>
+    <armor id="4006373" name="Imperial Crusader Breastplate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t88_u_i00"/>
+     <set name="weight" val="7620"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="613"/>
+     <set name="p_def" val="223"/>
+     <set name="price" val="15337200"/>
+    </armor>
+    <armor id="4006374" name="Imperial Crusader Gaiters" type="HEAVY">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t88_l_i00"/>
+     <set name="weight" val="3260"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="383"/>
+     <set name="p_def" val="139"/>
+     <set name="price" val="9585600"/>
+    </armor>
+    <armor id="4006375" name="Imperial Crusader Gauntlets" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t88_g_i00"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+    </armor>
+    <armor id="4006376" name="Imperial Crusader Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t88_b_i00"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+    </armor>
+    <armor id="4006378" name="Imperial Crusader Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="230"/>
+     <set name="p_def" val="90"/>
+     <set name="price" val="5751600"/>
+    </armor>
+    <armor id="4006379" name="Draconic Leather Armor" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t89_ul_i00"/>
+     <set name="weight" val="4950"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="748"/>
+     <set name="p_def" val="272"/>
+     <set name="price" val="18692400"/>
+    </armor>
+    <armor id="4006380" name="Draconic Leather Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t89_g_i00"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+    </armor>
+    <armor id="4006381" name="Draconic Leather Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t89_b_i00"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+    </armor>
+    <armor id="4006382" name="Draconic Leather Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i00"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="230"/>
+     <set name="p_def" val="90"/>
+     <set name="price" val="5751600"/>
+    </armor>
+    <armor id="4006383" name="Major Arcana Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t90_ul_i00"/>
+     <set name="weight" val="2300"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="748"/>
+     <set name="p_def" val="181"/>
+     <set name="mp_bonus" val="866"/>
+     <set name="price" val="18692400"/>
+    </armor>
+    <armor id="4006384" name="Major Arcana Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t90_g_i00"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+    </armor>
+    <armor id="4006385" name="Major Arcana Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t90_b_i00"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+    </armor>
+    <armor id="4006386" name="Major Arcana Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_circlet_i00"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="230"/>
+     <set name="p_def" val="90"/>
+     <set name="price" val="5751600"/>
+    </armor>
+    <armor id="4006656" name="Earring of Antharas" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessory_earring_of_antaras_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="178"/>
+     <set name="m_def" val="94"/>
+     <set name="mp_bonus" val="37"/>
+     <set name="price" val="4440000"/>
+   <skills>
+       <skill id="3558" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4006657" name="Necklace of Valakas" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessory_necklace_of_valakas_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="237"/>
+     <set name="m_def" val="125"/>
+     <set name="mp_bonus" val="50"/>
+     <set name="price" val="5928000"/>
+   <skills>
+       <skill id="3557" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4006658" name="Ring of Baium" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessory_ring_of_baium_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="83"/>
+     <set name="m_def" val="48"/>
+     <set name="mp_bonus" val="21"/>
+     <set name="price" val="2076000"/>
+   <skills>
+       <skill id="3561" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4006659" name="Zaken's Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessory_earring_of_zaken_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="124"/>
+     <set name="m_def" val="71"/>
+     <set name="mp_bonus" val="31"/>
+     <set name="price" val="3108000"/>
+   <skills>
+       <skill id="3559" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4006674" name="Sealed Imperial Crusader Breastplate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t88_u_i02"/>
+     <set name="weight" val="7620"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="613"/>
+     <set name="p_def" val="210"/>
+     <set name="price" val="15337200"/>
+    </armor>
+    <armor id="4006675" name="Sealed Imperial Crusader Gaiters" type="HEAVY">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t88_l_i02"/>
+     <set name="weight" val="3260"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="383"/>
+     <set name="p_def" val="132"/>
+     <set name="price" val="9585600"/>
+    </armor>
+    <armor id="4006676" name="Sealed Imperial Crusader Gauntlet" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t88_g_i02"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+    </armor>
+    <armor id="4006677" name="Sealed Imperial Crusader Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t88_b_i02"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+    </armor>
+    <armor id="4006679" name="Sealed Imperial Crusader Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i02"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="230"/>
+     <set name="p_def" val="90"/>
+     <set name="price" val="5751600"/>
+    </armor>
+    <armor id="4006680" name="Sealed Draconic Leather Armor" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t89_ul_i02"/>
+     <set name="weight" val="4950"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="748"/>
+     <set name="p_def" val="257"/>
+     <set name="price" val="18692400"/>
+    </armor>
+    <armor id="4006681" name="Sealed Draconic Leather Glove" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t89_g_i02"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+    </armor>
+    <armor id="4006682" name="Sealed Draconic Leather Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t89_b_i02"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+    </armor>
+    <armor id="4006683" name="Sealed Draconic Leather Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i02"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="230"/>
+     <set name="p_def" val="90"/>
+     <set name="price" val="5751600"/>
+    </armor>
+    <armor id="4006684" name="Sealed Major Arcana Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t90_ul_i02"/>
+     <set name="weight" val="2300"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="748"/>
+     <set name="p_def" val="171"/>
+     <set name="mp_bonus" val="866"/>
+     <set name="price" val="18692400"/>
+    </armor>
+    <armor id="4006685" name="Sealed Major Arcana Glove" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t90_g_i02"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+    </armor>
+    <armor id="4006686" name="Sealed Major Arcana Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t90_b_i02"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+    </armor>
+    <armor id="4006687" name="Sealed Major Arcana Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_circlet_i02"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="230"/>
+     <set name="p_def" val="90"/>
+     <set name="price" val="5751600"/>
+    </armor>
+    <armor id="4006724" name="Sealed Tateossian Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessory_tateossian_earring_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="157"/>
+     <set name="m_def" val="68"/>
+     <set name="price" val="3924000"/>
+    </armor>
+    <armor id="4006725" name="Sealed Tateossian Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessory_tateossian_ring_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="105"/>
+     <set name="m_def" val="46"/>
+     <set name="price" val="2616000"/>
+    </armor>
+    <armor id="4006726" name="Sealed Tateossian Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessory_tateossian_necklace_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="209"/>
+     <set name="m_def" val="91"/>
+     <set name="price" val="5233200"/>
+    </armor>
+    <armor id="4009416" name="Dynasty Breast Plate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_u_i00"/>
+     <set name="weight" val="7570"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1171"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="29277600"/>
+    </armor>
+    <armor id="4009417" name="Dynasty Breast Plate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_uk_i00"/>
+     <set name="additional_name" val="Shield Master"/>
+     <set name="weight" val="7570"/>
+     <set name="player_class" val="ShieldMaster"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1171"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="29277600"/>
+    </armor>
+    <armor id="4009418" name="Dynasty Breast Plate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_uw_i00"/>
+     <set name="additional_name" val="Weapon Master"/>
+     <set name="weight" val="7570"/>
+     <set name="player_class" val="WeaponMaster"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1171"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="29277600"/>
+    </armor>
+    <armor id="4009419" name="Dynasty Breast Plate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_uf_i00"/>
+     <set name="additional_name" val="Force Master"/>
+     <set name="weight" val="7570"/>
+     <set name="player_class" val="ForceMaster"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1171"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="29277600"/>
+    </armor>
+    <armor id="4009420" name="Dynasty Breast Plate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_uke_i00"/>
+     <set name="additional_name" val="Bard"/>
+     <set name="weight" val="7570"/>
+     <set name="player_class" val="Bard"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1171"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="29277600"/>
+    </armor>
+    <armor id="4009421" name="Dynasty Gaiter" type="HEAVY">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t91_l_i00"/>
+     <set name="weight" val="3210"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="731"/>
+     <set name="p_def" val="154"/>
+     <set name="price" val="18297600"/>
+    </armor>
+    <armor id="4009422" name="Dynasty Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="439"/>
+     <set name="p_def" val="100"/>
+     <set name="price" val="10978800"/>
+    </armor>
+    <armor id="4009423" name="Dynasty Gauntlet" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t91_g_i00"/>
+     <set name="additional_name" val="Heavy Armor"/>
+     <set name="weight" val="520"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+    </armor>
+    <armor id="4009424" name="Dynasty Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t91_b_i00"/>
+     <set name="additional_name" val="Heavy Armor"/>
+     <set name="weight" val="1090"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+    </armor>
+    <armor id="4009425" name="Dynasty Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_u_i00"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4009426" name="Dynasty Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_ud_i00"/>
+     <set name="additional_name" val="Dagger Master"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4009427" name="Dynasty Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_ub_i00"/>
+     <set name="additional_name" val="Bow Master"/>
+     <set name="weight" val="4180"/>
+     <set name="player_class" val="BowMaster"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4009428" name="Dynasty Leather Leggings" type="LIGHT">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t92_l_i00"/>
+     <set name="weight" val="1370"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="549"/>
+     <set name="p_def" val="115"/>
+     <set name="price" val="13723200"/>
+    </armor>
+    <armor id="4009429" name="Dynasty Leather Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i00"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="439"/>
+     <set name="p_def" val="100"/>
+     <set name="price" val="10978800"/>
+    </armor>
+    <armor id="4009430" name="Dynasty Leather Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t92_g_i00"/>
+     <set name="additional_name" val="Light Armor"/>
+     <set name="weight" val="520"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+    </armor>
+    <armor id="4009431" name="Dynasty Leather Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t92_b_i00"/>
+     <set name="additional_name" val="Light Armor"/>
+     <set name="weight" val="1090"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+    </armor>
+    <armor id="4009432" name="Dynasty Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_u_i00"/>
+     <set name="weight" val="1780"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4009433" name="Dynasty Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_uh_i00"/>
+     <set name="additional_name" val="Healer"/>
+     <set name="weight" val="1780"/>
+     <set name="player_class" val="Healer"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4009434" name="Dynasty Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_ue_i00"/>
+     <set name="additional_name" val="Enchanter"/>
+     <set name="weight" val="1780"/>
+     <set name="player_class" val="Enchanter"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4009435" name="Dynasty Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_us_i00"/>
+     <set name="additional_name" val="Summoner"/>
+     <set name="weight" val="1780"/>
+     <set name="player_class" val="Summoner"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4009436" name="Dynasty Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_uw_i00"/>
+     <set name="additional_name" val="Wizard"/>
+     <set name="weight" val="1780"/>
+     <set name="player_class" val="Wizard"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4009437" name="Dynasty Stockings" type="MAGIC">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t93_l_i00"/>
+     <set name="weight" val="860"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="549"/>
+     <set name="p_def" val="77"/>
+     <set name="mp_bonus" val="370"/>
+     <set name="price" val="13723200"/>
+    </armor>
+    <armor id="4009438" name="Dynasty Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_circlet_i00"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="439"/>
+     <set name="p_def" val="100"/>
+     <set name="price" val="10978800"/>
+    </armor>
+    <armor id="4009439" name="Dynasty Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t93_g_i00"/>
+     <set name="additional_name" val="Robe"/>
+     <set name="weight" val="520"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+    </armor>
+    <armor id="4009440" name="Dynasty Shoes" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t93_b_i00"/>
+     <set name="additional_name" val="Robe"/>
+     <set name="weight" val="1090"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+    </armor>
+    <armor id="4009452" name="Sealed Dynasty Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_dynasty_earing_i01"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="194"/>
+     <set name="m_def" val="71"/>
+     <set name="price" val="4838400"/>
+    </armor>
+    <armor id="4009453" name="Sealed Dynasty Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_dynasty_necklace_i01"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="258"/>
+     <set name="m_def" val="95"/>
+     <set name="price" val="6451200"/>
+    </armor>
+    <armor id="4009454" name="Sealed Dynasty Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_dynasty_ring_i01"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="129"/>
+     <set name="m_def" val="53"/>
+     <set name="price" val="3225600"/>
+    </armor>
+    <armor id="4009455" name="Dynasty Earrings" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_dynasty_earing_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="285"/>
+     <set name="m_def" val="79"/>
+     <set name="mp_bonus" val="35"/>
+     <set name="price" val="7147200"/>
+    </armor>
+    <armor id="4009456" name="Dynasty Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_dynasty_necklace_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="381"/>
+     <set name="m_def" val="106"/>
+     <set name="mp_bonus" val="46"/>
+     <set name="price" val="9530400"/>
+    </armor>
+    <armor id="4009457" name="Dynasty Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_dynasty_ring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="190"/>
+     <set name="m_def" val="60"/>
+     <set name="mp_bonus" val="23"/>
+     <set name="price" val="4765200"/>
+    </armor>
+    <armor id="4009458" name="Dynasty Earrings" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_dynasty_earing_i00"/>
+     <set name="additional_name" val="Stun Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="285"/>
+     <set name="m_def" val="27"/>
+     <set name="mp_bonus" val="35"/>
+     <set name="price" val="7147200"/>
+   <skills>
+       <skill id="3367" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009459" name="Dynasty Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_dynasty_necklace_i00"/>
+     <set name="additional_name" val="Stun Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="381"/>
+     <set name="m_def" val="36"/>
+     <set name="mp_bonus" val="46"/>
+     <set name="price" val="9530400"/>
+   <skills>
+       <skill id="3365" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009460" name="Dynasty Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_dynasty_ring_i00"/>
+     <set name="additional_name" val="Stun Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="190"/>
+     <set name="m_def" val="18"/>
+     <set name="mp_bonus" val="23"/>
+     <set name="price" val="4765200"/>
+   <skills>
+       <skill id="3366" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009461" name="Dynasty Earrings" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_dynasty_earing_i00"/>
+     <set name="additional_name" val="Poison Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="285"/>
+     <set name="m_def" val="27"/>
+     <set name="mp_bonus" val="35"/>
+     <set name="price" val="7147200"/>
+   <skills>
+       <skill id="3379" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009462" name="Dynasty Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_dynasty_necklace_i00"/>
+     <set name="additional_name" val="Poison Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="381"/>
+     <set name="m_def" val="36"/>
+     <set name="mp_bonus" val="46"/>
+     <set name="price" val="9530400"/>
+   <skills>
+       <skill id="3377" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009463" name="Dynasty Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_dynasty_ring_i00"/>
+     <set name="additional_name" val="Poison Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="190"/>
+     <set name="m_def" val="18"/>
+     <set name="mp_bonus" val="23"/>
+     <set name="price" val="4765200"/>
+   <skills>
+       <skill id="3378" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009464" name="Dynasty Earrings" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_dynasty_earing_i00"/>
+     <set name="additional_name" val="Bleeding Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="285"/>
+     <set name="m_def" val="27"/>
+     <set name="mp_bonus" val="35"/>
+     <set name="price" val="7147200"/>
+   <skills>
+       <skill id="3373" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009465" name="Dynasty Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_dynasty_necklace_i00"/>
+     <set name="additional_name" val="Bleeding Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="381"/>
+     <set name="m_def" val="36"/>
+     <set name="mp_bonus" val="46"/>
+     <set name="price" val="9530400"/>
+   <skills>
+       <skill id="3371" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009466" name="Dynasty Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_dynasty_ring_i00"/>
+     <set name="additional_name" val="Bleeding Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="190"/>
+     <set name="m_def" val="18"/>
+     <set name="mp_bonus" val="23"/>
+     <set name="price" val="4765200"/>
+   <skills>
+       <skill id="3372" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009467" name="Dynasty Earrings" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_dynasty_earing_i00"/>
+     <set name="additional_name" val="Sleep Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="285"/>
+     <set name="m_def" val="27"/>
+     <set name="mp_bonus" val="35"/>
+     <set name="price" val="7147200"/>
+   <skills>
+       <skill id="3397" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009468" name="Dynasty Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_dynasty_necklace_i00"/>
+     <set name="additional_name" val="Sleep Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="381"/>
+     <set name="m_def" val="36"/>
+     <set name="mp_bonus" val="46"/>
+     <set name="price" val="9530400"/>
+   <skills>
+       <skill id="3395" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009469" name="Dynasty Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_dynasty_ring_i00"/>
+     <set name="additional_name" val="Sleep Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="190"/>
+     <set name="m_def" val="18"/>
+     <set name="mp_bonus" val="23"/>
+     <set name="price" val="4765200"/>
+   <skills>
+       <skill id="3396" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009470" name="Dynasty Earrings" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_dynasty_earing_i00"/>
+     <set name="additional_name" val="Paralysis Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="285"/>
+     <set name="m_def" val="27"/>
+     <set name="mp_bonus" val="35"/>
+     <set name="price" val="7147200"/>
+   <skills>
+       <skill id="3385" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009471" name="Dynasty Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_dynasty_necklace_i00"/>
+     <set name="additional_name" val="Paralysis Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="381"/>
+     <set name="m_def" val="36"/>
+     <set name="mp_bonus" val="46"/>
+     <set name="price" val="9530400"/>
+   <skills>
+       <skill id="3383" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009472" name="Dynasty Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_dynasty_ring_i00"/>
+     <set name="additional_name" val="Paralysis Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="190"/>
+     <set name="m_def" val="18"/>
+     <set name="mp_bonus" val="23"/>
+     <set name="price" val="4765200"/>
+   <skills>
+       <skill id="3384" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009473" name="Dynasty Earrings" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_dynasty_earing_i00"/>
+     <set name="additional_name" val="Hold Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="285"/>
+     <set name="m_def" val="27"/>
+     <set name="mp_bonus" val="35"/>
+     <set name="price" val="7147200"/>
+   <skills>
+       <skill id="3391" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009474" name="Dynasty Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_dynasty_necklace_i00"/>
+     <set name="additional_name" val="Hold Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="381"/>
+     <set name="m_def" val="36"/>
+     <set name="mp_bonus" val="46"/>
+     <set name="price" val="9530400"/>
+   <skills>
+       <skill id="3389" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009475" name="Dynasty Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_dynasty_ring_i00"/>
+     <set name="additional_name" val="Hold Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="190"/>
+     <set name="m_def" val="18"/>
+     <set name="mp_bonus" val="23"/>
+     <set name="price" val="4765200"/>
+   <skills>
+       <skill id="3390" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009476" name="Dynasty Earrings" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_dynasty_earing_i00"/>
+     <set name="additional_name" val="Fear Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="285"/>
+     <set name="m_def" val="27"/>
+     <set name="mp_bonus" val="35"/>
+     <set name="price" val="7147200"/>
+   <skills>
+       <skill id="3403" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009477" name="Dynasty Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_dynasty_necklace_i00"/>
+     <set name="additional_name" val="Fear Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="381"/>
+     <set name="m_def" val="36"/>
+     <set name="mp_bonus" val="46"/>
+     <set name="price" val="9530400"/>
+   <skills>
+       <skill id="3401" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009478" name="Dynasty Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_dynasty_ring_i00"/>
+     <set name="additional_name" val="Fear Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="190"/>
+     <set name="m_def" val="18"/>
+     <set name="mp_bonus" val="23"/>
+     <set name="price" val="4765200"/>
+   <skills>
+       <skill id="3402" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4009479" name="Dynasty Earrings (not used)" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_dynasty_earing_i00"/>
+     <set name="additional_name" val="Darkness Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="285"/>
+     <set name="m_def" val="27"/>
+     <set name="mp_bonus" val="35"/>
+     <set name="price" val="7147200"/>
+    </armor>
+    <armor id="4009480" name="Dynasty Necklace (not used)" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_dynasty_necklace_i00"/>
+     <set name="additional_name" val="Darkness Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="381"/>
+     <set name="m_def" val="36"/>
+     <set name="mp_bonus" val="46"/>
+     <set name="price" val="9530400"/>
+    </armor>
+    <armor id="4009481" name="Dynasty Ring (not used)" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_dynasty_ring_i00"/>
+     <set name="additional_name" val="Darkness Resistance"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="190"/>
+     <set name="m_def" val="18"/>
+     <set name="mp_bonus" val="23"/>
+     <set name="price" val="4765200"/>
+    </armor>
+    <armor id="4009514" name="Sealed Dynasty Breast Plate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_u_i02"/>
+     <set name="weight" val="7570"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1171"/>
+     <set name="p_def" val="233"/>
+     <set name="price" val="29277600"/>
+    </armor>
+    <armor id="4009515" name="Sealed Dynasty Gaiter" type="HEAVY">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t91_l_i02"/>
+     <set name="weight" val="3210"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="731"/>
+     <set name="p_def" val="146"/>
+     <set name="price" val="18297600"/>
+    </armor>
+    <armor id="4009516" name="Sealed Dynasty Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i02"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="439"/>
+     <set name="p_def" val="100"/>
+     <set name="price" val="10978800"/>
+    </armor>
+    <armor id="4009517" name="Sealed Dynasty Gauntlets" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t91_g_i02"/>
+     <set name="weight" val="520"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+    </armor>
+    <armor id="4009518" name="Sealed Dynasty Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t91_b_i02"/>
+     <set name="weight" val="1090"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+    </armor>
+    <armor id="4009519" name="Sealed Dynasty Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_u_i02"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="175"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4009520" name="Sealed Dynasty Leather Leggings" type="LIGHT">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t92_l_i02"/>
+     <set name="weight" val="1370"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="549"/>
+     <set name="p_def" val="109"/>
+     <set name="price" val="13723200"/>
+    </armor>
+    <armor id="4009521" name="Sealed Dynasty Leather Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i02"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="439"/>
+     <set name="p_def" val="100"/>
+     <set name="price" val="10978800"/>
+    </armor>
+    <armor id="4009522" name="Sealed Dynasty Leather Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t92_g_i02"/>
+     <set name="weight" val="520"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+    </armor>
+    <armor id="4009523" name="Sealed Dynasty Leather Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t92_b_i02"/>
+     <set name="weight" val="1090"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+    </armor>
+    <armor id="4009524" name="Sealed Dynasty Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_u_i02"/>
+     <set name="weight" val="1780"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="116"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4009525" name="Sealed Dynasty Stockings" type="MAGIC">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t93_l_i02"/>
+     <set name="weight" val="860"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="549"/>
+     <set name="p_def" val="73"/>
+     <set name="mp_bonus" val="370"/>
+     <set name="price" val="13723200"/>
+    </armor>
+    <armor id="4009526" name="Sealed Dynasty Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_circlet_i02"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="439"/>
+     <set name="p_def" val="100"/>
+     <set name="price" val="10978800"/>
+    </armor>
+    <armor id="4009527" name="Sealed Dynasty Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t93_g_i02"/>
+     <set name="weight" val="520"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+    </armor>
+    <armor id="4009528" name="Sealed Dynasty Shoes" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t93_b_i02"/>
+     <set name="weight" val="1090"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+    </armor>
+    <armor id="4009582" name="Mithril Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_shirts_s_i05"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="86"/>
+     <set name="p_def" val="30"/>
+     <set name="price" val="2160000"/>
+    </armor>
+    <armor id="4009588" name="Striped Mithril Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_stripe_shirts_s_i05"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="122"/>
+     <set name="p_def" val="32"/>
+     <set name="price" val="3048000"/>
+    </armor>
+    <armor id="4009592" name="Mithril Bracelet" type="NONE">
+     <set name="bodypart" val="RBRACELET"/>
+     <set name="icon" val="icon.etc_rbracelet_s_i03"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="171"/>
+     <set name="price" val="4267200"/>
+   <skills>
+       <skill id="3325" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4010119" name="Dynasty Sigil" type="SIGIL">
+     <set name="bodypart" val="LHAND"/>
+     <set name="icon" val="dynasty_sigil_i00"/>
+     <set name="weight" val="930"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="307"/>
+     <set name="avoid_modify" val="-8"/>
+     <set name="p_def" val="16"/>
+     <set name="price" val="7684800"/>
+   <skills>
+       <skill id="8311" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4010120" name="Sealed Dynasty Sigil" type="SIGIL">
+     <set name="bodypart" val="LHAND"/>
+     <set name="icon" val="icon.armor_dynasty_sigil_i01"/>
+     <set name="weight" val="930"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="307"/>
+     <set name="avoid_modify" val="-8"/>
+     <set name="p_def" val="16"/>
+     <set name="price" val="7684800"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4010121" name="Sealed Arcana Sigil" type="SIGIL">
+     <set name="bodypart" val="LHAND"/>
+     <set name="icon" val="arcana_sigil_i01"/>
+     <set name="weight" val="940"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="161"/>
+     <set name="avoid_modify" val="-8"/>
+     <set name="p_def" val="14"/>
+     <set name="price" val="4026000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4010126" name="Dynasty Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_ud_i00"/>
+     <set name="additional_name" val="Force Master"/>
+     <set name="weight" val="4180"/>
+     <set name="player_class" val="ForceMaster"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4010127" name="Dynasty Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_ub_i00"/>
+     <set name="additional_name" val="Weapon Master"/>
+     <set name="weight" val="4180"/>
+     <set name="player_class" val="WeaponMaster"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4010168" name="Dynasty Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_ud_i00"/>
+     <set name="additional_name" val="Enchanter"/>
+     <set name="weight" val="4180"/>
+     <set name="player_class" val="Enchanter"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4010208" name="Enhanced Striped Mithril Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_stripe_shirts_s_i05"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="122"/>
+     <set name="p_def" val="32"/>
+     <set name="mp_bonus" val="70"/>
+     <set name="price" val="3048000"/>
+    </armor>
+    <armor id="4010210" name="Enhanced Mithril Bracelet" type="NONE">
+     <set name="bodypart" val="RBRACELET"/>
+     <set name="icon" val="icon.etc_rbracelet_s_i03"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="170"/>
+     <set name="mp_bonus" val="120"/>
+     <set name="price" val="4267200"/>
+   <skills>
+       <skill id="3325" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4010214" name="Dynasty Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_u_i00"/>
+     <set name="additional_name" val="Summoner"/>
+     <set name="weight" val="4180"/>
+     <set name="player_class" val="Summoner"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4010227" name="Dynasty Platinum Plate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_u_i00"/>
+     <set name="weight" val="7570"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1616"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="40407600"/>
+    </armor>
+    <armor id="4010228" name="Dynasty Platinum Plate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_uk_i00"/>
+     <set name="additional_name" val="Shield Master"/>
+     <set name="weight" val="7570"/>
+     <set name="player_class" val="ShieldMaster"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1616"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="40407600"/>
+    </armor>
+    <armor id="4010229" name="Dynasty Platinum Plate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_uw_i00"/>
+     <set name="additional_name" val="Weapon Master"/>
+     <set name="weight" val="7570"/>
+     <set name="player_class" val="WeaponMaster"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1616"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="40407600"/>
+    </armor>
+    <armor id="4010230" name="Dynasty Platinum Plate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_uf_i00"/>
+     <set name="additional_name" val="Force Master"/>
+     <set name="weight" val="7570"/>
+     <set name="player_class" val="ForceMaster"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1616"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="40407600"/>
+    </armor>
+    <armor id="4010231" name="Dynasty Platinum Plate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_uke_i00"/>
+     <set name="additional_name" val="Bard"/>
+     <set name="weight" val="7570"/>
+     <set name="player_class" val="Bard"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1616"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="40407600"/>
+    </armor>
+    <armor id="4010232" name="Dynasty Jewel Leather Mail" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_u_i00"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="4010233" name="Dynasty Jewel Leather Mail" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_ud_i00"/>
+     <set name="additional_name" val="Dagger Master"/>
+     <set name="weight" val="4180"/>
+     <set name="player_class" val="DaggerMaster"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="4010234" name="Dynasty Jewel Leather Mail" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_ub_i00"/>
+     <set name="additional_name" val="Bow Master"/>
+     <set name="weight" val="4180"/>
+     <set name="player_class" val="BowMaster"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="4010235" name="Dynasty Silver Satin Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_u_i00"/>
+     <set name="weight" val="1780"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="4010236" name="Dynasty Silver Satin Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_uh_i00"/>
+     <set name="additional_name" val="Healer"/>
+     <set name="weight" val="1780"/>
+     <set name="player_class" val="Healer"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="4010237" name="Dynasty Silver Satin Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_ue_i00"/>
+     <set name="additional_name" val="Enchanter"/>
+     <set name="weight" val="1780"/>
+     <set name="player_class" val="Enchanter"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="4010238" name="Dynasty Silver Satin Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_us_i00"/>
+     <set name="additional_name" val="Summoner"/>
+     <set name="weight" val="1780"/>
+     <set name="player_class" val="Summoner"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="4010239" name="Dynasty Silver Satin Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_uw_i00"/>
+     <set name="additional_name" val="Wizard"/>
+     <set name="weight" val="1780"/>
+     <set name="player_class" val="Wizard"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="4010314" name="Beleth's Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_dynasty_ring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="152"/>
+     <set name="m_def" val="48"/>
+     <set name="mp_bonus" val="21"/>
+     <set name="price" val="2880000"/>
+   <skills>
+       <skill id="3649" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4010487" name="Dynasty Jeweled Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_u_i00"/>
+     <set name="additional_name" val="Force Master"/>
+     <set name="weight" val="4180"/>
+     <set name="player_class" val="ForceMaster"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="4010488" name="Dynasty Jeweled Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_u_i00"/>
+     <set name="additional_name" val="Weapon Master"/>
+     <set name="weight" val="4180"/>
+     <set name="player_class" val="WeaponMaster"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="4010489" name="Dynasty Jeweled Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_u_i00"/>
+     <set name="additional_name" val="Enchanter"/>
+     <set name="weight" val="4180"/>
+     <set name="player_class" val="Enchanter"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="4010490" name="Dynasty Jeweled Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_u_i00"/>
+     <set name="additional_name" val="Summoner"/>
+     <set name="weight" val="4180"/>
+     <set name="player_class" val="Summoner"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="4010500" name="Mithril Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_shirts_s_i05"/>
+     <set name="additional_name" val="HP"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="86"/>
+     <set name="p_def" val="30"/>
+     <set name="price" val="2160000"/>
+  <enchant4_skill id="3457" lvl="1"/>
+    </armor>
+    <armor id="4010501" name="Mithril Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_shirts_s_i05"/>
+     <set name="additional_name" val="MP"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="86"/>
+     <set name="p_def" val="30"/>
+     <set name="price" val="2160000"/>
+  <enchant4_skill id="3458" lvl="1"/>
+    </armor>
+    <armor id="4010502" name="Mithril Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_shirts_s_i05"/>
+     <set name="additional_name" val="CP"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="86"/>
+     <set name="p_def" val="30"/>
+     <set name="price" val="2160000"/>
+  <enchant4_skill id="3459" lvl="1"/>
+    </armor>
+    <armor id="4010512" name="Striped Mithril Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_stripe_shirts_s_i05"/>
+     <set name="additional_name" val="HP"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="122"/>
+     <set name="p_def" val="32"/>
+     <set name="price" val="3048000"/>
+  <enchant4_skill id="3481" lvl="1"/>
+    </armor>
+    <armor id="4010513" name="Striped Mithril Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_stripe_shirts_s_i05"/>
+     <set name="additional_name" val="MP"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="122"/>
+     <set name="p_def" val="32"/>
+     <set name="price" val="3048000"/>
+  <enchant4_skill id="3482" lvl="1"/>
+    </armor>
+    <armor id="4010514" name="Striped Mithril Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_stripe_shirts_s_i05"/>
+     <set name="additional_name" val="CP"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="122"/>
+     <set name="p_def" val="32"/>
+     <set name="price" val="3048000"/>
+  <enchant4_skill id="3483" lvl="1"/>
+    </armor>
+    <armor id="4011483" name="Draconic Leather Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t89_g_i00"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+   <skills>
+       <skill id="3775" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011484" name="Draconic Leather Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t89_b_i00"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+   <skills>
+       <skill id="3776" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011485" name="Draconic Leather Armor" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t89_ul_i00"/>
+     <set name="weight" val="4950"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="748"/>
+     <set name="p_def" val="272"/>
+     <set name="price" val="18692400"/>
+   <skills>
+       <skill id="3777" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011486" name="Draconic Leather Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i00"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="230"/>
+     <set name="p_def" val="90"/>
+     <set name="price" val="5751600"/>
+   <skills>
+       <skill id="3778" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011487" name="Major Arcana Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t90_g_i00"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+   <skills>
+       <skill id="3779" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011488" name="Major Arcana Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t90_ul_i00"/>
+     <set name="weight" val="2300"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="748"/>
+     <set name="p_def" val="181"/>
+     <set name="mp_bonus" val="866"/>
+     <set name="price" val="18692400"/>
+   <skills>
+       <skill id="3780" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011489" name="Major Arcana Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t90_b_i00"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+   <skills>
+       <skill id="3781" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011490" name="Major Arcana Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_circlet_i00"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="230"/>
+     <set name="p_def" val="90"/>
+     <set name="price" val="5751600"/>
+   <skills>
+       <skill id="3782" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011491" name="Sealed Draconic Leather Gloves" type="NONE">
+     <set name="icon" val="icon.armor_t89_g_i02"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011492" name="Sealed Draconic Leather Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t89_b_i02"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011493" name="Sealed Draconic Leather Armor" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t89_ul_i02"/>
+     <set name="weight" val="4950"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="748"/>
+     <set name="p_def" val="257"/>
+     <set name="price" val="18692400"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011494" name="Sealed Draconic Leather Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i02"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="230"/>
+     <set name="p_def" val="90"/>
+     <set name="price" val="5751600"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011495" name="Sealed Major Arcana Gloves" type="NONE">
+     <set name="icon" val="icon.armor_t90_g_i02"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011496" name="Sealed Major Arcana Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t90_ul_i02"/>
+     <set name="weight" val="2300"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="748"/>
+     <set name="p_def" val="171"/>
+     <set name="mp_bonus" val="866"/>
+     <set name="price" val="18692400"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011497" name="Sealed Major Arcana Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t90_b_i02"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011498" name="Sealed Major Arcana Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_circlet_i02"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="230"/>
+     <set name="p_def" val="90"/>
+     <set name="price" val="5751600"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011499" name="Sealed Imperial Crusader Gaiters" type="HEAVY">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t88_l_i02"/>
+     <set name="weight" val="3260"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="383"/>
+     <set name="p_def" val="132"/>
+     <set name="price" val="9585600"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011500" name="Sealed Imperial Crusader Gauntlet" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t88_g_i02"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011501" name="Sealed Imperial Crusader Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t88_b_i02"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011503" name="Sealed Imperial Crusader Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i02"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="230"/>
+     <set name="p_def" val="90"/>
+     <set name="price" val="5751600"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011504" name="Sealed Imperial Crusader Breastplate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t88_u_i02"/>
+     <set name="weight" val="7620"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="613"/>
+     <set name="p_def" val="210"/>
+     <set name="price" val="15337200"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011505" name="Imperial Crusader Gaiters" type="HEAVY">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t88_l_i00"/>
+     <set name="weight" val="3260"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="383"/>
+     <set name="p_def" val="139"/>
+     <set name="price" val="9585600"/>
+   <skills>
+       <skill id="3783" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011506" name="Imperial Crusader Gauntlet" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t88_g_i00"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+   <skills>
+       <skill id="3784" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011507" name="Imperial Crusader Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t88_b_i00"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="153"/>
+     <set name="p_def" val="60"/>
+     <set name="price" val="3834000"/>
+   <skills>
+       <skill id="3785" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011509" name="Imperial Crusader Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="230"/>
+     <set name="p_def" val="90"/>
+     <set name="price" val="5751600"/>
+   <skills>
+       <skill id="3787" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011510" name="Imperial Crusader Breastplate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t88_u_i00"/>
+     <set name="weight" val="7620"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="613"/>
+     <set name="p_def" val="223"/>
+     <set name="price" val="15337200"/>
+   <skills>
+       <skill id="3788" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011512" name="Dynasty Gaiters" type="HEAVY">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t91_l_i00"/>
+     <set name="weight" val="3210"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="732"/>
+     <set name="p_def" val="154"/>
+     <set name="price" val="18297600"/>
+   <skills>
+       <skill id="3790" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011513" name="Dynasty Gauntlet" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t91_g_i00"/>
+     <set name="weight" val="520"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+   <skills>
+       <skill id="3791" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011514" name="Dynasty Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t93_g_i00"/>
+     <set name="weight" val="520"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+   <skills>
+       <skill id="3801" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011515" name="Dynasty Leather Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t92_g_i00"/>
+     <set name="weight" val="520"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+   <skills>
+       <skill id="3866" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011516" name="Dynasty Leather Leggings" type="LIGHT">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t92_l_i00"/>
+     <set name="weight" val="1370"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="549"/>
+     <set name="p_def" val="115"/>
+     <set name="price" val="13723200"/>
+   <skills>
+       <skill id="3796" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011517" name="Dynasty Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_u_i00"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="21957600"/>
+   <skills>
+       <skill id="3795" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011518" name="Dynasty Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_ud_i00"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="21957600"/>
+   <skills>
+       <skill id="3795" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011519" name="Dynasty Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_ub_i00"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="21957600"/>
+   <skills>
+       <skill id="3795" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011520" name="Dynasty Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_ud_i00"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="21957600"/>
+   <skills>
+       <skill id="3795" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011521" name="Dynasty Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_ub_i00"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="21957600"/>
+   <skills>
+       <skill id="3795" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011522" name="Dynasty Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_ud_i00"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="21957600"/>
+   <skills>
+       <skill id="3795" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011523" name="Dynasty Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_u_i00"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="21957600"/>
+   <skills>
+       <skill id="3795" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011524" name="Dynasty Leather Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t92_b_i00"/>
+     <set name="weight" val="1090"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+   <skills>
+       <skill id="3797" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011525" name="Dynasty Leather Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i00"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="439"/>
+     <set name="p_def" val="100"/>
+     <set name="price" val="10978800"/>
+   <skills>
+       <skill id="3798" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011526" name="Dynasty Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t91_b_i00"/>
+     <set name="weight" val="1090"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+   <skills>
+       <skill id="3792" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011527" name="Dynasty Breastplate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_u_i00"/>
+     <set name="weight" val="7570"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1171"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="29277600"/>
+   <skills>
+       <skill id="3789" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011528" name="Dynasty Breastplate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_uk_i00"/>
+     <set name="weight" val="7570"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1171"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="29277600"/>
+   <skills>
+       <skill id="3789" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011529" name="Dynasty Breastplate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_uw_i00"/>
+     <set name="weight" val="7570"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1171"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="29277600"/>
+   <skills>
+       <skill id="3789" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011530" name="Dynasty Breastplate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_uf_i00"/>
+     <set name="weight" val="7570"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1171"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="29277600"/>
+   <skills>
+       <skill id="3789" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011531" name="Dynasty Breastplate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_uke_i00"/>
+     <set name="weight" val="7570"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1171"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="29277600"/>
+   <skills>
+       <skill id="3789" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011533" name="Dynasty Shoes" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t93_b_i00"/>
+     <set name="weight" val="1090"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+   <skills>
+       <skill id="3802" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011534" name="Dynasty Silver Satin Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_u_i00"/>
+     <set name="weight" val="1780"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="30306000"/>
+    </armor>
+    <armor id="4011535" name="Dynasty Silver Satin Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_uh_i00"/>
+     <set name="weight" val="1780"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="30306000"/>
+   <skills>
+       <skill id="3804" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011536" name="Dynasty Silver Satin Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_ue_i00"/>
+     <set name="weight" val="1780"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="30306000"/>
+   <skills>
+       <skill id="3804" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011537" name="Dynasty Silver Satin Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_us_i00"/>
+     <set name="weight" val="1780"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="30306000"/>
+   <skills>
+       <skill id="3804" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011538" name="Dynasty Silver Satin Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_uw_i00"/>
+     <set name="weight" val="1780"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="30306000"/>
+   <skills>
+       <skill id="3804" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011539" name="Dynasty Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_circlet_i00"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="439"/>
+     <set name="p_def" val="100"/>
+     <set name="price" val="10978800"/>
+   <skills>
+       <skill id="3803" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011540" name="Dynasty Jewel Leather Mail" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_u_i00"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="30306000"/>
+   <skills>
+       <skill id="3805" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011541" name="Dynasty Jewel Leather Mail" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_ud_i00"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="30306000"/>
+   <skills>
+       <skill id="3805" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011542" name="Dynasty Jewel Leather Mail" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_ub_i00"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="30306000"/>
+   <skills>
+       <skill id="3805" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011543" name="Dynasty Jewel Leather Mail" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_u_i00"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="30306000"/>
+   <skills>
+       <skill id="3805" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011544" name="Dynasty Jewel Leather Mail" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_u_i00"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="30306000"/>
+   <skills>
+       <skill id="3805" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011545" name="Dynasty Jewel Leather Mail" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_u_i00"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="30306000"/>
+   <skills>
+       <skill id="3805" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011546" name="Dynasty Jewel Leather Mail" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_u_i00"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1212"/>
+     <set name="p_def" val="185"/>
+     <set name="price" val="30306000"/>
+   <skills>
+       <skill id="3805" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011547" name="Dynasty Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_u_i00"/>
+     <set name="weight" val="1780"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="21957600"/>
+   <skills>
+       <skill id="3799" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011548" name="Dynasty Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_uh_i00"/>
+     <set name="weight" val="1780"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4011549" name="Dynasty Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_ue_i00"/>
+     <set name="weight" val="1780"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4011550" name="Dynasty Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_us_i00"/>
+     <set name="weight" val="1780"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4011551" name="Dynasty Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_uw_i00"/>
+     <set name="weight" val="1780"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="123"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="21957600"/>
+    </armor>
+    <armor id="4011552" name="Dynasty Platinum Plate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_u_i00"/>
+     <set name="weight" val="7570"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1616"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="40407600"/>
+   <skills>
+       <skill id="3806" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011553" name="Dynasty Platinum Plate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_uk_i00"/>
+     <set name="weight" val="7570"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1616"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="40407600"/>
+   <skills>
+       <skill id="3806" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011554" name="Dynasty Platinum Plate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_uw_i00"/>
+     <set name="weight" val="7570"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1616"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="40407600"/>
+   <skills>
+       <skill id="3806" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011555" name="Dynasty Platinum Plate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_uf_i00"/>
+     <set name="weight" val="7570"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1616"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="40407600"/>
+   <skills>
+       <skill id="3806" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011556" name="Dynasty Platinum Plate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t91_uke_i00"/>
+     <set name="weight" val="7570"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1616"/>
+     <set name="p_def" val="246"/>
+     <set name="price" val="40407600"/>
+   <skills>
+       <skill id="3806" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4011557" name="Dynasty Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="439"/>
+     <set name="p_def" val="100"/>
+     <set name="price" val="10978800"/>
+   <skills>
+       <skill id="3794" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011558" name="Dynasty Stockings" type="MAGIC">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t93_l_i00"/>
+     <set name="weight" val="860"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="549"/>
+     <set name="p_def" val="77"/>
+     <set name="mp_bonus" val="370"/>
+     <set name="price" val="13723200"/>
+   <skills>
+       <skill id="3800" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011559" name="Sealed Dynasty Gaiters" type="HEAVY">
+     <set name="icon" val="icon.armor_t91_l_i02"/>
+     <set name="weight" val="3210"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="732"/>
+     <set name="p_def" val="146"/>
+     <set name="price" val="18297600"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011560" name="Sealed Dynasty Gauntlet" type="HEAVY">
+     <set name="icon" val="icon.armor_t91_g_i02"/>
+     <set name="weight" val="520"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011561" name="Sealed Dynasty Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t93_g_i02"/>
+     <set name="weight" val="520"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011562" name="Sealed Dynasty Leather Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t92_g_i02"/>
+     <set name="weight" val="520"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011563" name="Sealed Dynasty Leather Leggings" type="LIGHT">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t92_l_i02"/>
+     <set name="weight" val="1370"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="549"/>
+     <set name="p_def" val="109"/>
+     <set name="price" val="13723200"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011564" name="Sealed Dynasty Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t92_u_i02"/>
+     <set name="weight" val="4180"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="175"/>
+     <set name="price" val="21957600"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011565" name="Sealed Dynasty Leather Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t92_b_i02"/>
+     <set name="weight" val="1090"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011566" name="Sealed Dynasty Leather Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i02"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="439"/>
+     <set name="p_def" val="100"/>
+     <set name="price" val="10978800"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011567" name="Sealed Dynasty Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t91_b_i02"/>
+     <set name="weight" val="1090"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011568" name="Sealed Dynasty Breastplate" type="HEAVY">
+     <set name="icon" val="icon.armor_t91_u_i02"/>
+     <set name="weight" val="7570"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="1171"/>
+     <set name="p_def" val="233"/>
+     <set name="price" val="29277600"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011570" name="Sealed Dynasty Shoes" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t93_b_i02"/>
+     <set name="weight" val="1090"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="293"/>
+     <set name="p_def" val="66"/>
+     <set name="price" val="7318800"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011571" name="Sealed Dynasty Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_circlet_i02"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="439"/>
+     <set name="p_def" val="100"/>
+     <set name="price" val="10978800"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011572" name="Sealed Dynasty Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t93_u_i02"/>
+     <set name="weight" val="1780"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="878"/>
+     <set name="p_def" val="116"/>
+     <set name="mp_bonus" val="592"/>
+     <set name="price" val="21957600"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011573" name="Sealed Dynasty Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i02"/>
+     <set name="weight" val="530"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="439"/>
+     <set name="p_def" val="100"/>
+     <set name="price" val="10978800"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011574" name="Sealed Dynasty Stockings" type="MAGIC">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t93_l_i02"/>
+     <set name="weight" val="860"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="549"/>
+     <set name="p_def" val="73"/>
+     <set name="mp_bonus" val="370"/>
+     <set name="price" val="13723200"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011593" name="Sealed Tateossian Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessory_tateossian_necklace_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="209"/>
+     <set name="m_def" val="91"/>
+     <set name="price" val="5233200"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011594" name="Sealed Tateossian Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessory_tateossian_ring_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="105"/>
+     <set name="m_def" val="46"/>
+     <set name="price" val="2616000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011595" name="Sealed Tateossian Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessory_tateossian_earring_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="157"/>
+     <set name="m_def" val="68"/>
+     <set name="price" val="3924000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011596" name="Tateossian Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessory_tateossian_necklace_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="209"/>
+     <set name="m_def" val="95"/>
+     <set name="mp_bonus" val="42"/>
+     <set name="price" val="5233200"/>
+   <skills>
+       <skill id="3819" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011597" name="Tateossian Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessory_tateossian_ring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="105"/>
+     <set name="m_def" val="48"/>
+     <set name="mp_bonus" val="21"/>
+     <set name="price" val="2616000"/>
+   <skills>
+       <skill id="3820" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011598" name="Tateossian Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessory_tateossian_earring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="157"/>
+     <set name="m_def" val="71"/>
+     <set name="mp_bonus" val="31"/>
+     <set name="price" val="3924000"/>
+   <skills>
+       <skill id="3821" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011599" name="Dynasty Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_dynasty_necklace_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="381"/>
+     <set name="m_def" val="106"/>
+     <set name="mp_bonus" val="46"/>
+     <set name="price" val="9530400"/>
+   <skills>
+       <skill id="3822" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011600" name="Dynasty Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_dynasty_ring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="190"/>
+     <set name="m_def" val="60"/>
+     <set name="mp_bonus" val="23"/>
+     <set name="price" val="4765200"/>
+   <skills>
+       <skill id="3823" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011601" name="Dynasty Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_dynasty_earing_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="285"/>
+     <set name="m_def" val="79"/>
+     <set name="mp_bonus" val="35"/>
+     <set name="price" val="7147200"/>
+   <skills>
+       <skill id="3824" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011602" name="Sealed Dynasty Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_dynasty_necklace_i01"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="258"/>
+     <set name="m_def" val="95"/>
+     <set name="price" val="6451200"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011603" name="Sealed Dynasty Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_dynasty_ring_i01"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="129"/>
+     <set name="m_def" val="53"/>
+     <set name="price" val="3225600"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4011604" name="Sealed Dynasty Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_dynasty_earing_i01"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="194"/>
+     <set name="m_def" val="71"/>
+     <set name="price" val="4838400"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4012811" name="Arcana Sigil" type="SIGIL">
+     <set name="bodypart" val="LHAND"/>
+     <set name="icon" val="arcana_sigil_i00"/>
+     <set name="weight" val="940"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="161"/>
+     <set name="avoid_modify" val="-8"/>
+     <set name="p_def" val="14"/>
+     <set name="price" val="4026000"/>
+    </armor>
+    <armor id="4012812" name="Dynasty Sigil" type="SIGIL">
+     <set name="bodypart" val="LHAND"/>
+     <set name="icon" val="dynasty_sigil_i00"/>
+     <set name="weight" val="930"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="307"/>
+     <set name="avoid_modify" val="-8"/>
+     <set name="p_def" val="16"/>
+     <set name="price" val="7684800"/>
+    </armor>
+    <armor id="4013078" name="Arcana Sigil" type="SIGIL">
+     <set name="bodypart" val="LHAND"/>
+     <set name="icon" val="arcana_sigil_i00"/>
+     <set name="weight" val="940"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="161"/>
+     <set name="avoid_modify" val="-8"/>
+     <set name="p_def" val="14"/>
+     <set name="price" val="4026000"/>
+   <skills>
+       <skill id="8310" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="4013885" name="Sealed Arcana Sigil" type="SIGIL">
+     <set name="bodypart" val="LHAND"/>
+     <set name="icon" val="arcana_sigil_i01"/>
+     <set name="weight" val="940"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="161"/>
+     <set name="avoid_modify" val="-8"/>
+     <set name="p_def" val="14"/>
+     <set name="price" val="4026000"/>
+    </armor>
+    <armor id="4013886" name="Sealed Dynasty Sigil" type="SIGIL">
+     <set name="bodypart" val="LHAND"/>
+     <set name="icon" val="icon.armor_dynasty_sigil_i01"/>
+     <set name="weight" val="930"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="307"/>
+     <set name="avoid_modify" val="-8"/>
+     <set name="p_def" val="16"/>
+     <set name="price" val="7684800"/>
+    </armor>
+    <armor id="4013897" name="Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_belt_i03"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+    </armor>
+    <armor id="4013950" name="Low-Grade Magic Pouch Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_pouch_belt_i03"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8290" lvl="7"/>
+   </skills>
+    </armor>
+    <armor id="4013951" name="Regular Magic Pouch Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_pouch_belt_i03"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8290" lvl="8"/>
+   </skills>
+    </armor>
+    <armor id="4013952" name="High-Grade Magic Pouch Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_pouch_belt_i03"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8290" lvl="9"/>
+   </skills>
+    </armor>
+    <armor id="4013953" name="Top-Grade Magic Pouch Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_pouch_belt_i03"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8290" lvl="10"/>
+   </skills>
+    </armor>
+    <armor id="4013966" name="Low-Grade Magic Pin Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_pin_belt_i03"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8291" lvl="7"/>
+   </skills>
+    </armor>
+    <armor id="4013967" name="Regular Magic Pin Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_pin_belt_i03"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8291" lvl="8"/>
+   </skills>
+    </armor>
+    <armor id="4013968" name="High-Grade Magic Pin Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_pin_belt_i03"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8291" lvl="9"/>
+   </skills>
+    </armor>
+    <armor id="4013969" name="Top-Grade Magic Pin Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_pin_belt_i03"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8291" lvl="10"/>
+   </skills>
+    </armor>
+    <armor id="4014926" name="Low-grade Magic Rune Clip Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_clip_belt_i01"/>
+     <set name="additional_name" val="HP Recovery"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8339" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4014927" name="Ordinary Magic Rune Clip Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_clip_belt_i01"/>
+     <set name="additional_name" val="HP Recovery"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8339" lvl="2"/>
+   </skills>
+    </armor>
+    <armor id="4014928" name="High-grade Magic Rune Clip Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_clip_belt_i01"/>
+     <set name="additional_name" val="HP Recovery"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8339" lvl="3"/>
+   </skills>
+    </armor>
+    <armor id="4014929" name="Top-grade Magic Rune Clip Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_clip_belt_i01"/>
+     <set name="additional_name" val="HP Recovery"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8339" lvl="4"/>
+   </skills>
+    </armor>
+    <armor id="4014934" name="Low-grade Magic Rune Clip Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_clip_belt_i01"/>
+     <set name="additional_name" val="MP Recovery"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8341" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4014935" name="Ordinary Magic Rune Clip Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_clip_belt_i01"/>
+     <set name="additional_name" val="MP Recovery"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8341" lvl="2"/>
+   </skills>
+    </armor>
+    <armor id="4014936" name="High-grade Magic Rune Clip Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_clip_belt_i01"/>
+     <set name="additional_name" val="MP Recovery"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8341" lvl="3"/>
+   </skills>
+    </armor>
+    <armor id="4014937" name="Top-grade Magic Rune Clip Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_clip_belt_i01"/>
+     <set name="additional_name" val="MP Recovery"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8341" lvl="4"/>
+   </skills>
+    </armor>
+    <armor id="4014950" name="Low-grade Magic Ornament Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i01"/>
+     <set name="additional_name" val="PvP Physical Attack"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8345" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4014951" name="Regular Magic Ornament Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i01"/>
+     <set name="additional_name" val="PvP Physical Attack"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8345" lvl="2"/>
+   </skills>
+    </armor>
+    <armor id="4014952" name="High-grade Magic Ornament Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i01"/>
+     <set name="additional_name" val="PvP Physical Attack"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8345" lvl="3"/>
+   </skills>
+    </armor>
+    <armor id="4014953" name="Top-grade Magic Ornament Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i01"/>
+     <set name="additional_name" val="PvP Physical Attack"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8345" lvl="4"/>
+   </skills>
+    </armor>
+    <armor id="4014954" name="Low-grade Magic Ornament Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i01"/>
+     <set name="additional_name" val="PvP Skill Attack"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8346" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4014955" name="Regular Magic Ornament Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i01"/>
+     <set name="additional_name" val="PvP Skill Attack"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8346" lvl="2"/>
+   </skills>
+    </armor>
+    <armor id="4014956" name="High-grade Magic Ornament Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i01"/>
+     <set name="additional_name" val="PvP Skill Attack"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8346" lvl="3"/>
+   </skills>
+    </armor>
+    <armor id="4014957" name="Top-grade Magic Ornament Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i01"/>
+     <set name="additional_name" val="PvP Skill Attack"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8346" lvl="4"/>
+   </skills>
+    </armor>
+    <armor id="4014958" name="Low-grade Magic Ornament Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i01"/>
+     <set name="additional_name" val="PVP Defense"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8347" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="4014959" name="Regular Magic Ornament Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i01"/>
+     <set name="additional_name" val="PVP Defense"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8347" lvl="2"/>
+   </skills>
+    </armor>
+    <armor id="4014960" name="High-grade Magic Ornament Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i01"/>
+     <set name="additional_name" val="PVP Defense"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8347" lvl="3"/>
+   </skills>
+    </armor>
+    <armor id="4014961" name="Top-grade Magic Ornament Mithril Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i01"/>
+     <set name="additional_name" val="PVP Defense"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="2300400"/>
+   <skills>
+       <skill id="8347" lvl="4"/>
+   </skills>
+    </armor>
+    <armor id="4022173" name="Greater Baium's Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessory_ring_of_baium_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S80"/>
+     <set name="crystal_count" val="83"/>
+     <set name="m_def" val="48"/>
+     <set name="mp_bonus" val="21"/>
+     <set name="price" val="2076000"/>
+   <skills>
+       <skill id="3561" lvl="1"/>
+   </skills>
+    </armor>
+</list>

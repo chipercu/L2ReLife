@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- Если level="0" то берется максимальный уровень данного скила -->
+	<!-- If level="0" it takes a maximum level of skill 
+	54394881;67829764;68354049;69599234;70647814;71106563;82509828;84148227;85393410;85655555;88604673;88670209;88735745;88932353;89391105;91029507;91553795;92798977;95748097;98238465;98304001;98369537;98500609;98566145;101056513;308215821;101515265;17301505;17432577;17498113;17563649;17891329;18087937;19922945;22872065;23789569;23920641;59899905;50069505;34668545;34734081;
+	-->
+	<scheme id="1" name="Набор для воина" priceId="57" count="1">
+		<buff id="830" level="0"/>
+		<buff id="1035" level="0"/>
+		<buff id="1043" level="0"/>
+		<buff id="1062" level="0"/>
+		<buff id="1078" level="0"/>
+		<buff id="1085" level="0"/>
+		<buff id="1259" level="0"/>
+		<buff id="1284" level="0"/>
+		<buff id="1303" level="0"/>
+		<buff id="1307" level="0"/>
+		<buff id="1352" level="0"/>
+		<buff id="1353" level="0"/>
+		<buff id="1354" level="0"/>
+		<buff id="1357" level="0"/>
+		<buff id="1364" level="0"/>
+		<buff id="1389" level="0"/>
+		<buff id="1397" level="0"/>
+		<buff id="1416" level="0"/>
+		<buff id="1461" level="0"/>
+		<buff id="1499" level="0"/>
+		<buff id="1500" level="0"/>
+		<buff id="1501" level="0"/>
+		<buff id="1503" level="0"/>
+		<buff id="1504" level="0"/>
+		<buff id="1542" level="0"/>
+		<buff id="4703" level="0"/>
+		<buff id="1549" level="0"/>
+		<buff id="264" level="0"/>
+		<buff id="266" level="0"/>
+		<buff id="267" level="0"/>
+		<buff id="268" level="0"/>
+		<buff id="273" level="0"/>
+		<buff id="276" level="0"/>
+		<buff id="304" level="0"/>
+		<buff id="349" level="0"/>
+		<buff id="363" level="0"/>
+		<buff id="365" level="0"/>
+		<buff id="914" level="0"/>
+		<buff id="764" level="0"/>
+		<buff id="529" level="0"/>
+		<buff id="530" level="0"/>
+	</scheme>
+	<scheme id="2" name="Набор для мага" priceId="57" count="1">
+		<buff id="830" level="0"/>
+		<buff id="1035" level="0"/>
+		<buff id="1043" level="0"/>
+		<buff id="1062" level="0"/>
+		<buff id="1078" level="0"/>
+		<buff id="1085" level="0"/>
+		<buff id="1259" level="0"/>
+		<buff id="1284" level="0"/>
+		<buff id="1303" level="0"/>
+		<buff id="1307" level="0"/>
+		<buff id="1352" level="0"/>
+		<buff id="1353" level="0"/>
+		<buff id="1354" level="0"/>
+		<buff id="1357" level="0"/>
+		<buff id="1364" level="0"/>
+		<buff id="1389" level="0"/>
+		<buff id="1397" level="0"/>
+		<buff id="1416" level="0"/>
+		<buff id="1461" level="0"/>
+		<buff id="1499" level="0"/>
+		<buff id="1500" level="0"/>
+		<buff id="1501" level="0"/>
+		<buff id="1503" level="0"/>
+		<buff id="1504" level="0"/>
+		<buff id="1542" level="0"/>
+		<buff id="4703" level="0"/>
+		<buff id="1549" level="0"/>
+		<buff id="264" level="0"/>
+		<buff id="266" level="0"/>
+		<buff id="267" level="0"/>
+		<buff id="268" level="0"/>
+		<buff id="273" level="0"/>
+		<buff id="276" level="0"/>
+		<buff id="304" level="0"/>
+		<buff id="349" level="0"/>
+		<buff id="363" level="0"/>
+		<buff id="365" level="0"/>
+		<buff id="914" level="0"/>
+		<buff id="764" level="0"/>
+		<buff id="529" level="0"/>
+		<buff id="530" level="0"/>
+	</scheme>
+</list>

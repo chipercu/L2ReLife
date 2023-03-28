@@ -1,0 +1,2537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <weapon id="5010215" name="Icarus Sawsword" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_sowsword_i00"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="381"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+     <set name="kamaelAnalog" val="5010224"/>
+    </weapon>
+    <weapon id="5010216" name="Icarus Disperser" type="DAGGER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_disperser_i00"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="347"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="433"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="price" val="124126800"/>
+    </weapon>
+    <weapon id="5010217" name="Icarus Spirit" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_spirits_i00"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="316"/>
+     <set name="m_dam" val="234"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+    </weapon>
+    <weapon id="5010218" name="Icarus Heavy Arms" type="BIGSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_heavy_arms_i00"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+     <set name="kamaelAnalog" val="5010225"/>
+    </weapon>
+    <weapon id="5010219" name="Icarus Trident" type="POLE">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_trident_i00"/>
+     <set name="weight" val="2010"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+    </weapon>
+    <weapon id="5010220" name="Icarus Hammer" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_hammer_i00"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+    </weapon>
+    <weapon id="5010221" name="Icarus Hand" type="DUALFIST">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_knuckle_i00"/>
+     <set name="weight" val="1550"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+    </weapon>
+    <weapon id="5010222" name="Icarus Hall" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_stick_i00"/>
+     <set name="weight" val="1080"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="316"/>
+     <set name="m_dam" val="234"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+    </weapon>
+    <weapon id="5010223" name="Icarus Spitter" type="BOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_spiter_i00"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="724"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="293"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="mp_consume" val="11"/>
+     <set name="price" val="124126800"/>
+     <set name="kamaelAnalog" val="5010226"/>
+    </weapon>
+    <weapon id="5010224" name="Icarus Stinger" type="RAPIER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_stinger_i00"/>
+     <set name="weight" val="1280"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="359"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="406"/>
+     <set name="rnd_dam" val="40"/>
+     <set name="critical" val="10"/>
+     <set name="price" val="124126800"/>
+  <enchant4_skill id="3426" lvl="1"/>
+     <set name="kamaelAnalog" val="5010215"/>
+    </weapon>
+    <weapon id="5010225" name="Icarus Wingblade" type="ANCIENTSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_wing_blade_i00"/>
+     <set name="weight" val="1800"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="429"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="350"/>
+     <set name="rnd_dam" val="15"/>
+     <set name="critical" val="8"/>
+     <set name="hit_modify" val="2"/>
+     <set name="price" val="124126800"/>
+     <set name="kamaelAnalog" val="5010218"/>
+    </weapon>
+    <weapon id="5010226" name="Icarus Shooter" type="CROSSBOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_shooter_i00"/>
+     <set name="weight" val="1580"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="443"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="303"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="10"/>
+     <set name="price" val="124126800"/>
+     <set name="kamaelAnalog" val="5010223"/>
+    </weapon>
+    <weapon id="5010415" name="Icarus Dual Sword" type="DUAL">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_dual_sword_i00"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+   </skills>
+  <enchant4_skill id="3411" lvl="1"/>
+    </weapon>
+    <weapon id="5010434" name="Icarus Sawsword" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_sowsword_i01"/>
+     <set name="additional_name" val="Focus"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+   </skills>
+     <set name="kamaelAnalog" val="5010461"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010435" name="Icarus Sawsword" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_sowsword_i01"/>
+     <set name="additional_name" val="Health"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+   </skills>
+     <set name="kamaelAnalog" val="5010462"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010436" name="Icarus Sawsword" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_sowsword_i01"/>
+     <set name="additional_name" val="Light"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3498" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+     <set name="kamaelAnalog" val="5010463"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010437" name="Icarus Heavy Arms" type="BIGSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_heavy_arms_i01"/>
+     <set name="additional_name" val="Focus"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+   </skills>
+     <set name="kamaelAnalog" val="5010464"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010438" name="Icarus Heavy Arms" type="BIGSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_heavy_arms_i01"/>
+     <set name="additional_name" val="Health"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+   </skills>
+     <set name="kamaelAnalog" val="5010465"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010439" name="Icarus Heavy Arms" type="BIGSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_heavy_arms_i01"/>
+     <set name="additional_name" val="Light"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3498" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+     <set name="kamaelAnalog" val="5010466"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010440" name="Icarus Spirit" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_spirits_i01"/>
+     <set name="additional_name" val="Acumen"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="316"/>
+     <set name="m_dam" val="234"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3047" lvl="3"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010441" name="Icarus Spirit" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_spirits_i01"/>
+     <set name="additional_name" val="Mana Up"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="316"/>
+     <set name="m_dam" val="234"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3014" lvl="3"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010442" name="Icarus Spirit" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_spirits_i01"/>
+     <set name="additional_name" val="Conversion"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="316"/>
+     <set name="m_dam" val="234"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3048" lvl="3"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010443" name="Icarus Spitter" type="BOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_spiter_i01"/>
+     <set name="additional_name" val="Cheap Shot"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="724"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="293"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="mp_consume" val="11"/>
+     <set name="price" val="124126800"/>
+     <set name="kamaelAnalog" val="5010467"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="8312" lvl="1"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010444" name="Icarus Spitter" type="BOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_spiter_i01"/>
+     <set name="additional_name" val="Guidance"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="724"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="293"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="mp_consume" val="11"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3573" lvl="2"/>
+   </skills>
+     <set name="kamaelAnalog" val="5010468"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010445" name="Icarus Spitter" type="BOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_spiter_i01"/>
+     <set name="additional_name" val="Focus"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="724"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="293"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="mp_consume" val="11"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+   </skills>
+     <set name="kamaelAnalog" val="5010469"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010446" name="Icarus Disperser" type="DAGGER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_disperser_i01"/>
+     <set name="additional_name" val="Focus"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="347"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="433"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010447" name="Icarus Disperser" type="DAGGER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_disperser_i01"/>
+     <set name="additional_name" val="Evasion"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="347"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="433"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3009" lvl="8"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010448" name="Icarus Disperser" type="DAGGER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_disperser_i01"/>
+     <set name="additional_name" val="Critical Damage"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="347"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="433"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3066" lvl="4"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010449" name="Icarus Trident" type="POLE">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_trident_i01"/>
+     <set name="additional_name" val="Anger"/>
+     <set name="weight" val="2010"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3600" lvl="10"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010450" name="Icarus Trident" type="POLE">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_trident_i01"/>
+     <set name="additional_name" val="Critical Stun"/>
+     <set name="weight" val="2010"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3552" lvl="2"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010451" name="Icarus Trident" type="POLE">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_trident_i01"/>
+     <set name="additional_name" val="Light"/>
+     <set name="weight" val="2010"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3498" lvl="1"/>
+       <skill id="3552" lvl="2"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010452" name="Icarus Hammer" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_hammer_i01"/>
+     <set name="additional_name" val="Anger"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3057" lvl="3"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010453" name="Icarus Hammer" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_hammer_i01"/>
+     <set name="additional_name" val="Health"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010454" name="Icarus Hammer" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_hammer_i01"/>
+     <set name="additional_name" val="Rsk. Focus"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3071" lvl="2"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010455" name="Icarus Hall" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_stick_i01"/>
+     <set name="additional_name" val="Mana Up"/>
+     <set name="weight" val="1080"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="316"/>
+     <set name="m_dam" val="234"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3014" lvl="3"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010456" name="Icarus Hall" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_stick_i01"/>
+     <set name="additional_name" val="Conversion"/>
+     <set name="weight" val="1080"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="316"/>
+     <set name="m_dam" val="234"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3048" lvl="3"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010457" name="Icarus Hall" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_stick_i01"/>
+     <set name="additional_name" val="Acumen"/>
+     <set name="weight" val="1080"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="316"/>
+     <set name="m_dam" val="234"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3047" lvl="3"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010458" name="Icarus Hand" type="DUALFIST">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_knuckle_i01"/>
+     <set name="additional_name" val="Rsk. Evasion"/>
+     <set name="weight" val="1550"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3069" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010459" name="Icarus Hand" type="DUALFIST">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_knuckle_i01"/>
+     <set name="additional_name" val="Focus"/>
+     <set name="weight" val="1550"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3565" lvl="2"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010460" name="Icarus Hand" type="DUALFIST">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_knuckle_i01"/>
+     <set name="additional_name" val="Haste"/>
+     <set name="weight" val="1550"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3564" lvl="2"/>
+   </skills>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010461" name="Icarus Stinger" type="RAPIER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_stinger_i01"/>
+     <set name="additional_name" val="Focus"/>
+     <set name="weight" val="1280"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="359"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="406"/>
+     <set name="rnd_dam" val="40"/>
+     <set name="critical" val="10"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+     <set name="kamaelAnalog" val="5010434"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010462" name="Icarus Stinger" type="RAPIER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_stinger_i01"/>
+     <set name="additional_name" val="Health"/>
+     <set name="weight" val="1280"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="359"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="406"/>
+     <set name="rnd_dam" val="40"/>
+     <set name="critical" val="10"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+     <set name="kamaelAnalog" val="5010435"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010463" name="Icarus Stinger" type="RAPIER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_stinger_i01"/>
+     <set name="additional_name" val="Light"/>
+     <set name="weight" val="1280"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="359"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="406"/>
+     <set name="rnd_dam" val="40"/>
+     <set name="critical" val="10"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3498" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+     <set name="kamaelAnalog" val="5010436"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010464" name="Icarus Wingblade" type="ANCIENTSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_wing_blade_i01"/>
+     <set name="additional_name" val="Focus"/>
+     <set name="weight" val="1800"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="429"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="350"/>
+     <set name="rnd_dam" val="15"/>
+     <set name="critical" val="8"/>
+     <set name="hit_modify" val="2"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+   </skills>
+     <set name="kamaelAnalog" val="5010437"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010465" name="Icarus Wingblade" type="ANCIENTSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_wing_blade_i01"/>
+     <set name="additional_name" val="Health"/>
+     <set name="weight" val="1800"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="429"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="350"/>
+     <set name="rnd_dam" val="15"/>
+     <set name="critical" val="8"/>
+     <set name="hit_modify" val="2"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+   </skills>
+     <set name="kamaelAnalog" val="5010438"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010466" name="Icarus Wingblade" type="ANCIENTSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_wing_blade_i01"/>
+     <set name="additional_name" val="Light"/>
+     <set name="weight" val="1800"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="429"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="350"/>
+     <set name="rnd_dam" val="15"/>
+     <set name="critical" val="8"/>
+     <set name="hit_modify" val="2"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3498" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+     <set name="kamaelAnalog" val="5010439"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010467" name="Icarus Shooter" type="CROSSBOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_shooter_i01"/>
+     <set name="additional_name" val="Cheap Shot"/>
+     <set name="weight" val="1580"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="443"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="303"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="10"/>
+     <set name="price" val="124126800"/>
+     <set name="kamaelAnalog" val="5010443"/>
+     <set name="isSa" val="true"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3360" lvl="1"/>
+   </skills>
+    </weapon>
+    <weapon id="5010468" name="Icarus Shooter" type="CROSSBOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_shooter_i01"/>
+     <set name="additional_name" val="Guidance"/>
+     <set name="weight" val="1580"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="443"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="303"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="10"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3008" lvl="1"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+     <set name="kamaelAnalog" val="5010444"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5010469" name="Icarus Shooter" type="CROSSBOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_shooter_i01"/>
+     <set name="additional_name" val="Focus"/>
+     <set name="weight" val="1580"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="443"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="303"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="10"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+   </skills>
+     <set name="kamaelAnalog" val="5010445"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011300" name="Icarus Dual Sword - Destruction" type="DUAL">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_dual_sword_i00"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3835" lvl="3"/>
+   </skills>
+  <enchant4_skill id="3411" lvl="1"/>
+     <set name="isRare" val="true"/>
+    </weapon>
+    <weapon id="5011301" name="Icarus Disperser - Confusion" type="DAGGER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_disperser_i00"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="347"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="433"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3858" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </weapon>
+    <weapon id="5011302" name="Icarus Disperser - Confusion" type="DAGGER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_disperser_i01"/>
+     <set name="additional_name" val="Focus"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="347"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="433"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+       <skill id="3858" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011303" name="Icarus Disperser - Confusion" type="DAGGER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_disperser_i01"/>
+     <set name="additional_name" val="Evasion"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="347"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="433"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3009" lvl="8"/>
+       <skill id="3858" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011304" name="Icarus Disperser - Confusion" type="DAGGER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_disperser_i01"/>
+     <set name="additional_name" val="Critical Damage"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="347"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="433"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3066" lvl="4"/>
+       <skill id="3858" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011305" name="Icarus Sawsword - Destruction" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_sowsword_i00"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3825" lvl="3"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011313"/>
+     <set name="isRare" val="true"/>
+    </weapon>
+    <weapon id="5011306" name="Icarus Sawsword - Destruction" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_sowsword_i01"/>
+     <set name="additional_name" val="Focus"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+       <skill id="3825" lvl="3"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011314"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011307" name="Icarus Sawsword - Destruction" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_sowsword_i01"/>
+     <set name="additional_name" val="Health"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+       <skill id="3825" lvl="3"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011315"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011308" name="Icarus Sawsword - Destruction" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_sowsword_i01"/>
+     <set name="additional_name" val="Light"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3498" lvl="1"/>
+       <skill id="3825" lvl="3"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011316"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011309" name="Icarus Shooter - Concentration" type="CROSSBOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_shooter_i00"/>
+     <set name="weight" val="1580"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="443"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="303"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="10"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3868" lvl="3"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011321"/>
+     <set name="isRare" val="true"/>
+    </weapon>
+    <weapon id="5011310" name="Icarus Shooter - Concentration" type="CROSSBOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_shooter_i01"/>
+     <set name="additional_name" val="Cheap Shot"/>
+     <set name="weight" val="1580"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="443"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="303"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="10"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3868" lvl="4"/>
+       <skill id="3360" lvl="1"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011322"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011311" name="Icarus Shooter - Concentration" type="CROSSBOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_shooter_i01"/>
+     <set name="additional_name" val="Guidance"/>
+     <set name="weight" val="1580"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="443"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="303"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="10"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3008" lvl="1"/>
+       <skill id="3868" lvl="4"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011323"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011312" name="Icarus Shooter - Concentration" type="CROSSBOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_shooter_i01"/>
+     <set name="additional_name" val="Focus"/>
+     <set name="weight" val="1580"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="443"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="303"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="10"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+       <skill id="3868" lvl="4"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011324"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011313" name="Icarus Stinger - Destruction" type="RAPIER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_stinger_i00"/>
+     <set name="weight" val="1280"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="359"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="406"/>
+     <set name="rnd_dam" val="40"/>
+     <set name="critical" val="10"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3830" lvl="3"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+     <set name="kamaelAnalog" val="5011305"/>
+     <set name="isRare" val="true"/>
+    </weapon>
+    <weapon id="5011314" name="Icarus Stinger - Destruction" type="RAPIER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_stinger_i01"/>
+     <set name="additional_name" val="Focus"/>
+     <set name="weight" val="1280"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="359"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="406"/>
+     <set name="rnd_dam" val="40"/>
+     <set name="critical" val="10"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+       <skill id="3830" lvl="3"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+     <set name="kamaelAnalog" val="5011306"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011315" name="Icarus Stinger - Destruction" type="RAPIER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_stinger_i01"/>
+     <set name="additional_name" val="Health"/>
+     <set name="weight" val="1280"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="359"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="406"/>
+     <set name="rnd_dam" val="40"/>
+     <set name="critical" val="10"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+       <skill id="3830" lvl="3"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+     <set name="kamaelAnalog" val="5011307"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011316" name="Icarus Stinger - Destruction" type="RAPIER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_stinger_i01"/>
+     <set name="additional_name" val="Light"/>
+     <set name="weight" val="1280"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="359"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="406"/>
+     <set name="rnd_dam" val="40"/>
+     <set name="critical" val="10"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3498" lvl="1"/>
+       <skill id="3830" lvl="3"/>
+   </skills>
+  <enchant4_skill id="3426" lvl="1"/>
+     <set name="kamaelAnalog" val="5011308"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011317" name="Icarus Spirit - Nature" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_spirits_i00"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="316"/>
+     <set name="m_dam" val="234"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3852" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </weapon>
+    <weapon id="5011318" name="Icarus Spirit - Nature" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_spirits_i01"/>
+     <set name="additional_name" val="Acumen"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="316"/>
+     <set name="m_dam" val="234"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3047" lvl="3"/>
+       <skill id="3852" lvl="2"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011319" name="Icarus Spirit - Nature" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_spirits_i01"/>
+     <set name="additional_name" val="Mana Up"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="316"/>
+     <set name="m_dam" val="234"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3014" lvl="3"/>
+       <skill id="3826" lvl="2"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011320" name="Icarus Spirit - Nature" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_spirits_i01"/>
+     <set name="additional_name" val="Updown"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="316"/>
+     <set name="m_dam" val="234"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3048" lvl="3"/>
+       <skill id="3826" lvl="2"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011321" name="Icarus Spitter - Concentration" type="BOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_spiter_i00"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="724"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="293"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="mp_consume" val="11"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3863" lvl="3"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011309"/>
+     <set name="isRare" val="true"/>
+    </weapon>
+    <weapon id="5011322" name="Icarus Spitter - Concentration" type="BOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_spiter_i01"/>
+     <set name="additional_name" val="Cheap Shot"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="724"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="293"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="mp_consume" val="11"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3863" lvl="4"/>
+       <skill id="8312" lvl="1"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011310"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011323" name="Icarus Spitter - Concentration" type="BOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_spiter_i01"/>
+     <set name="additional_name" val="Guidance"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="724"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="293"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="mp_consume" val="11"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3008" lvl="1"/>
+       <skill id="3863" lvl="4"/>
+       <skill id="3552" lvl="1"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011311"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011324" name="Icarus Spitter - Concentration" type="BOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_spiter_i01"/>
+     <set name="additional_name" val="Focus"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="724"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="293"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="mp_consume" val="11"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+       <skill id="3863" lvl="4"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011312"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011325" name="Icarus Wingblade - Lightning" type="ANCIENTSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_wing_blade_i00"/>
+     <set name="weight" val="1800"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="429"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="350"/>
+     <set name="rnd_dam" val="15"/>
+     <set name="critical" val="8"/>
+     <set name="hit_modify" val="2"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3845" lvl="2"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011341"/>
+     <set name="isRare" val="true"/>
+    </weapon>
+    <weapon id="5011326" name="Icarus Wingblade - Lightning" type="ANCIENTSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_wing_blade_i01"/>
+     <set name="additional_name" val="Focus"/>
+     <set name="weight" val="1800"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="429"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="350"/>
+     <set name="rnd_dam" val="15"/>
+     <set name="critical" val="8"/>
+     <set name="hit_modify" val="2"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+       <skill id="3845" lvl="2"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011342"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011327" name="Icarus Wingblade - Lightning" type="ANCIENTSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_wing_blade_i01"/>
+     <set name="additional_name" val="Health"/>
+     <set name="weight" val="1800"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="429"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="350"/>
+     <set name="rnd_dam" val="15"/>
+     <set name="critical" val="8"/>
+     <set name="hit_modify" val="2"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+       <skill id="3845" lvl="2"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011343"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011328" name="Icarus Wingblade - Lightning" type="ANCIENTSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_wing_blade_i01"/>
+     <set name="additional_name" val="Light"/>
+     <set name="weight" val="1800"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="429"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="350"/>
+     <set name="rnd_dam" val="15"/>
+     <set name="critical" val="8"/>
+     <set name="hit_modify" val="2"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3498" lvl="1"/>
+       <skill id="3851" lvl="2"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011344"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011329" name="Icarus Trident - Thunder" type="POLE">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_trident_i00"/>
+     <set name="weight" val="2010"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3873" lvl="2"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </weapon>
+    <weapon id="5011330" name="Icarus Trident - Thunder" type="POLE">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_trident_i01"/>
+     <set name="additional_name" val="Anger"/>
+     <set name="weight" val="2010"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3600" lvl="10"/>
+       <skill id="3873" lvl="2"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011331" name="Icarus Trident - Thunder" type="POLE">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_trident_i01"/>
+     <set name="additional_name" val="Critical Stun"/>
+     <set name="weight" val="2010"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3552" lvl="2"/>
+       <skill id="3873" lvl="2"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011332" name="Icarus Trident - Thunder" type="POLE">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_trident_i01"/>
+     <set name="additional_name" val="Light"/>
+     <set name="weight" val="2010"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3552" lvl="2"/>
+       <skill id="3498" lvl="1"/>
+       <skill id="3873" lvl="2"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011333" name="Icarus Hammer - Earth" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_hammer_i00"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3884" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </weapon>
+    <weapon id="5011334" name="Icarus Hammer - Earth" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_hammer_i01"/>
+     <set name="additional_name" val="Anger"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3057" lvl="3"/>
+       <skill id="3884" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011335" name="Icarus Hammer - Earth" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_hammer_i01"/>
+     <set name="additional_name" val="Health"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+       <skill id="3884" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011336" name="Icarus Hammer - Earth" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_hammer_i01"/>
+     <set name="additional_name" val="Rsk. Focus"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="396"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3071" lvl="2"/>
+       <skill id="3884" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011337" name="Icarus Hand - Destruction" type="DUALFIST">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_knuckle_i00"/>
+     <set name="weight" val="1550"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3879" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </weapon>
+    <weapon id="5011338" name="Icarus Hand - Destruction" type="DUALFIST">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_knuckle_i01"/>
+     <set name="additional_name" val="Rsk. Evasion"/>
+     <set name="weight" val="1550"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3069" lvl="1"/>
+       <skill id="3879" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011339" name="Icarus Hand - Destruction" type="DUALFIST">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_knuckle_i01"/>
+     <set name="additional_name" val="Focus"/>
+     <set name="weight" val="1550"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3565" lvl="2"/>
+       <skill id="3879" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011340" name="Icarus Hand - Destruction" type="DUALFIST">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_knuckle_i01"/>
+     <set name="additional_name" val="Haste"/>
+     <set name="weight" val="1550"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3564" lvl="2"/>
+       <skill id="3879" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011341" name="Icarus Heavy Arms - Lightning" type="BIGSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_heavy_arms_i00"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3845" lvl="2"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011325"/>
+     <set name="isRare" val="true"/>
+    </weapon>
+    <weapon id="5011342" name="Icarus Heavy Arms - Lightning" type="BIGSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_heavy_arms_i01"/>
+     <set name="additional_name" val="Focus"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3567" lvl="2"/>
+       <skill id="3845" lvl="2"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011326"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011343" name="Icarus Heavy Arms - Lightning" type="BIGSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_heavy_arms_i01"/>
+     <set name="additional_name" val="Health"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3013" lvl="5"/>
+       <skill id="3845" lvl="2"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011327"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011344" name="Icarus Heavy Arms - Lightning" type="BIGSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_icarus_heavy_arms_i01"/>
+     <set name="additional_name" val="Light"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="482"/>
+     <set name="m_dam" val="176"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+       <skill id="3498" lvl="1"/>
+       <skill id="3845" lvl="2"/>
+   </skills>
+     <set name="kamaelAnalog" val="5011328"/>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011345" name="Icarus Hall - Hail" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_stick_i00"/>
+     <set name="weight" val="1080"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="316"/>
+     <set name="m_dam" val="234"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3889" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </weapon>
+    <weapon id="5011346" name="Icarus Hall - Hail" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_stick_i01"/>
+     <set name="additional_name" val="Mana Up"/>
+     <set name="weight" val="1080"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="316"/>
+     <set name="m_dam" val="234"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3014" lvl="3"/>
+       <skill id="3889" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011347" name="Icarus Hall - Hail" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_stick_i01"/>
+     <set name="additional_name" val="Updown"/>
+     <set name="weight" val="1080"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="316"/>
+     <set name="m_dam" val="234"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3048" lvl="3"/>
+       <skill id="3889" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5011348" name="Icarus Hall - Hail" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_icarus_stick_i01"/>
+     <set name="additional_name" val="Acumen"/>
+     <set name="weight" val="1080"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4965"/>
+     <set name="p_dam" val="316"/>
+     <set name="m_dam" val="234"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="124126800"/>
+   <skills>
+       <skill id="3047" lvl="3"/>
+       <skill id="3889" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="isSa" val="true"/>
+    </weapon>
+    <weapon id="5013883" name="Icarus Dual Daggers" type="DUALDAGGER">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.dual_dagger_i00"/>
+     <set name="weight" val="2100"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="5845"/>
+     <set name="p_dam" val="362"/>
+     <set name="m_dam" val="182"/>
+     <set name="atk_speed" val="433"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="12"/>
+     <set name="price" val="146136000"/>
+   <skills>
+       <skill id="3552" lvl="1"/>
+   </skills>
+  <enchant4_skill id="3044" lvl="20"/>
+    </weapon>
+    <weapon id="5014526" name="Dynasty Dual Daggers - Great Gale" type="DUALDAGGER">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.dual_dagger_i00"/>
+     <set name="weight" val="2150"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="4219"/>
+     <set name="p_dam" val="319"/>
+     <set name="m_dam" val="169"/>
+     <set name="atk_speed" val="433"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="12"/>
+     <set name="price" val="105481200"/>
+   <skills>
+       <skill id="3859" lvl="2"/>
+   </skills>
+  <enchant4_skill id="3044" lvl="20"/>
+     <set name="isRare" val="true"/>
+    </weapon>
+    <weapon id="5014527" name="Icarus Dual Daggers - Confusion" type="DUALDAGGER">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.dual_dagger_i00"/>
+     <set name="weight" val="2100"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="5845"/>
+     <set name="p_dam" val="362"/>
+     <set name="m_dam" val="182"/>
+     <set name="atk_speed" val="433"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="12"/>
+     <set name="price" val="146136000"/>
+  <enchant4_skill id="3044" lvl="20"/>
+   <skills>
+       <skill id="3858" lvl="3"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </weapon>
+    <weapon id="5015280" name="NPC use clear 1HS" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_long_sword_i00"/>
+     <set name="weight" val="1560"/>
+     <set name="soulshots" val="2"/>
+     <set name="spiritshots" val="2"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="26"/>
+     <set name="m_dam" val="18"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+    </weapon>
+    <weapon id="5015281" name="NPC use clear 2HS" type="BIGSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_two_handed_sword_i00"/>
+     <set name="weight" val="2180"/>
+     <set name="soulshots" val="2"/>
+     <set name="spiritshots" val="2"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="85"/>
+     <set name="m_dam" val="42"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+    </weapon>
+    <weapon id="5015300" name="NPC exclusive transparent dual" type="DUAL">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_dual_sword_i00"/>
+     <set name="weight" val="2080"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="308"/>
+     <set name="m_dam" val="123"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+    </weapon>
+    <weapon id="5015301" name="NPC exclusive transparent pole" type="POLE">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_long_spear_i00"/>
+     <set name="weight" val="1950"/>
+     <set name="soulshots" val="3"/>
+     <set name="spiritshots" val="3"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="170"/>
+     <set name="m_dam" val="89"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+    </weapon>
+    <weapon id="5015302" name="NPC exclusive transparent bow" type="BOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_long_bow_i00"/>
+     <set name="weight" val="1830"/>
+     <set name="soulshots" val="6"/>
+     <set name="spiritshots" val="2"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="119"/>
+     <set name="m_dam" val="37"/>
+     <set name="atk_speed" val="227"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="mp_consume" val="4"/>
+    </weapon>
+    <weapon id="5015303" name="NPC exclusive transparent claw" type="DUALFIST">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_foxs_nail_i00"/>
+     <set name="weight" val="1013"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="410"/>
+     <set name="m_dam" val="128"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+    </weapon>
+    <weapon id="5015304" name="NPC exclusive transparent bowgun" type="CROSSBOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_hunting_gun_i00"/>
+     <set name="weight" val="1850"/>
+     <set name="soulshots" val="4"/>
+     <set name="spiritshots" val="2"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="67"/>
+     <set name="m_dam" val="34"/>
+     <set name="atk_speed" val="303"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="10"/>
+    </weapon>
+    <weapon id="5015305" name="NPC exclusive transparent rapier" type="RAPIER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_rapier_i00"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="2"/>
+     <set name="spiritshots" val="2"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="39"/>
+     <set name="m_dam" val="28"/>
+     <set name="atk_speed" val="406"/>
+     <set name="rnd_dam" val="40"/>
+     <set name="critical" val="10"/>
+    </weapon>
+    <weapon id="5015306" name="NPC exclusive transparent dual dagger" type="DUALDAGGER">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.dual_dagger_i00"/>
+     <set name="weight" val="2150"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="332"/>
+     <set name="m_dam" val="169"/>
+     <set name="atk_speed" val="433"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="12"/>
+    </weapon>
+    <weapon id="5015621" name="Moirai Shield" type="NONE">
+     <set name="bodypart" val="LHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_shield_i01"/>
+     <set name="weight" val="1190"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="424"/>
+     <set name="shield_def" val="355"/>
+     <set name="shield_def_rate" val="20"/>
+     <set name="price" val="10606800"/>
+     <set name="avoid_modify" val="-8"/>
+    </weapon>
+    <weapon id="5015676" name="Destiny Sword" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_blade_i00"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="432"/>
+     <set name="m_dam" val="197"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+    </weapon>
+    <weapon id="5015677" name="Destiny Knife" type="DAGGER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_dagger_i00"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="378"/>
+     <set name="m_dam" val="197"/>
+     <set name="atk_speed" val="433"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+    </weapon>
+    <weapon id="5015678" name="Destiny Hammer" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_hammer_i00"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="432"/>
+     <set name="m_dam" val="197"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+    </weapon>
+    <weapon id="5015679" name="Destiny Crusher" type="BIGBLUNT">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_crusher_i00"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="526"/>
+     <set name="m_dam" val="197"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+    </weapon>
+    <weapon id="5015680" name="Destiny Blade" type="BIGSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_two_hand_sword_i00"/>
+     <set name="weight" val="1740"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="526"/>
+     <set name="m_dam" val="197"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+    </weapon>
+    <weapon id="5015681" name="Destiny Jamadhr" type="NONE">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_jamadhr_i00"/>
+     <set name="weight" val="1550"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="526"/>
+     <set name="m_dam" val="197"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+    </weapon>
+    <weapon id="5015682" name="Destiny Spear" type="POLE">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_spear_i00"/>
+     <set name="weight" val="2010"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="432"/>
+     <set name="m_dam" val="197"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+    </weapon>
+    <weapon id="5015683" name="Destiny Staff" type="NONE">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_staff_i00"/>
+     <set name="weight" val="1080"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="346"/>
+     <set name="m_dam" val="263"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+    </weapon>
+    <weapon id="5015684" name="Destiny Twohand Staff" type="NONE">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_twohand_staff_i00"/>
+     <set name="weight" val="1080"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="421"/>
+     <set name="m_dam" val="289"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+    </weapon>
+    <weapon id="5015685" name="Destiny Magic Sword" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_magic_sword_i00"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="346"/>
+     <set name="m_dam" val="263"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+    </weapon>
+    <weapon id="5015686" name="Destiny Bow" type="BOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_bow_i00"/>
+     <set name="weight" val="1520"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="761"/>
+     <set name="m_dam" val="197"/>
+     <set name="atk_speed" val="293"/>
+     <set name="rnd_dam" val="5"/>
+     <set name="critical" val="12"/>
+     <set name="mp_consume" val="12"/>
+    </weapon>
+    <weapon id="5015687" name="Destiny Rapier" type="RAPIER">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_rapier_i00"/>
+     <set name="weight" val="1280"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="375"/>
+     <set name="m_dam" val="197"/>
+     <set name="atk_speed" val="406"/>
+     <set name="rnd_dam" val="40"/>
+     <set name="critical" val="10"/>
+  <enchant4_skill id="3426" lvl="1"/>
+    </weapon>
+    <weapon id="5015688" name="Destiny Ancient Sword" type="ANCIENTSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_ancient_sword_i00"/>
+     <set name="weight" val="1800"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="468"/>
+     <set name="m_dam" val="197"/>
+     <set name="atk_speed" val="350"/>
+     <set name="rnd_dam" val="15"/>
+     <set name="critical" val="8"/>
+     <set name="hit_modify" val="2"/>
+    </weapon>
+    <weapon id="5015689" name="Destiny Crossbow" type="CROSSBOW">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.seapon_tysandy_crossbow_i00"/>
+     <set name="weight" val="1580"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="p_dam" val="467"/>
+     <set name="m_dam" val="197"/>
+     <set name="atk_speed" val="303"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="10"/>
+    </weapon>
+    <weapon id="5015710" name="Sealed Destiny Shield" type="NONE">
+     <set name="bodypart" val="LHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_shield_i00"/>
+     <set name="weight" val="1190"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="588"/>
+     <set name="shield_def" val="352"/>
+     <set name="shield_def_rate" val="20"/>
+     <set name="price" val="14700000"/>
+     <set name="avoid_modify" val="-8"/>
+    </weapon>
+    <weapon id="5016304" name="Moirai Shield" type="NONE">
+     <set name="bodypart" val="LHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_shield_i01"/>
+     <set name="weight" val="1190"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="424"/>
+     <set name="shield_def" val="355"/>
+     <set name="shield_def_rate" val="20"/>
+     <set name="price" val="10606800"/>
+   <skills>
+       <skill id="8423" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+     <set name="avoid_modify" val="-8"/>
+    </weapon>
+    <weapon id="5016338" name="Sealed Moirai Shield" type="NONE">
+     <set name="bodypart" val="LHAND"/>
+     <set name="icon" val="icon.weapon_tysandy_shield_i00"/>
+     <set name="weight" val="1190"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="424"/>
+     <set name="shield_def" val="337"/>
+     <set name="shield_def_rate" val="20"/>
+     <set name="price" val="10606800"/>
+     <set name="avoid_modify" val="-8"/>
+    </weapon>
+    <weapon id="5021935" name="Butcher Blades" type="DUALDAGGER">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="BranchSys2.icon.br_wp_habus_knife_i00"/>
+     <set name="price" val="146136000"/>
+     <set name="weight" val="2100"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="5845"/>
+     <set name="p_dam" val="362"/>
+     <set name="m_dam" val="182"/>
+     <set name="atk_speed" val="433"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="hit_modify" val="-3"/>
+     <set name="critical" val="12"/>
+  <enchant4_skill id="3044" lvl="20"/>
+   <skills>
+       <skill id="21253" lvl="1"/>
+   </skills>
+    </weapon>
+    <weapon id="5021937" name="Butcher Blades - Confusion" type="DUALDAGGER">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="BranchSys2.icon.br_wp_habus_knife_i00"/>
+     <set name="price" val="146136000"/>
+     <set name="weight" val="2100"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="crystal_type" val="S84"/>
+     <set name="crystal_count" val="5845"/>
+     <set name="p_dam" val="362"/>
+     <set name="m_dam" val="182"/>
+     <set name="atk_speed" val="433"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="hit_modify" val="-3"/>
+     <set name="critical" val="12"/>
+  <enchant4_skill id="3044" lvl="20"/>
+   <skills>
+       <skill id="3858" lvl="1"/>
+       <skill id="21253" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </weapon>
+
+</list>

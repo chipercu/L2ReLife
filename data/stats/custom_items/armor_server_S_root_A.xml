@@ -1,0 +1,3392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <armor id="3000365" name="Dark Crystal Breastplate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t74_u_i00"/>
+     <set name="weight" val="7700"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="285"/>
+     <set name="p_def" val="227"/>
+     <set name="price" val="4274400"/>
+    </armor>
+    <armor id="3000374" name="Armor of Nightmare" type="HEAVY">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t80_ul_i00"/>
+     <set name="weight" val="9580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="704"/>
+     <set name="p_def" val="389"/>
+     <set name="price" val="10564800"/>
+    </armor>
+    <armor id="3000388" name="Dark Crystal Gaiters" type="HEAVY">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t74_l_i00"/>
+     <set name="weight" val="3320"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="178"/>
+     <set name="p_def" val="142"/>
+     <set name="price" val="2671200"/>
+    </armor>
+    <armor id="3000410" name="Unicorn Leather Armor" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_composite_armor_i02"/>
+     <set name="weight" val="1280"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="618"/>
+     <set name="p_def" val="316"/>
+     <set name="price" val="7923600"/>
+    </armor>
+    <armor id="3000459" name="Dasparion's Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_cotton_robe_i02"/>
+     <set name="weight" val="1200"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="618"/>
+     <set name="p_def" val="210"/>
+     <set name="mp_bonus" val="718"/>
+     <set name="price" val="7923600"/>
+    </armor>
+    <armor id="3000490" name="Tattoo of Blood" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.weapon_voodoo_doll_i00"/>
+     <set name="weight" val="3800"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="277"/>
+     <set name="p_def" val="175"/>
+     <set name="price" val="3205200"/>
+    </armor>
+    <armor id="3000491" name="Tattoo of Absolute" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.weapon_voodoo_doll_i00"/>
+     <set name="weight" val="800"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="422"/>
+     <set name="p_def" val="194"/>
+     <set name="price" val="4876800"/>
+    </armor>
+    <armor id="3000502" name="Close Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="3"/>
+     <set name="p_def" val="85"/>
+     <set name="price" val="1437600"/>
+    </armor>
+    <armor id="3000509" name="Glorious Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="weight" val="800"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="3"/>
+     <set name="p_def" val="86"/>
+     <set name="price" val="1879200"/>
+    </armor>
+    <armor id="3000510" name="Red Flame Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="weight" val="960"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="3"/>
+     <set name="p_def" val="94"/>
+     <set name="price" val="2438400"/>
+    </armor>
+    <armor id="3000512" name="Dark Crystal Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+    </armor>
+    <armor id="3000515" name="Elven Vagian Helm" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_circlet_i00"/>
+     <set name="weight" val="560"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="3"/>
+     <set name="p_def" val="86"/>
+     <set name="price" val="1879200"/>
+    </armor>
+    <armor id="3000516" name="Dark Vagian Helm" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="weight" val="560"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="3"/>
+     <set name="p_def" val="94"/>
+     <set name="price" val="2438400"/>
+    </armor>
+    <armor id="3000518" name="Hell Helm" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="weight" val="320"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="3"/>
+     <set name="p_def" val="94"/>
+     <set name="price" val="2438400"/>
+    </armor>
+    <armor id="3000520" name="Masterpiece Helm" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="weight" val="400"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="3"/>
+     <set name="p_def" val="94"/>
+     <set name="price" val="2438400"/>
+    </armor>
+    <armor id="3000547" name="Tallum Helm" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+    </armor>
+    <armor id="3000555" name="Dragon Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_iron_boots_i00"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3000561" name="Red Flame Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t14_b_i00"/>
+     <set name="weight" val="1120"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3000563" name="Dark Crystal Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t15_b_i00"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3000573" name="Gust Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t45_b_i00"/>
+     <set name="weight" val="1120"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3000575" name="Boots of the Underworld" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t10_b_i00"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3000583" name="Majestic Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t45_b_i00"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3000589" name="Boots of Phantom" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t45_b_i00"/>
+     <set name="weight" val="1120"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3000592" name="Phoenix Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t44_b_i00"/>
+     <set name="weight" val="1120"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3000593" name="Cerberus Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t44_b_i00"/>
+     <set name="weight" val="1120"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3000598" name="Blood Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t45_b_i00"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3000613" name="Sand Dragon Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_gauntlet_i00"/>
+     <set name="weight" val="3200"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3000622" name="(Not In Use) Holy Spirit's Cloak" type="NONE">
+     <set name="bodypart" val="BACK"/>
+     <set name="icon" val="icon.armor_back09"/>
+     <set name="weight" val="220"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="23"/>
+     <set name="price" val="1392000"/>
+    </armor>
+    <armor id="3000623" name="Divine Cloak" type="NONE">
+     <set name="bodypart" val="BACK"/>
+     <set name="icon" val="icon.armor_back09"/>
+     <set name="weight" val="220"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="25"/>
+     <set name="price" val="2112000"/>
+    </armor>
+    <armor id="3000684" name="Underwear of Rule" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.armor_underwear02"/>
+     <set name="weight" val="140"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="70"/>
+     <set name="p_def" val="31"/>
+     <set name="price" val="1056000"/>
+    </armor>
+    <armor id="3000862" name="Majestic Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_inferno_earing_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="120"/>
+     <set name="m_def" val="63"/>
+     <set name="mp_bonus" val="25"/>
+     <set name="price" val="1797600"/>
+    </armor>
+    <armor id="3000868" name="Earring of Phantom" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_earing_of_phantom_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="156"/>
+     <set name="m_def" val="60"/>
+     <set name="price" val="1797600"/>
+    </armor>
+    <armor id="3000871" name="Phoenix Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_phoenixs_earing_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="80"/>
+     <set name="m_def" val="60"/>
+     <set name="mp_bonus" val="20"/>
+     <set name="price" val="1206000"/>
+    </armor>
+    <armor id="3000872" name="Cerberus Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_cerberuss_earing_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="156"/>
+     <set name="m_def" val="60"/>
+     <set name="price" val="1797600"/>
+    </armor>
+    <armor id="3000893" name="Majestic Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_inferno_ring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="80"/>
+     <set name="m_def" val="42"/>
+     <set name="mp_bonus" val="17"/>
+     <set name="price" val="1198800"/>
+    </armor>
+    <armor id="3000899" name="Ring of Phantom" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_ring_of_phantom_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="104"/>
+     <set name="m_def" val="40"/>
+     <set name="price" val="1198800"/>
+    </armor>
+    <armor id="3000902" name="Phoenix Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_phoenixs_ring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="54"/>
+     <set name="m_def" val="40"/>
+     <set name="mp_bonus" val="13"/>
+     <set name="price" val="804000"/>
+    </armor>
+    <armor id="3000903" name="Cerberus Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_cerberuss_ring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="104"/>
+     <set name="m_def" val="40"/>
+     <set name="price" val="1198800"/>
+    </armor>
+    <armor id="3000924" name="Majestic Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_inferno_necklace_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="160"/>
+     <set name="m_def" val="85"/>
+     <set name="mp_bonus" val="33"/>
+     <set name="price" val="2397600"/>
+    </armor>
+    <armor id="3000930" name="Necklace of Phantom" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_necklace_of_phantom_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="208"/>
+     <set name="m_def" val="80"/>
+     <set name="price" val="2397600"/>
+    </armor>
+    <armor id="3000933" name="Phoenix Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_phoenixs_necklace_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="m_def" val="80"/>
+     <set name="mp_bonus" val="26"/>
+     <set name="price" val="1608000"/>
+    </armor>
+    <armor id="3000934" name="Cerberus Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_cerberuss_necklace_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="208"/>
+     <set name="m_def" val="80"/>
+     <set name="price" val="2397600"/>
+    </armor>
+    <armor id="3002382" name="Tallum Plate Armor" type="HEAVY">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t77_ul_i00"/>
+     <set name="weight" val="9780"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="463"/>
+     <set name="p_def" val="369"/>
+     <set name="price" val="6945600"/>
+    </armor>
+    <armor id="3002383" name="Majestic Plate Armor" type="HEAVY">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t83_ul_i00"/>
+     <set name="weight" val="9200"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="704"/>
+     <set name="p_def" val="389"/>
+     <set name="price" val="10564800"/>
+    </armor>
+    <armor id="3002385" name="Dark Crystal Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t75_u_i00"/>
+     <set name="weight" val="4300"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="214"/>
+     <set name="p_def" val="170"/>
+     <set name="price" val="3205200"/>
+    </armor>
+    <armor id="3002389" name="Dark Crystal Leggings" type="LIGHT">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t75_l_i00"/>
+     <set name="weight" val="1480"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="134"/>
+     <set name="p_def" val="106"/>
+     <set name="price" val="2004000"/>
+    </armor>
+    <armor id="3002393" name="Tallum Leather Armor" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t78_ul_i00"/>
+     <set name="weight" val="5400"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="347"/>
+     <set name="p_def" val="277"/>
+     <set name="price" val="5209200"/>
+    </armor>
+    <armor id="3002394" name="Nightmarish Leather Armor" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t81_ul_i00"/>
+     <set name="weight" val="5300"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="292"/>
+     <set name="price" val="7923600"/>
+    </armor>
+    <armor id="3002395" name="Majestic Leather Armor" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t84_ul_i00"/>
+     <set name="weight" val="5350"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="292"/>
+     <set name="price" val="7923600"/>
+    </armor>
+    <armor id="3002400" name="Tallum Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t79_u_i00"/>
+     <set name="weight" val="1860"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="214"/>
+     <set name="p_def" val="114"/>
+     <set name="mp_bonus" val="409"/>
+     <set name="price" val="3205200"/>
+    </armor>
+    <armor id="3002405" name="Tallum Stockings" type="MAGIC">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t79_l_i00"/>
+     <set name="weight" val="920"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="134"/>
+     <set name="p_def" val="70"/>
+     <set name="mp_bonus" val="256"/>
+     <set name="price" val="2004000"/>
+    </armor>
+    <armor id="3002407" name="Dark Crystal Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t76_ul_i00"/>
+     <set name="weight" val="2450"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="347"/>
+     <set name="p_def" val="184"/>
+     <set name="mp_bonus" val="665"/>
+     <set name="price" val="5209200"/>
+    </armor>
+    <armor id="3002408" name="Nightmare Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t82_ul_i00"/>
+     <set name="weight" val="2300"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="195"/>
+     <set name="mp_bonus" val="718"/>
+     <set name="price" val="7923600"/>
+    </armor>
+    <armor id="3002409" name="Majestic Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t85_ul_i00"/>
+     <set name="weight" val="2330"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="195"/>
+     <set name="mp_bonus" val="718"/>
+     <set name="price" val="7923600"/>
+    </armor>
+    <armor id="3002410" name="Nightmarish Tattoo" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.armor_mithril_banded_mail_i00"/>
+     <set name="weight" val="3600"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="422"/>
+     <set name="p_def" val="184"/>
+     <set name="price" val="4876800"/>
+    </armor>
+    <armor id="3002418" name="Helm of Nightmare" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i00"/>
+     <set name="weight" val="560"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+    </armor>
+    <armor id="3002419" name="Majestic Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i00"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+    </armor>
+    <armor id="3002440" name="Boots of Nightmare" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t45_b_i00"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3002441" name="Dark Legion Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t45_b_i00"/>
+     <set name="weight" val="1120"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3002442" name="Dasparion's Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t44_b_i00"/>
+     <set name="weight" val="1100"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3002445" name="Dragon Scale Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t15_b_i00"/>
+     <set name="weight" val="1100"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3002469" name="Gloves of the Underworld" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t40_g_i00"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3002470" name="Gloves of Phantom" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t45_g_i00"/>
+     <set name="weight" val="560"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3002471" name="Dark Legion Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t45_g_i00"/>
+     <set name="weight" val="560"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3002472" name="Dark Crystal Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t15_g_i00"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3002474" name="Dasparion's Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t44_g_i00"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3002478" name="Tallum Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3002479" name="Gauntlets of Nightmare" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t45_g_i00"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3002482" name="Majestic Gauntlets" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t15_g_i00"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3002483" name="Gust Bracer" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t45_g_i00"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3002484" name="Cerberus Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t44_g_i00"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3002488" name="Phoenix Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t44_g_i00"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3002489" name="Gloves of Black Ore" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t14_g_i00"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005287" name="Sealed Dark Crystal breastplate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t74_u_i02"/>
+     <set name="weight" val="7700"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="285"/>
+     <set name="p_def" val="227"/>
+     <set name="price" val="4274400"/>
+    </armor>
+    <armor id="3005288" name="Sealed Dark Crystal Gaiters" type="HEAVY">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t74_l_i02"/>
+     <set name="weight" val="3320"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="178"/>
+     <set name="p_def" val="142"/>
+     <set name="price" val="2671200"/>
+    </armor>
+    <armor id="3005289" name="Sealed Dark Crystal Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i02"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+    </armor>
+    <armor id="3005290" name="Sealed Dark Crystal Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t74_g_i02"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005291" name="Sealed Dark Crystal Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t74_b_i02"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005293" name="Sealed Tallum Plate Armor" type="HEAVY">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t77_ul_i02"/>
+     <set name="weight" val="9780"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="463"/>
+     <set name="p_def" val="369"/>
+     <set name="price" val="6945600"/>
+    </armor>
+    <armor id="3005294" name="Sealed Tallum Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i02"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+    </armor>
+    <armor id="3005295" name="Sealed Tallum Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t77_g_i02"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005296" name="Sealed Tallum Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t77_b_i02"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005297" name="Sealed Dark Crystal Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t75_u_i02"/>
+     <set name="weight" val="4300"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="214"/>
+     <set name="p_def" val="170"/>
+     <set name="price" val="3205200"/>
+    </armor>
+    <armor id="3005298" name="Sealed Dark Crystal Leggings" type="LIGHT">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t75_l_i02"/>
+     <set name="weight" val="1480"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="134"/>
+     <set name="p_def" val="106"/>
+     <set name="price" val="2004000"/>
+    </armor>
+    <armor id="3005299" name="Sealed Gloves of the Underworld" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t40_g_i00"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005300" name="Sealed Boots of the Underworld" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t10_b_i00"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005301" name="Sealed Tallum Leather Armor" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t78_ul_i02"/>
+     <set name="weight" val="5400"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="347"/>
+     <set name="p_def" val="277"/>
+     <set name="price" val="5209200"/>
+    </armor>
+    <armor id="3005302" name="Sealed Gust Bracer" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t45_g_i00"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005303" name="Sealed Gust Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t45_b_i00"/>
+     <set name="weight" val="1120"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005304" name="Sealed Tallum Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t79_u_i02"/>
+     <set name="weight" val="1860"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="214"/>
+     <set name="p_def" val="114"/>
+     <set name="mp_bonus" val="409"/>
+     <set name="price" val="3205200"/>
+    </armor>
+    <armor id="3005305" name="Sealed Tallum Stockings" type="MAGIC">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t79_l_i02"/>
+     <set name="weight" val="920"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="134"/>
+     <set name="p_def" val="70"/>
+     <set name="mp_bonus" val="256"/>
+     <set name="price" val="2004000"/>
+    </armor>
+    <armor id="3005306" name="Sealed Gloves of Black Ore" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t14_g_i00"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005307" name="Sealed Red Flame Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t14_b_i00"/>
+     <set name="weight" val="1120"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005308" name="Sealed Dark Crystal Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t76_ul_i02"/>
+     <set name="weight" val="2450"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="347"/>
+     <set name="p_def" val="184"/>
+     <set name="mp_bonus" val="665"/>
+     <set name="price" val="5209200"/>
+    </armor>
+    <armor id="3005309" name="Sealed Phoenix Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t44_g_i00"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005310" name="Sealed Phoenix Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t44_b_i00"/>
+     <set name="weight" val="1120"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="59"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005311" name="Sealed Armor of Nightmare" type="HEAVY">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t80_ul_i02"/>
+     <set name="weight" val="9580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="704"/>
+     <set name="p_def" val="389"/>
+     <set name="price" val="10564800"/>
+    </armor>
+    <armor id="3005312" name="Sealed Helm of Nightmare" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i02"/>
+     <set name="weight" val="560"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+    </armor>
+    <armor id="3005313" name="Sealed Gauntlets of Nightmare" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t80_g_i02"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005314" name="Sealed Boots of Nightmare" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t80_b_i02"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005316" name="Sealed Majestic Plate Armor" type="HEAVY">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t83_ul_i02"/>
+     <set name="weight" val="9200"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="704"/>
+     <set name="p_def" val="389"/>
+     <set name="price" val="10564800"/>
+    </armor>
+    <armor id="3005317" name="Sealed Majestic Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i02"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+    </armor>
+    <armor id="3005318" name="Sealed Majestic Gauntlets" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t83_g_i02"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005319" name="Sealed Majestic Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t83_b_i02"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005320" name="Sealed Leather Armor of Nightmare" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t81_ul_i02"/>
+     <set name="weight" val="5300"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="292"/>
+     <set name="price" val="7923600"/>
+    </armor>
+    <armor id="3005321" name="Sealed Dark Legion Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t45_g_i00"/>
+     <set name="weight" val="560"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005322" name="Sealed Dark Legion Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t45_b_i00"/>
+     <set name="weight" val="1120"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005323" name="Sealed Majestic Leather Armor" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t84_ul_i02"/>
+     <set name="weight" val="5350"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="292"/>
+     <set name="price" val="7923600"/>
+    </armor>
+    <armor id="3005324" name="Sealed Gloves of Phantom" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t45_g_i00"/>
+     <set name="weight" val="560"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005325" name="Sealed Boots of Phantom" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t45_b_i00"/>
+     <set name="weight" val="1120"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005326" name="Sealed Nightmare Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t82_ul_i02"/>
+     <set name="weight" val="2300"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="195"/>
+     <set name="mp_bonus" val="718"/>
+     <set name="price" val="7923600"/>
+    </armor>
+    <armor id="3005327" name="Sealed Cerberus Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t44_g_i00"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005328" name="Sealed Cerberus Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t44_b_i00"/>
+     <set name="weight" val="1120"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005329" name="Sealed Majestic Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t85_ul_i02"/>
+     <set name="weight" val="2330"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="195"/>
+     <set name="mp_bonus" val="718"/>
+     <set name="price" val="7923600"/>
+    </armor>
+    <armor id="3005330" name="Sealed Dasparion's Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t44_g_i00"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005331" name="Sealed Dasparion's Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t44_b_i00"/>
+     <set name="weight" val="1100"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="140"/>
+     <set name="p_def" val="63"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005765" name="Dark Crystal Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t74_g_i00"/>
+     <set name="additional_name" val="Heavy Armor"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005766" name="Dark Crystal Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t75_g_i00"/>
+     <set name="additional_name" val="Light Armor"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005767" name="Dark Crystal Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t76_g_i00"/>
+     <set name="additional_name" val="Robe"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005768" name="Tallum Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t77_g_i00"/>
+     <set name="additional_name" val="Heavy Armor"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005769" name="Tallum Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t78_g_i00"/>
+     <set name="additional_name" val="Light Armor"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005770" name="Tallum Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t79_g_i00"/>
+     <set name="additional_name" val="Robe"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005771" name="Gauntlets of Nightmare" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t80_g_i00"/>
+     <set name="additional_name" val="Heavy Armor"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005772" name="Gauntlets of Nightmare" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t81_g_i00"/>
+     <set name="additional_name" val="Light Armor"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005773" name="Gauntlets of Nightmare" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t82_g_i00"/>
+     <set name="additional_name" val="Robe"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005774" name="Majestic Gauntlets" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t83_g_i00"/>
+     <set name="additional_name" val="Heavy Armor"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005775" name="Majestic Gauntlets" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t84_g_i00"/>
+     <set name="additional_name" val="Light Armor"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005776" name="Majestic Gauntlets" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t85_g_i00"/>
+     <set name="additional_name" val="Robe"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005777" name="Dark Crystal Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t74_b_i00"/>
+     <set name="additional_name" val="Heavy Armor"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005778" name="Dark Crystal Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t75_b_i00"/>
+     <set name="additional_name" val="Light Armor"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005779" name="Dark Crystal Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t76_b_i00"/>
+     <set name="additional_name" val="Robe"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005780" name="Tallum Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t77_b_i00"/>
+     <set name="additional_name" val="Heavy Armor"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005781" name="Tallum Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t78_b_i00"/>
+     <set name="additional_name" val="Light Armor"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005782" name="Tallum Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t79_b_i00"/>
+     <set name="additional_name" val="Robe"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3005783" name="Boots of Nightmare" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t80_b_i00"/>
+     <set name="additional_name" val="Heavy Armor"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005784" name="Boots of Nightmare" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t81_b_i00"/>
+     <set name="additional_name" val="Light Armor"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005785" name="Boots of Nightmare" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t82_b_i00"/>
+     <set name="additional_name" val="Robe"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005786" name="Majestic Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t83_b_i00"/>
+     <set name="additional_name" val="Heavy Armor"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005787" name="Majestic Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t84_b_i00"/>
+     <set name="additional_name" val="Light Armor"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3005788" name="Majestic Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t85_b_i00"/>
+     <set name="additional_name" val="Robe"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3006323" name="Sealed Phoenix Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_phoenixs_necklace_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="m_def" val="76"/>
+     <set name="price" val="1608000"/>
+    </armor>
+    <armor id="3006324" name="Sealed Phoenix Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_phoenixs_earing_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="80"/>
+     <set name="m_def" val="57"/>
+     <set name="price" val="1206000"/>
+    </armor>
+    <armor id="3006325" name="Sealed Phoenix Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_phoenixs_ring_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="54"/>
+     <set name="m_def" val="38"/>
+     <set name="price" val="804000"/>
+    </armor>
+    <armor id="3006326" name="Sealed Majestic Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_inferno_necklace_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="160"/>
+     <set name="m_def" val="80"/>
+     <set name="price" val="2397600"/>
+    </armor>
+    <armor id="3006327" name="Sealed Majestic Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_inferno_earing_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="120"/>
+     <set name="m_def" val="60"/>
+     <set name="price" val="1797600"/>
+    </armor>
+    <armor id="3006328" name="Sealed Majestic Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_inferno_ring_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="80"/>
+     <set name="m_def" val="40"/>
+     <set name="price" val="1198800"/>
+    </armor>
+    <armor id="3006661" name="Earring of Orfen" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessory_earring_of_orfen_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="104"/>
+     <set name="m_def" val="71"/>
+     <set name="mp_bonus" val="31"/>
+     <set name="price" val="1560000"/>
+   <skills>
+       <skill id="3560" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="3006662" name="Ring of Core" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessory_ring_of_core_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="69"/>
+     <set name="m_def" val="48"/>
+     <set name="mp_bonus" val="21"/>
+     <set name="price" val="1044000"/>
+   <skills>
+       <skill id="3563" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="3007860" name="Apella Helm" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+    </armor>
+    <armor id="3007861" name="Apella Plate Armor" type="HEAVY">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t1004_ul_i00"/>
+     <set name="weight" val="9780"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="463"/>
+     <set name="p_def" val="369"/>
+     <set name="price" val="6945600"/>
+    </armor>
+    <armor id="3007862" name="Apella Gauntlet" type="HEAVY">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t1004_g_i00"/>
+     <set name="additional_name" val="Heavy Armor"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3007863" name="Apella Solleret" type="HEAVY">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t1004_b_i00"/>
+     <set name="additional_name" val="Heavy Armor"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3007864" name="Apella Brigandine" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t1005_ul_i00"/>
+     <set name="weight" val="5400"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="347"/>
+     <set name="p_def" val="277"/>
+     <set name="price" val="5209200"/>
+    </armor>
+    <armor id="3007865" name="Apella Leather Gloves" type="LIGHT">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t1005_g_i00"/>
+     <set name="additional_name" val="Light Armor"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3007866" name="Apella Boots" type="LIGHT">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t1005_b_i00"/>
+     <set name="additional_name" val="Light Armor"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3007867" name="Apella Doublet" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t1006_ul_i00"/>
+     <set name="weight" val="2450"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="347"/>
+     <set name="p_def" val="184"/>
+     <set name="mp_bonus" val="665"/>
+     <set name="price" val="5209200"/>
+    </armor>
+    <armor id="3007868" name="Apella Silk Gloves" type="MAGIC">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t1006_g_i00"/>
+     <set name="additional_name" val="Robe"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3007869" name="Apella Sandals" type="MAGIC">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t1006_b_i00"/>
+     <set name="additional_name" val="Robe"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3007870" name="Sealed Apella Helm" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i02"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+    </armor>
+    <armor id="3007871" name="Sealed Apella Plate Armor" type="HEAVY">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t1004_ul_i02"/>
+     <set name="weight" val="9780"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="463"/>
+     <set name="p_def" val="369"/>
+     <set name="price" val="6945600"/>
+    </armor>
+    <armor id="3007872" name="Sealed Apella Gauntlet" type="HEAVY">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t1004_g_i02"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3007873" name="Sealed Apella Solleret" type="HEAVY">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t1004_b_i02"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3007874" name="Sealed Apella Brigandine" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t1005_ul_i02"/>
+     <set name="weight" val="5400"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="347"/>
+     <set name="p_def" val="277"/>
+     <set name="price" val="5209200"/>
+    </armor>
+    <armor id="3007875" name="Sealed Apella Leather Gloves" type="LIGHT">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t1005_g_i02"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3007876" name="Sealed Apella Boots" type="LIGHT">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t1005_b_i02"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3007877" name="Sealed Apella Doublet" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t1006_ul_i02"/>
+     <set name="weight" val="2450"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="347"/>
+     <set name="p_def" val="184"/>
+     <set name="mp_bonus" val="665"/>
+     <set name="price" val="5209200"/>
+    </armor>
+    <armor id="3007878" name="Sealed Apella Silk Gloves" type="MAGIC">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t1006_g_i02"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3007879" name="Sealed Apella Sandals" type="MAGIC">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t1006_b_i02"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+    </armor>
+    <armor id="3008191" name="Frintezza's Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessory_necklace_of_frintessa_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="230"/>
+     <set name="m_def" val="95"/>
+     <set name="mp_bonus" val="42"/>
+     <set name="price" val="4140000"/>
+   <skills>
+       <skill id="3604" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="3009581" name="Scale Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_shirts_a_i04"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="39"/>
+     <set name="p_def" val="30"/>
+     <set name="price" val="705600"/>
+    </armor>
+    <armor id="3009587" name="Striped Scale Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_stripe_shirts_a_i04"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="59"/>
+     <set name="p_def" val="34"/>
+     <set name="price" val="1056000"/>
+    </armor>
+    <armor id="3009591" name="Steel Bracelet" type="NONE">
+     <set name="bodypart" val="RBRACELET"/>
+     <set name="icon" val="icon.etc_rbracelet_a_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="76"/>
+     <set name="price" val="1372800"/>
+   <skills>
+       <skill id="3324" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="3009830" name="Improved Apella Helm" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+    </armor>
+    <armor id="3009831" name="Improved Apella Plate Armor" type="HEAVY">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t1004_ul_i00"/>
+     <set name="weight" val="9780"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="704"/>
+     <set name="p_def" val="389"/>
+     <set name="price" val="10564800"/>
+    </armor>
+    <armor id="3009832" name="Improved Apella Gauntlet" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t1004_g_i00"/>
+     <set name="additional_name" val="Heavy Armor"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3009833" name="Improved Apella Solleret" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t1004_b_i00"/>
+     <set name="additional_name" val="Heavy Armor"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3009834" name="Improved Apella Brigandine" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t1005_ul_i00"/>
+     <set name="weight" val="5400"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="292"/>
+     <set name="price" val="7923600"/>
+    </armor>
+    <armor id="3009835" name="Improved Apella Leather Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t1005_g_i00"/>
+     <set name="additional_name" val="Light Armor"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3009836" name="Improved Apella Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t1005_b_i00"/>
+     <set name="additional_name" val="Light Armor"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3009837" name="Improved Apella Doublet" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t1006_ul_i00"/>
+     <set name="weight" val="2450"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="195"/>
+     <set name="mp_bonus" val="718"/>
+     <set name="price" val="7923600"/>
+    </armor>
+    <armor id="3009838" name="Improved Apella Silk Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t1006_g_i00"/>
+     <set name="additional_name" val="Robe"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3009839" name="Improved Apella Sandals" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t1006_b_i00"/>
+     <set name="additional_name" val="Robe"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+    </armor>
+    <armor id="3010207" name="Enhanced Striped Scale Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_stripe_shirts_a_i04"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="59"/>
+     <set name="p_def" val="34"/>
+     <set name="price" val="1056000"/>
+    </armor>
+    <armor id="3010209" name="Enhanced Steel Bracelet" type="NONE">
+     <set name="bodypart" val="RBRACELET"/>
+     <set name="icon" val="icon.etc_rbracelet_a_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="76"/>
+     <set name="mp_bonus" val="60"/>
+     <set name="price" val="1372800"/>
+   <skills>
+       <skill id="3324" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="3010497" name="Scale Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_shirts_a_i04"/>
+     <set name="additional_name" val="HP"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="39"/>
+     <set name="p_def" val="30"/>
+     <set name="price" val="705600"/>
+  <enchant4_skill id="3451" lvl="1"/>
+    </armor>
+    <armor id="3010498" name="Scale Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_shirts_a_i04"/>
+     <set name="additional_name" val="MP"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="39"/>
+     <set name="p_def" val="30"/>
+     <set name="price" val="705600"/>
+  <enchant4_skill id="3452" lvl="1"/>
+    </armor>
+    <armor id="3010499" name="Scale Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_shirts_a_i04"/>
+     <set name="additional_name" val="CP"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="39"/>
+     <set name="p_def" val="30"/>
+     <set name="price" val="705600"/>
+  <enchant4_skill id="3453" lvl="1"/>
+    </armor>
+    <armor id="3010509" name="Striped Scale Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_stripe_shirts_a_i04"/>
+     <set name="additional_name" val="HP"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="59"/>
+     <set name="p_def" val="34"/>
+     <set name="price" val="1056000"/>
+  <enchant4_skill id="3475" lvl="1"/>
+    </armor>
+    <armor id="3010510" name="Striped Scale Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_stripe_shirts_a_i04"/>
+     <set name="additional_name" val="MP"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="59"/>
+     <set name="p_def" val="34"/>
+     <set name="price" val="1056000"/>
+  <enchant4_skill id="3476" lvl="1"/>
+    </armor>
+    <armor id="3010511" name="Striped Scale Shirt" type="NONE">
+     <set name="bodypart" val="UNDERWEAR"/>
+     <set name="icon" val="icon.etc_stripe_shirts_a_i04"/>
+     <set name="additional_name" val="CP"/>
+     <set name="weight" val="130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="59"/>
+     <set name="p_def" val="34"/>
+     <set name="price" val="1056000"/>
+  <enchant4_skill id="3477" lvl="1"/>
+    </armor>
+    <armor id="3011407" name="Dark Crystal Gaiters" type="HEAVY">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t74_l_i00"/>
+     <set name="weight" val="3320"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="178"/>
+     <set name="p_def" val="142"/>
+     <set name="price" val="2671200"/>
+   <skills>
+       <skill id="3726" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011408" name="Dark Crystal Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t74_g_i00"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+   <skills>
+       <skill id="3727" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011409" name="Dark Crystal Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t75_g_i00"/>
+     <set name="additional_name" val="Light Armor Use"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+   <skills>
+       <skill id="3731" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011410" name="Dark Crystal Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t76_g_i00"/>
+     <set name="additional_name" val="Robe Use"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+   <skills>
+       <skill id="3735" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011411" name="Dark Crystal Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t75_u_i00"/>
+     <set name="weight" val="4300"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="214"/>
+     <set name="p_def" val="170"/>
+     <set name="price" val="3205200"/>
+   <skills>
+       <skill id="3730" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011412" name="Dark Crystal Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t76_ul_i00"/>
+     <set name="weight" val="2450"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="347"/>
+     <set name="p_def" val="184"/>
+     <set name="mp_bonus" val="665"/>
+     <set name="price" val="5209200"/>
+   <skills>
+       <skill id="3736" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011413" name="Dark Crystal Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t74_b_i00"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+   <skills>
+       <skill id="3728" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011414" name="Dark Crystal Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t75_b_i00"/>
+     <set name="additional_name" val="Light Armor Use"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+   <skills>
+       <skill id="3732" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011415" name="Dark Crystal Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t76_b_i00"/>
+     <set name="additional_name" val="Robe Use"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+   <skills>
+       <skill id="3737" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011417" name="Dark Crystal Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+   <skills>
+       <skill id="3724" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011418" name="Dark Crystal Breastplate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t74_u_i00"/>
+     <set name="weight" val="7700"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="285"/>
+     <set name="p_def" val="227"/>
+     <set name="price" val="4274400"/>
+   <skills>
+       <skill id="3725" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011419" name="Dark Crystal Leggings" type="LIGHT">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t75_l_i00"/>
+     <set name="weight" val="1480"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="134"/>
+     <set name="p_def" val="106"/>
+     <set name="price" val="2004000"/>
+   <skills>
+       <skill id="3734" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011420" name="Sealed Dark Crystal Gaiters" type="HEAVY">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t74_l_i02"/>
+     <set name="weight" val="3320"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="178"/>
+     <set name="p_def" val="142"/>
+     <set name="price" val="2671200"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011421" name="Sealed Dark Crystal Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t74_g_i02"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011422" name="Sealed Dark Crystal Leather Armor" type="LIGHT">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t75_u_i02"/>
+     <set name="weight" val="4300"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="214"/>
+     <set name="p_def" val="170"/>
+     <set name="price" val="3205200"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011423" name="Sealed Dark Crystal Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t76_ul_i02"/>
+     <set name="weight" val="2450"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="347"/>
+     <set name="p_def" val="184"/>
+     <set name="mp_bonus" val="665"/>
+     <set name="price" val="5209200"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011424" name="Sealed Dark Crystal Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t74_b_i02"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011426" name="Sealed Dark Crystal Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i02"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011427" name="Sealed Dark Crystal breastplate" type="HEAVY">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t74_u_i02"/>
+     <set name="weight" val="7700"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="285"/>
+     <set name="p_def" val="227"/>
+     <set name="price" val="4274400"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011428" name="Sealed Dark Crystal Leggings" type="LIGHT">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t75_l_i02"/>
+     <set name="weight" val="1480"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="134"/>
+     <set name="p_def" val="106"/>
+     <set name="price" val="2004000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011429" name="Sealed Tallum Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t77_g_i02"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011430" name="Sealed Tallum Leather Armor" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t78_ul_i02"/>
+     <set name="weight" val="5400"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="347"/>
+     <set name="p_def" val="277"/>
+     <set name="price" val="5209200"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011431" name="Sealed Tallum Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t77_b_i02"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011432" name="Sealed Tallum Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t79_u_i02"/>
+     <set name="weight" val="1860"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="214"/>
+     <set name="p_def" val="114"/>
+     <set name="mp_bonus" val="409"/>
+     <set name="price" val="3205200"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011433" name="Sealed Tallum Plate Armor" type="HEAVY">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t77_ul_i02"/>
+     <set name="weight" val="9780"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="463"/>
+     <set name="p_def" val="369"/>
+     <set name="price" val="6945600"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011434" name="Sealed Tallum Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i02"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011435" name="Sealed Tallum Stockings" type="MAGIC">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t79_l_i02"/>
+     <set name="weight" val="920"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="134"/>
+     <set name="p_def" val="70"/>
+     <set name="mp_bonus" val="256"/>
+     <set name="price" val="2004000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011436" name="(Not In Use) Holy Spirit's Cloak" type="NONE">
+     <set name="bodypart" val="BACK"/>
+     <set name="icon" val="icon.armor_back09"/>
+     <set name="weight" val="220"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="92"/>
+     <set name="p_def" val="23"/>
+     <set name="price" val="1392000"/>
+    </armor>
+    <armor id="3011437" name="Tallum Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t77_g_i00"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+   <skills>
+       <skill id="3739" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011438" name="Tallum Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t78_g_i00"/>
+     <set name="additional_name" val="Light Armor Use"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+   <skills>
+       <skill id="3744" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011439" name="Tallum Gloves" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t79_g_i00"/>
+     <set name="additional_name" val="Robe Use"/>
+     <set name="weight" val="580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+   <skills>
+       <skill id="3747" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011440" name="Tallum Leather Armor" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t78_ul_i00"/>
+     <set name="weight" val="5400"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="347"/>
+     <set name="p_def" val="277"/>
+     <set name="price" val="5209200"/>
+   <skills>
+       <skill id="3743" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011441" name="Tallum Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t77_b_i00"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+   <skills>
+       <skill id="3740" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011442" name="Tallum Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t78_b_i00"/>
+     <set name="additional_name" val="Light Armor Use"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+   <skills>
+       <skill id="3745" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011443" name="Tallum Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t79_b_i00"/>
+     <set name="additional_name" val="Robe Use"/>
+     <set name="weight" val="1130"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="71"/>
+     <set name="p_def" val="61"/>
+     <set name="price" val="1068000"/>
+   <skills>
+       <skill id="3748" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011444" name="Tallum Tunic" type="MAGIC">
+     <set name="bodypart" val="CHEST"/>
+     <set name="icon" val="icon.armor_t79_u_i00"/>
+     <set name="weight" val="1860"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="214"/>
+     <set name="p_def" val="114"/>
+     <set name="mp_bonus" val="409"/>
+     <set name="price" val="3205200"/>
+   <skills>
+       <skill id="3749" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011445" name="Tallum Plate Armor" type="HEAVY">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t77_ul_i00"/>
+     <set name="weight" val="9780"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="463"/>
+     <set name="p_def" val="369"/>
+     <set name="price" val="6945600"/>
+   <skills>
+       <skill id="3741" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011446" name="Tallum Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+   <skills>
+       <skill id="3742" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011447" name="Tallum Stockings" type="MAGIC">
+     <set name="bodypart" val="LEGS"/>
+     <set name="icon" val="icon.armor_t79_l_i00"/>
+     <set name="weight" val="920"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="134"/>
+     <set name="p_def" val="70"/>
+     <set name="mp_bonus" val="256"/>
+     <set name="price" val="2004000"/>
+   <skills>
+       <skill id="3750" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011448" name="Majestic Gauntlet" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t83_g_i00"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+   <skills>
+       <skill id="3752" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011449" name="Majestic Gauntlet" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t84_g_i00"/>
+     <set name="additional_name" val="Light Armor Use"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+   <skills>
+       <skill id="3756" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011450" name="Majestic Gauntlet" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t85_g_i00"/>
+     <set name="additional_name" val="Robe Use"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+   <skills>
+       <skill id="3760" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011451" name="Majestic Leather Armor" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t84_ul_i00"/>
+     <set name="weight" val="5350"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="292"/>
+     <set name="price" val="7923600"/>
+   <skills>
+       <skill id="3757" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011452" name="Majestic Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t85_ul_i00"/>
+     <set name="weight" val="2330"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="195"/>
+     <set name="mp_bonus" val="718"/>
+     <set name="price" val="7923600"/>
+   <skills>
+       <skill id="3761" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011453" name="Majestic Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t83_b_i00"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+   <skills>
+       <skill id="3755" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011454" name="Majestic Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t84_b_i00"/>
+     <set name="additional_name" val="Light Armor Use"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+   <skills>
+       <skill id="3758" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011455" name="Majestic Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t85_b_i00"/>
+     <set name="additional_name" val="Robe Use"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+   <skills>
+       <skill id="3762" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011456" name="Majestic Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i00"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+   <skills>
+       <skill id="3753" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011457" name="Majestic Plate Armor" type="HEAVY">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t83_ul_i00"/>
+     <set name="weight" val="9200"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="704"/>
+     <set name="p_def" val="389"/>
+     <set name="price" val="10564800"/>
+   <skills>
+       <skill id="3754" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011458" name="Sealed Majestic Gauntlet" type="NONE">
+     <set name="icon" val="icon.armor_t83_g_i02"/>
+     <set name="weight" val="540"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011459" name="Sealed Majestic Leather Armor" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t84_ul_i02"/>
+     <set name="weight" val="5350"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="292"/>
+     <set name="price" val="7923600"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011460" name="Sealed Majestic Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t85_ul_i02"/>
+     <set name="weight" val="2330"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="195"/>
+     <set name="mp_bonus" val="718"/>
+     <set name="price" val="7923600"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011461" name="Sealed Majestic Boots" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t83_b_i02"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011462" name="Sealed Majestic Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i02"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011463" name="Sealed Majestic Plate Armor" type="HEAVY">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t83_ul_i02"/>
+     <set name="weight" val="9200"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="704"/>
+     <set name="p_def" val="389"/>
+     <set name="price" val="10564800"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011464" name="Sealed Armor of Nightmare" type="HEAVY">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t80_ul_i02"/>
+     <set name="weight" val="9580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="704"/>
+     <set name="p_def" val="389"/>
+     <set name="price" val="10564800"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011465" name="Sealed Gauntlet of Nightmare" type="NONE">
+     <set name="icon" val="icon.armor_t80_g_i02"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011466" name="Sealed Leather Armor of Nightmare" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t81_ul_i02"/>
+     <set name="weight" val="5300"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="292"/>
+     <set name="price" val="7923600"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011467" name="Sealed Nightmare Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t82_ul_i02"/>
+     <set name="weight" val="2300"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="195"/>
+     <set name="mp_bonus" val="718"/>
+     <set name="price" val="7923600"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011468" name="Sealed Boots of Nightmare" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t80_b_i02"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011470" name="Sealed Helm of Nightmare" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i02"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="560"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011471" name="Armor of Nightmare" type="HEAVY">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t80_ul_i00"/>
+     <set name="weight" val="9580"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="704"/>
+     <set name="p_def" val="389"/>
+     <set name="price" val="10564800"/>
+   <skills>
+       <skill id="3764" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011472" name="Gauntlet of Nightmare" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t80_g_i00"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+   <skills>
+       <skill id="3769" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011473" name="Gauntlet of Nightmare" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t81_g_i00"/>
+     <set name="additional_name" val="Light Armor Use"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+   <skills>
+       <skill id="3765" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011474" name="Gauntlet of Nightmare" type="NONE">
+     <set name="bodypart" val="GLOVES"/>
+     <set name="icon" val="icon.armor_t82_g_i00"/>
+     <set name="additional_name" val="Robe Use"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+   <skills>
+       <skill id="3771" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011475" name="Nightmarish Leather Armor" type="LIGHT">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t81_ul_i00"/>
+     <set name="weight" val="5300"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="292"/>
+     <set name="price" val="7923600"/>
+   <skills>
+       <skill id="3768" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011476" name="Nightmare Robe" type="MAGIC">
+     <set name="bodypart" val="FULLARMOR"/>
+     <set name="icon" val="icon.armor_t82_ul_i00"/>
+     <set name="weight" val="2300"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="528"/>
+     <set name="p_def" val="195"/>
+     <set name="mp_bonus" val="718"/>
+     <set name="price" val="7923600"/>
+   <skills>
+       <skill id="3772" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011477" name="Boots of Nightmare" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t80_b_i00"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+   <skills>
+       <skill id="3766" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011478" name="Boots of Nightmare" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t81_b_i00"/>
+     <set name="additional_name" val="Light Armor Use"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+   <skills>
+       <skill id="3770" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011479" name="Boots of Nightmare" type="NONE">
+     <set name="bodypart" val="FEET"/>
+     <set name="icon" val="icon.armor_t82_b_i00"/>
+     <set name="additional_name" val="Robe Use"/>
+     <set name="weight" val="1110"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="108"/>
+     <set name="p_def" val="65"/>
+     <set name="price" val="1626000"/>
+   <skills>
+       <skill id="3773" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011481" name="Helm of Nightmare" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i00"/>
+     <set name="additional_name" val="Heavy Armor Use"/>
+     <set name="weight" val="560"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+   <skills>
+       <skill id="3767" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011581" name="Sealed Phoenix Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_phoenixs_necklace_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="m_def" val="76"/>
+     <set name="price" val="1608000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011582" name="Sealed Phoenix Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_phoenixs_ring_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="54"/>
+     <set name="m_def" val="38"/>
+     <set name="price" val="804000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011583" name="Sealed Phoenix Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_phoenixs_earing_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="80"/>
+     <set name="m_def" val="57"/>
+     <set name="price" val="1206000"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011584" name="Phoenix Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_phoenixs_necklace_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="m_def" val="80"/>
+     <set name="mp_bonus" val="26"/>
+     <set name="price" val="1608000"/>
+   <skills>
+       <skill id="3813" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011585" name="Phoenix Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_phoenixs_ring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="54"/>
+     <set name="m_def" val="40"/>
+     <set name="mp_bonus" val="13"/>
+     <set name="price" val="804000"/>
+   <skills>
+       <skill id="3814" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011586" name="Phoenix Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_phoenixs_earing_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="80"/>
+     <set name="m_def" val="60"/>
+     <set name="mp_bonus" val="20"/>
+     <set name="price" val="1206000"/>
+   <skills>
+       <skill id="3815" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011587" name="Majestic Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_inferno_necklace_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="160"/>
+     <set name="m_def" val="85"/>
+     <set name="mp_bonus" val="33"/>
+     <set name="price" val="2397600"/>
+   <skills>
+       <skill id="3816" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011588" name="Majestic Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_inferno_ring_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="80"/>
+     <set name="m_def" val="42"/>
+     <set name="mp_bonus" val="17"/>
+     <set name="price" val="1198800"/>
+   <skills>
+       <skill id="3817" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011589" name="Majestic Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_inferno_earing_i00"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="120"/>
+     <set name="m_def" val="63"/>
+     <set name="mp_bonus" val="25"/>
+     <set name="price" val="1797600"/>
+   <skills>
+       <skill id="3818" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011590" name="Sealed Majestic Necklace" type="NONE">
+     <set name="bodypart" val="NECK"/>
+     <set name="icon" val="accessary_inferno_necklace_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="160"/>
+     <set name="m_def" val="80"/>
+     <set name="price" val="2397600"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011591" name="Sealed Majestic Ring" type="NONE">
+     <set name="bodypart" val="LRFINGER"/>
+     <set name="icon" val="accessary_inferno_ring_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="80"/>
+     <set name="m_def" val="40"/>
+     <set name="price" val="1198800"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3011592" name="Sealed Majestic Earring" type="NONE">
+     <set name="bodypart" val="LREAR"/>
+     <set name="icon" val="accessary_inferno_earing_i02"/>
+     <set name="weight" val="150"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="120"/>
+     <set name="m_def" val="60"/>
+     <set name="price" val="1797600"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3012986" name="Dark Crystal Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="additional_name" val="Light Armor Use"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+   <skills>
+       <skill id="3733" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3012987" name="Dark Crystal Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="additional_name" val="Robe Use"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+   <skills>
+       <skill id="3738" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3012988" name="Tallum Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="additional_name" val="Light Armor Use"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+   <skills>
+       <skill id="3746" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3012989" name="Tallum Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i00"/>
+     <set name="additional_name" val="Robe Use"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+   <skills>
+       <skill id="3751" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3012990" name="Majestic Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i00"/>
+     <set name="additional_name" val="Light Armor Use"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+   <skills>
+       <skill id="3759" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3012991" name="Majestic Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i00"/>
+     <set name="additional_name" val="Robe Use"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+   <skills>
+       <skill id="3763" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3012992" name="Helm of Nightmare" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i00"/>
+     <set name="additional_name" val="Light Armor Use"/>
+     <set name="weight" val="560"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+   <skills>
+       <skill id="8235" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3012993" name="Helm of Nightmare" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i00"/>
+     <set name="additional_name" val="Robe Use"/>
+     <set name="weight" val="560"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+   <skills>
+       <skill id="8236" lvl="1"/>
+   </skills>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3012994" name="Sealed Dark Crystal Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i02"/>
+     <set name="additional_name" val="Light Armor Use"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3012995" name="Sealed Dark Crystal Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i02"/>
+     <set name="additional_name" val="Robe Use"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3012996" name="Sealed Tallum Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i02"/>
+     <set name="additional_name" val="Light Armor Use"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3012997" name="Sealed Tallum Helmet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_helmet_i02"/>
+     <set name="additional_name" val="Robe Use"/>
+     <set name="weight" val="570"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="107"/>
+     <set name="p_def" val="91"/>
+     <set name="price" val="1603200"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3012998" name="Sealed Majestic Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i02"/>
+     <set name="additional_name" val="Light Armor Use"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3012999" name="Sealed Majestic Circlet" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i02"/>
+     <set name="additional_name" val="Robe Use"/>
+     <set name="weight" val="550"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3013000" name="Sealed Helm of Nightmare" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i02"/>
+     <set name="additional_name" val="Light Armor Use"/>
+     <set name="weight" val="560"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3013001" name="Sealed Helm of Nightmare" type="NONE">
+     <set name="bodypart" val="HEAD"/>
+     <set name="icon" val="icon.armor_leather_helmet_i02"/>
+     <set name="additional_name" val="Robe Use"/>
+     <set name="weight" val="560"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="163"/>
+     <set name="p_def" val="97"/>
+     <set name="price" val="2438400"/>
+     <set name="isRare" val="true"/>
+    </armor>
+    <armor id="3013896" name="Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_belt_i02"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+    </armor>
+    <armor id="3013946" name="Low-Grade Magic Pouch Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_pouch_belt_i02"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8290" lvl="5"/>
+   </skills>
+    </armor>
+    <armor id="3013947" name="Regular Magic Pouch Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_pouch_belt_i02"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8290" lvl="6"/>
+   </skills>
+    </armor>
+    <armor id="3013948" name="High-Grade Magic Pouch Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_pouch_belt_i02"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8290" lvl="7"/>
+   </skills>
+    </armor>
+    <armor id="3013949" name="Top-Grade Magic Pouch Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_pouch_belt_i02"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8290" lvl="8"/>
+   </skills>
+    </armor>
+    <armor id="3013962" name="Low-Grade Magic Pin Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_pin_belt_i02"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8291" lvl="5"/>
+   </skills>
+    </armor>
+    <armor id="3013963" name="Regular Magic Pin Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_pin_belt_i02"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8291" lvl="6"/>
+   </skills>
+    </armor>
+    <armor id="3013964" name="High-Grade Magic Pin Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_pin_belt_i02"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8291" lvl="7"/>
+   </skills>
+    </armor>
+    <armor id="3013965" name="Top-Grade Magic Pin Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_pin_belt_i02"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8291" lvl="8"/>
+   </skills>
+    </armor>
+    <armor id="3013977" name="Poison Bottle 3" type="LIGHT">
+     <set name="bodypart" val="RBRACELET"/>
+     <set name="icon" val="icon.etc_fruit_juice_glass_bottle_i02"/>
+     <set name="weight" val="4830"/>
+     <set name="crystal_type" val="S"/>
+     <set name="p_def" val="47"/>
+    </armor>
+    <armor id="3014922" name="Low-grade Magic Rune Clip Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_clip_belt_i00"/>
+     <set name="additional_name" val="HP Recovery"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8338" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="3014923" name="Ordinary Magic Rune Clip Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_clip_belt_i00"/>
+     <set name="additional_name" val="HP Recovery"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8338" lvl="2"/>
+   </skills>
+    </armor>
+    <armor id="3014924" name="High-grade Magic Rune Clip Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_clip_belt_i00"/>
+     <set name="additional_name" val="HP Recovery"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8338" lvl="3"/>
+   </skills>
+    </armor>
+    <armor id="3014925" name="Top-grade Magic Rune Clip Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_clip_belt_i00"/>
+     <set name="additional_name" val="HP Recovery"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8338" lvl="4"/>
+   </skills>
+    </armor>
+    <armor id="3014930" name="Low-grade Magic Rune Clip Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_clip_belt_i00"/>
+     <set name="additional_name" val="MP Recovery"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8340" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="3014931" name="Ordinary Magic Rune Clip Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_clip_belt_i00"/>
+     <set name="additional_name" val="MP Recovery"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8340" lvl="2"/>
+   </skills>
+    </armor>
+    <armor id="3014932" name="High-grade Magic Rune Clip Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_clip_belt_i00"/>
+     <set name="additional_name" val="MP Recovery"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8340" lvl="3"/>
+   </skills>
+    </armor>
+    <armor id="3014933" name="Top-grade Magic Rune Clip Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_clip_belt_i00"/>
+     <set name="additional_name" val="MP Recovery"/>
+     <set name="weight" val="460"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8340" lvl="4"/>
+   </skills>
+    </armor>
+    <armor id="3014938" name="Low-grade Magic Ornament Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i00"/>
+     <set name="additional_name" val="PvP Physical Attack"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8342" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="3014939" name="Regular Magic Ornament Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i00"/>
+     <set name="additional_name" val="PvP Physical Attack"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8342" lvl="2"/>
+   </skills>
+    </armor>
+    <armor id="3014940" name="High-grade Magic Ornament Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i00"/>
+     <set name="additional_name" val="PvP Physical Attack"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8342" lvl="3"/>
+   </skills>
+    </armor>
+    <armor id="3014941" name="Top-grade Magic Ornament Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i00"/>
+     <set name="additional_name" val="PvP Physical Attack"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8342" lvl="4"/>
+   </skills>
+    </armor>
+    <armor id="3014942" name="Low-grade Magic Ornament Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i00"/>
+     <set name="additional_name" val="PvP Skill Attack"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8343" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="3014943" name="Regular Magic Ornament Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i00"/>
+     <set name="additional_name" val="PvP Skill Attack"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8343" lvl="2"/>
+   </skills>
+    </armor>
+    <armor id="3014944" name="High-grade Magic Ornament Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i00"/>
+     <set name="additional_name" val="PvP Skill Attack"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8343" lvl="3"/>
+   </skills>
+    </armor>
+    <armor id="3014945" name="Top-grade Magic Ornament Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i00"/>
+     <set name="additional_name" val="PvP Skill Attack"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8343" lvl="4"/>
+   </skills>
+    </armor>
+    <armor id="3014946" name="Low-grade Magic Ornament Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i00"/>
+     <set name="additional_name" val="PVP Defense"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8344" lvl="1"/>
+   </skills>
+    </armor>
+    <armor id="3014947" name="Regular Magic Ornament Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i00"/>
+     <set name="additional_name" val="PVP Defense"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8344" lvl="2"/>
+   </skills>
+    </armor>
+    <armor id="3014948" name="High-grade Magic Ornament Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i00"/>
+     <set name="additional_name" val="PVP Defense"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8344" lvl="3"/>
+   </skills>
+    </armor>
+    <armor id="3014949" name="Top-grade Magic Ornament Iron Belt" type="LIGHT">
+     <set name="bodypart" val="BELT"/>
+     <set name="icon" val="icon.armor_magic_deco_belt_i00"/>
+     <set name="additional_name" val="PVP Defense"/>
+     <set name="weight" val="440"/>
+     <set name="crystal_type" val="S"/>
+     <set name="crystal_count" val="30"/>
+     <set name="p_def" val="15"/>
+     <set name="price" val="445560"/>
+   <skills>
+       <skill id="8344" lvl="4"/>
+   </skills>
+    </armor>
+</list>

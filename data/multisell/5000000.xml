@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+    <config showall="false" notax="true" keepenchanted="true" />
+    <item id="1">
+      <!-- Icarus Sawsword-->
+       <ingredient count="1" id="10215" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010215" />
+   </item>
+    <item id="2">
+      <!-- Icarus Disperser-->
+       <ingredient count="1" id="10216" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010216" />
+   </item>
+    <item id="3">
+      <!-- Icarus Spirit-->
+       <ingredient count="1" id="10217" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010217" />
+   </item>
+    <item id="4">
+      <!-- Icarus Heavy Arms-->
+       <ingredient count="1" id="10218" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010218" />
+   </item>
+    <item id="5">
+      <!-- Icarus Trident-->
+       <ingredient count="1" id="10219" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010219" />
+   </item>
+    <item id="6">
+      <!-- Icarus Hammer-->
+       <ingredient count="1" id="10220" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010220" />
+   </item>
+    <item id="7">
+      <!-- Icarus Hand-->
+       <ingredient count="1" id="10221" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010221" />
+   </item>
+    <item id="8">
+      <!-- Icarus Hall-->
+       <ingredient count="1" id="10222" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010222" />
+   </item>
+    <item id="9">
+      <!-- Icarus Spitter-->
+       <ingredient count="1" id="10223" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010223" />
+   </item>
+    <item id="10">
+      <!-- Icarus Stinger-->
+       <ingredient count="1" id="10224" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010224" />
+   </item>
+    <item id="11">
+      <!-- Icarus Wingblade-->
+       <ingredient count="1" id="10225" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010225" />
+   </item>
+    <item id="12">
+      <!-- Icarus Shooter-->
+       <ingredient count="1" id="10226" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010226" />
+   </item>
+    <item id="13">
+      <!-- Icarus Dual Sword-->
+       <ingredient count="1" id="10415" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010415" />
+   </item>
+    <item id="14">
+      <!-- Icarus Sawsword-->
+       <ingredient count="1" id="10434" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010434" />
+   </item>
+    <item id="15">
+      <!-- Icarus Sawsword-->
+       <ingredient count="1" id="10435" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010435" />
+   </item>
+    <item id="16">
+      <!-- Icarus Sawsword-->
+       <ingredient count="1" id="10436" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010436" />
+   </item>
+    <item id="17">
+      <!-- Icarus Heavy Arms-->
+       <ingredient count="1" id="10437" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010437" />
+   </item>
+    <item id="18">
+      <!-- Icarus Heavy Arms-->
+       <ingredient count="1" id="10438" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010438" />
+   </item>
+    <item id="19">
+      <!-- Icarus Heavy Arms-->
+       <ingredient count="1" id="10439" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010439" />
+   </item>
+    <item id="20">
+      <!-- Icarus Spirit-->
+       <ingredient count="1" id="10440" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010440" />
+   </item>
+    <item id="21">
+      <!-- Icarus Spirit-->
+       <ingredient count="1" id="10441" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010441" />
+   </item>
+    <item id="22">
+      <!-- Icarus Spirit-->
+       <ingredient count="1" id="10442" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010442" />
+   </item>
+    <item id="23">
+      <!-- Icarus Spitter-->
+       <ingredient count="1" id="10443" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010443" />
+   </item>
+    <item id="24">
+      <!-- Icarus Spitter-->
+       <ingredient count="1" id="10444" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010444" />
+   </item>
+    <item id="25">
+      <!-- Icarus Spitter-->
+       <ingredient count="1" id="10445" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010445" />
+   </item>
+    <item id="26">
+      <!-- Icarus Disperser-->
+       <ingredient count="1" id="10446" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010446" />
+   </item>
+    <item id="27">
+      <!-- Icarus Disperser-->
+       <ingredient count="1" id="10447" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010447" />
+   </item>
+    <item id="28">
+      <!-- Icarus Disperser-->
+       <ingredient count="1" id="10448" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010448" />
+   </item>
+    <item id="29">
+      <!-- Icarus Trident-->
+       <ingredient count="1" id="10449" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010449" />
+   </item>
+    <item id="30">
+      <!-- Icarus Trident-->
+       <ingredient count="1" id="10450" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010450" />
+   </item>
+    <item id="31">
+      <!-- Icarus Trident-->
+       <ingredient count="1" id="10451" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010451" />
+   </item>
+    <item id="32">
+      <!-- Icarus Hammer-->
+       <ingredient count="1" id="10452" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010452" />
+   </item>
+    <item id="33">
+      <!-- Icarus Hammer-->
+       <ingredient count="1" id="10453" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010453" />
+   </item>
+    <item id="34">
+      <!-- Icarus Hammer-->
+       <ingredient count="1" id="10454" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010454" />
+   </item>
+    <item id="35">
+      <!-- Icarus Hall-->
+       <ingredient count="1" id="10455" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010455" />
+   </item>
+    <item id="36">
+      <!-- Icarus Hall-->
+       <ingredient count="1" id="10456" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010456" />
+   </item>
+    <item id="37">
+      <!-- Icarus Hall-->
+       <ingredient count="1" id="10457" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010457" />
+   </item>
+    <item id="38">
+      <!-- Icarus Hand-->
+       <ingredient count="1" id="10458" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010458" />
+   </item>
+    <item id="39">
+      <!-- Icarus Hand-->
+       <ingredient count="1" id="10459" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010459" />
+   </item>
+    <item id="40">
+      <!-- Icarus Hand-->
+       <ingredient count="1" id="10460" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010460" />
+   </item>
+    <item id="41">
+      <!-- Icarus Stinger-->
+       <ingredient count="1" id="10461" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010461" />
+   </item>
+    <item id="42">
+      <!-- Icarus Stinger-->
+       <ingredient count="1" id="10462" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010462" />
+   </item>
+    <item id="43">
+      <!-- Icarus Stinger-->
+       <ingredient count="1" id="10463" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010463" />
+   </item>
+    <item id="44">
+      <!-- Icarus Wingblade-->
+       <ingredient count="1" id="10464" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010464" />
+   </item>
+    <item id="45">
+      <!-- Icarus Wingblade-->
+       <ingredient count="1" id="10465" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010465" />
+   </item>
+    <item id="46">
+      <!-- Icarus Wingblade-->
+       <ingredient count="1" id="10466" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010466" />
+   </item>
+    <item id="47">
+      <!-- Icarus Shooter-->
+       <ingredient count="1" id="10467" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010467" />
+   </item>
+    <item id="48">
+      <!-- Icarus Shooter-->
+       <ingredient count="1" id="10468" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010468" />
+   </item>
+    <item id="49">
+      <!-- Icarus Shooter-->
+       <ingredient count="1" id="10469" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5010469" />
+   </item>
+    <item id="50">
+      <!-- Icarus Dual Sword - Destruction-->
+       <ingredient count="1" id="11300" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011300" />
+   </item>
+    <item id="51">
+      <!-- Icarus Disperser - Confusion-->
+       <ingredient count="1" id="11301" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011301" />
+   </item>
+    <item id="52">
+      <!-- Icarus Disperser - Confusion-->
+       <ingredient count="1" id="11302" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011302" />
+   </item>
+    <item id="53">
+      <!-- Icarus Disperser - Confusion-->
+       <ingredient count="1" id="11303" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011303" />
+   </item>
+    <item id="54">
+      <!-- Icarus Disperser - Confusion-->
+       <ingredient count="1" id="11304" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011304" />
+   </item>
+    <item id="55">
+      <!-- Icarus Sawsword - Destruction-->
+       <ingredient count="1" id="11305" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011305" />
+   </item>
+    <item id="56">
+      <!-- Icarus Sawsword - Destruction-->
+       <ingredient count="1" id="11306" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011306" />
+   </item>
+    <item id="57">
+      <!-- Icarus Sawsword - Destruction-->
+       <ingredient count="1" id="11307" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011307" />
+   </item>
+    <item id="58">
+      <!-- Icarus Sawsword - Destruction-->
+       <ingredient count="1" id="11308" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011308" />
+   </item>
+    <item id="59">
+      <!-- Icarus Shooter - Concentration-->
+       <ingredient count="1" id="11309" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011309" />
+   </item>
+    <item id="60">
+      <!-- Icarus Shooter - Concentration-->
+       <ingredient count="1" id="11310" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011310" />
+   </item>
+    <item id="61">
+      <!-- Icarus Shooter - Concentration-->
+       <ingredient count="1" id="11311" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011311" />
+   </item>
+    <item id="62">
+      <!-- Icarus Shooter - Concentration-->
+       <ingredient count="1" id="11312" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011312" />
+   </item>
+    <item id="63">
+      <!-- Icarus Stinger - Destruction-->
+       <ingredient count="1" id="11313" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011313" />
+   </item>
+    <item id="64">
+      <!-- Icarus Stinger - Destruction-->
+       <ingredient count="1" id="11314" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011314" />
+   </item>
+    <item id="65">
+      <!-- Icarus Stinger - Destruction-->
+       <ingredient count="1" id="11315" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011315" />
+   </item>
+    <item id="66">
+      <!-- Icarus Stinger - Destruction-->
+       <ingredient count="1" id="11316" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011316" />
+   </item>
+    <item id="67">
+      <!-- Icarus Spirit - Nature-->
+       <ingredient count="1" id="11317" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011317" />
+   </item>
+    <item id="68">
+      <!-- Icarus Spirit - Nature-->
+       <ingredient count="1" id="11318" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011318" />
+   </item>
+    <item id="69">
+      <!-- Icarus Spirit - Nature-->
+       <ingredient count="1" id="11319" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011319" />
+   </item>
+    <item id="70">
+      <!-- Icarus Spirit - Nature-->
+       <ingredient count="1" id="11320" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011320" />
+   </item>
+    <item id="71">
+      <!-- Icarus Spitter - Concentration-->
+       <ingredient count="1" id="11321" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011321" />
+   </item>
+    <item id="72">
+      <!-- Icarus Spitter - Concentration-->
+       <ingredient count="1" id="11322" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011322" />
+   </item>
+    <item id="73">
+      <!-- Icarus Spitter - Concentration-->
+       <ingredient count="1" id="11323" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011323" />
+   </item>
+    <item id="74">
+      <!-- Icarus Spitter - Concentration-->
+       <ingredient count="1" id="11324" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011324" />
+   </item>
+    <item id="75">
+      <!-- Icarus Wingblade - Lightning-->
+       <ingredient count="1" id="11325" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011325" />
+   </item>
+    <item id="76">
+      <!-- Icarus Wingblade - Lightning-->
+       <ingredient count="1" id="11326" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011326" />
+   </item>
+    <item id="77">
+      <!-- Icarus Wingblade - Lightning-->
+       <ingredient count="1" id="11327" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011327" />
+   </item>
+    <item id="78">
+      <!-- Icarus Wingblade - Lightning-->
+       <ingredient count="1" id="11328" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011328" />
+   </item>
+    <item id="79">
+      <!-- Icarus Trident - Thunder-->
+       <ingredient count="1" id="11329" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011329" />
+   </item>
+    <item id="80">
+      <!-- Icarus Trident - Thunder-->
+       <ingredient count="1" id="11330" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011330" />
+   </item>
+    <item id="81">
+      <!-- Icarus Trident - Thunder-->
+       <ingredient count="1" id="11331" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011331" />
+   </item>
+    <item id="82">
+      <!-- Icarus Trident - Thunder-->
+       <ingredient count="1" id="11332" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011332" />
+   </item>
+    <item id="83">
+      <!-- Icarus Hammer - Earth-->
+       <ingredient count="1" id="11333" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011333" />
+   </item>
+    <item id="84">
+      <!-- Icarus Hammer - Earth-->
+       <ingredient count="1" id="11334" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011334" />
+   </item>
+    <item id="85">
+      <!-- Icarus Hammer - Earth-->
+       <ingredient count="1" id="11335" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011335" />
+   </item>
+    <item id="86">
+      <!-- Icarus Hammer - Earth-->
+       <ingredient count="1" id="11336" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011336" />
+   </item>
+    <item id="87">
+      <!-- Icarus Hand - Destruction-->
+       <ingredient count="1" id="11337" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011337" />
+   </item>
+    <item id="88">
+      <!-- Icarus Hand - Destruction-->
+       <ingredient count="1" id="11338" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011338" />
+   </item>
+    <item id="89">
+      <!-- Icarus Hand - Destruction-->
+       <ingredient count="1" id="11339" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011339" />
+   </item>
+    <item id="90">
+      <!-- Icarus Hand - Destruction-->
+       <ingredient count="1" id="11340" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011340" />
+   </item>
+    <item id="91">
+      <!-- Icarus Heavy Arms - Lightning-->
+       <ingredient count="1" id="11341" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011341" />
+   </item>
+    <item id="92">
+      <!-- Icarus Heavy Arms - Lightning-->
+       <ingredient count="1" id="11342" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011342" />
+   </item>
+    <item id="93">
+      <!-- Icarus Heavy Arms - Lightning-->
+       <ingredient count="1" id="11343" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011343" />
+   </item>
+    <item id="94">
+      <!-- Icarus Heavy Arms - Lightning-->
+       <ingredient count="1" id="11344" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011344" />
+   </item>
+    <item id="95">
+      <!-- Icarus Hall - Hail-->
+       <ingredient count="1" id="11345" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011345" />
+   </item>
+    <item id="96">
+      <!-- Icarus Hall - Hail-->
+       <ingredient count="1" id="11346" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011346" />
+   </item>
+    <item id="97">
+      <!-- Icarus Hall - Hail-->
+       <ingredient count="1" id="11347" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011347" />
+   </item>
+    <item id="98">
+      <!-- Icarus Hall - Hail-->
+       <ingredient count="1" id="11348" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5011348" />
+   </item>
+    <item id="99">
+      <!-- Icarus Dual Daggers-->
+       <ingredient count="1" id="13883" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5013883" />
+   </item>
+    <item id="100">
+      <!-- Dynasty Dual Daggers - Great Gale-->
+       <ingredient count="1" id="14526" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5014526" />
+   </item>
+    <item id="101">
+      <!-- Icarus Dual Daggers - Confusion-->
+       <ingredient count="1" id="14527" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5014527" />
+   </item>
+    <item id="102">
+      <!-- NPC use clear 1HS-->
+       <ingredient count="1" id="15280" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015280" />
+   </item>
+    <item id="103">
+      <!-- NPC use clear 2HS-->
+       <ingredient count="1" id="15281" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015281" />
+   </item>
+    <item id="104">
+      <!-- NPC exclusive transparent dual-->
+       <ingredient count="1" id="15300" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015300" />
+   </item>
+    <item id="105">
+      <!-- NPC exclusive transparent pole-->
+       <ingredient count="1" id="15301" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015301" />
+   </item>
+    <item id="106">
+      <!-- NPC exclusive transparent bow-->
+       <ingredient count="1" id="15302" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015302" />
+   </item>
+    <item id="107">
+      <!-- NPC exclusive transparent claw-->
+       <ingredient count="1" id="15303" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015303" />
+   </item>
+    <item id="108">
+      <!-- NPC exclusive transparent bowgun-->
+       <ingredient count="1" id="15304" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015304" />
+   </item>
+    <item id="109">
+      <!-- NPC exclusive transparent rapier-->
+       <ingredient count="1" id="15305" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015305" />
+   </item>
+    <item id="110">
+      <!-- NPC exclusive transparent dual dagger-->
+       <ingredient count="1" id="15306" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015306" />
+   </item>
+    <item id="111">
+      <!-- Moirai Shield-->
+       <ingredient count="1" id="15621" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015621" />
+   </item>
+    <item id="112">
+      <!-- Destiny Sword-->
+       <ingredient count="1" id="15676" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015676" />
+   </item>
+    <item id="113">
+      <!-- Destiny Knife-->
+       <ingredient count="1" id="15677" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015677" />
+   </item>
+    <item id="114">
+      <!-- Destiny Hammer-->
+       <ingredient count="1" id="15678" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015678" />
+   </item>
+    <item id="115">
+      <!-- Destiny Crusher-->
+       <ingredient count="1" id="15679" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015679" />
+   </item>
+    <item id="116">
+      <!-- Destiny Blade-->
+       <ingredient count="1" id="15680" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015680" />
+   </item>
+    <item id="117">
+      <!-- Destiny Jamadhr-->
+       <ingredient count="1" id="15681" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015681" />
+   </item>
+    <item id="118">
+      <!-- Destiny Spear-->
+       <ingredient count="1" id="15682" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015682" />
+   </item>
+    <item id="119">
+      <!-- Destiny Staff-->
+       <ingredient count="1" id="15683" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015683" />
+   </item>
+    <item id="120">
+      <!-- Destiny Twohand Staff-->
+       <ingredient count="1" id="15684" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015684" />
+   </item>
+    <item id="121">
+      <!-- Destiny Magic Sword-->
+       <ingredient count="1" id="15685" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015685" />
+   </item>
+    <item id="122">
+      <!-- Destiny Bow-->
+       <ingredient count="1" id="15686" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015686" />
+   </item>
+    <item id="123">
+      <!-- Destiny Rapier-->
+       <ingredient count="1" id="15687" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015687" />
+   </item>
+    <item id="124">
+      <!-- Destiny Ancient Sword-->
+       <ingredient count="1" id="15688" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015688" />
+   </item>
+    <item id="125">
+      <!-- Destiny Crossbow-->
+       <ingredient count="1" id="15689" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015689" />
+   </item>
+    <item id="126">
+      <!-- Sealed Destiny Shield-->
+       <ingredient count="1" id="15710" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5015710" />
+   </item>
+    <item id="127">
+      <!-- Moirai Shield-->
+       <ingredient count="1" id="16304" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5016304" />
+   </item>
+    <item id="128">
+      <!-- Sealed Moirai Shield-->
+       <ingredient count="1" id="16338" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5016338" />
+   </item>
+    <item id="129">
+      <!-- Butcher Blades-->
+       <ingredient count="1" id="21935" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5021935" />
+   </item>
+    <item id="130">
+      <!-- Butcher Blades - Confusion-->
+       <ingredient count="1" id="21937" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="5021937" />
+   </item>
+   </list>

@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+    <weapon id="1000071" name="Flamberge" type="BIGSWORD">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_flamberge_i00"/>
+     <set name="weight" val="2010"/>
+     <set name="soulshots" val="2"/>
+     <set name="spiritshots" val="2"/>
+     <set name="crystal_type" val="B"/>
+     <set name="crystal_count" val="705"/>
+     <set name="p_dam" val="162"/>
+     <set name="m_dam" val="76"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="2115480"/>
+     <set name="kamaelAnalog" val="9232"/>
+    </weapon>
+    <weapon id="1000072" name="Stormbringer" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_stormbringer_i00"/>
+     <set name="weight" val="1430"/>
+     <set name="soulshots" val="2"/>
+     <set name="spiritshots" val="2"/>
+     <set name="crystal_type" val="B"/>
+     <set name="crystal_count" val="705"/>
+     <set name="p_dam" val="133"/>
+     <set name="m_dam" val="76"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="2115480"/>
+     <set name="kamaelAnalog" val="9228"/>
+    </weapon>
+    <weapon id="1000073" name="Shamshir" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_shamshir_i00"/>
+     <set name="weight" val="1420"/>
+     <set name="soulshots" val="2"/>
+     <set name="spiritshots" val="2"/>
+     <set name="crystal_type" val="B"/>
+     <set name="crystal_count" val="884"/>
+     <set name="p_dam" val="152"/>
+     <set name="m_dam" val="85"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="2651640"/>
+     <set name="kamaelAnalog" val="9240"/>
+    </weapon>
+    <weapon id="1000074" name="Katana" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_katana_i00"/>
+     <set name="weight" val="1420"/>
+     <set name="soulshots" val="2"/>
+     <set name="spiritshots" val="2"/>
+     <set name="crystal_type" val="B"/>
+     <set name="crystal_count" val="884"/>
+     <set name="p_dam" val="152"/>
+     <set name="m_dam" val="85"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="2651640"/>
+     <set name="kamaelAnalog" val="9244"/>
+    </weapon>
+    <weapon id="1000075" name="Caliburs" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_caliburs_i00"/>
+     <set name="weight" val="1400"/>
+     <set name="soulshots" val="3"/>
+     <set name="spiritshots" val="3"/>
+     <set name="crystal_type" val="B"/>
+     <set name="crystal_count" val="1322"/>
+     <set name="p_dam" val="173"/>
+     <set name="m_dam" val="95"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="3965160"/>
+     <set name="kamaelAnalog" val="9264"/>
+    </weapon>
+    <weapon id="1000076" name="Sword of Delusion" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_sword_of_delusion_i00"/>
+     <set name="weight" val="1400"/>
+     <set name="soulshots" val="3"/>
+     <set name="spiritshots" val="3"/>
+     <set name="crystal_type" val="B"/>
+     <set name="crystal_count" val="1322"/>
+     <set name="p_dam" val="173"/>
+     <set name="m_dam" val="95"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="3965160"/>
+     <set name="kamaelAnalog" val="9268"/>
+    </weapon>
+    <weapon id="1000077" name="Tsurugi" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_tsurugi_i00"/>
+     <set name="weight" val="1400"/>
+     <set name="soulshots" val="3"/>
+     <set name="spiritshots" val="3"/>
+     <set name="crystal_type" val="B"/>
+     <set name="crystal_count" val="1322"/>
+     <set name="p_dam" val="173"/>
+     <set name="m_dam" val="95"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="3965160"/>
+     <set name="kamaelAnalog" val="9272"/>
+    </weapon>
+    <weapon id="1000084" name="Homunkulus's Sword" type="SWORD">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_homunkuluss_sword_i00"/>
+     <set name="weight" val="950"/>
+     <set name="soulshots" val="3"/>
+     <set name="spiritshots" val="3"/>
+     <set name="crystal_type" val="B"/>
+     <set name="crystal_count" val="1322"/>
+     <set name="p_dam" val="138"/>
+     <set name="m_dam" val="126"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="3965160"/>
+    </weapon>
+    <weapon id="3000087" name="Iron Hammer" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_iron_hammer_i00"/>
+     <set name="weight" val="1850"/>
+     <set name="soulshots" val="2"/>
+     <set name="spiritshots" val="2"/>
+     <set name="p_dam" val="36"/>
+     <set name="m_dam" val="24"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="225600"/>
+    </weapon>
+    <weapon id="1000089" name="Big Hammer" type="BLUNT">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_big_hammer_i00"/>
+     <set name="weight" val="1710"/>
+     <set name="soulshots" val="2"/>
+     <set name="spiritshots" val="2"/>
+     <set name="crystal_type" val="B"/>
+     <set name="crystal_count" val="705"/>
+     <set name="p_dam" val="133"/>
+     <set name="m_dam" val="76"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="20"/>
+     <set name="critical" val="4"/>
+     <set name="hit_modify" val="4"/>
+     <set name="price" val="2115480"/>
+    </weapon>
+    <weapon id="1000094" name="Bec de Corbin" type="POLE">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_bech_de_corbin_i00"/>
+     <set name="weight" val="2020"/>
+     <set name="soulshots" val="2"/>
+     <set name="spiritshots" val="2"/>
+     <set name="crystal_type" val="B"/>
+     <set name="crystal_count" val="884"/>
+     <set name="p_dam" val="152"/>
+     <set name="m_dam" val="85"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="2651640"/>
+    </weapon>
+    <weapon id="1000095" name="Poleaxe" type="POLE">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_poleaxe_i00"/>
+     <set name="weight" val="2010"/>
+     <set name="soulshots" val="3"/>
+     <set name="spiritshots" val="3"/>
+     <set name="crystal_type" val="B"/>
+     <set name="crystal_count" val="1322"/>
+     <set name="p_dam" val="173"/>
+     <set name="m_dam" val="95"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="3965160"/>
+    </weapon>
+    <weapon id="1000096" name="Scythe" type="POLE">
+     <set name="bodypart" val="LRHAND"/>
+     <set name="icon" val="icon.weapon_scythe_i00"/>
+     <set name="weight" val="2040"/>
+     <set name="soulshots" val="2"/>
+     <set name="spiritshots" val="2"/>
+     <set name="crystal_type" val="B"/>
+     <set name="crystal_count" val="705"/>
+     <set name="p_dam" val="133"/>
+     <set name="m_dam" val="76"/>
+     <set name="atk_speed" val="325"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="2115480"/>
+    </weapon>
+    <weapon id="3000099" name="Apprentice's Spellbook" type="ETC">
+     <set name="bodypart" val="RHAND"/>
+     <set name="icon" val="icon.weapon_apprentices_spellbook_i00"/>
+     <set name="weight" val="650"/>
+     <set name="soulshots" val="1"/>
+     <set name="spiritshots" val="1"/>
+     <set name="p_dam" val="10"/>
+     <set name="m_dam" val="14"/>
+     <set name="atk_speed" val="379"/>
+     <set name="rnd_dam" val="10"/>
+     <set name="critical" val="8"/>
+     <set name="price" val="11520"/>
+    </weapon>
+</list>

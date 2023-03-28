@@ -1,0 +1,45 @@
+
+dir:
+   [delete] Deleting directory C:\l2openX50\build\scripts
+    [mkdir] Created dir: C:\l2openX50\build\scripts
+    [mkdir] Created dir: C:\l2openX50\build\scripts\classes
+
+compiles:
+    [javac] C:\l2openX50\compiling\build_scripts.xml:33: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 2289 source files to C:\l2openX50\build\scripts\classes
+    [javac] C:\l2openX50\java\l2open\util\Util.java:1252: warning: Reflection is internal proprietary API and may be removed in a future release
+    [javac] 		Class self = sun.reflect.Reflection.getCallerClass(1);
+    [javac] 		                        ^
+    [javac] C:\l2openX50\java\l2open\util\Util.java:1253: warning: Reflection is internal proprietary API and may be removed in a future release
+    [javac] 		Class caller = sun.reflect.Reflection.getCallerClass(3);
+    [javac] 		                          ^
+    [javac] 2 warnings
+
+compile:
+    [javac] C:\l2openX50\compiling\build_scripts.xml:41: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1087 source files to C:\l2openX50\build\scripts\classes
+    [javac] C:\l2openX50\data\scripts\communityboard\CommunityBoardFullStats.java:1254: warning: [unchecked] unchecked conversion
+    [javac] 		_top_pts = (LinkedHashMap)ValueSortMap.sortMapByValue(_top_pts, comparator_pts);
+    [javac] 		           ^
+    [javac]   required: Map<Integer,StatsSet>
+    [javac]   found:    LinkedHashMap
+    [javac] C:\l2openX50\data\scripts\communityboard\CommunityBoardFullStats.java:1260: warning: [unchecked] unchecked conversion
+    [javac] 		_top_win_rate = (LinkedHashMap)ValueSortMap.sortMapByValue(_top_win_rate, comparator_rate);
+    [javac] 		                ^
+    [javac]   required: Map<Integer,StatsSet>
+    [javac]   found:    LinkedHashMap
+    [javac] C:\l2openX50\data\scripts\communityboard\CommunityBoardStats.java:264: warning: [unchecked] unchecked conversion
+    [javac] 		_top_pts = (LinkedHashMap)ValueSortMap.sortMapByValue(_top_pts, comparator_pts);
+    [javac] 		           ^
+    [javac]   required: Map<Integer,StatsSet>
+    [javac]   found:    LinkedHashMap
+    [javac] 3 warnings
+
+dist:
+     [exec] Execute failed: java.io.IOException: Cannot run program "svnversion" (in directory "C:\l2openX50\compiling"): CreateProcess error=2, Не удается найти указанный файл
+   [delete] Deleting directory C:\l2openX50\build\scripts\classes\l2open
+      [jar] Building jar: C:\l2openX50\build\scripts\tsrsvp.jar
+   [delete] Deleting directory C:\l2openX50\build\scripts\classes
+
+BUILD SUCCESSFUL
+Total time: 37 seconds

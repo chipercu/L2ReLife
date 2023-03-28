@@ -1,0 +1,1511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+    <config showall="false" notax="true" keepenchanted="true" />
+    <item id="1">
+      <!-- God's Blade-->
+       <ingredient count="1" id="4000082" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4100082" />
+   </item>
+    <item id="2">
+      <!-- The Staff-->
+       <ingredient count="1" id="4000214" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4100214" />
+   </item>
+    <item id="3">
+      <!-- Dragon's Tooth-->
+       <ingredient count="1" id="4000237" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4100237" />
+   </item>
+    <item id="4">
+      <!-- The Bow-->
+       <ingredient count="1" id="4000290" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4100290" />
+   </item>
+    <item id="5">
+      <!-- Dragon Claw Axe-->
+       <ingredient count="1" id="4000306" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4100306" />
+   </item>
+    <item id="6">
+      <!-- Aurakyria Lance-->
+       <ingredient count="1" id="4000307" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4100307" />
+   </item>
+    <item id="7">
+      <!-- Dragon Shield-->
+       <ingredient count="1" id="4000634" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4100634" />
+   </item>
+    <item id="8">
+      <!-- Forgotten Blade-->
+       <ingredient count="1" id="4006364" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106364" />
+   </item>
+    <item id="9">
+      <!-- Basalt Battlehammer-->
+       <ingredient count="1" id="4006365" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106365" />
+   </item>
+    <item id="10">
+      <!-- Imperial Staff-->
+       <ingredient count="1" id="4006366" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106366" />
+   </item>
+    <item id="11">
+      <!-- Angel Slayer-->
+       <ingredient count="1" id="4006367" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106367" />
+   </item>
+    <item id="12">
+      <!-- Shining Bow-->
+       <ingredient count="1" id="4006368" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106368" />
+   </item>
+    <item id="13">
+      <!-- Dragon Hunter Axe-->
+       <ingredient count="1" id="4006369" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106369" />
+   </item>
+    <item id="14">
+      <!-- Saint Spear-->
+       <ingredient count="1" id="4006370" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106370" />
+   </item>
+    <item id="15">
+      <!-- Demon Splinter-->
+       <ingredient count="1" id="4006371" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106371" />
+   </item>
+    <item id="16">
+      <!-- Heaven's Divider-->
+       <ingredient count="1" id="4006372" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106372" />
+   </item>
+    <item id="17">
+      <!-- Imperial Crusader Shield-->
+       <ingredient count="1" id="4006377" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106377" />
+   </item>
+    <item id="18">
+      <!-- Triton Pole-->
+       <ingredient count="1" id="4006534" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106534" />
+   </item>
+    <item id="19">
+      <!-- Arcana Mace-->
+       <ingredient count="1" id="4006579" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106579" />
+   </item>
+    <item id="20">
+      <!-- Tallum Blade*Dark Legion's Edge-->
+       <ingredient count="1" id="4006580" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106580" />
+   </item>
+    <item id="21">
+      <!-- Forgotten Blade-->
+       <ingredient count="1" id="4006581" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106581" />
+   </item>
+    <item id="22">
+      <!-- Forgotten Blade-->
+       <ingredient count="1" id="4006582" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106582" />
+   </item>
+    <item id="23">
+      <!-- Forgotten Blade-->
+       <ingredient count="1" id="4006583" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106583" />
+   </item>
+    <item id="24">
+      <!-- Basalt Battlehammer-->
+       <ingredient count="1" id="4006584" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106584" />
+   </item>
+    <item id="25">
+      <!-- Basalt Battlehammer-->
+       <ingredient count="1" id="4006585" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106585" />
+   </item>
+    <item id="26">
+      <!-- Basalt Battlehammer-->
+       <ingredient count="1" id="4006586" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106586" />
+   </item>
+    <item id="27">
+      <!-- Imperial Staff-->
+       <ingredient count="1" id="4006587" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106587" />
+   </item>
+    <item id="28">
+      <!-- Imperial Staff-->
+       <ingredient count="1" id="4006588" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106588" />
+   </item>
+    <item id="29">
+      <!-- Imperial Staff-->
+       <ingredient count="1" id="4006589" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106589" />
+   </item>
+    <item id="30">
+      <!-- Angel Slayer-->
+       <ingredient count="1" id="4006590" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106590" />
+   </item>
+    <item id="31">
+      <!-- Angel Slayer-->
+       <ingredient count="1" id="4006591" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106591" />
+   </item>
+    <item id="32">
+      <!-- Angel Slayer-->
+       <ingredient count="1" id="4006592" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106592" />
+   </item>
+    <item id="33">
+      <!-- Shining Bow-->
+       <ingredient count="1" id="4006593" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106593" />
+   </item>
+    <item id="34">
+      <!-- Shining Bow-->
+       <ingredient count="1" id="4006594" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106594" />
+   </item>
+    <item id="35">
+      <!-- Shining Bow-->
+       <ingredient count="1" id="4006595" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106595" />
+   </item>
+    <item id="36">
+      <!-- Dragon Hunter Axe-->
+       <ingredient count="1" id="4006596" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106596" />
+   </item>
+    <item id="37">
+      <!-- Dragon Hunter Axe-->
+       <ingredient count="1" id="4006597" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106597" />
+   </item>
+    <item id="38">
+      <!-- Dragon Hunter Axe-->
+       <ingredient count="1" id="4006598" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106598" />
+   </item>
+    <item id="39">
+      <!-- Saint Spear-->
+       <ingredient count="1" id="4006599" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106599" />
+   </item>
+    <item id="40">
+      <!-- Saint Spear-->
+       <ingredient count="1" id="4006600" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106600" />
+   </item>
+    <item id="41">
+      <!-- Saint Spear-->
+       <ingredient count="1" id="4006601" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106601" />
+   </item>
+    <item id="42">
+      <!-- Demon Splinter-->
+       <ingredient count="1" id="4006602" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106602" />
+   </item>
+    <item id="43">
+      <!-- Demon Splinter-->
+       <ingredient count="1" id="4006603" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106603" />
+   </item>
+    <item id="44">
+      <!-- Demon Splinter-->
+       <ingredient count="1" id="4006604" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106604" />
+   </item>
+    <item id="45">
+      <!-- Heavens Divider-->
+       <ingredient count="1" id="4006605" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106605" />
+   </item>
+    <item id="46">
+      <!-- Heavens Divider-->
+       <ingredient count="1" id="4006606" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106606" />
+   </item>
+    <item id="47">
+      <!-- Heavens Divider-->
+       <ingredient count="1" id="4006607" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106607" />
+   </item>
+    <item id="48">
+      <!-- Arcana Mace-->
+       <ingredient count="1" id="4006608" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106608" />
+   </item>
+    <item id="49">
+      <!-- Arcana Mace-->
+       <ingredient count="1" id="4006609" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106609" />
+   </item>
+    <item id="50">
+      <!-- Arcana Mace-->
+       <ingredient count="1" id="4006610" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106610" />
+   </item>
+    <item id="51">
+      <!-- Sealed Imperial Crusader Shield-->
+       <ingredient count="1" id="4006678" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4106678" />
+   </item>
+    <item id="52">
+      <!-- Draconic Bow-->
+       <ingredient count="1" id="4007575" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4107575" />
+   </item>
+    <item id="53">
+      <!-- Draconic Bow-->
+       <ingredient count="1" id="4007576" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4107576" />
+   </item>
+    <item id="54">
+      <!-- Draconic Bow-->
+       <ingredient count="1" id="4007577" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4107577" />
+   </item>
+    <item id="55">
+      <!-- Draconic Bow-->
+       <ingredient count="1" id="4007578" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4107578" />
+   </item>
+    <item id="56">
+      <!-- Laevateinn-->
+       <ingredient count="1" id="4009364" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109364" />
+   </item>
+    <item id="57">
+      <!-- Laevateinn-->
+       <ingredient count="1" id="4009365" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109365" />
+   </item>
+    <item id="58">
+      <!-- Laevateinn-->
+       <ingredient count="1" id="4009366" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109366" />
+   </item>
+    <item id="59">
+      <!-- Laevateinn-->
+       <ingredient count="1" id="4009367" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109367" />
+   </item>
+    <item id="60">
+      <!-- Gram-->
+       <ingredient count="1" id="4009368" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109368" />
+   </item>
+    <item id="61">
+      <!-- Gram-->
+       <ingredient count="1" id="4009369" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109369" />
+   </item>
+    <item id="62">
+      <!-- Gram-->
+       <ingredient count="1" id="4009370" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109370" />
+   </item>
+    <item id="63">
+      <!-- Gram-->
+       <ingredient count="1" id="4009371" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109371" />
+   </item>
+    <item id="64">
+      <!-- Sarnga-->
+       <ingredient count="1" id="4009372" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109372" />
+   </item>
+    <item id="65">
+      <!-- Sarnga-->
+       <ingredient count="1" id="4009373" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109373" />
+   </item>
+    <item id="66">
+      <!-- Sarnga-->
+       <ingredient count="1" id="4009374" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109374" />
+   </item>
+    <item id="67">
+      <!-- Sarnga-->
+       <ingredient count="1" id="4009375" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109375" />
+   </item>
+    <item id="68">
+      <!-- Dynasty Rapier-->
+       <ingredient count="1" id="4009376" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109376" />
+   </item>
+    <item id="69">
+      <!-- Dynasty Rapier-->
+       <ingredient count="1" id="4009377" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109377" />
+   </item>
+    <item id="70">
+      <!-- Dynasty Rapier-->
+       <ingredient count="1" id="4009378" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109378" />
+   </item>
+    <item id="71">
+      <!-- Dynasty Rapier-->
+       <ingredient count="1" id="4009379" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109379" />
+   </item>
+    <item id="72">
+      <!-- Dynasty Ancient Sword-->
+       <ingredient count="1" id="4009380" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109380" />
+   </item>
+    <item id="73">
+      <!-- Dynasty Ancient Sword-->
+       <ingredient count="1" id="4009381" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109381" />
+   </item>
+    <item id="74">
+      <!-- Dynasty Ancient Sword-->
+       <ingredient count="1" id="4009382" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109382" />
+   </item>
+    <item id="75">
+      <!-- Dynasty Ancient Sword-->
+       <ingredient count="1" id="4009383" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109383" />
+   </item>
+    <item id="76">
+      <!-- Dynasty Crossbow-->
+       <ingredient count="1" id="4009384" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109384" />
+   </item>
+    <item id="77">
+      <!-- Dynasty Crossbow-->
+       <ingredient count="1" id="4009385" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109385" />
+   </item>
+    <item id="78">
+      <!-- Dynasty Crossbow-->
+       <ingredient count="1" id="4009386" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109386" />
+   </item>
+    <item id="79">
+      <!-- Dynasty Crossbow-->
+       <ingredient count="1" id="4009387" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109387" />
+   </item>
+    <item id="80">
+      <!-- Dynasty Shield-->
+       <ingredient count="1" id="4009441" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109441" />
+   </item>
+    <item id="81">
+      <!-- Dynasty Sword-->
+       <ingredient count="1" id="4009442" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109442" />
+   </item>
+    <item id="82">
+      <!-- Dynasty Blade-->
+       <ingredient count="1" id="4009443" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109443" />
+   </item>
+    <item id="83">
+      <!-- Dynasty Phantom-->
+       <ingredient count="1" id="4009444" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109444" />
+   </item>
+    <item id="84">
+      <!-- Dynasty Bow-->
+       <ingredient count="1" id="4009445" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109445" />
+   </item>
+    <item id="85">
+      <!-- Dynasty Knife-->
+       <ingredient count="1" id="4009446" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109446" />
+   </item>
+    <item id="86">
+      <!-- Dynasty Halberd-->
+       <ingredient count="1" id="4009447" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109447" />
+   </item>
+    <item id="87">
+      <!-- Dynasty Cudgel-->
+       <ingredient count="1" id="4009448" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109448" />
+   </item>
+    <item id="88">
+      <!-- Dynasty Mace-->
+       <ingredient count="1" id="4009449" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109449" />
+   </item>
+    <item id="89">
+      <!-- Dynasty Bagh-Nakh-->
+       <ingredient count="1" id="4009450" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109450" />
+   </item>
+    <item id="90">
+      <!-- Sealed Dynasty Shield-->
+       <ingredient count="1" id="4009529" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109529" />
+   </item>
+    <item id="91">
+      <!-- Dynasty Sword-->
+       <ingredient count="1" id="4009854" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109854" />
+   </item>
+    <item id="92">
+      <!-- Dynasty Sword-->
+       <ingredient count="1" id="4009855" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109855" />
+   </item>
+    <item id="93">
+      <!-- Dynasty Sword-->
+       <ingredient count="1" id="4009856" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109856" />
+   </item>
+    <item id="94">
+      <!-- Dynasty Blade-->
+       <ingredient count="1" id="4009857" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109857" />
+   </item>
+    <item id="95">
+      <!-- Dynasty Blade-->
+       <ingredient count="1" id="4009858" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109858" />
+   </item>
+    <item id="96">
+      <!-- Dynasty Blade-->
+       <ingredient count="1" id="4009859" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109859" />
+   </item>
+    <item id="97">
+      <!-- Dynasty Phantom-->
+       <ingredient count="1" id="4009860" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109860" />
+   </item>
+    <item id="98">
+      <!-- Dynasty Phantom-->
+       <ingredient count="1" id="4009861" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109861" />
+   </item>
+    <item id="99">
+      <!-- Dynasty Phantom-->
+       <ingredient count="1" id="4009862" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109862" />
+   </item>
+    <item id="100">
+      <!-- Dynasty Bow-->
+       <ingredient count="1" id="4009863" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109863" />
+   </item>
+    <item id="101">
+      <!-- Dynasty Bow-->
+       <ingredient count="1" id="4009864" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109864" />
+   </item>
+    <item id="102">
+      <!-- Dynasty Bow-->
+       <ingredient count="1" id="4009865" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109865" />
+   </item>
+    <item id="103">
+      <!-- Dynasty Knife-->
+       <ingredient count="1" id="4009866" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109866" />
+   </item>
+    <item id="104">
+      <!-- Dynasty Knife-->
+       <ingredient count="1" id="4009867" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109867" />
+   </item>
+    <item id="105">
+      <!-- Dynasty Knife-->
+       <ingredient count="1" id="4009868" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109868" />
+   </item>
+    <item id="106">
+      <!-- Dynasty Halberd-->
+       <ingredient count="1" id="4009869" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109869" />
+   </item>
+    <item id="107">
+      <!-- Dynasty Halberd-->
+       <ingredient count="1" id="4009870" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109870" />
+   </item>
+    <item id="108">
+      <!-- Dynasty Halberd-->
+       <ingredient count="1" id="4009871" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109871" />
+   </item>
+    <item id="109">
+      <!-- Dynasty Cudgel-->
+       <ingredient count="1" id="4009872" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109872" />
+   </item>
+    <item id="110">
+      <!-- Dynasty Cudgel-->
+       <ingredient count="1" id="4009873" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109873" />
+   </item>
+    <item id="111">
+      <!-- Dynasty Cudgel-->
+       <ingredient count="1" id="4009874" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109874" />
+   </item>
+    <item id="112">
+      <!-- Dynasty Mace-->
+       <ingredient count="1" id="4009875" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109875" />
+   </item>
+    <item id="113">
+      <!-- Dynasty Mace-->
+       <ingredient count="1" id="4009876" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109876" />
+   </item>
+    <item id="114">
+      <!-- Dynasty Mace-->
+       <ingredient count="1" id="4009877" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109877" />
+   </item>
+    <item id="115">
+      <!-- Dynasty Bagh-Nakh-->
+       <ingredient count="1" id="4009878" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109878" />
+   </item>
+    <item id="116">
+      <!-- Dynasty Bagh-Nakh-->
+       <ingredient count="1" id="4009879" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109879" />
+   </item>
+    <item id="117">
+      <!-- Dynasty Bagh-Nakh-->
+       <ingredient count="1" id="4009880" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4109880" />
+   </item>
+    <item id="118">
+      <!-- Dynasty Dual Sword-->
+       <ingredient count="1" id="4010004" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4110004" />
+   </item>
+    <item id="119">
+      <!-- Dynasty Staff-->
+       <ingredient count="1" id="4010252" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4110252" />
+   </item>
+    <item id="120">
+      <!-- Dynasty Crusher-->
+       <ingredient count="1" id="4010253" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4110253" />
+   </item>
+    <item id="121">
+      <!-- Dynasty Staff-->
+       <ingredient count="1" id="4010527" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4110527" />
+   </item>
+    <item id="122">
+      <!-- Dynasty Staff-->
+       <ingredient count="1" id="4010528" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4110528" />
+   </item>
+    <item id="123">
+      <!-- Dynasty Staff-->
+       <ingredient count="1" id="4010529" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4110529" />
+   </item>
+    <item id="124">
+      <!-- Dynasty Crusher-->
+       <ingredient count="1" id="4010530" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4110530" />
+   </item>
+    <item id="125">
+      <!-- Dynasty Crusher-->
+       <ingredient count="1" id="4010531" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4110531" />
+   </item>
+    <item id="126">
+      <!-- Dynasty Crusher-->
+       <ingredient count="1" id="4010532" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4110532" />
+   </item>
+    <item id="127">
+      <!-- Gram - Thunder-->
+       <ingredient count="1" id="4011190" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111190" />
+   </item>
+    <item id="128">
+      <!-- Gram - Thunder-->
+       <ingredient count="1" id="4011191" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111191" />
+   </item>
+    <item id="129">
+      <!-- Gram - Thunder-->
+       <ingredient count="1" id="4011192" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111192" />
+   </item>
+    <item id="130">
+      <!-- Gram - Thunder-->
+       <ingredient count="1" id="4011193" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111193" />
+   </item>
+    <item id="131">
+      <!-- Demon Splinter - Thunder-->
+       <ingredient count="1" id="4011194" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111194" />
+   </item>
+    <item id="132">
+      <!-- Demon Splinter - Thunder-->
+       <ingredient count="1" id="4011195" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111195" />
+   </item>
+    <item id="133">
+      <!-- Demon Splinter - Thunder-->
+       <ingredient count="1" id="4011196" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111196" />
+   </item>
+    <item id="134">
+      <!-- Demon Splinter - Thunder-->
+       <ingredient count="1" id="4011197" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111197" />
+   </item>
+    <item id="135">
+      <!-- Draconic Bow - Earth-->
+       <ingredient count="1" id="4011198" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111198" />
+   </item>
+    <item id="136">
+      <!-- Draconic Bow - Earth-->
+       <ingredient count="1" id="4011199" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111199" />
+   </item>
+    <item id="137">
+      <!-- Draconic Bow - Earth-->
+       <ingredient count="1" id="4011200" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111200" />
+   </item>
+    <item id="138">
+      <!-- Draconic Bow - Earth-->
+       <ingredient count="1" id="4011201" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111201" />
+   </item>
+    <item id="139">
+      <!-- Dragon Hunter Axe - Thunder-->
+       <ingredient count="1" id="4011202" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111202" />
+   </item>
+    <item id="140">
+      <!-- Dragon Hunter Axe - Thunder-->
+       <ingredient count="1" id="4011203" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111203" />
+   </item>
+    <item id="141">
+      <!-- Dragon Hunter Axe - Thunder-->
+       <ingredient count="1" id="4011204" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111204" />
+   </item>
+    <item id="142">
+      <!-- Dragon Hunter Axe - Thunder-->
+       <ingredient count="1" id="4011205" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111205" />
+   </item>
+    <item id="143">
+      <!-- Laevateinn - Lightning-->
+       <ingredient count="1" id="4011206" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111206" />
+   </item>
+    <item id="144">
+      <!-- Laevateinn - Lightning-->
+       <ingredient count="1" id="4011207" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111207" />
+   </item>
+    <item id="145">
+      <!-- Laevateinn - Lightning-->
+       <ingredient count="1" id="4011208" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111208" />
+   </item>
+    <item id="146">
+      <!-- Laevateinn - Lightning-->
+       <ingredient count="1" id="4011209" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111209" />
+   </item>
+    <item id="147">
+      <!-- Basalt Battlehammer - Concentration-->
+       <ingredient count="1" id="4011210" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111210" />
+   </item>
+    <item id="148">
+      <!-- Basalt Battlehammer - Concentration-->
+       <ingredient count="1" id="4011211" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111211" />
+   </item>
+    <item id="149">
+      <!-- Basalt Battlehammer - Concentration-->
+       <ingredient count="1" id="4011212" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111212" />
+   </item>
+    <item id="150">
+      <!-- Basalt Battlehammer - Concentration-->
+       <ingredient count="1" id="4011213" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111213" />
+   </item>
+    <item id="151">
+      <!-- Sarunga - Earth-->
+       <ingredient count="1" id="4011214" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111214" />
+   </item>
+    <item id="152">
+      <!-- Sarunga - Earth-->
+       <ingredient count="1" id="4011215" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111215" />
+   </item>
+    <item id="153">
+      <!-- Sarunga - Earth-->
+       <ingredient count="1" id="4011216" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111216" />
+   </item>
+    <item id="154">
+      <!-- Sarunga - Earth-->
+       <ingredient count="1" id="4011217" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111217" />
+   </item>
+    <item id="155">
+      <!-- Saint Spear - Destruction-->
+       <ingredient count="1" id="4011218" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111218" />
+   </item>
+    <item id="156">
+      <!-- Saint Spear - Destruction-->
+       <ingredient count="1" id="4011219" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111219" />
+   </item>
+    <item id="157">
+      <!-- Saint Spear - Destruction-->
+       <ingredient count="1" id="4011220" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111220" />
+   </item>
+    <item id="158">
+      <!-- Saint Spear - Destruction-->
+       <ingredient count="1" id="4011221" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111221" />
+   </item>
+    <item id="159">
+      <!-- Arcana Mace - Nature-->
+       <ingredient count="1" id="4011222" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111222" />
+   </item>
+    <item id="160">
+      <!-- Arcana Mace - Nature-->
+       <ingredient count="1" id="4011223" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111223" />
+   </item>
+    <item id="161">
+      <!-- Arcana Mace - Nature-->
+       <ingredient count="1" id="4011224" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111224" />
+   </item>
+    <item id="162">
+      <!-- Arcana Mace - Nature-->
+       <ingredient count="1" id="4011225" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111225" />
+   </item>
+    <item id="163">
+      <!-- Angel Slayer - Concentration-->
+       <ingredient count="1" id="4011226" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111226" />
+   </item>
+    <item id="164">
+      <!-- Angel Slayer - Concentration-->
+       <ingredient count="1" id="4011227" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111227" />
+   </item>
+    <item id="165">
+      <!-- Angel Slayer - Concentration-->
+       <ingredient count="1" id="4011228" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111228" />
+   </item>
+    <item id="166">
+      <!-- Angel Slayer - Concentration-->
+       <ingredient count="1" id="4011229" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111229" />
+   </item>
+    <item id="167">
+      <!-- Imperial Staff - Nature-->
+       <ingredient count="1" id="4011230" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111230" />
+   </item>
+    <item id="168">
+      <!-- Imperial Staff - Nature-->
+       <ingredient count="1" id="4011231" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111231" />
+   </item>
+    <item id="169">
+      <!-- Imperial Staff - Nature-->
+       <ingredient count="1" id="4011232" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111232" />
+   </item>
+    <item id="170">
+      <!-- Imperial Staff - Nature-->
+       <ingredient count="1" id="4011233" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111233" />
+   </item>
+    <item id="171">
+      <!-- Tallum Blade*Dark Legion's Edge - Lightning-->
+       <ingredient count="1" id="4011234" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111234" />
+   </item>
+    <item id="172">
+      <!-- Forgotten Blade - Lightning-->
+       <ingredient count="1" id="4011235" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111235" />
+   </item>
+    <item id="173">
+      <!-- Forgotten Blade - Lightning-->
+       <ingredient count="1" id="4011236" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111236" />
+   </item>
+    <item id="174">
+      <!-- Forgotten Blade - Lightning-->
+       <ingredient count="1" id="4011237" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111237" />
+   </item>
+    <item id="175">
+      <!-- Forgotten Blade - Lightning-->
+       <ingredient count="1" id="4011238" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111238" />
+   </item>
+    <item id="176">
+      <!-- Heaven's Divider - Thunder-->
+       <ingredient count="1" id="4011239" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111239" />
+   </item>
+    <item id="177">
+      <!-- Heaven's Divider - Thunder-->
+       <ingredient count="1" id="4011240" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111240" />
+   </item>
+    <item id="178">
+      <!-- Heaven's Divider - Thunder-->
+       <ingredient count="1" id="4011241" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111241" />
+   </item>
+    <item id="179">
+      <!-- Heaven's Divider - Thunder-->
+       <ingredient count="1" id="4011242" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111242" />
+   </item>
+    <item id="180">
+      <!-- Dynasty Ancient Sword - Great Gale-->
+       <ingredient count="1" id="4011243" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111243" />
+   </item>
+    <item id="181">
+      <!-- Dynasty Ancient Sword - Great Gale-->
+       <ingredient count="1" id="4011244" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111244" />
+   </item>
+    <item id="182">
+      <!-- Dynasty Ancient Sword - Great Gale-->
+       <ingredient count="1" id="4011245" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111245" />
+   </item>
+    <item id="183">
+      <!-- Dynasty Ancient Sword - Great Gale-->
+       <ingredient count="1" id="4011246" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111246" />
+   </item>
+    <item id="184">
+      <!-- Dynasty Knife - Great Gale-->
+       <ingredient count="1" id="4011247" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111247" />
+   </item>
+    <item id="185">
+      <!-- Dynasty Knife - Great Gale-->
+       <ingredient count="1" id="4011248" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111248" />
+   </item>
+    <item id="186">
+      <!-- Dynasty Knife - Great Gale-->
+       <ingredient count="1" id="4011249" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111249" />
+   </item>
+    <item id="187">
+      <!-- Dynasty Knife - Great Gale-->
+       <ingredient count="1" id="4011250" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111250" />
+   </item>
+    <item id="188">
+      <!-- Dynasty Dual Sword - Earth-->
+       <ingredient count="1" id="4011251" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111251" />
+   </item>
+    <item id="189">
+      <!-- Dynasty Rapier - Earth-->
+       <ingredient count="1" id="4011252" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111252" />
+   </item>
+    <item id="190">
+      <!-- Dynasty Rapier - Earth-->
+       <ingredient count="1" id="4011253" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111253" />
+   </item>
+    <item id="191">
+      <!-- Dynasty Rapier - Earth-->
+       <ingredient count="1" id="4011254" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111254" />
+   </item>
+    <item id="192">
+      <!-- Dynasty Rapier - Earth-->
+       <ingredient count="1" id="4011255" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111255" />
+   </item>
+    <item id="193">
+      <!-- Dynasty Mace - Earth-->
+       <ingredient count="1" id="4011256" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111256" />
+   </item>
+    <item id="194">
+      <!-- Dynasty Mace - Earth-->
+       <ingredient count="1" id="4011257" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111257" />
+   </item>
+    <item id="195">
+      <!-- Dynasty Mace - Earth-->
+       <ingredient count="1" id="4011258" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111258" />
+   </item>
+    <item id="196">
+      <!-- Dynasty Mace - Earth-->
+       <ingredient count="1" id="4011259" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111259" />
+   </item>
+    <item id="197">
+      <!-- Dynasty Bagh-Nakh - Great Gale-->
+       <ingredient count="1" id="4011260" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111260" />
+   </item>
+    <item id="198">
+      <!-- Dynasty Bagh-Nakh - Great Gale-->
+       <ingredient count="1" id="4011261" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111261" />
+   </item>
+    <item id="199">
+      <!-- Dynasty Bagh-Nakh - Great Gale-->
+       <ingredient count="1" id="4011262" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111262" />
+   </item>
+    <item id="200">
+      <!-- Dynasty Bagh-Nakh - Great Gale-->
+       <ingredient count="1" id="4011263" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111263" />
+   </item>
+    <item id="201">
+      <!-- Dynasty Bow - Great Gale-->
+       <ingredient count="1" id="4011264" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111264" />
+   </item>
+    <item id="202">
+      <!-- Dynasty Bow - Great Gale-->
+       <ingredient count="1" id="4011265" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111265" />
+   </item>
+    <item id="203">
+      <!-- Dynasty Bow - Great Gale-->
+       <ingredient count="1" id="4011266" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111266" />
+   </item>
+    <item id="204">
+      <!-- Dynasty Bow - Great Gale-->
+       <ingredient count="1" id="4011267" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111267" />
+   </item>
+    <item id="205">
+      <!-- Dynasty Blade - Great Gale-->
+       <ingredient count="1" id="4011268" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111268" />
+   </item>
+    <item id="206">
+      <!-- Dynasty Blade - Great Gale-->
+       <ingredient count="1" id="4011269" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111269" />
+   </item>
+    <item id="207">
+      <!-- Dynasty Blade - Great Gale-->
+       <ingredient count="1" id="4011270" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111270" />
+   </item>
+    <item id="208">
+      <!-- Dynasty Blade - Great Gale-->
+       <ingredient count="1" id="4011271" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111271" />
+   </item>
+    <item id="209">
+      <!-- Dynasty Sword - Earth-->
+       <ingredient count="1" id="4011272" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111272" />
+   </item>
+    <item id="210">
+      <!-- Dynasty Sword - Earth-->
+       <ingredient count="1" id="4011273" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111273" />
+   </item>
+    <item id="211">
+      <!-- Dynasty Sword - Earth-->
+       <ingredient count="1" id="4011274" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111274" />
+   </item>
+    <item id="212">
+      <!-- Dynasty Sword - Earth-->
+       <ingredient count="1" id="4011275" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111275" />
+   </item>
+    <item id="213">
+      <!-- Dynasty Staff - Holy Spirit-->
+       <ingredient count="1" id="4011276" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111276" />
+   </item>
+    <item id="214">
+      <!-- Dynasty Staff - Holy Spirit-->
+       <ingredient count="1" id="4011277" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111277" />
+   </item>
+    <item id="215">
+      <!-- Dynasty Staff - Holy Spirit-->
+       <ingredient count="1" id="4011278" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111278" />
+   </item>
+    <item id="216">
+      <!-- Dynasty Staff - Holy Spirit-->
+       <ingredient count="1" id="4011279" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111279" />
+   </item>
+    <item id="217">
+      <!-- Dynasty Cudgel - Landslide-->
+       <ingredient count="1" id="4011280" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111280" />
+   </item>
+    <item id="218">
+      <!-- Dynasty Cudgel - Landslide-->
+       <ingredient count="1" id="4011281" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111281" />
+   </item>
+    <item id="219">
+      <!-- Dynasty Cudgel - Landslide-->
+       <ingredient count="1" id="4011282" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111282" />
+   </item>
+    <item id="220">
+      <!-- Dynasty Cudgel - Landslide-->
+       <ingredient count="1" id="4011283" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111283" />
+   </item>
+    <item id="221">
+      <!-- Dynasty Crusher - Great Gale-->
+       <ingredient count="1" id="4011284" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111284" />
+   </item>
+    <item id="222">
+      <!-- Dynasty Crusher - Great Gale-->
+       <ingredient count="1" id="4011285" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111285" />
+   </item>
+    <item id="223">
+      <!-- Dynasty Crusher - Great Gale-->
+       <ingredient count="1" id="4011286" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111286" />
+   </item>
+    <item id="224">
+      <!-- Dynasty Crusher - Great Gale-->
+       <ingredient count="1" id="4011287" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111287" />
+   </item>
+    <item id="225">
+      <!-- Dynasty Crossbow - Great Gale-->
+       <ingredient count="1" id="4011288" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111288" />
+   </item>
+    <item id="226">
+      <!-- Dynasty Crossbow - Great Gale-->
+       <ingredient count="1" id="4011289" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111289" />
+   </item>
+    <item id="227">
+      <!-- Dynasty Crossbow - Great Gale-->
+       <ingredient count="1" id="4011290" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111290" />
+   </item>
+    <item id="228">
+      <!-- Dynasty Crossbow - Great Gale-->
+       <ingredient count="1" id="4011291" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111291" />
+   </item>
+    <item id="229">
+      <!-- Dynasty Phantom - Nature-->
+       <ingredient count="1" id="4011292" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111292" />
+   </item>
+    <item id="230">
+      <!-- Dynasty Phantom - Nature-->
+       <ingredient count="1" id="4011293" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111293" />
+   </item>
+    <item id="231">
+      <!-- Dynasty Phantom - Nature-->
+       <ingredient count="1" id="4011294" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111294" />
+   </item>
+    <item id="232">
+      <!-- Dynasty Phantom - Nature-->
+       <ingredient count="1" id="4011295" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111295" />
+   </item>
+    <item id="233">
+      <!-- Dynasty Halberd - Earth-->
+       <ingredient count="1" id="4011296" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111296" />
+   </item>
+    <item id="234">
+      <!-- Dynasty Halberd - Earth-->
+       <ingredient count="1" id="4011297" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111297" />
+   </item>
+    <item id="235">
+      <!-- Dynasty Halberd - Earth-->
+       <ingredient count="1" id="4011298" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111298" />
+   </item>
+    <item id="236">
+      <!-- Dynasty Halberd - Earth-->
+       <ingredient count="1" id="4011299" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111299" />
+   </item>
+    <item id="237">
+      <!-- Sealed Imperial Crusader Shield-->
+       <ingredient count="1" id="4011502" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111502" />
+   </item>
+    <item id="238">
+      <!-- Imperial Crusader Shield-->
+       <ingredient count="1" id="4011508" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111508" />
+   </item>
+    <item id="239">
+      <!-- Dynasty Shield-->
+       <ingredient count="1" id="4011532" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111532" />
+   </item>
+    <item id="240">
+      <!-- Sealed Dynasty Shield-->
+       <ingredient count="1" id="4011569" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4111569" />
+   </item>
+    <item id="241">
+      <!-- Dynasty Dual Daggers-->
+       <ingredient count="1" id="4013882" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4113882" />
+   </item>
+    <item id="242">
+      <!-- Blades of Delusion-->
+       <ingredient count="1" id="4021955" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4121955" />
+   </item>
+    <item id="243">
+      <!-- Blades of Delusion - Earth-->
+       <ingredient count="1" id="4021957" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4121957" />
+   </item>
+    <item id="244">
+      <!-- Blood Brother-->
+       <ingredient count="1" id="4021959" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4121959" />
+   </item>
+    <item id="245">
+      <!-- Blood Brother-->
+       <ingredient count="1" id="4021960" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4121960" />
+   </item>
+    <item id="246">
+      <!-- Blood Brother-->
+       <ingredient count="1" id="4021961" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4121961" />
+   </item>
+    <item id="247">
+      <!-- Blood Brother-->
+       <ingredient count="1" id="4021962" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4121962" />
+   </item>
+    <item id="248">
+      <!-- Blood Brother - Great Gale-->
+       <ingredient count="1" id="4021966" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4121966" />
+   </item>
+    <item id="249">
+      <!-- Blood Brother - Great Gale-->
+       <ingredient count="1" id="4021967" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4121967" />
+   </item>
+    <item id="250">
+      <!-- Blood Brother - Great Gale-->
+       <ingredient count="1" id="4021968" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4121968" />
+   </item>
+    <item id="251">
+      <!-- Blood Brother - Great Gale-->
+       <ingredient count="1" id="4021969" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="4121969" />
+   </item>
+   </list>

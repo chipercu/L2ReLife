@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<weapon id="22281" name="Sujin Transformation Stick - 7-day limited period (event)" type="SWORD">
+		<set name="bodypart" val="RHAND" />
+		<set name="icon" val="BranchSys2.icon.br_blessed_taigirl_i00" />
+		<set name="additional_name" val="7-day Limited Period"/>
+		<set name="durability" val="10080"/>
+		<set name="p_dam" val="1" />
+		<set name="m_dam" val="1" />
+		<set name="atk_speed" val="379" />
+		<set name="critical" val="8" />
+		<skills>
+			<skill id="21196" lvl="1" />
+		</skills>
+	</weapon>
+	<weapon id="40001" name="Dragon Slayer1" type="BIGSWORD">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 19.01.2011-21:47-->
+		<set name="bodypart" val="LRHAND"/>
+		<set name="icon" val="icon.weapon_dragon_slayer_i00"/>
+		<set name="weight" val="1840"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="crystal_type" val="S"/>
+		<set name="crystal_count" val="1659"/>
+		<set name="p_dam" val="342"/>
+		<set name="m_dam" val="132"/>
+		<set name="atk_speed" val="325"/>
+		<set name="rnd_dam" val="10"/>
+		<set name="critical" val="8"/>
+		<set name="price" val="30741000"/>
+		<set name="kamaelAnalog" val="9344"/>
+	</weapon>
+</list>

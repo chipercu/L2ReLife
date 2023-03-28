@@ -1,0 +1,2340 @@
+    <item id="1">
+      <!-- Flamberge-->
+       <ingredient count="1" id="1000071" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100071" />
+   </item>
+    <item id="2">
+      <!-- Stormbringer-->
+       <ingredient count="1" id="1000072" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100072" />
+   </item>
+    <item id="3">
+      <!-- Shamshir-->
+       <ingredient count="1" id="1000073" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100073" />
+   </item>
+    <item id="4">
+      <!-- Katana-->
+       <ingredient count="1" id="1000074" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100074" />
+   </item>
+    <item id="5">
+      <!-- Caliburs-->
+       <ingredient count="1" id="1000075" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100075" />
+   </item>
+    <item id="6">
+      <!-- Sword of Delusion-->
+       <ingredient count="1" id="1000076" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100076" />
+   </item>
+    <item id="7">
+      <!-- Tsurugi-->
+       <ingredient count="1" id="1000077" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100077" />
+   </item>
+    <item id="8">
+      <!-- Homunkulus's Sword-->
+       <ingredient count="1" id="1000084" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100084" />
+   </item>
+    <item id="9">
+      <!-- Big Hammer-->
+       <ingredient count="1" id="1000089" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100089" />
+   </item>
+    <item id="10">
+      <!-- Bec de Corbin-->
+       <ingredient count="1" id="1000094" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100094" />
+   </item>
+    <item id="11">
+      <!-- Poleaxe-->
+       <ingredient count="1" id="1000095" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100095" />
+   </item>
+    <item id="12">
+      <!-- Scythe-->
+       <ingredient count="1" id="1000096" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100096" />
+   </item>
+    <item id="13">
+      <!-- Sage's Staff-->
+       <ingredient count="1" id="1000200" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100200" />
+   </item>
+    <item id="14">
+      <!-- Club of Nature-->
+       <ingredient count="1" id="1000201" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100201" />
+   </item>
+    <item id="15">
+      <!-- Mace of the Underworld-->
+       <ingredient count="1" id="1000202" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100202" />
+   </item>
+    <item id="16">
+      <!-- Pa'agrian Axe-->
+       <ingredient count="1" id="1000203" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100203" />
+   </item>
+    <item id="17">
+      <!-- Deadman's Staff-->
+       <ingredient count="1" id="1000204" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100204" />
+   </item>
+    <item id="18">
+      <!-- Ghoul's Staff-->
+       <ingredient count="1" id="1000205" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100205" />
+   </item>
+    <item id="19">
+      <!-- Demon's Staff-->
+       <ingredient count="1" id="1000206" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100206" />
+   </item>
+    <item id="20">
+      <!-- Cursed Dagger-->
+       <ingredient count="1" id="1000226" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100226" />
+   </item>
+    <item id="21">
+      <!-- Stiletto-->
+       <ingredient count="1" id="1000227" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100227" />
+   </item>
+    <item id="22">
+      <!-- Crystal Dagger-->
+       <ingredient count="1" id="1000228" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100228" />
+   </item>
+    <item id="23">
+      <!-- Wolverine Needle-->
+       <ingredient count="1" id="1000230" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100230" />
+   </item>
+    <item id="24">
+      <!-- Grace Dagger-->
+       <ingredient count="1" id="1000231" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100231" />
+   </item>
+    <item id="25">
+      <!-- Dark Elven Dagger-->
+       <ingredient count="1" id="1000232" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100232" />
+   </item>
+    <item id="26">
+      <!-- Dark Screamer-->
+       <ingredient count="1" id="1000233" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100233" />
+   </item>
+    <item id="27">
+      <!-- Soulfire Dirk-->
+       <ingredient count="1" id="1000242" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100242" />
+   </item>
+    <item id="28">
+      <!-- Chakram-->
+       <ingredient count="1" id="1000263" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100263" />
+   </item>
+    <item id="29">
+      <!-- Fisted Blade-->
+       <ingredient count="1" id="1000265" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100265" />
+   </item>
+    <item id="30">
+      <!-- Great Pata-->
+       <ingredient count="1" id="1000266" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100266" />
+   </item>
+    <item id="31">
+      <!-- Crystallized Ice Bow-->
+       <ingredient count="1" id="1000281" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100281" />
+   </item>
+    <item id="32">
+      <!-- Elemental Bow-->
+       <ingredient count="1" id="1000282" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100282" />
+   </item>
+    <item id="33">
+      <!-- Akat Long Bow-->
+       <ingredient count="1" id="1000283" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100283" />
+   </item>
+    <item id="34">
+      <!-- Noble Elven Bow-->
+       <ingredient count="1" id="1000285" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100285" />
+   </item>
+    <item id="35">
+      <!-- Eminence Bow-->
+       <ingredient count="1" id="1000286" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100286" />
+   </item>
+    <item id="36">
+      <!-- Orcish Glaive-->
+       <ingredient count="1" id="1000298" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100298" />
+   </item>
+    <item id="37">
+      <!-- Orcish Poleaxe-->
+       <ingredient count="1" id="1000299" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100299" />
+   </item>
+    <item id="38">
+      <!-- Scorpion-->
+       <ingredient count="1" id="1000301" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100301" />
+   </item>
+    <item id="39">
+      <!-- Body Slasher-->
+       <ingredient count="1" id="1000302" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100302" />
+   </item>
+    <item id="40">
+      <!-- Widow Maker-->
+       <ingredient count="1" id="1000303" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100303" />
+   </item>
+    <item id="41">
+      <!-- Eldarake-->
+       <ingredient count="1" id="1000631" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100631" />
+   </item>
+    <item id="42">
+      <!-- Knight's Shield-->
+       <ingredient count="1" id="1000632" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1100632" />
+   </item>
+    <item id="43">
+      <!-- Chain Shield-->
+       <ingredient count="1" id="1002495" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102495" />
+   </item>
+    <item id="44">
+      <!-- Dwarven Chain Shield-->
+       <ingredient count="1" id="1002496" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102496" />
+   </item>
+    <item id="45">
+      <!-- Full Plate Shield-->
+       <ingredient count="1" id="1002497" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102497" />
+   </item>
+    <item id="46">
+      <!-- Dwarven War Hammer-->
+       <ingredient count="1" id="1002502" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102502" />
+   </item>
+    <item id="47">
+      <!-- Yaksa Mace-->
+       <ingredient count="1" id="1002503" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102503" />
+   </item>
+    <item id="48">
+      <!-- Saber*Sword of Revolution-->
+       <ingredient count="1" id="1002523" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102523" />
+   </item>
+    <item id="49">
+      <!-- Saber*Elven Long Sword-->
+       <ingredient count="1" id="1002524" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102524" />
+   </item>
+    <item id="50">
+      <!-- Bastard Sword*Sword of Revolution-->
+       <ingredient count="1" id="1002531" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102531" />
+   </item>
+    <item id="51">
+      <!-- Bastard Sword*Elven Long Sword-->
+       <ingredient count="1" id="1002532" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102532" />
+   </item>
+    <item id="52">
+      <!-- Spinebone Sword*Sword of Revolution-->
+       <ingredient count="1" id="1002538" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102538" />
+   </item>
+    <item id="53">
+      <!-- Spinebone Sword*Elven Long Sword-->
+       <ingredient count="1" id="1002539" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102539" />
+   </item>
+    <item id="54">
+      <!-- Artisan's Sword*Sword of Revolution-->
+       <ingredient count="1" id="1002544" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102544" />
+   </item>
+    <item id="55">
+      <!-- Artisan's Sword*Elven Long Sword-->
+       <ingredient count="1" id="1002545" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102545" />
+   </item>
+    <item id="56">
+      <!-- Knight's Sword*Sword of Revolution-->
+       <ingredient count="1" id="1002549" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102549" />
+   </item>
+    <item id="57">
+      <!-- Knight's Sword*Elven Long Sword-->
+       <ingredient count="1" id="1002550" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102550" />
+   </item>
+    <item id="58">
+      <!-- Crimson Sword*Crimson Sword-->
+       <ingredient count="1" id="1002551" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102551" />
+   </item>
+    <item id="59">
+      <!-- Crimson Sword*Elven Sword-->
+       <ingredient count="1" id="1002552" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102552" />
+   </item>
+    <item id="60">
+      <!-- Crimson Sword*Sword of Revolution-->
+       <ingredient count="1" id="1002553" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102553" />
+   </item>
+    <item id="61">
+      <!-- Crimson Sword*Elven Long Sword-->
+       <ingredient count="1" id="1002554" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102554" />
+   </item>
+    <item id="62">
+      <!-- Elven Sword*Elven Sword-->
+       <ingredient count="1" id="1002555" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102555" />
+   </item>
+    <item id="63">
+      <!-- Elven Sword*Sword of Revolution-->
+       <ingredient count="1" id="1002556" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102556" />
+   </item>
+    <item id="64">
+      <!-- Elven Sword*Elven Long Sword-->
+       <ingredient count="1" id="1002557" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102557" />
+   </item>
+    <item id="65">
+      <!-- Sword of Revolution*Sword of Revolution-->
+       <ingredient count="1" id="1002558" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102558" />
+   </item>
+    <item id="66">
+      <!-- Sword of Revolution*Elven Long Sword-->
+       <ingredient count="1" id="1002559" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102559" />
+   </item>
+    <item id="67">
+      <!-- Elven Long Sword*Elven Long Sword-->
+       <ingredient count="1" id="1002560" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102560" />
+   </item>
+    <item id="68">
+      <!-- Stormbringer*Stormbringer-->
+       <ingredient count="1" id="1002561" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102561" />
+   </item>
+    <item id="69">
+      <!-- Stormbringer*Shamshir-->
+       <ingredient count="1" id="1002562" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102562" />
+   </item>
+    <item id="70">
+      <!-- Stormbringer*Katana-->
+       <ingredient count="1" id="1002563" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102563" />
+   </item>
+    <item id="71">
+      <!-- Stormbringer*Spirit Sword-->
+       <ingredient count="1" id="1002564" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102564" />
+   </item>
+    <item id="72">
+      <!-- Stormbringer*Raid Sword-->
+       <ingredient count="1" id="1002565" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102565" />
+   </item>
+    <item id="73">
+      <!-- Shamshir*Shamshir-->
+       <ingredient count="1" id="1002572" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102572" />
+   </item>
+    <item id="74">
+      <!-- Shamshir*Katana-->
+       <ingredient count="1" id="1002573" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102573" />
+   </item>
+    <item id="75">
+      <!-- Shamshir*Spirit Sword-->
+       <ingredient count="1" id="1002574" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102574" />
+   </item>
+    <item id="76">
+      <!-- Shamshir*Raid Sword-->
+       <ingredient count="1" id="1002575" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102575" />
+   </item>
+    <item id="77">
+      <!-- Katana*Katana-->
+       <ingredient count="1" id="1002582" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102582" />
+   </item>
+    <item id="78">
+      <!-- Katana*Spirit Sword-->
+       <ingredient count="1" id="1002583" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102583" />
+   </item>
+    <item id="79">
+      <!-- Katana*Raid Sword-->
+       <ingredient count="1" id="1002584" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102584" />
+   </item>
+    <item id="80">
+      <!-- Spirit Sword*Spirit Sword-->
+       <ingredient count="1" id="1002591" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102591" />
+   </item>
+    <item id="81">
+      <!-- Spirit Sword*Raid Sword-->
+       <ingredient count="1" id="1002592" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102592" />
+   </item>
+    <item id="82">
+      <!-- Raid Sword*Raid Sword-->
+       <ingredient count="1" id="1002599" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1102599" />
+   </item>
+    <item id="83">
+      <!-- Knuckle Duster-->
+       <ingredient count="1" id="1004233" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104233" />
+   </item>
+    <item id="84">
+      <!-- Stormbringer-->
+       <ingredient count="1" id="1004681" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104681" />
+   </item>
+    <item id="85">
+      <!-- Stormbringer-->
+       <ingredient count="1" id="1004682" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104682" />
+   </item>
+    <item id="86">
+      <!-- Stormbringer-->
+       <ingredient count="1" id="1004683" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104683" />
+   </item>
+    <item id="87">
+      <!-- Shamshir-->
+       <ingredient count="1" id="1004684" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104684" />
+   </item>
+    <item id="88">
+      <!-- Shamshir-->
+       <ingredient count="1" id="1004685" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104685" />
+   </item>
+    <item id="89">
+      <!-- Shamshir-->
+       <ingredient count="1" id="1004686" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104686" />
+   </item>
+    <item id="90">
+      <!-- Katana-->
+       <ingredient count="1" id="1004687" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104687" />
+   </item>
+    <item id="91">
+      <!-- Katana-->
+       <ingredient count="1" id="1004688" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104688" />
+   </item>
+    <item id="92">
+      <!-- Katana-->
+       <ingredient count="1" id="1004689" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104689" />
+   </item>
+    <item id="93">
+      <!-- Spirit Sword-->
+       <ingredient count="1" id="1004690" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104690" />
+   </item>
+    <item id="94">
+      <!-- Spirit Sword-->
+       <ingredient count="1" id="1004691" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104691" />
+   </item>
+    <item id="95">
+      <!-- Spirit Sword-->
+       <ingredient count="1" id="1004692" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104692" />
+   </item>
+    <item id="96">
+      <!-- Raid Sword-->
+       <ingredient count="1" id="1004693" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104693" />
+   </item>
+    <item id="97">
+      <!-- Raid Sword-->
+       <ingredient count="1" id="1004694" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104694" />
+   </item>
+    <item id="98">
+      <!-- Raid Sword-->
+       <ingredient count="1" id="1004695" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104695" />
+   </item>
+    <item id="99">
+      <!-- Caliburs-->
+       <ingredient count="1" id="1004696" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104696" />
+   </item>
+    <item id="100">
+      <!-- Caliburs-->
+       <ingredient count="1" id="1004697" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104697" />
+   </item>
+    <item id="101">
+      <!-- Caliburs-->
+       <ingredient count="1" id="1004698" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104698" />
+   </item>
+    <item id="102">
+      <!-- Sword of Delusion-->
+       <ingredient count="1" id="1004699" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104699" />
+   </item>
+    <item id="103">
+      <!-- Sword of Delusion-->
+       <ingredient count="1" id="1004700" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104700" />
+   </item>
+    <item id="104">
+      <!-- Sword of Delusion-->
+       <ingredient count="1" id="1004701" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104701" />
+   </item>
+    <item id="105">
+      <!-- Tsurugi-->
+       <ingredient count="1" id="1004702" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104702" />
+   </item>
+    <item id="106">
+      <!-- Tsurugi-->
+       <ingredient count="1" id="1004703" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104703" />
+   </item>
+    <item id="107">
+      <!-- Tsurugi-->
+       <ingredient count="1" id="1004704" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104704" />
+   </item>
+    <item id="108">
+      <!-- Sword of Nightmare-->
+       <ingredient count="1" id="1004705" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104705" />
+   </item>
+    <item id="109">
+      <!-- Sword of Nightmare-->
+       <ingredient count="1" id="1004706" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104706" />
+   </item>
+    <item id="110">
+      <!-- Sword of Nightmare-->
+       <ingredient count="1" id="1004707" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104707" />
+   </item>
+    <item id="111">
+      <!-- Samurai Longsword-->
+       <ingredient count="1" id="1004708" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104708" />
+   </item>
+    <item id="112">
+      <!-- Samurai Longsword-->
+       <ingredient count="1" id="1004709" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104709" />
+   </item>
+    <item id="113">
+      <!-- Samurai Longsword-->
+       <ingredient count="1" id="1004710" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104710" />
+   </item>
+    <item id="114">
+      <!-- Flamberge-->
+       <ingredient count="1" id="1004711" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104711" />
+   </item>
+    <item id="115">
+      <!-- Flamberge-->
+       <ingredient count="1" id="1004712" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104712" />
+   </item>
+    <item id="116">
+      <!-- Flamberge-->
+       <ingredient count="1" id="1004713" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104713" />
+   </item>
+    <item id="117">
+      <!-- Big Hammer-->
+       <ingredient count="1" id="1004726" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104726" />
+   </item>
+    <item id="118">
+      <!-- Big Hammer-->
+       <ingredient count="1" id="1004727" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104727" />
+   </item>
+    <item id="119">
+      <!-- Big Hammer-->
+       <ingredient count="1" id="1004728" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104728" />
+   </item>
+    <item id="120">
+      <!-- Battle Axe-->
+       <ingredient count="1" id="1004729" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104729" />
+   </item>
+    <item id="121">
+      <!-- Battle Axe-->
+       <ingredient count="1" id="1004730" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104730" />
+   </item>
+    <item id="122">
+      <!-- Battle Axe-->
+       <ingredient count="1" id="1004731" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104731" />
+   </item>
+    <item id="123">
+      <!-- Silver Axe-->
+       <ingredient count="1" id="1004732" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104732" />
+   </item>
+    <item id="124">
+      <!-- Silver Axe-->
+       <ingredient count="1" id="1004733" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104733" />
+   </item>
+    <item id="125">
+      <!-- Silver Axe-->
+       <ingredient count="1" id="1004734" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104734" />
+   </item>
+    <item id="126">
+      <!-- Skull Graver-->
+       <ingredient count="1" id="1004735" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104735" />
+   </item>
+    <item id="127">
+      <!-- Skull Graver-->
+       <ingredient count="1" id="1004736" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104736" />
+   </item>
+    <item id="128">
+      <!-- Skull Graver-->
+       <ingredient count="1" id="1004737" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104737" />
+   </item>
+    <item id="129">
+      <!-- Dwarven War Hammer-->
+       <ingredient count="1" id="1004738" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104738" />
+   </item>
+    <item id="130">
+      <!-- Dwarven War Hammer-->
+       <ingredient count="1" id="1004739" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104739" />
+   </item>
+    <item id="131">
+      <!-- Dwarven War Hammer-->
+       <ingredient count="1" id="1004740" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104740" />
+   </item>
+    <item id="132">
+      <!-- War Axe-->
+       <ingredient count="1" id="1004741" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104741" />
+   </item>
+    <item id="133">
+      <!-- War Axe-->
+       <ingredient count="1" id="1004742" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104742" />
+   </item>
+    <item id="134">
+      <!-- War Axe-->
+       <ingredient count="1" id="1004743" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104743" />
+   </item>
+    <item id="135">
+      <!-- Yaksa Mace-->
+       <ingredient count="1" id="1004744" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104744" />
+   </item>
+    <item id="136">
+      <!-- Yaksa Mace-->
+       <ingredient count="1" id="1004745" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104745" />
+   </item>
+    <item id="137">
+      <!-- Yaksa Mace-->
+       <ingredient count="1" id="1004746" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104746" />
+   </item>
+    <item id="138">
+      <!-- Cursed Dagger-->
+       <ingredient count="1" id="1004759" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104759" />
+   </item>
+    <item id="139">
+      <!-- Cursed Dagger-->
+       <ingredient count="1" id="1004760" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104760" />
+   </item>
+    <item id="140">
+      <!-- Cursed Dagger-->
+       <ingredient count="1" id="1004761" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104761" />
+   </item>
+    <item id="141">
+      <!-- Dark Elven Dagger-->
+       <ingredient count="1" id="1004762" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104762" />
+   </item>
+    <item id="142">
+      <!-- Dark Elven Dagger-->
+       <ingredient count="1" id="1004763" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104763" />
+   </item>
+    <item id="143">
+      <!-- Dark Elven Dagger-->
+       <ingredient count="1" id="1004764" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104764" />
+   </item>
+    <item id="144">
+      <!-- Stiletto-->
+       <ingredient count="1" id="1004765" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104765" />
+   </item>
+    <item id="145">
+      <!-- Stiletto-->
+       <ingredient count="1" id="1004766" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104766" />
+   </item>
+    <item id="146">
+      <!-- Stiletto-->
+       <ingredient count="1" id="1004767" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104767" />
+   </item>
+    <item id="147">
+      <!-- Grace Dagger-->
+       <ingredient count="1" id="1004768" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104768" />
+   </item>
+    <item id="148">
+      <!-- Grace Dagger-->
+       <ingredient count="1" id="1004769" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104769" />
+   </item>
+    <item id="149">
+      <!-- Grace Dagger-->
+       <ingredient count="1" id="1004770" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104770" />
+   </item>
+    <item id="150">
+      <!-- Dark Screamer-->
+       <ingredient count="1" id="1004771" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104771" />
+   </item>
+    <item id="151">
+      <!-- Dark Screamer-->
+       <ingredient count="1" id="1004772" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104772" />
+   </item>
+    <item id="152">
+      <!-- Dark Screamer-->
+       <ingredient count="1" id="1004773" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104773" />
+   </item>
+    <item id="153">
+      <!-- Crystal Dagger-->
+       <ingredient count="1" id="1004774" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104774" />
+   </item>
+    <item id="154">
+      <!-- Crystal Dagger-->
+       <ingredient count="1" id="1004775" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104775" />
+   </item>
+    <item id="155">
+      <!-- Crystal Dagger-->
+       <ingredient count="1" id="1004776" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104776" />
+   </item>
+    <item id="156">
+      <!-- Chakram-->
+       <ingredient count="1" id="1004789" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104789" />
+   </item>
+    <item id="157">
+      <!-- Chakram-->
+       <ingredient count="1" id="1004790" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104790" />
+   </item>
+    <item id="158">
+      <!-- Chakram-->
+       <ingredient count="1" id="1004791" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104791" />
+   </item>
+    <item id="159">
+      <!-- Fisted Blade-->
+       <ingredient count="1" id="1004792" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104792" />
+   </item>
+    <item id="160">
+      <!-- Fisted Blade-->
+       <ingredient count="1" id="1004793" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104793" />
+   </item>
+    <item id="161">
+      <!-- Fisted Blade-->
+       <ingredient count="1" id="1004794" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104794" />
+   </item>
+    <item id="162">
+      <!-- Great Pata-->
+       <ingredient count="1" id="1004795" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104795" />
+   </item>
+    <item id="163">
+      <!-- Great Pata-->
+       <ingredient count="1" id="1004796" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104796" />
+   </item>
+    <item id="164">
+      <!-- Great Pata-->
+       <ingredient count="1" id="1004797" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104797" />
+   </item>
+    <item id="165">
+      <!-- Knuckle Duster-->
+       <ingredient count="1" id="1004798" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104798" />
+   </item>
+    <item id="166">
+      <!-- Knuckle Duster-->
+       <ingredient count="1" id="1004799" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104799" />
+   </item>
+    <item id="167">
+      <!-- Knuckle Duster-->
+       <ingredient count="1" id="1004800" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104800" />
+   </item>
+    <item id="168">
+      <!-- Crystallized Ice Bow-->
+       <ingredient count="1" id="1004810" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104810" />
+   </item>
+    <item id="169">
+      <!-- Crystallized Ice Bow-->
+       <ingredient count="1" id="1004811" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104811" />
+   </item>
+    <item id="170">
+      <!-- Crystallized Ice Bow-->
+       <ingredient count="1" id="1004812" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104812" />
+   </item>
+    <item id="171">
+      <!-- Elemental Bow-->
+       <ingredient count="1" id="1004813" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104813" />
+   </item>
+    <item id="172">
+      <!-- Elemental Bow-->
+       <ingredient count="1" id="1004814" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104814" />
+   </item>
+    <item id="173">
+      <!-- Elemental Bow-->
+       <ingredient count="1" id="1004815" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104815" />
+   </item>
+    <item id="174">
+      <!-- Elven Bow of Nobility-->
+       <ingredient count="1" id="1004816" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104816" />
+   </item>
+    <item id="175">
+      <!-- Elven Bow of Nobility-->
+       <ingredient count="1" id="1004817" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104817" />
+   </item>
+    <item id="176">
+      <!-- Elven Bow of Nobility-->
+       <ingredient count="1" id="1004818" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104818" />
+   </item>
+    <item id="177">
+      <!-- Akat Long Bow-->
+       <ingredient count="1" id="1004819" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104819" />
+   </item>
+    <item id="178">
+      <!-- Akat Long Bow-->
+       <ingredient count="1" id="1004820" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104820" />
+   </item>
+    <item id="179">
+      <!-- Akat Long Bow-->
+       <ingredient count="1" id="1004821" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104821" />
+   </item>
+    <item id="180">
+      <!-- Eminence Bow-->
+       <ingredient count="1" id="1004822" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104822" />
+   </item>
+    <item id="181">
+      <!-- Eminence Bow-->
+       <ingredient count="1" id="1004823" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104823" />
+   </item>
+    <item id="182">
+      <!-- Eminence Bow-->
+       <ingredient count="1" id="1004824" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104824" />
+   </item>
+    <item id="183">
+      <!-- Scythe-->
+       <ingredient count="1" id="1004834" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104834" />
+   </item>
+    <item id="184">
+      <!-- Scythe-->
+       <ingredient count="1" id="1004835" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104835" />
+   </item>
+    <item id="185">
+      <!-- Scythe-->
+       <ingredient count="1" id="1004836" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104836" />
+   </item>
+    <item id="186">
+      <!-- Orcish Glaive-->
+       <ingredient count="1" id="1004837" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104837" />
+   </item>
+    <item id="187">
+      <!-- Orcish Glaive-->
+       <ingredient count="1" id="1004838" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104838" />
+   </item>
+    <item id="188">
+      <!-- Orcish Glaive-->
+       <ingredient count="1" id="1004839" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104839" />
+   </item>
+    <item id="189">
+      <!-- Body Slasher-->
+       <ingredient count="1" id="1004840" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104840" />
+   </item>
+    <item id="190">
+      <!-- Body Slasher-->
+       <ingredient count="1" id="1004841" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104841" />
+   </item>
+    <item id="191">
+      <!-- Body Slasher-->
+       <ingredient count="1" id="1004842" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104842" />
+   </item>
+    <item id="192">
+      <!-- Bec de Corbin-->
+       <ingredient count="1" id="1004843" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104843" />
+   </item>
+    <item id="193">
+      <!-- Bec de Corbin-->
+       <ingredient count="1" id="1004844" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104844" />
+   </item>
+    <item id="194">
+      <!-- Bec de Corbin-->
+       <ingredient count="1" id="1004845" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104845" />
+   </item>
+    <item id="195">
+      <!-- Scorpion-->
+       <ingredient count="1" id="1004846" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104846" />
+   </item>
+    <item id="196">
+      <!-- Scorpion-->
+       <ingredient count="1" id="1004847" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104847" />
+   </item>
+    <item id="197">
+      <!-- Scorpion-->
+       <ingredient count="1" id="1004848" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104848" />
+   </item>
+    <item id="198">
+      <!-- Widow Maker-->
+       <ingredient count="1" id="1004849" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104849" />
+   </item>
+    <item id="199">
+      <!-- Widow Maker-->
+       <ingredient count="1" id="1004850" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104850" />
+   </item>
+    <item id="200">
+      <!-- Widow Maker-->
+       <ingredient count="1" id="1004851" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104851" />
+   </item>
+    <item id="201">
+      <!-- Orcish Poleaxe-->
+       <ingredient count="1" id="1004852" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104852" />
+   </item>
+    <item id="202">
+      <!-- Orcish Poleaxe-->
+       <ingredient count="1" id="1004853" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104853" />
+   </item>
+    <item id="203">
+      <!-- Orcish Poleaxe-->
+       <ingredient count="1" id="1004854" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104854" />
+   </item>
+    <item id="204">
+      <!-- Heavy Doom Hammer-->
+       <ingredient count="1" id="1004864" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104864" />
+   </item>
+    <item id="205">
+      <!-- Heavy Doom Hammer-->
+       <ingredient count="1" id="1004865" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104865" />
+   </item>
+    <item id="206">
+      <!-- Heavy Doom Hammer-->
+       <ingredient count="1" id="1004866" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104866" />
+   </item>
+    <item id="207">
+      <!-- Crystal Staff-->
+       <ingredient count="1" id="1004867" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104867" />
+   </item>
+    <item id="208">
+      <!-- Crystal Staff-->
+       <ingredient count="1" id="1004868" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104868" />
+   </item>
+    <item id="209">
+      <!-- Crystal Staff-->
+       <ingredient count="1" id="1004869" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104869" />
+   </item>
+    <item id="210">
+      <!-- Heavy Doom Axe-->
+       <ingredient count="1" id="1004870" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104870" />
+   </item>
+    <item id="211">
+      <!-- Heavy Doom Axe-->
+       <ingredient count="1" id="1004871" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104871" />
+   </item>
+    <item id="212">
+      <!-- Heavy Doom Axe-->
+       <ingredient count="1" id="1004872" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104872" />
+   </item>
+    <item id="213">
+      <!-- Cursed Staff-->
+       <ingredient count="1" id="1004873" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104873" />
+   </item>
+    <item id="214">
+      <!-- Cursed Staff-->
+       <ingredient count="1" id="1004874" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104874" />
+   </item>
+    <item id="215">
+      <!-- Cursed Staff-->
+       <ingredient count="1" id="1004875" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104875" />
+   </item>
+    <item id="216">
+      <!-- Paradia Staff-->
+       <ingredient count="1" id="1004876" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104876" />
+   </item>
+    <item id="217">
+      <!-- Paradia Staff-->
+       <ingredient count="1" id="1004877" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104877" />
+   </item>
+    <item id="218">
+      <!-- Paradia Staff-->
+       <ingredient count="1" id="1004878" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104878" />
+   </item>
+    <item id="219">
+      <!-- Pa'agrian Hammer-->
+       <ingredient count="1" id="1004879" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104879" />
+   </item>
+    <item id="220">
+      <!-- Pa'agrian Hammer-->
+       <ingredient count="1" id="1004880" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104880" />
+   </item>
+    <item id="221">
+      <!-- Pa'agrian Hammer-->
+       <ingredient count="1" id="1004881" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104881" />
+   </item>
+    <item id="222">
+      <!-- Sage's Staff-->
+       <ingredient count="1" id="1004882" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104882" />
+   </item>
+    <item id="223">
+      <!-- Sage's Staff-->
+       <ingredient count="1" id="1004883" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104883" />
+   </item>
+    <item id="224">
+      <!-- Sage's Staff-->
+       <ingredient count="1" id="1004884" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104884" />
+   </item>
+    <item id="225">
+      <!-- Pa'agrian Axe-->
+       <ingredient count="1" id="1004885" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104885" />
+   </item>
+    <item id="226">
+      <!-- Pa'agrian Axe-->
+       <ingredient count="1" id="1004886" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104886" />
+   </item>
+    <item id="227">
+      <!-- Pa'agrian Axe-->
+       <ingredient count="1" id="1004887" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104887" />
+   </item>
+    <item id="228">
+      <!-- Deadman's Staff-->
+       <ingredient count="1" id="1004888" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104888" />
+   </item>
+    <item id="229">
+      <!-- Deadman's Staff-->
+       <ingredient count="1" id="1004889" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104889" />
+   </item>
+    <item id="230">
+      <!-- Deadman's Staff-->
+       <ingredient count="1" id="1004890" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104890" />
+   </item>
+    <item id="231">
+      <!-- Ghoul's Staff-->
+       <ingredient count="1" id="1004891" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104891" />
+   </item>
+    <item id="232">
+      <!-- Ghoul's Staff-->
+       <ingredient count="1" id="1004892" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104892" />
+   </item>
+    <item id="233">
+      <!-- Ghoul's Staff-->
+       <ingredient count="1" id="1004893" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104893" />
+   </item>
+    <item id="234">
+      <!-- Demon's Staff-->
+       <ingredient count="1" id="1004894" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104894" />
+   </item>
+    <item id="235">
+      <!-- Demon's Staff-->
+       <ingredient count="1" id="1004895" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104895" />
+   </item>
+    <item id="236">
+      <!-- Demon's Staff-->
+       <ingredient count="1" id="1004896" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1104896" />
+   </item>
+    <item id="237">
+      <!-- Berserker Blade-->
+       <ingredient count="1" id="1005286" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1105286" />
+   </item>
+    <item id="238">
+      <!-- Dawn-->
+       <ingredient count="1" id="1005802" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1105802" />
+   </item>
+    <item id="239">
+      <!-- Sword of Limit-->
+       <ingredient count="1" id="1006307" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1106307" />
+   </item>
+    <item id="240">
+      <!-- Sword of Limit-->
+       <ingredient count="1" id="1006308" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1106308" />
+   </item>
+    <item id="241">
+      <!-- Sword of Limit-->
+       <ingredient count="1" id="1006309" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1106309" />
+   </item>
+    <item id="242">
+      <!-- Sword of Whispering Death-->
+       <ingredient count="1" id="1006310" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1106310" />
+   </item>
+    <item id="243">
+      <!-- Sword of Whispering Death-->
+       <ingredient count="1" id="1006311" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1106311" />
+   </item>
+    <item id="244">
+      <!-- Sword of Whispering Death-->
+       <ingredient count="1" id="1006312" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1106312" />
+   </item>
+    <item id="245">
+      <!-- Homunkulus's Sword-->
+       <ingredient count="1" id="1006313" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1106313" />
+   </item>
+    <item id="246">
+      <!-- Homunkulus's Sword-->
+       <ingredient count="1" id="1006314" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1106314" />
+   </item>
+    <item id="247">
+      <!-- Homunkulus's Sword-->
+       <ingredient count="1" id="1006315" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1106315" />
+   </item>
+    <item id="248">
+      <!-- Berserker Blade-->
+       <ingredient count="1" id="1006347" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1106347" />
+   </item>
+    <item id="249">
+      <!-- Berserker Blade-->
+       <ingredient count="1" id="1006348" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1106348" />
+   </item>
+    <item id="250">
+      <!-- Berserker Blade-->
+       <ingredient count="1" id="1006349" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1106349" />
+   </item>
+    <item id="251">
+      <!-- Dark Elven Dagger-->
+       <ingredient count="1" id="1006356" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1106356" />
+   </item>
+    <item id="252">
+      <!-- Stiletto-->
+       <ingredient count="1" id="1006357" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1106357" />
+   </item>
+    <item id="253">
+      <!-- Crystal Dagger-->
+       <ingredient count="1" id="1006358" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1106358" />
+   </item>
+    <item id="254">
+      <!-- Pelican Rod-->
+       <ingredient count="1" id="1006531" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1106531" />
+   </item>
+    <item id="255">
+      <!-- Stick of Faith-->
+       <ingredient count="1" id="1007701" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107701" />
+   </item>
+    <item id="256">
+      <!-- Stick of Faith-->
+       <ingredient count="1" id="1007702" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107702" />
+   </item>
+    <item id="257">
+      <!-- Stick of Faith-->
+       <ingredient count="1" id="1007703" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107703" />
+   </item>
+    <item id="258">
+      <!-- Stick of Eternity-->
+       <ingredient count="1" id="1007704" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107704" />
+   </item>
+    <item id="259">
+      <!-- Stick of Eternity-->
+       <ingredient count="1" id="1007705" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107705" />
+   </item>
+    <item id="260">
+      <!-- Stick of Eternity-->
+       <ingredient count="1" id="1007706" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107706" />
+   </item>
+    <item id="261">
+      <!-- Nirvana Axe-->
+       <ingredient count="1" id="1007707" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107707" />
+   </item>
+    <item id="262">
+      <!-- Nirvana Axe-->
+       <ingredient count="1" id="1007708" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107708" />
+   </item>
+    <item id="263">
+      <!-- Nirvana Axe-->
+       <ingredient count="1" id="1007709" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107709" />
+   </item>
+    <item id="264">
+      <!-- Club of Nature-->
+       <ingredient count="1" id="1007710" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107710" />
+   </item>
+    <item id="265">
+      <!-- Club of Nature-->
+       <ingredient count="1" id="1007711" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107711" />
+   </item>
+    <item id="266">
+      <!-- Club of Nature-->
+       <ingredient count="1" id="1007712" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107712" />
+   </item>
+    <item id="267">
+      <!-- Mace of the Underworld-->
+       <ingredient count="1" id="1007713" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107713" />
+   </item>
+    <item id="268">
+      <!-- Mace of the Underworld-->
+       <ingredient count="1" id="1007714" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107714" />
+   </item>
+    <item id="269">
+      <!-- Mace of the Underworld-->
+       <ingredient count="1" id="1007715" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107715" />
+   </item>
+    <item id="270">
+      <!-- Inferno Staff-->
+       <ingredient count="1" id="1007716" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107716" />
+   </item>
+    <item id="271">
+      <!-- Inferno Staff-->
+       <ingredient count="1" id="1007717" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107717" />
+   </item>
+    <item id="272">
+      <!-- Inferno Staff-->
+       <ingredient count="1" id="1007718" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107718" />
+   </item>
+    <item id="273">
+      <!-- Poleaxe-->
+       <ingredient count="1" id="1007719" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107719" />
+   </item>
+    <item id="274">
+      <!-- Poleaxe-->
+       <ingredient count="1" id="1007720" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107720" />
+   </item>
+    <item id="275">
+      <!-- Poleaxe-->
+       <ingredient count="1" id="1007721" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107721" />
+   </item>
+    <item id="276">
+      <!-- Soulfire Dirk-->
+       <ingredient count="1" id="1007810" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107810" />
+   </item>
+    <item id="277">
+      <!-- Soulfire Dirk-->
+       <ingredient count="1" id="1007811" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107811" />
+   </item>
+    <item id="278">
+      <!-- Soulfire Dirk-->
+       <ingredient count="1" id="1007812" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1107812" />
+   </item>
+    <item id="279">
+      <!-- Pa'agrian Sword-->
+       <ingredient count="1" id="1008102" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108102" />
+   </item>
+    <item id="280">
+      <!-- Pa'agrian Sword-->
+       <ingredient count="1" id="1008103" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108103" />
+   </item>
+    <item id="281">
+      <!-- Pa'agrian Sword-->
+       <ingredient count="1" id="1008104" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108104" />
+   </item>
+    <item id="282">
+      <!-- Mysterious Sword-->
+       <ingredient count="1" id="1008111" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108111" />
+   </item>
+    <item id="283">
+      <!-- Mysterious Sword-->
+       <ingredient count="1" id="1008112" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108112" />
+   </item>
+    <item id="284">
+      <!-- Mysterious Sword-->
+       <ingredient count="1" id="1008113" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108113" />
+   </item>
+    <item id="285">
+      <!-- Ecliptic Sword-->
+       <ingredient count="1" id="1008114" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108114" />
+   </item>
+    <item id="286">
+      <!-- Ecliptic Sword-->
+       <ingredient count="1" id="1008115" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108115" />
+   </item>
+    <item id="287">
+      <!-- Ecliptic Sword-->
+       <ingredient count="1" id="1008116" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108116" />
+   </item>
+    <item id="288">
+      <!-- Dwarven Hammer-->
+       <ingredient count="1" id="1008120" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108120" />
+   </item>
+    <item id="289">
+      <!-- Dwarven Hammer-->
+       <ingredient count="1" id="1008121" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108121" />
+   </item>
+    <item id="290">
+      <!-- Dwarven Hammer-->
+       <ingredient count="1" id="1008122" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108122" />
+   </item>
+    <item id="291">
+      <!-- Karik Horn-->
+       <ingredient count="1" id="1008123" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108123" />
+   </item>
+    <item id="292">
+      <!-- Karik Horn-->
+       <ingredient count="1" id="1008124" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108124" />
+   </item>
+    <item id="293">
+      <!-- Karik Horn-->
+       <ingredient count="1" id="1008125" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108125" />
+   </item>
+    <item id="294">
+      <!-- Ecliptic Axe-->
+       <ingredient count="1" id="1008138" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108138" />
+   </item>
+    <item id="295">
+      <!-- Ecliptic Axe-->
+       <ingredient count="1" id="1008139" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108139" />
+   </item>
+    <item id="296">
+      <!-- Ecliptic Axe-->
+       <ingredient count="1" id="1008140" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1108140" />
+   </item>
+    <item id="297">
+      <!-- Sword of Valakas (1-Handed)-->
+       <ingredient count="1" id="1009136" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109136" />
+   </item>
+    <item id="298">
+      <!-- Soldat Estoc-->
+       <ingredient count="1" id="1009228" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109228" />
+   </item>
+    <item id="299">
+      <!-- Soldat Estoc-->
+       <ingredient count="1" id="1009229" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109229" />
+   </item>
+    <item id="300">
+      <!-- Soldat Estoc-->
+       <ingredient count="1" id="1009230" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109230" />
+   </item>
+    <item id="301">
+      <!-- Soldat Estoc-->
+       <ingredient count="1" id="1009231" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109231" />
+   </item>
+    <item id="302">
+      <!-- Schlager-->
+       <ingredient count="1" id="1009232" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109232" />
+   </item>
+    <item id="303">
+      <!-- Schlager-->
+       <ingredient count="1" id="1009233" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109233" />
+   </item>
+    <item id="304">
+      <!-- Schlager-->
+       <ingredient count="1" id="1009234" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109234" />
+   </item>
+    <item id="305">
+      <!-- Schlager-->
+       <ingredient count="1" id="1009235" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109235" />
+   </item>
+    <item id="306">
+      <!-- Arbalest-->
+       <ingredient count="1" id="1009236" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109236" />
+   </item>
+    <item id="307">
+      <!-- Arbalest-->
+       <ingredient count="1" id="1009237" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109237" />
+   </item>
+    <item id="308">
+      <!-- Arbalest-->
+       <ingredient count="1" id="1009238" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109238" />
+   </item>
+    <item id="309">
+      <!-- Arbalest-->
+       <ingredient count="1" id="1009239" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109239" />
+   </item>
+    <item id="310">
+      <!-- Chevalier Rapier-->
+       <ingredient count="1" id="1009240" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109240" />
+   </item>
+    <item id="311">
+      <!-- Chevalier Rapier-->
+       <ingredient count="1" id="1009241" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109241" />
+   </item>
+    <item id="312">
+      <!-- Chevalier Rapier-->
+       <ingredient count="1" id="1009242" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109242" />
+   </item>
+    <item id="313">
+      <!-- Chevalier Rapier-->
+       <ingredient count="1" id="1009243" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109243" />
+   </item>
+    <item id="314">
+      <!-- Chevalier Rapier-->
+       <ingredient count="1" id="1009244" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109244" />
+   </item>
+    <item id="315">
+      <!-- Chevalier Rapier-->
+       <ingredient count="1" id="1009245" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109245" />
+   </item>
+    <item id="316">
+      <!-- Chevalier Rapier-->
+       <ingredient count="1" id="1009246" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109246" />
+   </item>
+    <item id="317">
+      <!-- Chevalier Rapier-->
+       <ingredient count="1" id="1009247" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109247" />
+   </item>
+    <item id="318">
+      <!-- Chevalier Rapier-->
+       <ingredient count="1" id="1009248" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109248" />
+   </item>
+    <item id="319">
+      <!-- Chevalier Rapier-->
+       <ingredient count="1" id="1009249" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109249" />
+   </item>
+    <item id="320">
+      <!-- Chevalier Rapier-->
+       <ingredient count="1" id="1009250" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109250" />
+   </item>
+    <item id="321">
+      <!-- Chevalier Rapier-->
+       <ingredient count="1" id="1009251" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109251" />
+   </item>
+    <item id="322">
+      <!-- Chevalier Rapier-->
+       <ingredient count="1" id="1009252" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109252" />
+   </item>
+    <item id="323">
+      <!-- Chevalier Rapier-->
+       <ingredient count="1" id="1009253" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109253" />
+   </item>
+    <item id="324">
+      <!-- Chevalier Rapier-->
+       <ingredient count="1" id="1009254" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109254" />
+   </item>
+    <item id="325">
+      <!-- Chevalier Rapier-->
+       <ingredient count="1" id="1009255" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109255" />
+   </item>
+    <item id="326">
+      <!-- Ballista-->
+       <ingredient count="1" id="1009256" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109256" />
+   </item>
+    <item id="327">
+      <!-- Ballista-->
+       <ingredient count="1" id="1009257" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109257" />
+   </item>
+    <item id="328">
+      <!-- Ballista-->
+       <ingredient count="1" id="1009258" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109258" />
+   </item>
+    <item id="329">
+      <!-- Ballista-->
+       <ingredient count="1" id="1009259" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109259" />
+   </item>
+    <item id="330">
+      <!-- Ballista-->
+       <ingredient count="1" id="1009260" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109260" />
+   </item>
+    <item id="331">
+      <!-- Ballista-->
+       <ingredient count="1" id="1009261" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109261" />
+   </item>
+    <item id="332">
+      <!-- Ballista-->
+       <ingredient count="1" id="1009262" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109262" />
+   </item>
+    <item id="333">
+      <!-- Ballista-->
+       <ingredient count="1" id="1009263" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109263" />
+   </item>
+    <item id="334">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009264" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109264" />
+   </item>
+    <item id="335">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009265" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109265" />
+   </item>
+    <item id="336">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009266" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109266" />
+   </item>
+    <item id="337">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009267" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109267" />
+   </item>
+    <item id="338">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009268" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109268" />
+   </item>
+    <item id="339">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009269" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109269" />
+   </item>
+    <item id="340">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009270" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109270" />
+   </item>
+    <item id="341">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009271" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109271" />
+   </item>
+    <item id="342">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009272" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109272" />
+   </item>
+    <item id="343">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009273" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109273" />
+   </item>
+    <item id="344">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009274" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109274" />
+   </item>
+    <item id="345">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009275" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109275" />
+   </item>
+    <item id="346">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009276" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109276" />
+   </item>
+    <item id="347">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009277" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109277" />
+   </item>
+    <item id="348">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009278" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109278" />
+   </item>
+    <item id="349">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009279" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109279" />
+   </item>
+    <item id="350">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009280" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109280" />
+   </item>
+    <item id="351">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009281" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109281" />
+   </item>
+    <item id="352">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009282" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109282" />
+   </item>
+    <item id="353">
+      <!-- Blinzlasher-->
+       <ingredient count="1" id="1009283" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109283" />
+   </item>
+    <item id="354">
+      <!-- Immortal Edge-->
+       <ingredient count="1" id="1009284" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109284" />
+   </item>
+    <item id="355">
+      <!-- Immortal Edge-->
+       <ingredient count="1" id="1009285" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109285" />
+   </item>
+    <item id="356">
+      <!-- Immortal Edge-->
+       <ingredient count="1" id="1009286" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109286" />
+   </item>
+    <item id="357">
+      <!-- Immortal Edge-->
+       <ingredient count="1" id="1009287" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109287" />
+   </item>
+    <item id="358">
+      <!-- Tathlum-->
+       <ingredient count="1" id="1009288" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109288" />
+   </item>
+    <item id="359">
+      <!-- Tathlum-->
+       <ingredient count="1" id="1009289" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109289" />
+   </item>
+    <item id="360">
+      <!-- Tathlum-->
+       <ingredient count="1" id="1009290" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109290" />
+   </item>
+    <item id="361">
+      <!-- Tathlum-->
+       <ingredient count="1" id="1009291" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109291" />
+   </item>
+    <item id="362">
+      <!-- Admiral's Estoc-->
+       <ingredient count="1" id="1009292" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109292" />
+   </item>
+    <item id="363">
+      <!-- Admiral's Estoc-->
+       <ingredient count="1" id="1009293" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109293" />
+   </item>
+    <item id="364">
+      <!-- Admiral's Estoc-->
+       <ingredient count="1" id="1009294" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109294" />
+   </item>
+    <item id="365">
+      <!-- Admiral's Estoc-->
+       <ingredient count="1" id="1009295" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109295" />
+   </item>
+    <item id="366">
+      <!-- Saber Tooth-->
+       <ingredient count="1" id="1009296" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109296" />
+   </item>
+    <item id="367">
+      <!-- Saber Tooth-->
+       <ingredient count="1" id="1009297" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109297" />
+   </item>
+    <item id="368">
+      <!-- Saber Tooth-->
+       <ingredient count="1" id="1009298" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109298" />
+   </item>
+    <item id="369">
+      <!-- Saber Tooth-->
+       <ingredient count="1" id="1009299" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109299" />
+   </item>
+    <item id="370">
+      <!-- Sharpshooter-->
+       <ingredient count="1" id="1009300" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109300" />
+   </item>
+    <item id="371">
+      <!-- Sharpshooter-->
+       <ingredient count="1" id="1009301" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109301" />
+   </item>
+    <item id="372">
+      <!-- Sharpshooter-->
+       <ingredient count="1" id="1009302" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109302" />
+   </item>
+    <item id="373">
+      <!-- Sharpshooter-->
+       <ingredient count="1" id="1009303" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1109303" />
+   </item>
+    <item id="374">
+      <!-- Red Boing Hammer-->
+       <ingredient count="1" id="1013789" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1113789" />
+   </item>
+    <item id="375">
+      <!-- Blue Boing Hammer-->
+       <ingredient count="1" id="1013790" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1113790" />
+   </item>
+    <item id="376">
+      <!-- Small Red Boing Hammer-->
+       <ingredient count="1" id="1013791" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1113791" />
+   </item>
+    <item id="377">
+      <!-- Small Blue Boing Hammer-->
+       <ingredient count="1" id="1013792" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1113792" />
+   </item>
+    <item id="378">
+      <!-- Full Plate Shield of Friendship-->
+       <ingredient count="1" id="1016904" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1116904" />
+   </item>
+    <item id="379">
+      <!-- Homunkulus's Sword of Friendship-->
+       <ingredient count="1" id="1016922" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1116922" />
+   </item>
+    <item id="380">
+      <!-- Dark Screamer of Friendship-->
+       <ingredient count="1" id="1016926" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1116926" />
+   </item>
+    <item id="381">
+      <!-- Eminence Bow of Friendship-->
+       <ingredient count="1" id="1016930" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1116930" />
+   </item>
+    <item id="382">
+      <!-- Yaksa Mace of Friendship-->
+       <ingredient count="1" id="1016934" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1116934" />
+   </item>
+    <item id="383">
+      <!-- Samurai Longsword of Friendship-->
+       <ingredient count="1" id="1016938" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1116938" />
+   </item>
+    <item id="384">
+      <!-- Berserker Blade of Friendship-->
+       <ingredient count="1" id="1016942" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1116942" />
+   </item>
+    <item id="385">
+      <!-- Great Pata of Friendship-->
+       <ingredient count="1" id="1016946" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1116946" />
+   </item>
+    <item id="386">
+      <!-- Spirit Sword*Raid Sword of Friendship-->
+       <ingredient count="1" id="1016950" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1116950" />
+   </item>
+    <item id="387">
+      <!-- Orcish Poleaxe of Friendship-->
+       <ingredient count="1" id="1016954" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1116954" />
+   </item>
+    <item id="388">
+      <!-- Saber Tooth of Friendship-->
+       <ingredient count="1" id="1016958" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1116958" />
+   </item>
+    <item id="389">
+      <!-- Admiral's Estoc of Friendship-->
+       <ingredient count="1" id="1016962" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1116962" />
+   </item>
+    <item id="390">
+      <!-- Sharpshooter of Friendship-->
+       <ingredient count="1" id="1016966" />
+        <ingredient count="291000" id="57" />
+       <production count="1" id="1116966" />
+   </item>
