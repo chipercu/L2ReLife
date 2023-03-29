@@ -45,6 +45,7 @@ import l2open.gameserver.taskmanager.TaskManager;
 import l2open.gameserver.webserver.WebServer;
 import l2open.gameserver.xml.ItemTemplates;
 import l2open.gameserver.xml.loader.*;
+import l2open.pts.loader.ArmorEnchantBonusData;
 import l2open.status.Status;
 import l2open.util.Files;
 import l2open.util.GArray;
@@ -166,7 +167,7 @@ public class GameServer
 
 		SkillTreeTable.getInstance();
 		SkillSpellbookTable.getInstance();
-		new l2open.pts.loader.ArmorEnchantBonusData();
+		new ArmorEnchantBonusData();
 		CharTemplateTable.getInstance();
 		//XmlPcParameterLoader.getInstance();
 
