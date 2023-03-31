@@ -1,6 +1,5 @@
 package npc.model;
 
-import html_editor.*;
 import l2open.config.ConfigValue;
 import l2open.gameserver.model.L2Player;
 import l2open.gameserver.model.L2Skill;
@@ -16,10 +15,13 @@ import l2open.gameserver.tables.player.PlayerData;
 import l2open.gameserver.templates.L2NpcTemplate;
 import l2open.gameserver.templates.OptionDataTemplate;
 import l2open.gameserver.xml.loader.XmlOptionDataLoader;
+import l2open.util.html_editor.Table;
 
 import java.util.Arrays;
 import java.util.StringTokenizer;
 import java.util.logging.Logger;
+
+import static l2open.util.html_editor.HTML_Generator.ALIGN.CENTER;
 
 public class UpgradeArmorInstance extends L2NpcInstance {
 
@@ -44,24 +46,9 @@ public class UpgradeArmorInstance extends L2NpcInstance {
         super(objectId, template);
     }
 
-    private String width(int size){
-        return "width=" + size + " ";
-    }
-    private String height(int size){
-        return "height=" + size + " ";
-    }
-    private String align(String pos){
-        return "align=" + pos + " ";
-    }
-    private String vlign(String pos){
-        return "valign=" + pos + " ";
-    }
-
     private String td(String content, String ...params){
         return "<td " + Arrays.toString(params) + ">" + content + "</td>";
     }
-
-
     private String getImage(L2ItemInstance item, int w, int h){
         return "<img src=\"" + item.getItem().getIcon() + "\" " + width(w) + height(h) + ">";
     }
@@ -162,20 +149,35 @@ public class UpgradeArmorInstance extends L2NpcInstance {
     }
 
 
-    private String progress(int lvl){
-        StringBuilder sb = new StringBuilder();
+    public String progress(int lvl){
 
-        String skill_progress_true = td(getImage("L2UI_CT1.DeBuffFrame_24", 8, 16), width(8), height(16), vlign("top"));
-        String skill_progress_false = td(getImage("L2UI_CT1.BuffFrame_24_1", 8, 16), width(8), height(16), vlign("top"));
+        final Table table = table(1, 30);
+        table.addParam("border=0 cellspacing=1 cellpadding=0 align=left valign=top");
 
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < table.getCol() + 1; i++) {
             if (lvl > i){
-                sb.append(skill_progress_true).append(td("", width(1), height(32), vlign("top")));
+                table.row(0).col(i).addParam(width(8), height(16), vlign("top")).setContent(getImage("L2UI_CT1.DeBuffFrame_24", 8, 16));
+                table.row(0).col(i + 1).addParam(width(1), height(32), vlign("top")).setContent("");
             }else {
-                sb.append(skill_progress_false).append(td("", width(1), height(32), vlign("top")));
+                table.row(0).col(i).addParam(width(8), height(16), vlign("top")).setContent(getImage("L2UI_CT1.BuffFrame_24_1", 8, 16));
+                table.row(0).col(i + 1).addParam(width(1), height(32), vlign("top")).setContent("");
             }
         }
-        return sb.toString();
+
+//        StringBuilder sb = new StringBuilder();
+//
+//        String skill_progress_true = td(getImage("L2UI_CT1.DeBuffFrame_24", 8, 16), width(8), height(16), vlign("top"));
+//        String skill_progress_false = td(getImage("L2UI_CT1.BuffFrame_24_1", 8, 16), width(8), height(16), vlign("top"));
+//
+//        for (int i = 0; i < 15; i++) {
+//            if (lvl > i){
+//                sb.append(skill_progress_true).append(td("", width(1), height(32), vlign("top")));
+//            }else {
+//                sb.append(skill_progress_false).append(td("", width(1), height(32), vlign("top")));
+//            }
+//        }
+//        return sb.toString();
+        return table.getHTML();
     }
 
     private String itemCount(L2Player player, L2ItemInstance item, int need){
@@ -199,7 +201,7 @@ public class UpgradeArmorInstance extends L2NpcInstance {
         result.append("<table border=0 cellspacing=0 cellpadding=2 width=320 background=\"l2ui_ct1.Windows_DF_TooltipBG\">")
                 .append("<tr>")
                 .append("<td height=40 width=32>").append(getImage(item, 32, 32)).append("</td>")
-                .append("<td ")
+                .append("<td>")
                 .append("<table border=0 cellspacing=0 cellpadding=0 width=160>")
                 .append("<tr>")
                 .append("<td>").append(getImage(skillIcon, 32, 32)).append("</td>")
@@ -213,9 +215,10 @@ public class UpgradeArmorInstance extends L2NpcInstance {
                 .append("<tr>")
                 .append("<td >").append("</td>")
                 .append("<td >")
-                .append("<table border=0 cellspacing=1 cellpadding=0 align=left valign=top>")
-                .append("<tr>").append(progress(skill != null ? skill.getLevel() : 0)).append("</tr>")
-                .append("</table>")
+                .append(progress(skill != null ? skill.getLevel() : 0))
+//                .append("<table border=0 cellspacing=1 cellpadding=0 align=left valign=top>")
+//                .append("<tr>").append(progress(skill != null ? skill.getLevel() : 0)).append("</tr>")
+//                .append("</table>")
                 .append("</td>")
                 .append("<td>").append("</td>")
                 .append("<td>").append("</td>")
@@ -246,7 +249,7 @@ public class UpgradeArmorInstance extends L2NpcInstance {
         }else {
             skillIcon = noIcon;
         }
-        sb.append("<table border=0 cellspacing=0 cellpadding=2 width=320 background=\"l2ui_ct1.Windows_DF_TooltipBG\">")
+        sb.append("<table border=0 cellspacing=0 cellpadding=2 width=348 background=\"l2ui_ct1.Windows_DF_TooltipBG\">")
                 .append("<tr>")
                 .append("<td height=40 width=32>").append(getImage(item, 32, 32)).append("</td>")
                 .append("<td>")
@@ -263,9 +266,10 @@ public class UpgradeArmorInstance extends L2NpcInstance {
                 .append("<tr>")
                 .append("<td >").append("</td>")
                 .append("<td >")
-                .append("<table border=0 cellspacing=1 cellpadding=0 align=left valign=top>")
-                .append("<tr>").append(progress(skill != null ? skill.getLevel() : 0)).append("</tr>")
-                .append("</table>")
+                .append(progress(skill != null ? skill.getLevel() : 0))
+//                .append("<table border=0 cellspacing=1 cellpadding=0 align=left valign=top>")
+//                .append("<tr>").append(progress(skill != null ? skill.getLevel() : 0)).append("</tr>")
+//                .append("</table>")
                 .append("</td>")
                 .append("<td>").append("</td>")
                 .append("<td>").append("</td>")
@@ -398,32 +402,31 @@ public class UpgradeArmorInstance extends L2NpcInstance {
             showDownGradeHtml(player, slot);
         } else if (command.startsWith("htmlTest")) {
             NpcHtmlMessage html = new NpcHtmlMessage(player, this);
-            Table table = new Table(5, 5);
-            table.addParam(" border=1 align=top");
-            for (Row r: table.getRows()){
-                for (int i = 0; i < r.getCols().size(); i++) {
-                    Col col = r.getColByID(i);
-                    if (i == 0){
-                        col.setContent(new Img(noIcon).getImgHTML());
-                    } else if (i == 1) {
-                        col.setContent(new Button("PRESS_ME", "bypass").getButtonHTML());
-                    } else if (i == 2) {
-                        Table table1 = new Table(2, 3);
-                        table1.getRowById(0).getColByID(0).setContent("true");
-                        table1.getRowById(0).getColByID(1).setContent("false");
-                        table1.getRowById(1).getColByID(2).setContent("kakaeatafignea");
-                        col.setContent(table1.toString());
-                    } else {
-                        col.setContent(i + "");
-                    }
-                }
+            final Table table = table(3, 3);
+            table.addParam(" border=1 background=\"l2ui_ct1.Windows_DF_TooltipBG\"");
+            table.row(0).col(0)
+                    .addParam(width(50), height(30))
+                    .setContent(player.getName());
+            table.row(0).col(1)
+                    .addParam(width(70), height(30))
+                    .setContent(player.getName());
+            table.row(0).col(2)
+                    .addParam(width(70), height(30))
+                    .setContent(player.getName());
+            table.row(1).col(0).addParam(align(CENTER))
+                    .setContent(String.valueOf(player.getInventory().getAdena()));
+            table.row(1).col(1).addParam(align(CENTER))
+                    .setContent(String.valueOf(player.getInventory().getAdena()));
+            table.row(1).col(2).addParam(align(CENTER))
+                    .setContent(String.valueOf(player.getInventory().getAdena()));
+            table.row(2).col(0).addParam(align(CENTER))
+                    .setContent(String.valueOf(player.getInventory().getItemByItemId(4037).getCount()));
+            table.row(2).col(1).addParam(align(CENTER))
+                    .setContent(String.valueOf(player.getInventory().getItemByItemId(4037).getCount()));
+            table.row(2).col(2).addParam(align(CENTER))
+                    .setContent("qwer");
 
-            }
-
-            player.sendPacket(html.setHtml(table.printTable()));
-
-
-
+            player.sendPacket(html.setHtml(table.getHTML()));
         } else
             super.onBypassFeedback(player, command);
     }

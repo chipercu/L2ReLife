@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66e54ec9-4946-49a5-9add-2fc570297884" name="Changes" comment="update: Добавлен client_patch">
+      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fuzzy/l2open/util/html_editor/HTML_Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tsrsvp.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiling/build_scripts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/compiling/build_scripts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/fuzzy/HtmlNpcGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/fuzzy/HtmlNpcGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/html_editor/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/util/html_editor/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/html_editor/Col.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/util/html_editor/Col.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/html_editor/Img.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/util/html_editor/Img.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/html_editor/Row.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/util/html_editor/Row.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/html_editor/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/util/html_editor/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/npc/model/UpgradeArmorInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/npc/model/UpgradeArmorInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/extensions/scripts/Scripts.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/extensions/scripts/Scripts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/gameserver/model/instances/L2NpcInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/gameserver/model/instances/L2NpcInstance.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NW91c7LWky60ZwQi3mEjdw0Dgw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/FuzzY/IdeaProjects/L2ReLife_Server/lib/tsrsvp.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5218391",
+    "settings.editor.selected.configurable": "editing.templates"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="l2open.extensions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FuzzY\IdeaProjects\L2ReLife_Server\fuzzy\l2open\util" />
+      <recent name="C:\Users\FuzzY\IdeaProjects\L2ReLife_Server\fuzzy\l2open\extensions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\FuzzY\IdeaProjects\L2ReLife_Server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.L2LoginStart">
+    <configuration name="GameStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l2open.gameserver.GameStart" />
+      <module name="L2ReLife_Server" />
+      <option name="VM_PARAMETERS" value="-server -Xms8G -Xmx8G -XX:+DoEscapeAnalysis -XX:+OptimizeFill -XX:+EliminateLocks -XX:AutoBoxCacheMax=65536 -XX:+OptimizeStringConcat -XX:+UseParNewGC -XX:ParallelGCThreads=24 -XX:+UseConcMarkSweepGC -XX:ParallelCMSThreads=24 -XX:+CMSClassUnloadingEnabled -XX:+ExplicitGCInvokesConcurrentAndUnloadsClasses -Dfile.encoding=UTF-8 -Djava.net.preferIPv4Stack=true -Xbootclasspath/p:lib/jsr167_8.jar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="l2open.gameserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L2LoginStart" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l2open.loginserver.L2LoginStart" />
+      <module name="L2ReLife_Server" />
+      <option name="VM_PARAMETERS" value="-server -Xbootclasspath/p:lib/jsr167_8.jar -Xms32m -Xmx32m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="l2open.loginserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l2open.Test" />
+      <module name="L2ReLife_Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="l2open.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="BatchConfigurationType" factoryName="Batch" nameIsGenerated="true">
+      <module name="L2ReLife_Server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="./fuzzy/StartLoginServer.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="L2ReLife_Server" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.GameStart" />
+      <item itemvalue="Application.L2LoginStart" />
+      <item itemvalue="Batch.Unnamed" />
+      <item itemvalue="TestNG.AppTest.test1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameStart" />
+        <item itemvalue="Application.L2LoginStart" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="TestNG.AppTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66e54ec9-4946-49a5-9add-2fc570297884" name="Changes" comment="" />
+      <created>1679768761653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679768761653</updated>
+      <workItem from="1679768763404" duration="5248000" />
+      <workItem from="1679774037378" duration="5597000" />
+      <workItem from="1679781348684" duration="1153000" />
+      <workItem from="1679815783252" duration="1779000" />
+      <workItem from="1679863211523" duration="3309000" />
+      <workItem from="1679938264174" duration="9101000" />
+      <workItem from="1679953735426" duration="413000" />
+      <workItem from="1679954191794" duration="32000" />
+      <workItem from="1680022344669" duration="560000" />
+      <workItem from="1680024007044" duration="653000" />
+      <workItem from="1680024799554" duration="1282000" />
+      <workItem from="1680029213295" duration="4941000" />
+      <workItem from="1680109114816" duration="11124000" />
+      <workItem from="1680188934008" duration="11612000" />
+    </task>
+    <task id="LOCAL-00001" summary="Тут начался путь в боль и страдания">
+      <created>1680033000961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680033000962</updated>
+    </task>
+    <task id="LOCAL-00002" summary="refactoring: небольшой рефакторинг в методе htmlG1">
+      <created>1680033467308</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680033467308</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix: исправлены импорты">
+      <created>1680034503359</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680034503359</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: отключена загрузка скриптов из jar">
+      <created>1680036828390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680036828390</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update: Добавлен client_patch">
+      <created>1680114753082</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680114753082</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Тут начался путь в боль и страдания" />
+    <MESSAGE value="refactoring: небольшой рефакторинг в методе htmlG1" />
+    <MESSAGE value="fix: исправлены импорты" />
+    <MESSAGE value="fix: отключена загрузка скриптов из jar" />
+    <MESSAGE value="update: Добавлен client_patch" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: Добавлен client_patch" />
+  </component>
+</project>

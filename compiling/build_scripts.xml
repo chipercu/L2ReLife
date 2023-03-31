@@ -6,6 +6,7 @@
     <property name="scr" location="../data/scripts"/>
     <property name="lib" location="../lib"/>
     <property name="build" location="../build/scripts"/>
+    <property name="jar" location="../lib"/>
     <property name="build.classes" location="${build}/classes"/>
 	 <property name="l2open" location="../build/scripts/classes/l2open"/>
 	 <property name="l2jgeoeditor" location="../build/scripts/classes/l2jgeoeditor"/>
@@ -22,6 +23,7 @@
 	</tstamp>
 
     <target name="dir">
+        <delete dir="../lib/tsrsvp.jar"/>
         <delete dir="${build}"/>
         <delete dir="${build.classes}"/>
         <mkdir dir="${build}"/>
@@ -42,18 +44,18 @@
             <compilerarg value="-Xlint:all"></compilerarg>
             <src path="${scr}"/>
         		<include name="**/**/*.java"/>
-        		<exclude name="communityboard/manager/*.java"/>
-        		<exclude name="commands/**/*.java"/>
-        		<exclude name="events/**/*.java"/>
-        		<exclude name="services/**/*.java"/>
-        		<exclude name="Hooks.java"/>
-        		<exclude name="actions/OnActionShift.java"/>
-        		<exclude name="npc/model/QueenAntInstance.java"/>
-        		<exclude name="npc/model/ThomasInstance.java"/>
-        		<exclude name="ai/Queen_Ant_Nurse.java"/>
-        		<exclude name="ItemHandlers.java"/>
-        		<exclude name="SendOnline.java"/>
-        		<exclude name="SendServerTitle.java"/>
+<!--        		<exclude name="communityboard/manager/*.java"/>-->
+<!--        		<exclude name="commands/**/*.java"/>-->
+<!--        		<exclude name="events/**/*.java"/>-->
+<!--        		<exclude name="services/**/*.java"/>-->
+<!--        		<exclude name="Hooks.java"/>-->
+<!--        		<exclude name="actions/OnActionShift.java"/>-->
+<!--        		<exclude name="npc/model/QueenAntInstance.java"/>-->
+<!--        		<exclude name="npc/model/ThomasInstance.java"/>-->
+<!--        		<exclude name="ai/Queen_Ant_Nurse.java"/>-->
+<!--        		<exclude name="ItemHandlers.java"/>-->
+<!--        		<exclude name="SendOnline.java"/>-->
+<!--        		<exclude name="SendServerTitle.java"/>-->
             <classpath refid="classpath"/>
         </javac>
     </target>
@@ -67,7 +69,7 @@
     	<delete dir="${l2jgeoeditor}"/>
     	<delete dir="${source}"/>
 
-        <jar destfile="${build}/tsrsvp.jar" level="9">
+        <jar destfile="${lib}/tsrsvp.jar" level="9">
 			<fileset dir="${build.classes}"/>
 			<manifest>
 				<attribute name="Build-By" value="${user.name}" />
