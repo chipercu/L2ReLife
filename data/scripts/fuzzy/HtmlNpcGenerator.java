@@ -1,4 +1,4 @@
-package scripts.fuzzy;
+package fuzzy;
 
 import l2open.gameserver.model.L2Player;
 import l2open.gameserver.model.instances.L2NpcInstance;

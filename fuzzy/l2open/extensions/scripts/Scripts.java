@@ -19,7 +19,7 @@ import java.util.logging.Logger;
 public class Scripts {
     private static final Logger _log = Logger.getLogger(Scripts.class.getName());
 
-    public static boolean JAR = true;
+    public static boolean JAR;
 
     private static Scripts _instance;
 
@@ -84,7 +84,7 @@ public class Scripts {
         boolean error = false;
         Class<?> c;
 
-//        JAR = new File("lib/tsrsvp.jar").exists();
+        JAR = new File("lib/tsrsvp.jar").exists();
 
         if (JAR) {
             GArray<File> scriptFiles = new GArray<File>();

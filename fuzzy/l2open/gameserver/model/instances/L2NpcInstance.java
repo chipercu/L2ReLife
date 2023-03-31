@@ -53,6 +53,7 @@ import l2open.gameserver.xml.ItemTemplates;
 
 import l2open.pts.loader.*;
 import l2open.util.*;
+import l2open.util.html_editor.HTML_Generator;
 import l2open.util.reference.HardReference;
 
 import java.io.File;
@@ -65,7 +66,7 @@ import java.util.logging.Logger;
 import static l2open.gameserver.ai.CtrlIntention.AI_INTENTION_ACTIVE;
 import static l2open.gameserver.ai.CtrlIntention.AI_INTENTION_ATTACK;
 
-public class L2NpcInstance extends L2Character {
+public class L2NpcInstance extends L2Character implements HTML_Generator {
     private long _lastFactionNotifyTime = 0;
     public int minFactionNotifyInterval = 500;
     public boolean hasChatWindow = true;
