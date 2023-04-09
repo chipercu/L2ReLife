@@ -3,7 +3,6 @@ package l2open.gameserver.model.instances;
 import javolution.util.FastMap;
 import l2open.common.ThreadPoolManager;
 import l2open.config.ConfigValue;
-import l2open.database.*;
 import l2open.extensions.multilang.CustomMessage;
 import l2open.extensions.scripts.Events;
 import l2open.extensions.scripts.Functions;
@@ -11,9 +10,9 @@ import l2open.extensions.scripts.Scripts;
 import l2open.gameserver.ai.CtrlEvent;
 import l2open.gameserver.ai.CtrlIntention;
 import l2open.gameserver.ai.L2CharacterAI;
-import l2open.gameserver.cache.*;
-import l2open.gameserver.clientpackets.RequestExRemoveItemAttribute;
-import l2open.gameserver.geodata.GeoEngine;
+import l2open.gameserver.cache.FStringCache;
+import l2open.gameserver.cache.Msg;
+import l2open.gameserver.clientpackets.Say2C;
 import l2open.gameserver.idfactory.IdFactory;
 import l2open.gameserver.instancemanager.*;
 import l2open.gameserver.model.*;
@@ -36,7 +35,6 @@ import l2open.gameserver.model.items.L2ItemInstance;
 import l2open.gameserver.model.quest.Quest;
 import l2open.gameserver.model.quest.QuestEventType;
 import l2open.gameserver.model.quest.QuestState;
-import l2open.gameserver.clientpackets.Say2C;
 import l2open.gameserver.serverpackets.*;
 import l2open.gameserver.serverpackets.ExEnchantSkillList.EnchantSkillType;
 import l2open.gameserver.skills.Stats;
@@ -50,10 +48,8 @@ import l2open.gameserver.templates.L2NpcTemplate;
 import l2open.gameserver.templates.L2Weapon;
 import l2open.gameserver.templates.L2Weapon.WeaponType;
 import l2open.gameserver.xml.ItemTemplates;
-
-import l2open.pts.loader.*;
+import l2open.pts.loader.NpcData;
 import l2open.util.*;
-import l2open.util.html_editor.HTML_Generator;
 import l2open.util.reference.HardReference;
 
 import java.io.File;
@@ -63,10 +59,7 @@ import java.util.*;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.logging.Logger;
 
-import static l2open.gameserver.ai.CtrlIntention.AI_INTENTION_ACTIVE;
-import static l2open.gameserver.ai.CtrlIntention.AI_INTENTION_ATTACK;
-
-public class L2NpcInstance extends L2Character implements HTML_Generator {
+public class L2NpcInstance extends L2Character {
     private long _lastFactionNotifyTime = 0;
     public int minFactionNotifyInterval = 500;
     public boolean hasChatWindow = true;

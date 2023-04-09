@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<etcitem id="41001" name="Essens of Chaos: D-Grade" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="icon" val="icon.ensoul_big_m" />
+		<set name="weight" val="10" />
+		<set name="stackable" val="true" />
+		<set name="price" val="2000" />
+	</etcitem>
+	<etcitem id="41002" name="Essens of Chaos: C-Grade" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="icon" val="icon.ensoul_big_mm" />
+		<set name="weight" val="10" />
+		<set name="stackable" val="true" />
+		<set name="price" val="2000" />
+	</etcitem>
+	<etcitem id="41003" name="Essens of Chaos: B-Grade" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="icon" val="icon.ensoul_big_ep" />
+		<set name="weight" val="10" />
+		<set name="stackable" val="true" />
+		<set name="price" val="2000" />
+	</etcitem>
+	<etcitem id="41004" name="Essens of Chaos: A-Grade" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="icon" val="icon.ensoul_big_pp" />
+		<set name="weight" val="10" />
+		<set name="stackable" val="true" />
+		<set name="price" val="2000" />
+	</etcitem>
+	<etcitem id="41005" name="Essens of Chaos: S-Grade" type="OTHER">
+		<!--Done By Ragnarok (c)L2Open-Team-->
+		<!--LastChange: 10.01.2011-23:26-->
+		<set name="icon" val="icon.ensoul_big_p" />
+		<set name="weight" val="10" />
+		<set name="stackable" val="true" />
+		<set name="price" val="2000" />
+	</etcitem>
+</list>

@@ -390,7 +390,7 @@ public class Scripts {
     }
 
     private boolean reloadClassByName(String name) {
-        if (Compiler.getInstance().compile(new File("./data/scripts/" + name.replace(".", "/") + ".java"), System.out)) {
+        if (Compiler.getInstance().compile(new File("data/scripts/" + name.replace(".", "/") + ".java"), System.out)) {
             MemoryClassLoader classLoader = Compiler.getInstance().classLoader;
             try {
                 Class<?> c = classLoader.loadClass(name);
@@ -420,18 +420,18 @@ public class Scripts {
         File f;
         if (q != null) {
             String path = q.getClass().getPackage().getName().replace(".", "/");
-            f = new File("./data/scripts/" + path + "/");
+            f = new File("data/scripts/" + path + "/");
             if (f.isDirectory())
                 return reloadClassByPath(f);
         }
         q = QuestManager.getQuest(Integer.parseInt(name));
         if (q != null) {
             String path = q.getClass().getPackage().getName().replace(".", "/");
-            f = new File("./data/scripts/" + path + "/");
+            f = new File("data/scripts/" + path + "/");
             if (f.isDirectory())
                 return reloadClassByPath(f);
         }
-        return reloadClassByPath(new File("./data/scripts/quests/" + name + "/"));
+        return reloadClassByPath(new File("data/scripts/quests/" + name + "/"));
     }
 
     private void parseClasses(File f, GArray<File> list) {
