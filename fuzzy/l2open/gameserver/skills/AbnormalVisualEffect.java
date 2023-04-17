@@ -26,7 +26,7 @@ public enum AbnormalVisualEffect
 	/*18*/ave_floating_root		(0x00020000, 	0),
 	/*19*/ave_dance_root		(0x00080000,	0),
 	/*20*/UNK_20, // Звездочки как у стана и на ногах красный круг.
-	/*21*/ave_stealth			(0x00100000, 	0),
+	/*21*/ave_stealth			(0x00100000, 	0), //todo: прозрачность
 	/*22*/UNK_22, // Вокруг живота синий туман с электричеством.
 	/*23*/UNK_23, // Вокруг живота синий туман с электричеством.
 	/*24*/ave_magic_square		(0x00800000, 	0),
@@ -34,14 +34,14 @@ public enum AbnormalVisualEffect
 	/*26*/UNK_26, // Землетрясение.
 	/*27*/UNK_27, //unk
 	/*28*/ave_ultimate_defence	(0x08000000, 	0),
-	/*29*/ave_vp_keep			(0x10000000, 	0), // ???  // TODO: 
+	/*29*/ave_vp_keep			(0x10000000, 	0), // ???  // TODO:  GRIZLI
 	/*30*/ave_real_target		(0x20000000, 	0),
 	/*31*/ave_death_mark		(0x40000000,	0),
 	/*32*/UNK_32, // Синяя морда черепа над головой.
     // special effects
 	/*33*/ave_invincibility		(0x00000001, 	1),
 	/*34*/ave_air_battle_slow	(0x00000002, 	1),
-	/*35*/ave_air_battle_root	(0x00000004, 	1),
+	/*35*/ave_air_battle_root	(0x00000004, 	1), //todo красная пульсация
 	/*36*/ave_change_wp			(0x00000008, 	1),
 	/*37*/ave_change_hair_g		(0x00000010, 	1),
 	/*38*/ave_change_hair_p		(0x00000020, 	1),
@@ -62,7 +62,7 @@ public enum AbnormalVisualEffect
     NEVITSYSTEM,    // ("nevitSystem", 0x00080000, true), // пусто
 	// -------------------------------------
 	/**/ave_unk20			(0x00080000,	1),
-	/**/ave_unk22			(0x00200000,	1), // меняет на оружие какое-то
+	/**/ave_unk22			(0x00200000,	1), // меняет на оружие Д греда и шмот Д
     SUNK23,    // ("sunk23", 0x00400000, true), // пусто
     SUNK24,    // ("sunk24", 0x00800000, true), // пусто
     SUNK25,    // ("sunk25", 0x01000000, true), // пусто

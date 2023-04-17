@@ -4,38 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66e54ec9-4946-49a5-9add-2fc570297884" name="Changes" comment="fix:вернул загрузку скриптов из jar">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/Build.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/Col.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/Font.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/Img.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/Row.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/parameters/ButtonAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/parameters/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/parameters/Parameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/parameters/ParametrValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/parameters/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/npc/model/UpgradeArmor2Instance.java" afterDir="false" />
+    <list default="true" id="66e54ec9-4946-49a5-9add-2fc570297884" name="Changes" comment="fix: доработка хтмл шаблонизатора &#10;добавлены итемы для улучшения брони&#10;дополнен фунцианал по вставке улучшения в броне">
+      <change afterPath="$PROJECT_DIR$/data/scripts/commands/admin/AdminSetChaos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/fuzzy/HtmlNpcGenerator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/scripts/npc/model/UpgradeArmorInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/npc/model/UpgradeArmorInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stats/custom_items/custom_items.xml.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stats/custom_items/custom_weapon_B.xml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/data/stats/custom_items/essens_of_chaos.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/extensions/scripts/Scripts.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/extensions/scripts/Scripts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/gameserver/model/instances/L2NpcInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/gameserver/model/instances/L2NpcInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/util/html_editor/Button.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/util/html_editor/Col.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/util/html_editor/HTML_Generator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/util/html_editor/Img.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/util/html_editor/Row.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/util/html_editor/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tsrsvp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tsrsvp.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/gameserver/skills/AbnormalVisualEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/gameserver/skills/AbnormalVisualEffect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,26 +43,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/FuzzY/IdeaProjects/L2ReLife_Server/data/stats/custom_items",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.5218391",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/High Five/T2.6 (High Five) - jts_2018&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5218391&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="l2open.extensions" />
@@ -237,6 +210,13 @@
       <workItem from="1680983943152" duration="6764000" />
       <workItem from="1681042922631" duration="419000" />
       <workItem from="1681049525238" duration="9058000" />
+      <workItem from="1681074176159" duration="259000" />
+      <workItem from="1681148629428" duration="336000" />
+      <workItem from="1681149072146" duration="9831000" />
+      <workItem from="1681404416475" duration="2965000" />
+      <workItem from="1681491268372" duration="2995000" />
+      <workItem from="1681547279152" duration="6726000" />
+      <workItem from="1681659931111" duration="8973000" />
     </task>
     <task id="LOCAL-00001" summary="Тут начался путь в боль и страдания">
       <created>1680033000961</created>
@@ -280,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680277255238</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix: доработка хтмл шаблонизатора &#10;добавлены итемы для улучшения брони&#10;дополнен фунцианал по вставке улучшения в броне">
+      <created>1681074412499</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681074412499</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +303,7 @@
     <MESSAGE value="fix: отключена загрузка скриптов из jar" />
     <MESSAGE value="update: Добавлен client_patch" />
     <MESSAGE value="fix:вернул загрузку скриптов из jar" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix:вернул загрузку скриптов из jar" />
+    <MESSAGE value="fix: доработка хтмл шаблонизатора &#10;добавлены итемы для улучшения брони&#10;дополнен фунцианал по вставке улучшения в броне" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: доработка хтмл шаблонизатора &#10;добавлены итемы для улучшения брони&#10;дополнен фунцианал по вставке улучшения в броне" />
   </component>
 </project>
