@@ -37,6 +37,7 @@ import l2open.gameserver.model.quest.QuestEventType;
 import l2open.gameserver.model.quest.QuestState;
 import l2open.gameserver.serverpackets.*;
 import l2open.gameserver.serverpackets.ExEnchantSkillList.EnchantSkillType;
+import l2open.gameserver.skills.AbnormalVisualEffect;
 import l2open.gameserver.skills.Stats;
 import l2open.gameserver.skills.funcs.FuncTemplate;
 import l2open.gameserver.tables.*;
@@ -60,6 +61,10 @@ import java.util.concurrent.locks.ReentrantLock;
 import java.util.logging.Logger;
 
 public class L2NpcInstance extends L2Character {
+
+    //todo: дроп эссенции хаоса
+    private boolean isChaos = false;
+
     private long _lastFactionNotifyTime = 0;
     public int minFactionNotifyInterval = 500;
     public boolean hasChatWindow = true;
@@ -183,6 +188,32 @@ public class L2NpcInstance extends L2Character {
             getAiLock.unlock();
         }
         return _ai;
+    }
+
+
+    public boolean isChaos() {
+        return isChaos;
+    }
+
+    public void setChaos() {
+        this.startAbnormalEffect(AbnormalVisualEffect.ave_big_body);
+        this.startAbnormalEffect(AbnormalVisualEffect.ave_vp_keep);
+        final int i = Rnd.get(1, 5);
+        addSkill(SkillTable.getInstance().getInfo(26094, i));
+        setCurrentHp(getMaxHp(), false);
+        _title_temp = this.getTitle();
+        this.setTitle("Chaos lvl: " + i);
+        isChaos = true;
+    }
+
+    public void resetChaos() {
+        if (this.isChaos()) {
+            this.stopAbnormalEffect(AbnormalVisualEffect.ave_big_body);
+            this.stopAbnormalEffect(AbnormalVisualEffect.ave_vp_keep);
+            removeSkillById(26094);
+            isChaos = false;
+            this.setTitle(_title_temp);
+        }
     }
 
     public void setAttackTimeout(long time) {
@@ -579,6 +610,7 @@ public class L2NpcInstance extends L2Character {
 
     @Override
     public void onSpawn() {
+        resetChaos();
         setDecayed(false);
         _dieTime = 0;
         _currentTick = System.currentTimeMillis();

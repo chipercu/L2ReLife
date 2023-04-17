@@ -11,13 +11,11 @@ import l2open.gameserver.model.L2Zone.ZoneType;
 import l2open.gameserver.model.entity.SevenSigns;
 import l2open.gameserver.model.instances.*;
 import l2open.gameserver.model.instances.L2NpcInstance.AggroInfo;
+import l2open.gameserver.model.items.L2ItemInstance;
 import l2open.gameserver.model.quest.QuestEventType;
 import l2open.gameserver.model.quest.QuestState;
 import l2open.gameserver.instancemanager.ZoneManager;
 import l2open.gameserver.serverpackets.*;
-import l2open.gameserver.serverpackets.ExShowScreenMessage.ScreenMessageAlign;
-import l2open.gameserver.skills.*;
-import l2open.gameserver.skills.Stats;
 import l2open.gameserver.tables.NpcTable;
 import l2open.gameserver.tables.SkillTable;
 import l2open.gameserver.tables.TerritoryTable;
@@ -26,6 +24,7 @@ import l2open.gameserver.templates.L2NpcTemplate;
 import l2open.gameserver.templates.L2Weapon;
 import l2open.gameserver.templates.L2Weapon.WeaponType;
 import l2open.gameserver.templates.StatsSet;
+import l2open.gameserver.xml.ItemTemplates;
 import l2open.util.*;
 import l2open.util.reference.*;
 
@@ -35,6 +34,8 @@ import java.util.*;
 import java.util.concurrent.ConcurrentSkipListSet;
 import java.util.concurrent.ScheduledFuture;
 import java.util.logging.Logger;
+
+import static l2open.gameserver.ai.DefaultAI.ChaosGrade.*;
 
 public class DefaultAI extends L2CharacterAI {
     protected static Logger _log = Logger.getLogger(DefaultAI.class.getName());
@@ -59,6 +60,27 @@ public class DefaultAI extends L2CharacterAI {
     public boolean canSeeInHide = false;
     public boolean noRandomWalk = false;
     public boolean isMobile = false;
+
+    public static enum ChaosGrade{
+        NONE(0), D(41001), C(41002), B(41003), A(41004), S(41005);
+        final int itemID;
+        ChaosGrade(int i) {
+            this.itemID = i;
+        }
+        public int getItemID() {
+            return itemID;
+        }
+    }
+
+    private final ChaosGrade[][] gradeComb = {
+            // 60%  40%  10%  5%   1%
+            {D, C, B, A, S},  //15-35 лвл
+            {C, D, B, A, S},  //36-55 лвл
+            {B, C, A, D, S},  //56-65 лвл
+            {B, A, S, C, D},  //66-79 лвл
+            {A, S, B, C, D},  //80-85 лвл
+    };
+
 
     public static enum TaskType {
         MOVE,
@@ -1066,11 +1088,52 @@ public class DefaultAI extends L2CharacterAI {
         // Удаляем все задания
         clearTasks();
 
-        if (actor != null && (actor.getNpcId() == 18329 || actor.getNpcId() == 18335 || actor.getNpcId() == 18336 || actor.getNpcId() == 18332 || actor.getNpcId() == 18331) && Rnd.get(100) < 5)
+        if (actor != null && (actor.getNpcId() == 18329 || actor.getNpcId() == 18335 || actor.getNpcId() == 18336 || actor.getNpcId() == 18332 || actor.getNpcId() == 18331) && Rnd.get(100) < 5){
             DropItem1(actor, 8556, 1);
+        }
 
+        if (actor != null && actor.isChaos()){
+            int lvl = getActor().getLevel();
+            if (lvl >= 15 && lvl < 35){
+                dropChaosItem(gradeComb[0], killer);
+            }else if (lvl >= 35 && lvl < 55){
+                 dropChaosItem(gradeComb[1], killer);
+            } else if (lvl >= 55 && lvl < 65){
+                 dropChaosItem(gradeComb[2], killer);
+            } else if (lvl >= 65 && lvl < 79){
+                 dropChaosItem(gradeComb[3], killer);
+            }else if (lvl >= 79){
+                 dropChaosItem(gradeComb[4], killer);
+            }
+        }
         super.MY_DYING(killer);
     }
+
+    private void dropChaosItem(ChaosGrade[] comb, L2Character killer) {
+//        int rnd = (int) (Math.random() * 100);
+        int item_id = 0;
+
+        int rnd = Rnd.get(0, 100);
+        if (rnd <= 1){
+            item_id = comb[4].getItemID();
+        }else if (rnd <= 5){
+            item_id = comb[3].getItemID();
+        } else if (rnd <= 10){
+            item_id = comb[2].getItemID();
+        } else if (rnd <= 40){
+            item_id = comb[1].getItemID();
+        } else{
+            item_id = comb[0].getItemID();
+        }
+        Location dropPos = Rnd.coordsRandomize(getActor(), 70);
+        L2ItemInstance item = ItemTemplates.getInstance().createItem(item_id);
+        item.setCount(1);
+        item.dropMe(killer, dropPos);
+    }
+
+
+
+
 
     @Override
     protected void onEvtClanAttacked(L2Character attacked_member, L2Character attacker, int damage) {
@@ -1137,6 +1200,10 @@ public class DefaultAI extends L2CharacterAI {
                 startRunningTask(AI_TASK_ATTACK_DELAY);
             setIntention(CtrlIntention.AI_INTENTION_ATTACK, attacker);
         }
+        if (attacker.getNpcId() == 36671){
+            getActor().setChaos();
+        }
+
 
         actor.callFriends(attacker, damage);
         setLog("ATTACKED Finish");

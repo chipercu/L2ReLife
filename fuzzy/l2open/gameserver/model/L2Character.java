@@ -256,6 +256,7 @@ public abstract class L2Character extends L2Object
 	private static final String EMPTY_STRING = new String();
 	public String _name;
 	public String _title;
+	public String _title_temp;
 
 	public void set_title(String _title) {
 		this._title = _title;

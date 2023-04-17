@@ -45,23 +45,13 @@ public class AdminSetChaos implements IAdminCommandHandler, ScriptFile {
             case admin_set_chaos:{
                 final L2Object target = activeChar.getTarget();
                 if (target != null){
-                    if (target.isPlayer()){
-                        L2Player player = (L2Player) target;
-                        player.startAbnormalEffect(grizli);
-                        activeChar.sendMessage("addEffect" + player.getAbnormalEffect());
-                    } else if (target.isNpc()) {
                         L2NpcInstance npc = (L2NpcInstance) target;
-                        npc.startAbnormalEffect(big_body);
-                        npc.startAbnormalEffect(grizli);
-                        activeChar.sendMessage("addEffect" + npc.getAbnormalEffect());
-                    }
-
-
+                        if (npc.isChaos()){
+                            npc.resetChaos();
+                        }else {
+                            npc.setChaos();
+                        }
                 }
-
-
-
-
             }
         }
 

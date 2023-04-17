@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66e54ec9-4946-49a5-9add-2fc570297884" name="Changes" comment="fix: доработка хтмл шаблонизатора &#10;добавлены итемы для улучшения брони&#10;дополнен фунцианал по вставке улучшения в броне">
-      <change afterPath="$PROJECT_DIR$/data/scripts/commands/admin/AdminSetChaos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/scripts/ai/chaos/CasterOfChaosAI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/scripts/npc/model/chaos/CasterOfChaosInstance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/npc/model/UpgradeArmorInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/npc/model/UpgradeArmorInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/gameserver/skills/AbnormalVisualEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/gameserver/skills/AbnormalVisualEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/ai/BotPlayers/BotPlayerAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/ai/BotPlayers/BotPlayerAI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/commands/admin/AdminFakePlayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/commands/admin/AdminFakePlayers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/commands/admin/AdminSetChaos.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/commands/admin/AdminSetChaos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/npc/model/UpgradeArmorInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/npc/model/chaos/UpgradeArmorInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stats/skills/26000-26099.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/stats/skills/26000-26099.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/gameserver/ai/DefaultAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/gameserver/ai/DefaultAI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/gameserver/model/L2Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/gameserver/model/L2Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/gameserver/model/instances/L2NpcInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/gameserver/model/instances/L2NpcInstance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +84,8 @@
       <recent name="C:\Users\FuzzY\IdeaProjects\L2ReLife_Server" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ai.chaos" />
+      <recent name="npc.model.chaos" />
       <recent name="fuzzy.Html_Constructor.tags" />
       <recent name="npc.model" />
     </key>
@@ -217,6 +227,8 @@
       <workItem from="1681491268372" duration="2995000" />
       <workItem from="1681547279152" duration="6726000" />
       <workItem from="1681659931111" duration="8973000" />
+      <workItem from="1681724669452" duration="356000" />
+      <workItem from="1681749231355" duration="16761000" />
     </task>
     <task id="LOCAL-00001" summary="Тут начался путь в боль и страдания">
       <created>1680033000961</created>
@@ -267,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681074412499</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix: доработка хтмл шаблонизатора &#10;добавлены итемы для улучшения брони&#10;дополнен фунцианал по вставке улучшения в броне">
+      <created>1681724826782</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681724826782</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

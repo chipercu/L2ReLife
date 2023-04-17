@@ -1,4 +1,4 @@
-package npc.model;
+package npc.model.chaos;
 
 import fuzzy.Html_Constructor.tags.Button;
 import fuzzy.Html_Constructor.tags.Font;
