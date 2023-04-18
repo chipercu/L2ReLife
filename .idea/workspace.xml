@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66e54ec9-4946-49a5-9add-2fc570297884" name="Changes" comment="fix: доработка хтмл шаблонизатора &#10;добавлены итемы для улучшения брони&#10;дополнен фунцианал по вставке улучшения в броне">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/ai/chaos/CasterOfChaosAI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/npc/model/chaos/CasterOfChaosInstance.java" afterDir="false" />
+    <list default="true" id="66e54ec9-4946-49a5-9add-2fc570297884" name="Changes" comment="добавлен интсанс и аи для CasterOfChaos&#10;реализовоны Chaos мобы с дропом эсенции хаоса">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/ai/BotPlayers/BotPlayerAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/ai/BotPlayers/BotPlayerAI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/commands/admin/AdminFakePlayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/commands/admin/AdminFakePlayers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/commands/admin/AdminSetChaos.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/commands/admin/AdminSetChaos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/npc/model/UpgradeArmorInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/npc/model/chaos/UpgradeArmorInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/stats/skills/26000-26099.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/stats/skills/26000-26099.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/ai/chaos/CasterOfChaosAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/ai/chaos/CasterOfChaosAI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/extensions/scripts/AdminScripts.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/extensions/scripts/AdminScripts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuzzy/l2open/gameserver/ai/DefaultAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/gameserver/ai/DefaultAI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/gameserver/model/L2Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/gameserver/model/L2Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/gameserver/model/instances/L2NpcInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/gameserver/model/instances/L2NpcInstance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,6 +221,8 @@
       <workItem from="1681659931111" duration="8973000" />
       <workItem from="1681724669452" duration="356000" />
       <workItem from="1681749231355" duration="16761000" />
+      <workItem from="1681766164548" duration="189000" />
+      <workItem from="1681846047209" duration="7571000" />
     </task>
     <task id="LOCAL-00001" summary="Тут начался путь в боль и страдания">
       <created>1680033000961</created>
@@ -286,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681724826782</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="добавлен интсанс и аи для CasterOfChaos&#10;реализовоны Chaos мобы с дропом эсенции хаоса">
+      <created>1681766330034</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681766330034</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +324,7 @@
     <MESSAGE value="update: Добавлен client_patch" />
     <MESSAGE value="fix:вернул загрузку скриптов из jar" />
     <MESSAGE value="fix: доработка хтмл шаблонизатора &#10;добавлены итемы для улучшения брони&#10;дополнен фунцианал по вставке улучшения в броне" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: доработка хтмл шаблонизатора &#10;добавлены итемы для улучшения брони&#10;дополнен фунцианал по вставке улучшения в броне" />
+    <MESSAGE value="добавлен интсанс и аи для CasterOfChaos&#10;реализовоны Chaos мобы с дропом эсенции хаоса" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлен интсанс и аи для CasterOfChaos&#10;реализовоны Chaos мобы с дропом эсенции хаоса" />
   </component>
 </project>

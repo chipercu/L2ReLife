@@ -1200,10 +1200,6 @@ public class DefaultAI extends L2CharacterAI {
                 startRunningTask(AI_TASK_ATTACK_DELAY);
             setIntention(CtrlIntention.AI_INTENTION_ATTACK, attacker);
         }
-        if (attacker.getNpcId() == 36671){
-            getActor().setChaos();
-        }
-
 
         actor.callFriends(attacker, damage);
         setLog("ATTACKED Finish");
