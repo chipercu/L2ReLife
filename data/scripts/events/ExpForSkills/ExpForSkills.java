@@ -39,7 +39,8 @@ public class ExpForSkills extends Functions implements ScriptFile
      */
     private void spawnEventManagers()
     {
-        final int EVENT_MANAGERS[][] = { { -14823, 123567, -3143, 8192 }, // Gludio
+        final int[][] EVENT_MANAGERS = {
+                { -14823, 123567, -3143, 8192 }, // Gludio
                 { -83159, 150914, -3155, 49152 }, // Gludin
                 { 18600, 145971, -3095, 40960 }, // Dion
                 { 82158, 148609, -3493, 60 }, // Giran

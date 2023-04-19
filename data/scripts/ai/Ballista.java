@@ -50,6 +50,7 @@ public class Ballista extends DefaultAI
 			actor.doDie(caster);
 	}
 
+
 	@Override
 	protected boolean randomWalk()
 	{

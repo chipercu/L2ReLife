@@ -776,93 +776,33 @@ public class L2PlayableAI extends L2CharacterAI {
     }
 
     private L2Character testGetTargetFromTunel(L2Skill skill, L2Character caster, L2Character target) {
-        L2Character activeChar = getActor();
-        L2Character skillTarget = (L2Character) activeChar.getTarget();
-        if (skill.target_type == TargetType.enemy) {
-            L2Territory terr = new L2Territory(0);
 
-            L2Character activeCharTarget = (L2Character) activeChar.getTarget();
+        double angle = Location.calculateAngleFrom(caster.getPrevX(), caster.getPrevY(), target.getX(), target.getY());
+        double radian1 = Math.toRadians(angle - 90);
+        double radian2 = Math.toRadians(angle + 90);
+        int c_x = (int) (caster.getX() - Math.sin(radian1) * caster.getRealDistance3D(target));
+        int c_y = (int) (caster.getY() + Math.cos(radian1) * caster.getRealDistance3D(target));
 
-            ExShowTrace l2 = new ExShowTrace(3000);
-            ExShowTrace l4 = new ExShowTrace(3000);
+        L2Territory terr = new L2Territory(0);
 
-            int zmin1 = activeChar.getPrevZ() - 50;
-            int zmax1 = activeChar.getPrevZ() + 50;
-            int zmin2 = activeCharTarget.getZ() - 50;
-            int zmax2 = activeCharTarget.getZ() + 50;
-
-            double angle = Location.calculateAngleFrom(activeChar.getPrevX(), activeChar.getPrevY(), activeCharTarget.getX(), activeCharTarget.getY());
-
-            double radian1 = Math.toRadians(angle - 90);
-            double radian2 = Math.toRadians(angle + 90);
-
-            int c_x = (int) (activeChar.getX() - Math.sin(radian1) * activeChar.getRealDistance3D(activeCharTarget));
-            int c_y = (int) (activeChar.getY() + Math.cos(radian1) * activeChar.getRealDistance3D(activeCharTarget));
-
-            int width = 25; // _radius
-
-            // fan_range_l - ширина
-            // fan_range_h - дистанция до цели
-            terr.add(c_x + (int) (Math.cos(radian1) * width), c_y + (int) (Math.sin(radian1) * width), zmin1, zmax1);
-            terr.add(c_x + (int) (Math.cos(radian2) * width), c_y + (int) (Math.sin(radian2) * width), zmin1, zmax1);
-
-            terr.add(activeChar.getX() + (int) (Math.cos(radian2) * width), activeChar.getY() + (int) (Math.sin(radian2) * width), zmin2, zmax2);
-            terr.add(activeChar.getX() + (int) (Math.cos(radian1) * width), activeChar.getY() + (int) (Math.sin(radian1) * width), zmin2, zmax2);
-
-            l2.addLine(c_x + (int) (Math.cos(radian2) * width), c_y + (int) (Math.sin(radian2) * width), activeChar.getZ(), activeChar.getX() + (int) (Math.cos(radian2) * width), activeChar.getY() + (int) (Math.sin(radian2) * width), activeChar.getZ(), 20);
-            l4.addLine(activeChar.getX() + (int) (Math.cos(radian1) * width), activeChar.getY() + (int) (Math.sin(radian1) * width), activeChar.getZ(), c_x + (int) (Math.cos(radian1) * width), c_y + (int) (Math.sin(radian1) * width), activeChar.getZ(), 20);
-
-
+        float width = target.getColRadius(); // _radius
+        terr.add(c_x + (int) (Math.cos(radian1) * width), c_y + (int) (Math.sin(radian1) * width), caster.getPrevZ() - 50, caster.getPrevZ() + 50);
+        terr.add(c_x + (int) (Math.cos(radian2) * width), c_y + (int) (Math.sin(radian2) * width), caster.getPrevZ() - 50, caster.getPrevZ() + 50);
+        terr.add(caster.getX() + (int) (Math.cos(radian2) * width), caster.getY() + (int) (Math.sin(radian2) * width), target.getZ() - 50, target.getZ() + 50);
+        terr.add(caster.getX() + (int) (Math.cos(radian1) * width), caster.getY() + (int) (Math.sin(radian1) * width), target.getZ() - 50, target.getZ() + 50);
 //TODO:
-//                activeChar.sendPacket(l2);
-//                activeChar.sendPacket(l4);
-
-
-            List<L2Character> _result = new ArrayList<L2Character>(2);
-            for (L2Character act : L2World.getAroundCharacters(activeChar, (int) activeChar.getRealDistance3D(activeCharTarget), 256)) {
-                if (act != null && skill.affect_object.validate(activeChar, act) && terr.isInside(act)) {
-                    if (act.isNpc() && !act.isMonster()) {
-                        if (((L2Player) activeChar).isGM()) {
-                            activeChar.sendMessage("NPC");
-                        }
-                        continue;
-                    } else if (act.isDead()) {
-                        if (((L2Player) activeChar).isGM()) {
-                            activeChar.sendMessage("Death");
-                        }
-                        continue;
-                    } else if (act.checkTarget(false, activeChar)) {
-                        if (((L2Player) activeChar).isGM()) {
-                            activeChar.sendMessage("chektarget");
-                        }
-                        continue;
-                    }
-                    _result.add(act);
-                    if (((L2Player) activeChar).isGM()) {
-                        for (L2Character c : _result) {
-                            activeChar.sendMessage(c.getName());
-                        }
-                    }
-                }
-            }
-            double dist = skill.getCastRange();
-            for (int i = 0; i < _result.size(); i++) {
-
-                double realDistance3D = activeChar.getRealDistance3D(_result.get(i));
-                activeChar.sendMessage(_result.get(i).getName() + " : dist= " + realDistance3D);
-                if (realDistance3D < dist) {
-                    dist = realDistance3D;
-                    skillTarget = _result.get(i);
-                }
-            }
-        }
-
-        if (skillTarget == null) {
-            skillTarget = (L2Character) activeChar.getTarget();
-        }
-
-
-        return skillTarget;
+//            ExShowTrace l2 = new ExShowTrace(3000);
+//            ExShowTrace l4 = new ExShowTrace(3000);
+//            l2.addLine(c_x + (int) (Math.cos(radian2) * width), c_y + (int) (Math.sin(radian2) * width), caster.getZ(), caster.getX() + (int) (Math.cos(radian2) * width), caster.getY() + (int) (Math.sin(radian2) * width), caster.getZ(), 20);
+//            l4.addLine(caster.getX() + (int) (Math.cos(radian1) * width), caster.getY() + (int) (Math.sin(radian1) * width), caster.getZ(), c_x + (int) (Math.cos(radian1) * width), c_y + (int) (Math.sin(radian1) * width), caster.getZ(), 20);
+//             activeChar.sendPacket(l2);
+//             activeChar.sendPacket(l4);
+        return L2World.getAroundCharacters(caster, (int) caster.getRealDistance3D(target), 256).stream()
+                .filter(o -> o.isMonster() || o.isPlayable() || o.isRaid())
+                .filter(o -> !o.isDead())
+                .filter(terr::isInside)
+                .min((o1, o2) -> (int) o1.getDistance3D(caster) - (int) o2.getDistance(caster))
+                .orElse(target);
     }
 
     @Override
@@ -870,9 +810,9 @@ public class L2PlayableAI extends L2CharacterAI {
         L2Playable actor = getActor();
 
 
-//        if (skill.getTargetType() == L2Skill.SkillTargetType.TARGET_ONE){
-//            target = testGetTargetFromTunel(skill, actor, target); //TODO: фича со скилами
-//        }
+        if (skill.getTargetType() == L2Skill.SkillTargetType.TARGET_ONE && skill.target_type == TargetType.enemy) {
+            target = testGetTargetFromTunel(skill, actor, target); //TODO: фича со скилами
+        }
         if (actor == null)
             return;
 

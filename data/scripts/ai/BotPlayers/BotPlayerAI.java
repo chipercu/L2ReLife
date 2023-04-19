@@ -661,13 +661,7 @@ public class BotPlayerAI extends L2PlayerAI {
         String s = aiTalk.sayInReturn(text, true, player, _chatType);
         int delay = s.length() * 100 + 1000;
 
-        ThreadPoolManager.getInstance().schedule(new Runnable() {
-            @Override
-            public void run() {
-                player.sendPacket(new Say2(getActor().getObjectId(), _chatType, "->" + getActor().getName(), s));
-
-            }
-        }, delay);
+        ThreadPoolManager.getInstance().schedule(() -> player.sendPacket(new Say2(getActor().getObjectId(), _chatType, "->" + getActor().getName(), s)), delay);
     }
 }
 

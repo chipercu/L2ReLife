@@ -947,8 +947,7 @@
         </enchant1>
         <enchant2 levels="30" name="Cost"/>
         <for>
-            <effect name="Buff" stackOrder="#abnormal_lv" stackType="pAtkSpeedUp" time="#abnormal_time"
-                   >
+            <effect name="Buff" stackOrder="#abnormal_lv" stackType="pAtkSpeedUp" time="#abnormal_time">
                 <mul order="0x30" stat="p_attack_speed" val="#Tab-p_attack_speed"/>
             </effect>
         </for>

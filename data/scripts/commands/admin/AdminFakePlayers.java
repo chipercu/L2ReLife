@@ -1,9 +1,11 @@
 package commands.admin;
 
+import ai.chaos.CasterOfChaosAI;
 import l2open.config.ConfigValue;
 import l2open.database.mysql;
 import l2open.extensions.network.MMOConnection;
 import l2open.extensions.scripts.ScriptFile;
+import l2open.gameserver.ai.Fighter;
 import l2open.gameserver.cache.Msg;
 import l2open.gameserver.handler.AdminCommandHandler;
 import l2open.gameserver.handler.IAdminCommandHandler;
@@ -13,6 +15,8 @@ import l2open.gameserver.model.*;
 import l2open.gameserver.model.base.ClassId;
 import l2open.gameserver.model.base.Race;
 import l2open.gameserver.model.entity.olympiad.Olympiad;
+import l2open.gameserver.model.instances.L2MonsterInstance;
+import l2open.gameserver.model.instances.L2NpcInstance;
 import l2open.gameserver.model.items.L2ItemInstance;
 import l2open.gameserver.model.items.MailParcelController;
 import l2open.gameserver.model.quest.Quest;
@@ -201,6 +205,13 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
                         case doombringer:
                             player.setAI(new BerserkerAI(player));
                             break;
+                    }
+                } else if (activeChar.getTarget().isNpc()) {
+                    L2NpcInstance npc = (L2NpcInstance) activeChar.getTarget();
+                    if (npc.getNpcId() == 36671){
+//                        npc.setAI(new Fighter(npc));
+                        npc.setAI(new CasterOfChaosAI(npc));
+                        activeChar.sendMessage("AI reset");
                     }
                 }
 
