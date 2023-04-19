@@ -3,8 +3,10 @@ package ai.chaos;
 import l2open.common.RunnableImpl;
 import l2open.common.ThreadPoolManager;
 import l2open.extensions.scripts.Functions;
+import l2open.gameserver.ai.CtrlIntention;
 import l2open.gameserver.ai.Fighter;
 import l2open.gameserver.model.L2Character;
+import l2open.gameserver.model.L2Object;
 import l2open.gameserver.model.L2Skill;
 import l2open.gameserver.model.L2World;
 import l2open.gameserver.model.instances.L2NpcInstance;
@@ -184,8 +186,14 @@ public class CasterOfChaosAI extends Fighter {
             }
         }
         private L2NpcInstance getTarget(){
-            final GArray<L2NpcInstance> aroundNpc = L2World.getAroundNpc(getActor(), 2000, 300);
-            return aroundNpc.get(Rnd.get(aroundNpc.size()));
+            return L2World.getAroundNpc(getActor(), 2000, 300).stream()
+                    .filter(L2Object::isMonster)
+                    .filter(o -> !o.isAlikeDead())
+                    .filter(o -> !o.isChaos())
+                    .filter(o -> o.getAI().getIntention() != CtrlIntention.AI_INTENTION_ATTACK)
+                    .findFirst().orElse(null);
+//            final GArray<L2NpcInstance> aroundNpc = L2World.getAroundNpc(getActor(), 2000, 300);
+//            return aroundNpc.get(Rnd.get(aroundNpc.size()));
         }
 
 

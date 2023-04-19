@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66e54ec9-4946-49a5-9add-2fc570297884" name="Changes" comment="добавлен интсанс и аи для CasterOfChaos&#10;реализовоны Chaos мобы с дропом эсенции хаоса">
+    <list default="true" id="66e54ec9-4946-49a5-9add-2fc570297884" name="Changes" comment="fix: доработка хтмл шаблонизатора &#10;добавлены итемы для улучшения брони&#10;дополнен фунцианал по вставке улучшения в броне">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lameguard_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/tools.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/ai/Ballista.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/ai/Ballista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/scripts/ai/chaos/CasterOfChaosAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/ai/chaos/CasterOfChaosAI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/extensions/scripts/AdminScripts.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/extensions/scripts/AdminScripts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/gameserver/ai/DefaultAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/gameserver/ai/DefaultAI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/events/ExpForSkills/ExpForSkills.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/events/ExpForSkills/ExpForSkills.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/npc/model/SeparatedSoulInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/npc/model/SeparatedSoulInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stats/skills/1000-1099.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/stats/skills/1000-1099.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/gameserver/ai/L2PlayableAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/gameserver/ai/L2PlayableAI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +49,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/High Five/T2.6 (High Five) - jts_2018&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.5218391&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/High Five/T2.6 (High Five) - jts_2018",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5218391",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;,
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="l2open.extensions" />
@@ -169,7 +179,6 @@
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.GameStart" />
       <item itemvalue="Application.L2LoginStart" />
-      <item itemvalue="Batch.Unnamed" />
       <item itemvalue="TestNG.AppTest.test1" />
     </list>
     <recent_temporary>
@@ -221,8 +230,6 @@
       <workItem from="1681659931111" duration="8973000" />
       <workItem from="1681724669452" duration="356000" />
       <workItem from="1681749231355" duration="16761000" />
-      <workItem from="1681766164548" duration="189000" />
-      <workItem from="1681846047209" duration="7571000" />
     </task>
     <task id="LOCAL-00001" summary="Тут начался путь в боль и страдания">
       <created>1680033000961</created>
@@ -280,14 +287,7 @@
       <option name="project" value="LOCAL" />
       <updated>1681724826782</updated>
     </task>
-    <task id="LOCAL-00009" summary="добавлен интсанс и аи для CasterOfChaos&#10;реализовоны Chaos мобы с дропом эсенции хаоса">
-      <created>1681766330034</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1681766330034</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +324,6 @@
     <MESSAGE value="update: Добавлен client_patch" />
     <MESSAGE value="fix:вернул загрузку скриптов из jar" />
     <MESSAGE value="fix: доработка хтмл шаблонизатора &#10;добавлены итемы для улучшения брони&#10;дополнен фунцианал по вставке улучшения в броне" />
-    <MESSAGE value="добавлен интсанс и аи для CasterOfChaos&#10;реализовоны Chaos мобы с дропом эсенции хаоса" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлен интсанс и аи для CasterOfChaos&#10;реализовоны Chaos мобы с дропом эсенции хаоса" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: доработка хтмл шаблонизатора &#10;добавлены итемы для улучшения брони&#10;дополнен фунцианал по вставке улучшения в броне" />
   </component>
 </project>

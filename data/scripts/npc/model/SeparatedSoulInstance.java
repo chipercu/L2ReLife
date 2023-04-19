@@ -23,6 +23,7 @@ public class SeparatedSoulInstance extends L2MerchantInstance
 		html.setFile("data/html/teleporter/" + file);
 		player.sendPacket(html);
 	}
+
 	
 	@Override
 	public void onBypassFeedback(L2Player player, String command)
