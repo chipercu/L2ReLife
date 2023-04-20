@@ -31,9 +31,8 @@ public class AugmentName
 		LineNumberReader lnr = null;
 		try
 		{
-			lnr = new LineNumberReader(new BufferedReader(new FileReader(new File("data/fstring/optiondata.txt"))));
-			String line = null;
-
+			lnr = new LineNumberReader(new BufferedReader(new FileReader("data/fstring/optiondata.txt")));
+			String line;
 			while((line = lnr.readLine()) != null)
 			{
 				StringTokenizer st = new StringTokenizer(line, "\t");

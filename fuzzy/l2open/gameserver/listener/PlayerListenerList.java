@@ -1,4 +1,4 @@
-package l2open.gameserver.model.actor.listener;
+package l2open.gameserver.listener;
 
 import l2open.gameserver.listener.Listener;
 import l2open.gameserver.listener.actor.OnAutoSoulShotListener;

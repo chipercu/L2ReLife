@@ -1,5 +1,9 @@
 package l2open.gameserver.model;
 
+import l2open.gameserver.serverpackets.BlockList;
+import l2open.gameserver.serverpackets.ExBlockAddResult;
+import l2open.gameserver.serverpackets.ExBlockRemoveResult;
+import l2open.gameserver.serverpackets.ExVitalityEffectInfo;
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.apache.commons.lang3.tuple.Pair;
 import l2open.gameserver.listener.actor.player.OnAnswerListener;
@@ -114,8 +118,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import l2open.gameserver.model.actor.listener.PlayerListenerList;
+import l2open.gameserver.listener.PlayerListenerList;
 
 import static l2open.gameserver.model.L2Zone.ZoneType.*;
 

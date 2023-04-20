@@ -35,6 +35,8 @@ import ai.BotPlayers.BerserkerAI;
 import ai.BotPlayers.Gladiator;
 import ai.BotPlayers.GladiatorAI;
 import ai.PlayerTest;
+import npc.model.Military.Soldier;
+import npc.model.Military.Unit;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -176,9 +178,17 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
                 break;
             }
             case admin_create_fake: {
+                int _classId = Rnd.get(88, 118);
+                int _sex = Rnd.get(0, 1);
+                Soldier soldier =(Soldier) L2Player.create(_classId, (byte) _sex, "BOT", "Bot", (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), 0, Rnd.get(20, 85));
+
+                Unit unit = (Unit) L2Player.create(_classId, (byte) _sex, "BOT", "Bot", (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), 0, Rnd.get(20, 85));
+                unit.setCommander(soldier);
+
+
                 for (int i = 0; i < 10; i++) {
-                    int _classId = Rnd.get(88, 118);
-                    int _sex = Rnd.get(0, 1);
+//                    int _classId = Rnd.get(88, 118);
+//                    int _sex = Rnd.get(0, 1);
                     L2Player newChar = L2Player.create(_classId, (byte) _sex, "BOT", "Bot" + i, (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), 0, Rnd.get(20, 85));
                     newChar.setVar("bot", "bot");
                     adminGiveAllSkills(newChar);

@@ -791,7 +791,7 @@ public class L2PlayableAI extends L2CharacterAI {
         terr.add(caster.getX() + (int) (Math.cos(radian2) * width), caster.getY() + (int) (Math.sin(radian2) * width), target.getZ() - 50, target.getZ() + 50);
         terr.add(caster.getX() + (int) (Math.cos(radian1) * width), caster.getY() + (int) (Math.sin(radian1) * width), target.getZ() - 50, target.getZ() + 50);
 //TODO:
-//            ExShowTrace l2 = new ExShowTrace(3000);
+            ExShowTrace l2 = new ExShowTrace(3000);
 //            ExShowTrace l4 = new ExShowTrace(3000);
 //            l2.addLine(c_x + (int) (Math.cos(radian2) * width), c_y + (int) (Math.sin(radian2) * width), caster.getZ(), caster.getX() + (int) (Math.cos(radian2) * width), caster.getY() + (int) (Math.sin(radian2) * width), caster.getZ(), 20);
 //            l4.addLine(caster.getX() + (int) (Math.cos(radian1) * width), caster.getY() + (int) (Math.sin(radian1) * width), caster.getZ(), c_x + (int) (Math.cos(radian1) * width), c_y + (int) (Math.sin(radian1) * width), caster.getZ(), 20);

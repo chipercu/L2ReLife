@@ -1,20 +1,6 @@
-package l2open.gameserver.model.actor.listener;
+package l2open.gameserver.listener;
 
-import l2open.gameserver.ai.CtrlEvent;
-import l2open.gameserver.ai.CtrlIntention;
-import l2open.gameserver.listener.Listener;
-import l2open.gameserver.listener.ListenerList;
-import l2open.gameserver.listener.actor.OnAttackHitListener;
-import l2open.gameserver.listener.actor.OnAttackListener;
-import l2open.gameserver.listener.actor.OnCurrentHpDamageListener;
-import l2open.gameserver.listener.actor.OnCurrentMpReduceListener;
-import l2open.gameserver.listener.actor.OnDeathListener;
-import l2open.gameserver.listener.actor.OnKillListener;
-import l2open.gameserver.listener.actor.OnMagicHitListener;
-import l2open.gameserver.listener.actor.OnMagicUseListener;
-import l2open.gameserver.listener.actor.OnMoveListener;
-import l2open.gameserver.listener.actor.OnRegenTaskListener;
-import l2open.gameserver.listener.actor.OnReviveListener;
+import l2open.gameserver.listener.actor.*;
 import l2open.gameserver.model.L2Character;
 import l2open.gameserver.model.L2Skill;
 import l2open.util.Location;

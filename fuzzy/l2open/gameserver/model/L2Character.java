@@ -75,7 +75,7 @@ import static l2open.gameserver.ai.CtrlEvent.EVT_FORGET_OBJECT;
 import static l2open.gameserver.ai.CtrlIntention.AI_INTENTION_ACTIVE;
 
 import l2open.gameserver.listener.Listener;
-import l2open.gameserver.model.actor.listener.CharListenerList;
+import l2open.gameserver.listener.CharListenerList;
 
 public abstract class L2Character extends L2Object
 {
