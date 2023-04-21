@@ -4,7 +4,8 @@ public enum Commands {
     BATTLE_STATIONS,
     FIRE,
     CHARGE,
-    FALANG
+    FRONT_FALANG,
+    BACK_FALANG
 
 
 

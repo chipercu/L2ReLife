@@ -72,7 +72,7 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
                             L2Player p = client.loadCharFromDisk(0);
                             if (p == null || p.isDead())
                                 continue;
-                            client.setLoginName((String) e.get("account_name") == null ? "OfflineTrader_" + p.getName() : (String) e.get("account_name"));
+                            client.setLoginName(e.get("account_name") == null ? "OfflineTrader_" + p.getName() : (String) e.get("account_name"));
                             p.setLoc(activeChar.getLoc());
                             client.OnOfflineTrade();
                             p.spawnMe();
@@ -182,7 +182,7 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
                 int _sex = Rnd.get(0, 1);
                 Soldier soldier =(Soldier) L2Player.create(_classId, (byte) _sex, "BOT", "Bot", (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), 0, Rnd.get(20, 85));
 
-                Unit unit = (Unit) L2Player.create(_classId, (byte) _sex, "BOT", "Bot", (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), 0, Rnd.get(20, 85));
+                Unit unit = (Unit) L2Player.create(_classId, (byte) _sex, "WarUnit", "Bot", (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), 0, Rnd.get(20, 85));
                 unit.setCommander(soldier);
 
 
