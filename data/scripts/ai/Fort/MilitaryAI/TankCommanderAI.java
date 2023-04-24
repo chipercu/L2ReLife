@@ -32,7 +32,6 @@ public class TankCommanderAI extends L2PlayerAI {
     private L2Player commander;
     private ScheduledFuture<?> ai;
     private Fortress fortress;
-
     private List<LocForUnit> unitLocation;
 
 
@@ -44,6 +43,7 @@ public class TankCommanderAI extends L2PlayerAI {
 
     public TankCommanderAI(L2Player actor) {
         super(actor);
+
         fortress = FortressManager.getInstance().getFortressByName(getActor().getVar("fortressName"));
         if (fortress.getOwner() != null){
             commander = fortress.getOwner().getLeader().getPlayer();
@@ -235,8 +235,6 @@ public class TankCommanderAI extends L2PlayerAI {
             p.setInvisible(false);
             p.setConnected(true);
             p.setNameColor(Integer.decode("0x" + ConfigValue.OfflineTradeNameColor));
-            //p.restoreEffects();
-            //p.restoreDisableSkills();
             p.broadcastUserInfo(true);
             this.units.add(p);
             i++;

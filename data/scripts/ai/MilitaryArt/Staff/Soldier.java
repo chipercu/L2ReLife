@@ -1,4 +1,4 @@
-package scripts.ai.MilitaryArt.Staff;
+package ai.MilitaryArt.Staff;
 
 import ai.MilitaryArt.BattleOrderType;
 import ai.MilitaryArt.MilitaryRank;

@@ -129,33 +129,6 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
 
                 break;
             }
-            case admin_testvector: {
-                activeChar.sendMessage("test1");
-                List<Location> new_loc = new ArrayList<>();
-                L2Object ref = activeChar.getTarget();
-                int unitDist = 200;
-                int unitWidth = 60;
-                boolean front = true;
-
-
-                Point p1 = Vector2DRef.getCenterPoint(activeChar, ref, unitDist, front);
-                Point p2left = Vector2DRef.getFrontLeftPoint(activeChar, ref, unitDist, unitWidth, front);
-                Point p3right = Vector2DRef.getFrontRightPoint(activeChar, ref, unitDist, unitWidth, front);
-                Point p4left = Vector2DRef.getFrontLeftPoint(activeChar, ref, unitDist, unitWidth * 2, front);
-                Point p5right = Vector2DRef.getFrontRightPoint(activeChar, ref, unitDist, unitWidth * 2, front);
-                new_loc.add(new Location(p1.x, p1.y, activeChar.getZ()));
-                new_loc.add(new Location(p2left.x, p2left.y, activeChar.getZ()));
-                new_loc.add(new Location(p3right.x, p3right.y, activeChar.getZ()));
-                new_loc.add(new Location(p4left.x, p4left.y, activeChar.getZ()));
-                new_loc.add(new Location(p5right.x, p5right.y, activeChar.getZ()));
-
-                for (Location loc: new_loc){
-                    L2ItemInstance item = ItemTemplates.getInstance().createItem(57);
-                    item.setCount(1);
-                    item.dropMe(activeChar, loc);
-                }
-                break;
-            }
             case admin_unit_test:{
 //                MilitaryManager.createUnit(5, (byte) 1, "Unit_Tank");
 //                final L2Player player = L2Player.create(5, (byte) 1, "Military", "Unit_Tank", (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), 0, 78);
@@ -247,7 +220,7 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
             case admin_set_bot: {
                 if (activeChar.getTarget()!= null){
                     final L2Player target = (L2Player) activeChar.getTarget();
-                    target.setVar("unit_type", "Sage_Unit");
+                    target.setVar("unit_type", "town_patrol_commander");
                     target.setVar("bot1", "bot1");
                 }
                 break;
@@ -266,7 +239,7 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
                             break;
                     }
 
-                    player.setAI(new scripts.ai.MilitaryArt.Staff.Soldier(player));
+                    player.setAI(new scripts.ai.Fort.MilitaryAI.TownGuardComanderAI(player));
 
                 } else if (activeChar.getTarget().isNpc()) {
                     L2NpcInstance npc = (L2NpcInstance) activeChar.getTarget();
@@ -317,41 +290,29 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
         return true;
     }
 
-    public void spawnUnit(L2Player activeChar) {
-        new Thread(new l2open.common.RunnableImpl() {
-            @Override
-            public void runImpl() {
-                GArray<HashMap<String, Object>> list = mysql.getAll("SELECT `obj_id`, `value`, (SELECT `account_name` FROM `characters` WHERE `characters`.`obj_Id` = `character_variables`.`obj_id` LIMIT 1) AS `account_name` FROM `character_variables` WHERE name LIKE 'unit_type'");
-                for (HashMap<String, Object> e : list) {
-                    L2GameClient client = new L2GameClient(new MMOConnection<L2GameClient>(null), true);
-                    client.setCharSelection((Integer) e.get("obj_id"));
-                    L2Player p = client.loadCharFromDisk(0);
-                    if (p == null || p.isDead())
-                        continue;
-                    client.setLoginName(e.get("account_name") == null ? "OfflineTrader_" + p.getName() : (String) e.get("account_name"));
-                    p.setLoc(activeChar.getLoc());
-                    client.OnOfflineTrade();
-                    p.spawnMe();
-                    p.updateTerritories();
-                    p.setOnlineStatus(true);
-                    p.setInvisible(false);
-                    p.setConnected(true);
-                    p.setNameColor(Integer.decode("0x" + ConfigValue.OfflineTradeNameColor));
-                    //p.restoreEffects();
-                    //p.restoreDisableSkills();
-                    p.broadcastUserInfo(true);
-                    p.setAI(new scripts.ai.MilitaryArt.Staff.Soldier(p));
-//                    setAIfromClass(p);
+    private void spawnUnit(L2Player activeChar){
 
+        GArray<HashMap<String, Object>> list = mysql.getAll("SELECT `obj_id`, `value`, (SELECT `account_name` FROM `characters` WHERE `characters`.`obj_Id` = `character_variables`.`obj_id` LIMIT 1) AS `account_name` FROM `character_variables` WHERE name LIKE 'unit_type'");
 
-                    if (p.getClan() != null && p.getClan().getClanMember(p.getObjectId()) != null)
-                        p.getClan().getClanMember(p.getObjectId()).setPlayerInstance(p, false);
-                    _log.info("Restored bot: " + p.getName());
-                }
+        for (HashMap<String, Object> e : list) {
+            L2GameClient client = new L2GameClient(new MMOConnection<>(null), true);
+            client.setCharSelection((Integer) e.get("obj_id"));
+            L2Player p = client.loadCharFromDisk(0);
 
+            if (p == null || p.getVar("unit_type") == null || !p.getVar("unit_type").equals("town_patrol_commander")){
+                continue;
             }
-        }).start();
-
+            client.setLoginName(e.get("account_name") == null ? "OfflineTrader_" + p.getName() : (String) e.get("account_name"));
+            p.setLoc(Location.coordsRandomize(activeChar.getLoc(), 50, 100));
+            client.OnOfflineTrade();
+            p.spawnMe();
+            p.updateTerritories();
+            p.setOnlineStatus(true);
+            p.setInvisible(false);
+            p.setConnected(true);
+            p.setNameColor(Integer.decode("0x" + ConfigValue.OfflineTradeNameColor));
+            p.broadcastUserInfo(true);
+        }
     }
 
 
