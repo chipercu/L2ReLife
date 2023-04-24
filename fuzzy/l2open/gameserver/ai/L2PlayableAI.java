@@ -777,6 +777,9 @@ public class L2PlayableAI extends L2CharacterAI {
 
     private L2Character testGetTargetFromTunel(L2Skill skill, L2Character caster, L2Character target) {
 
+        if (target == null){
+            return null;
+        }
         double angle = Location.calculateAngleFrom(caster.getPrevX(), caster.getPrevY(), target.getX(), target.getY());
         double radian1 = Math.toRadians(angle - 90);
         double radian2 = Math.toRadians(angle + 90);

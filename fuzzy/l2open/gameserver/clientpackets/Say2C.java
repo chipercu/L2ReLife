@@ -297,7 +297,8 @@ public class Say2C extends L2GameClientPacket {
                         activeChar.sendPacket(cs);
                         if(receiver.getVar("bot1").equalsIgnoreCase("bot1")){
                             //BotManager.botSayToPlayer(receiver, activeChar,_type, _text);
-                            receiver.getAI().botSay(activeChar, _type, _text);
+//                            receiver.getAI().botSay(activeChar, _type, _text);
+                            receiver.getAI().unitChatListener(activeChar, _type, _text);
                         }
                         //	((phantoms.model.Phantom)receiver).doAction(new phantoms.action.ChatAnswerAction(activeChar));
 

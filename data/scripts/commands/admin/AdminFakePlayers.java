@@ -1,11 +1,10 @@
-package commands.admin;
+package scripts.commands.admin;
 
 import ai.chaos.CasterOfChaosAI;
 import l2open.config.ConfigValue;
 import l2open.database.mysql;
 import l2open.extensions.network.MMOConnection;
 import l2open.extensions.scripts.ScriptFile;
-import l2open.gameserver.ai.Fighter;
 import l2open.gameserver.cache.Msg;
 import l2open.gameserver.handler.AdminCommandHandler;
 import l2open.gameserver.handler.IAdminCommandHandler;
@@ -15,7 +14,6 @@ import l2open.gameserver.model.*;
 import l2open.gameserver.model.base.ClassId;
 import l2open.gameserver.model.base.Race;
 import l2open.gameserver.model.entity.olympiad.Olympiad;
-import l2open.gameserver.model.instances.L2MonsterInstance;
 import l2open.gameserver.model.instances.L2NpcInstance;
 import l2open.gameserver.model.items.L2ItemInstance;
 import l2open.gameserver.model.items.MailParcelController;
@@ -30,17 +28,23 @@ import l2open.gameserver.templates.L2Item;
 import l2open.gameserver.templates.L2PlayerTemplate;
 import l2open.gameserver.xml.ItemTemplates;
 import l2open.util.GArray;
+import l2open.util.Location;
 import l2open.util.Rnd;
 import ai.BotPlayers.BerserkerAI;
 import ai.BotPlayers.Gladiator;
 import ai.BotPlayers.GladiatorAI;
 import ai.PlayerTest;
-import npc.model.Military.Soldier;
+import npc.model.Military.GeoUtil.Point;
+import npc.model.Military.GeoUtil.Vector2DRef;
 import npc.model.Military.Unit;
+
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+
 
 public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
 
@@ -51,7 +55,9 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
         admin_set_bot,
         admin_get_skills,
         admin_set_ai,
-        admin_autoshot
+        admin_autoshot,
+        admin_testvector,
+        admin_unit_test
     }
 
     public boolean useAdminCommand(Enum comm, String[] wordList, String fullString, L2Player activeChar) {
@@ -84,7 +90,7 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
                             //p.restoreEffects();
                             //p.restoreDisableSkills();
                             p.broadcastUserInfo(true);
-                            setAIfromClass(p);
+//                            setAIfromClass(p);
 
 
                             if (p.getClan() != null && p.getClan().getClanMember(p.getObjectId()) != null)
@@ -123,6 +129,49 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
 
                 break;
             }
+            case admin_testvector: {
+                activeChar.sendMessage("test1");
+                List<Location> new_loc = new ArrayList<>();
+                L2Object ref = activeChar.getTarget();
+                int unitDist = 200;
+                int unitWidth = 60;
+                boolean front = true;
+
+
+                Point p1 = Vector2DRef.getCenterPoint(activeChar, ref, unitDist, front);
+                Point p2left = Vector2DRef.getFrontLeftPoint(activeChar, ref, unitDist, unitWidth, front);
+                Point p3right = Vector2DRef.getFrontRightPoint(activeChar, ref, unitDist, unitWidth, front);
+                Point p4left = Vector2DRef.getFrontLeftPoint(activeChar, ref, unitDist, unitWidth * 2, front);
+                Point p5right = Vector2DRef.getFrontRightPoint(activeChar, ref, unitDist, unitWidth * 2, front);
+                new_loc.add(new Location(p1.x, p1.y, activeChar.getZ()));
+                new_loc.add(new Location(p2left.x, p2left.y, activeChar.getZ()));
+                new_loc.add(new Location(p3right.x, p3right.y, activeChar.getZ()));
+                new_loc.add(new Location(p4left.x, p4left.y, activeChar.getZ()));
+                new_loc.add(new Location(p5right.x, p5right.y, activeChar.getZ()));
+
+                for (Location loc: new_loc){
+                    L2ItemInstance item = ItemTemplates.getInstance().createItem(57);
+                    item.setCount(1);
+                    item.dropMe(activeChar, loc);
+                }
+                break;
+            }
+            case admin_unit_test:{
+//                MilitaryManager.createUnit(5, (byte) 1, "Unit_Tank");
+//                final L2Player player = L2Player.create(5, (byte) 1, "Military", "Unit_Tank", (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), 0, 78);
+//                if (player != null) {
+//                    player.setVar("unit_type", "Sage_Unit");
+//                    giveAllSkills(player);
+//                }
+                spawnUnit(activeChar);
+//                if (unit != null) {
+//                    giveAllSkills(unit);
+//                }
+//                if (unit != null) {
+//                    unit.setCommander(activeChar);
+//                }
+                break;
+            }
             case admin_fake_delete: {
                 L2Player bot;
                 if (activeChar.getTarget() != null && activeChar.getTarget().isPlayer()) {
@@ -138,41 +187,41 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
                         .filter(o -> !o.isToggle())
                         .filter(o -> !o.isPassive())
                         .sorted((o1, o2) -> (int) (o1.getPower() - o2.getPower()))
-                        .forEach(o ->{
-                            if (activeChar.isGM()){
-                                FileWriter file = null;
-                                StringBuilder sb = new StringBuilder();
-                                try {
-                                    file = new FileWriter("skills-"+ activeChar.getClassId().name() +".txt", true);
-                                    sb.append("add(")
-                                            .append(o.getId())
-                                            .append("); //")
-                                            .append(o.getName())
-                                            .append("\n");
-                                    file.write(sb.toString());
-                                    file.flush();
-                                    file.close();
+                        .forEach(o -> {
+                                    if (activeChar.isGM()) {
+                                        FileWriter file = null;
+                                        StringBuilder sb = new StringBuilder();
+                                        try {
+                                            file = new FileWriter("skills-" + activeChar.getClassId().name() + ".txt", true);
+                                            sb.append("add(")
+                                                    .append(o.getId())
+                                                    .append("); //")
+                                                    .append(o.getName())
+                                                    .append("\n");
+                                            file.write(sb.toString());
+                                            file.flush();
+                                            file.close();
 
-                                } catch (IOException e) {
-                                    e.printStackTrace();
-                                }finally {
-                                    try {
-                                        assert file != null;
-                                        file.close();
-                                    } catch (IOException e) {
-                                        e.printStackTrace();
+                                        } catch (IOException e) {
+                                            e.printStackTrace();
+                                        } finally {
+                                            try {
+                                                assert file != null;
+                                                file.close();
+                                            } catch (IOException e) {
+                                                e.printStackTrace();
+                                            }
+                                        }
+
                                     }
-                                }
-
-                            }
 
 
-                            //activeChar.sendPacket(new Say2(0, 0, "DEBUG", "----------------------------"));
-                            activeChar.sendPacket(new Say2(0, 0, "DEBUG",
-                                    o.getName()
-                                            + ": id " + o.getId()
-                                            + "| power: " + o.getPower()));
-                            //activeChar.sendPacket(new Say2(0, 0, "DEBUG", "----------------------------"));
+                                    //activeChar.sendPacket(new Say2(0, 0, "DEBUG", "----------------------------"));
+                                    activeChar.sendPacket(new Say2(0, 0, "DEBUG",
+                                            o.getName()
+                                                    + ": id " + o.getId()
+                                                    + "| power: " + o.getPower()));
+                                    //activeChar.sendPacket(new Say2(0, 0, "DEBUG", "----------------------------"));
                                 }
                         );
                 break;
@@ -180,10 +229,6 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
             case admin_create_fake: {
                 int _classId = Rnd.get(88, 118);
                 int _sex = Rnd.get(0, 1);
-                Soldier soldier =(Soldier) L2Player.create(_classId, (byte) _sex, "BOT", "Bot", (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), 0, Rnd.get(20, 85));
-
-                Unit unit = (Unit) L2Player.create(_classId, (byte) _sex, "WarUnit", "Bot", (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), 0, Rnd.get(20, 85));
-                unit.setCommander(soldier);
 
 
                 for (int i = 0; i < 10; i++) {
@@ -200,13 +245,17 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
                 break;
             }
             case admin_set_bot: {
-                activeChar.setVar("bot1", "bot1");
+                if (activeChar.getTarget()!= null){
+                    final L2Player target = (L2Player) activeChar.getTarget();
+                    target.setVar("unit_type", "Sage_Unit");
+                    target.setVar("bot1", "bot1");
+                }
                 break;
             }
             case admin_set_ai: {
                 if (activeChar.getTarget().isPlayer()) {
                     L2Player player = activeChar.getTarget().getPlayer();
-                    switch (player.getClassId()){
+                    switch (player.getClassId()) {
                         case gladiator:
                         case duelist:
                             player.setAI(new GladiatorAI(player));
@@ -216,9 +265,12 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
                             player.setAI(new BerserkerAI(player));
                             break;
                     }
+
+                    player.setAI(new scripts.ai.MilitaryArt.Staff.Soldier(player));
+
                 } else if (activeChar.getTarget().isNpc()) {
                     L2NpcInstance npc = (L2NpcInstance) activeChar.getTarget();
-                    if (npc.getNpcId() == 36671){
+                    if (npc.getNpcId() == 36671) {
 //                        npc.setAI(new Fighter(npc));
                         npc.setAI(new CasterOfChaosAI(npc));
                         activeChar.sendMessage("AI reset");
@@ -227,7 +279,7 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
 
                 break;
             }
-            case admin_autoshot:{
+            case admin_autoshot: {
                 int soul = 0;
                 int spirit = 0;
                 if (activeChar.getActiveWeaponInstance() != null) {
@@ -238,7 +290,7 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
                         case D:
                             break;
                         case C:
-                            soul =  1464;   //Soulshot: C-grade
+                            soul = 1464;   //Soulshot: C-grade
                             spirit = 3949;   //spiritshot: C-grade
                             break;
                         case B:
@@ -263,6 +315,68 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
             }
         }
         return true;
+    }
+
+    public void spawnUnit(L2Player activeChar) {
+        new Thread(new l2open.common.RunnableImpl() {
+            @Override
+            public void runImpl() {
+                GArray<HashMap<String, Object>> list = mysql.getAll("SELECT `obj_id`, `value`, (SELECT `account_name` FROM `characters` WHERE `characters`.`obj_Id` = `character_variables`.`obj_id` LIMIT 1) AS `account_name` FROM `character_variables` WHERE name LIKE 'unit_type'");
+                for (HashMap<String, Object> e : list) {
+                    L2GameClient client = new L2GameClient(new MMOConnection<L2GameClient>(null), true);
+                    client.setCharSelection((Integer) e.get("obj_id"));
+                    L2Player p = client.loadCharFromDisk(0);
+                    if (p == null || p.isDead())
+                        continue;
+                    client.setLoginName(e.get("account_name") == null ? "OfflineTrader_" + p.getName() : (String) e.get("account_name"));
+                    p.setLoc(activeChar.getLoc());
+                    client.OnOfflineTrade();
+                    p.spawnMe();
+                    p.updateTerritories();
+                    p.setOnlineStatus(true);
+                    p.setInvisible(false);
+                    p.setConnected(true);
+                    p.setNameColor(Integer.decode("0x" + ConfigValue.OfflineTradeNameColor));
+                    //p.restoreEffects();
+                    //p.restoreDisableSkills();
+                    p.broadcastUserInfo(true);
+                    p.setAI(new scripts.ai.MilitaryArt.Staff.Soldier(p));
+//                    setAIfromClass(p);
+
+
+                    if (p.getClan() != null && p.getClan().getClanMember(p.getObjectId()) != null)
+                        p.getClan().getClanMember(p.getObjectId()).setPlayerInstance(p, false);
+                    _log.info("Restored bot: " + p.getName());
+                }
+
+            }
+        }).start();
+
+    }
+
+
+    public static void giveAllSkills(L2Player unit) {
+        if (unit == null) {
+            return;
+        }
+        int unLearnable = 0;
+        GArray<L2SkillLearn> skills = unit.getAvailableSkills(unit.getClassId());
+        while (skills.size() > unLearnable) {
+            unLearnable = 0;
+            for (L2SkillLearn s : skills) {
+                L2Skill sk = SkillTable.getInstance().getInfo(s.id, s.skillLevel);
+                if (sk == null || !sk.getCanLearn(unit.getClassId())) {
+                    unLearnable++;
+                    continue;
+                }
+                unit.addSkill(sk, true);
+                s.deleteSkills(unit);
+            }
+            skills = unit.getAvailableSkills(unit.getClassId());
+        }
+        unit.updateStats();
+        unit.sendUserInfo(true);
+        unit.sendPacket(new SkillList(unit));
     }
 
     private void setAIfromClass(L2Player p) {

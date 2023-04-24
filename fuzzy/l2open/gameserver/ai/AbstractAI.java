@@ -303,6 +303,8 @@ public abstract class AbstractAI extends RunnableImpl
 
 	protected abstract void onIntentionActive();
 
+	public abstract void unitChatListener(L2Player player, int _chatType, String text);
+
 	protected abstract void onIntentionRest();
 
 	protected abstract void onIntentionAttack(L2Character target);

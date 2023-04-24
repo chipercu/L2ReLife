@@ -60,6 +60,9 @@ public class L2CharacterAI extends AbstractAI
 		Say2 cs = new Say2(player.getObjectId(), _chatType, "->" + getActor().getName(), text);
 		player.sendPacket(cs);
 	}
+	@Override
+	public void unitChatListener(L2Player player, int _chatType, String command) {
+	}
 
 	@Override
 	protected void onIntentionActive()
@@ -67,6 +70,8 @@ public class L2CharacterAI extends AbstractAI
 		clientStopMoving();
 		changeIntention(CtrlIntention.AI_INTENTION_ACTIVE, null, null);
 	}
+
+
 
 	@Override
 	protected void onIntentionAttack(L2Character target)
