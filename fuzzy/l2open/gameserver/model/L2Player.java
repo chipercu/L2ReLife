@@ -519,6 +519,29 @@ public class L2Player extends L2Playable
 		return _connection.getIpAddr();
 	}
 
+	public UnitType getUnitType(){
+		String unitType = this.getVar("unit_type");
+		if (unitType != null && !unitType.isEmpty()){
+			if (unitType.equals("knight")){
+				return UnitType.knight;
+			}else if (unitType.equals("ranger")){
+				return UnitType.ranger;
+			}else if (unitType.equals("warrior")){
+				return UnitType.warrior;
+			}else if (unitType.equals("wizard")){
+				return UnitType.wizard;
+			}else if (unitType.equals("healer")){
+				return UnitType.healer;
+			}else if (unitType.equals("buffer")){
+				return UnitType.buffer;
+			}else return UnitType.none;
+		}
+		return UnitType.none;
+	}
+	public void setUnitType(UnitType type){
+		this.setVar("unit_type", type.getType());
+	}
+
 	public int getQuestInventoryLimit()
 	{
 		return ConfigValue.MaximumQuestInventorySlot;

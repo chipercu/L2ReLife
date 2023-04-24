@@ -1,10 +1,11 @@
 package npc.model.Military.GeoUtil;
 
 import l2open.gameserver.model.L2Object;
+import l2open.util.Location;
 
 public class Vector2DRef {
 
-    public static Point getCenterPoint(L2Object actor, L2Object reference, double dist, boolean front){
+    public static Location getCenterPoint(L2Object actor, L2Object reference, double dist, boolean front){
         Point A = new Point(actor.getX(), actor.getY()); //точка объекта
         Point ref = new Point(reference.getX(), reference.getY()); //точка относительно которой вычисляем
         double angle = calculateAngleFrom(A, ref);
@@ -16,7 +17,8 @@ public class Vector2DRef {
         }
         int c_x = (int) (A.x - Math.sin(radian1) * dist);
         int c_y = (int) (A.y + Math.cos(radian1) * dist);
-        return new Point(c_x + (int) (Math.cos(radian2)), c_y + (int) (Math.sin(radian2))); //точка на одной линии с точкой объекта и точкой ref
+        return new Location(c_x + (int) (Math.cos(radian2)), c_y + (int) (Math.sin(radian2)), actor.getZ());
+//        return new Point(c_x + (int) (Math.cos(radian2)), c_y + (int) (Math.sin(radian2))); //точка на одной линии с точкой объекта и точкой ref
     }
     public static Point getBackPoint(L2Object actor, L2Object reference, double dist){
         Point A = new Point(actor.getX(), actor.getY()); //точка объекта
@@ -28,7 +30,7 @@ public class Vector2DRef {
         int c_y = (int) (A.y + Math.cos(radian1) * dist);
         return new Point(c_x + (int) (Math.cos(radian2)), c_y + (int) (Math.sin(radian2))); //точка на одной линии с точкой объекта и точкой ref
     }
-    public static Point getFrontLeftPoint(L2Object actor, L2Object reference, double dist, int leftDist, boolean front){
+    public static Location getFrontLeftPoint(L2Object actor, L2Object reference, double dist, int leftDist, boolean front){
         Point A = new Point(actor.getX(), actor.getY()); //точка объекта
         Point ref = new Point(reference.getX(), reference.getY()); //точка относительно которой вычисляем
         double angle = calculateAngleFrom(A, ref);
@@ -40,9 +42,11 @@ public class Vector2DRef {
         }
         int c_x = (int) (A.x - Math.sin(radian1) * dist);
         int c_y = (int) (A.y + Math.cos(radian1) * dist);
-        return new Point(c_x + (int) (Math.cos(radian1) * leftDist), c_y + (int) (Math.sin(radian1) * leftDist));// точка с лева
+//        return new Point(c_x + (int) (Math.cos(radian1) * leftDist), c_y + (int) (Math.sin(radian1) * leftDist));// точка с лева
+
+        return new Location(c_x + (int) (Math.cos(radian1) * leftDist), c_y + (int) (Math.sin(radian1) * leftDist), actor.getZ());
     }
-    public static Point getFrontRightPoint(L2Object actor, L2Object reference, double dist, int rightDist,boolean front){
+    public static Location getFrontRightPoint(L2Object actor, L2Object reference, double dist, int rightDist,boolean front){
         Point A = new Point(actor.getX(), actor.getY()); //точка объекта
         Point ref = new Point(reference.getX(), reference.getY()); //точка относительно которой вычисляем
         double angle = calculateAngleFrom(A, ref);
@@ -54,7 +58,8 @@ public class Vector2DRef {
         }
         int c_x = (int) (A.x - Math.sin(radian1) * dist);
         int c_y = (int) (A.y + Math.cos(radian1) * dist);
-        return new Point(c_x + (int) (Math.cos(radian2) * rightDist), c_y + (int) (Math.sin(radian2) * rightDist));// точка с права
+//        return new Point(c_x + (int) (Math.cos(radian2) * rightDist), c_y + (int) (Math.sin(radian2) * rightDist));// точка с права
+        return new Location(c_x + (int) (Math.cos(radian2) * rightDist), c_y + (int) (Math.sin(radian2) * rightDist), actor.getZ());
     }
     public static Point getBackLeftPoint(L2Object actor, L2Object reference, double dist, int leftDist){
         Point A = new Point(actor.getX(), actor.getY()); //точка объекта

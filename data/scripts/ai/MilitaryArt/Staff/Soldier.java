@@ -40,8 +40,9 @@ public class Soldier extends L2PlayerAI {
     private static final int unitWidth = 100;
 
     private List<L2Player> units = new ArrayList<>();
-
     private List<Location> unitPosition = new ArrayList<>();
+
+
     private L2Object objectReference;
     private L2Player commander;
     private BattleOrderType battleOrderType;
@@ -145,16 +146,17 @@ public class Soldier extends L2PlayerAI {
         List<Location> new_loc = new ArrayList<>();
         int unitDist = 200;
         int unitWidth = 50;
-        Point p1 = Vector2DRef.getCenterPoint(actor, ref, unitDist, front);
-        Point p2left = Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, front);
-        Point p3right = Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, front);
-        Point p4left = Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth * 2, front);
-        Point p5right = Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth * 2, front);
-        new_loc.add(new Location(p1.x, p1.y, actor.getZ()));
-        new_loc.add(new Location(p2left.x, p2left.y, actor.getZ()));
-        new_loc.add(new Location(p3right.x, p3right.y, actor.getZ()));
-        new_loc.add(new Location(p4left.x, p4left.y, actor.getZ()));
-        new_loc.add(new Location(p5right.x, p5right.y, actor.getZ()));
+//        Point p1 = Vector2DRef.getCenterPoint(actor, ref, unitDist, front);
+//        Point p2left = Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, front);
+//        Point p3right = Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, front);
+//        Point p4left = Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth * 2, front);
+//        Point p5right = Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth * 2, front);
+        new_loc.add(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, front));
+        new_loc.add(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, front));
+        new_loc.add(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth * 2, front));
+        new_loc.add(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth * 2, front));
+        new_loc.add(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth * 3, front));
+        new_loc.add(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth * 3, front));
         return new_loc;
     }
 
@@ -167,57 +169,6 @@ public class Soldier extends L2PlayerAI {
                 .collect(Collectors.toList());
     }
 
-
-    private void findUnitPoints(L2Object ref, boolean front) {
-
-        L2Player actor = getActor();
-
-        int activeUnits = getActiveUnits().size();
-        if (activeUnits == 0) {
-            return;
-        }
-        List<Location> new_loc = new ArrayList<>();
-        if (activeUnits == 1) {
-            Point frontPoint = Vector2DRef.getCenterPoint(actor, ref, unitDist, front);
-            new_loc.add(new Location(frontPoint.x, frontPoint.y, actor.getZ()));
-        } else if (activeUnits == 2) {
-            Point p1 = Vector2DRef.getCenterPoint(actor, ref, unitDist, front);
-            Point p2 = Rnd.nextBoolean() ? Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, front) : Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, front);
-            new_loc.add(new Location(p1.x, p1.y, actor.getZ()));
-            new_loc.add(new Location(p2.x, p2.y, actor.getZ()));
-        } else if (activeUnits == 3) {
-            Point p1 = Vector2DRef.getCenterPoint(actor, ref, unitDist, front);
-            Point p2left = Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, front);
-            Point p3right = Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, front);
-            new_loc.add(new Location(p1.x, p1.y, actor.getZ()));
-            new_loc.add(new Location(p2left.x, p2left.y, actor.getZ()));
-            new_loc.add(new Location(p3right.x, p3right.y, actor.getZ()));
-        }else if (activeUnits == 4){
-            Point p1 = Vector2DRef.getCenterPoint(actor, ref, unitDist, front);
-            Point p2left = Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, front);
-            Point p3right = Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, front);
-            Point p4 = Rnd.nextBoolean() ? Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth*2, front) : Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth*2, front);
-            new_loc.add(new Location(p1.x, p1.y, actor.getZ()));
-            new_loc.add(new Location(p2left.x, p2left.y, actor.getZ()));
-            new_loc.add(new Location(p3right.x, p3right.y, actor.getZ()));
-            new_loc.add(new Location(p4.x, p4.y, actor.getZ()));
-        } else if (activeUnits == 5) {
-            Point p1 = Vector2DRef.getCenterPoint(actor, ref, unitDist, front);
-            Point p2left = Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, front);
-            Point p3right = Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, front);
-            Point p4left = Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth*2, front);
-            Point p5right = Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth*2, front);
-            new_loc.add(new Location(p1.x, p1.y, actor.getZ()));
-            new_loc.add(new Location(p2left.x, p2left.y, actor.getZ()));
-            new_loc.add(new Location(p3right.x, p3right.y, actor.getZ()));
-            new_loc.add(new Location(p4left.x, p4left.y, actor.getZ()));
-            new_loc.add(new Location(p5right.x, p5right.y, actor.getZ()));
-        }
-        if (!new_loc.isEmpty()) {
-            getUnitPosition().clear();
-            getUnitPosition().addAll(new_loc);
-        }
-    }
 
     public List<Location> getUnitPosition() {
         return this.unitPosition;
