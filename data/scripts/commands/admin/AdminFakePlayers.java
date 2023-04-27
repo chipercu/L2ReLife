@@ -1,5 +1,9 @@
 package scripts.commands.admin;
 
+import ai.BotPlayers.BerserkerAI;
+import ai.BotPlayers.Gladiator;
+import ai.BotPlayers.GladiatorAI;
+import ai.PlayerTest;
 import ai.chaos.CasterOfChaosAI;
 import l2open.config.ConfigValue;
 import l2open.database.mysql;
@@ -30,20 +34,10 @@ import l2open.gameserver.xml.ItemTemplates;
 import l2open.util.GArray;
 import l2open.util.Location;
 import l2open.util.Rnd;
-import ai.BotPlayers.BerserkerAI;
-import ai.BotPlayers.Gladiator;
-import ai.BotPlayers.GladiatorAI;
-import ai.PlayerTest;
-import npc.model.Military.GeoUtil.Point;
-import npc.model.Military.GeoUtil.Vector2DRef;
-import npc.model.Military.Unit;
-
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 
 public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
