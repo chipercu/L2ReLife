@@ -17,6 +17,10 @@ import l2open.gameserver.network.L2GameClient;
 import l2open.gameserver.serverpackets.Say2;
 import l2open.util.GArray;
 import l2open.util.Location;
+import l2open.util.geometry.Vector.Point2D;
+import l2open.util.geometry.Vector.PointNSWE2P;
+import l2open.util.geometry.Vector.Side;
+import l2open.util.geometry.Vector.Vector2P;
 import npc.model.Military.GeoUtil.Point;
 import npc.model.Military.GeoUtil.Vector2DRef;
 
@@ -60,6 +64,9 @@ public class TownGuardComanderAI extends L2PlayerAI {
 
     }
 
+
+
+
     public class MoveTask extends RunnableImpl {
 
 
@@ -68,7 +75,7 @@ public class TownGuardComanderAI extends L2PlayerAI {
             say("move");
 
             if (refLocation != null && refLocation.distance(getActor().getLoc()) > 100) {
-                toPosition(getActor().getLoc(), FormationType.PATROL, false);
+                toPosition(getActor(), refLocation, FormationType.PATROL, false);
                 unitsMove();
             }
             if (getActor().isMoving || getActor().isMovementDisabled()) {
@@ -109,7 +116,7 @@ public class TownGuardComanderAI extends L2PlayerAI {
                 case "startMove": {
                     say("start_patrol");
                     commander = player;
-                    toPosition(getActor().getLoc(), FormationType.PATROL, false);
+                    toPosition(getActor(), getActor().getLoc() , FormationType.PATROL, false);
                     unitsMove();
                     moveAi = ThreadPoolManager.getInstance().scheduleAtFixedRate(new MoveTask(), 1000, 1000);
 
@@ -179,7 +186,7 @@ public class TownGuardComanderAI extends L2PlayerAI {
         }
     }
 
-    private void toPosition(Location refLocation, FormationType type, boolean running) {
+    private void toPosition(L2Object actor, Location refLocation, FormationType type, boolean running) {
         if (running) {
             getActor().setRunning();
             units.forEach(L2Character::setRunning);
@@ -188,7 +195,7 @@ public class TownGuardComanderAI extends L2PlayerAI {
             units.forEach(L2Character::setWalking);
         }
         if (type == FormationType.PATROL) {
-            findPatrolLoc(refLocation, refLocation);
+            findPatrolLoc(actor, refLocation);
         } else if (type == FormationType.INSTUCTAJ) {
             findInstructLoc(getActor(), refLocation);
         } else if (type == FormationType.RANDOM) {
@@ -202,8 +209,8 @@ public class TownGuardComanderAI extends L2PlayerAI {
         private UnitType locForType;
         private boolean isOccupied;
 
-        public LocForUnit(Location loc, UnitType locForType) {
-            this.loc = loc;
+        public LocForUnit(Vector2P vector, int height, UnitType locForType) {
+            this.loc = new Location((int)vector.getX(), (int)vector.getY(), height);
             this.locForType = locForType;
             this.isOccupied = false;
         }
@@ -225,32 +232,51 @@ public class TownGuardComanderAI extends L2PlayerAI {
         }
     }
 
-    private void findPatrolLoc(Location loc, Location ref) {
+    private void findPatrolLoc(L2Object actor, Location ref) {
         clearUnitsLoc();
-//        unitLocation.add(new LocForUnit(calcPoint(loc, ref, 50, 50, true, false), knight));
-//        unitLocation.add(new LocForUnit(calcPoint(loc, ref, 50, 50, false, false), knight));
-//        unitLocation.add(new LocForUnit(calcPoint(loc, ref, 100, 50, true, false), knight));
-//        unitLocation.add(new LocForUnit(calcPoint(loc, ref, 100, 50, false, false), knight));
-//        loc1 = new LocForUnit(calcPoint(loc, ref, 100, 50, true, false), knight);
-//        loc2 = new LocForUnit(calcPoint(loc, ref, 100, 50, false, false), knight);
-//        loc3 = new LocForUnit(calcPoint(loc, ref, 200, 50, true, false), knight);
-//        loc4 = new LocForUnit(calcPoint(loc, ref, 200, 50, false, false), knight);
+        int unitDist = 70;
+        int unitWidth = 40;
+        clearUnitsLoc();
+        Point2D actorPoint = new Point2D(actor.getX(), actor.getY());
+        Point2D refPoint = new Point2D(ref.x, ref.y);
 
-        loc1 = new LocForUnit(getFrontLeftPoint(getActor(), ref, 70, 40, false), knight);
-        loc2 = new LocForUnit(getFrontRightPoint(getActor(), ref, 70, 40, false), knight);
-        loc3 = new LocForUnit(getFrontLeftPoint(getActor(), ref, 150, 40, false), knight);
-        loc4 = new LocForUnit(getFrontRightPoint(getActor(), ref, 150, 40, false), knight);
+        //расчет NSWE координат
+        PointNSWE2P backPoint1 = new PointNSWE2P(actorPoint, refPoint, unitDist, Side.BACK);
+        PointNSWE2P backPoint2 = new PointNSWE2P(actorPoint, refPoint, unitDist + unitWidth, Side.BACK);
+        PointNSWE2P left = new PointNSWE2P(actorPoint, refPoint, unitWidth, Side.LEFT);
+        PointNSWE2P right = new PointNSWE2P(actorPoint, refPoint, unitWidth, Side.RIGHT);
 
+        //создание 3д точки
+        loc1 = new LocForUnit(new Vector2P(actorPoint, backPoint1.getPoint2D(), left.getPoint2D()), actor.getZ(), knight);
+        loc2 = new LocForUnit(new Vector2P(actorPoint, backPoint1.getPoint2D(), right.getPoint2D()), actor.getZ(), knight);
+        loc3 = new LocForUnit(new Vector2P(actorPoint, backPoint2.getPoint2D(), left.getPoint2D()), actor.getZ(), knight);
+        loc4 = new LocForUnit(new Vector2P(actorPoint, backPoint2.getPoint2D(), right.getPoint2D()), actor.getZ(), knight);
     }
 
     private void findInstructLoc(L2Object actor, Location ref) {
-        int unitDist = 150;
-        int unitWidth = 50;
+        int unitDist = 70;
+        int unitWidth = 40;
         clearUnitsLoc();
-        unitLocation.add(new LocForUnit(getFrontLeftPoint(actor, ref, unitDist, unitWidth, false), knight));
-        unitLocation.add(new LocForUnit(getFrontRightPoint(actor, ref, unitDist, unitWidth, false), knight));
-        unitLocation.add(new LocForUnit(getFrontLeftPoint(actor, ref, unitDist * 2, unitWidth, false), knight));
-        unitLocation.add(new LocForUnit(getFrontRightPoint(actor, ref, unitDist * 2, unitWidth, false), knight));
+        Point2D actorPoint = new Point2D(actor.getX(), actor.getY());
+        Point2D refPoint = new Point2D(ref.x, ref.y);
+
+        //расчет NSWE координат
+        PointNSWE2P backPoint1 = new PointNSWE2P(actorPoint, refPoint, unitDist, Side.BACK);
+        PointNSWE2P backPoint2 = new PointNSWE2P(actorPoint, refPoint, unitDist + unitWidth, Side.BACK);
+        PointNSWE2P left = new PointNSWE2P(actorPoint, refPoint, unitWidth, Side.LEFT);
+        PointNSWE2P right = new PointNSWE2P(actorPoint, refPoint, unitWidth, Side.RIGHT);
+
+        //расчет векторов
+        Vector2P v1 = new Vector2P(actorPoint, backPoint1.getPoint2D(), left.getPoint2D());
+        Vector2P v2 = new Vector2P(actorPoint, backPoint1.getPoint2D(), right.getPoint2D());
+        Vector2P v3 = new Vector2P(actorPoint, backPoint2.getPoint2D(), left.getPoint2D());
+        Vector2P v4 = new Vector2P(actorPoint, backPoint2.getPoint2D(), right.getPoint2D());
+
+        //создание 3д точки
+        Location location1 = new Location((int)v1.getX(), (int)v1.getY(), actor.getZ());
+        Location location2 = new Location((int)v2.getX(), (int)v2.getY(), actor.getZ());
+        Location location3 = new Location((int)v3.getX(), (int)v3.getY(), actor.getZ());
+        Location location4 = new Location((int)v4.getX(), (int)v4.getY(), actor.getZ());
     }
 
 

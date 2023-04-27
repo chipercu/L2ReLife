@@ -8,6 +8,7 @@ import l2open.gameserver.model.instances.L2TamedBeastInstance;
 import l2open.gameserver.serverpackets.ExRotation;
 import l2open.gameserver.serverpackets.SocialAction;
 import l2open.gameserver.serverpackets.SystemMessage;
+import l2open.util.Location;
 
 public class L2PlayerAI extends L2PlayableAI {
     public L2PlayerAI(L2Player actor) {
@@ -182,4 +183,12 @@ public class L2PlayerAI extends L2PlayableAI {
         //
         actor.broadcastPacket(new SocialAction(actor.getObjectId(), socialId));
     }
+    protected int setDirectionSeeTo(Location loc){
+        L2Player actor = getActor();
+        int heading = actor.calcHeading(loc.x, loc.y);
+        actor.setHeading(heading);
+        actor.broadcastPacket(new ExRotation(actor.getObjectId(), heading));
+        return heading;
+    }
+
 }
