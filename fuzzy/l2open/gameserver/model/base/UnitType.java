@@ -1,13 +1,14 @@
 package l2open.gameserver.model.base;
 
 public enum UnitType{
-    knight("knight"),
-    ranger("ranger"),
-    warrior("warrior"),
-    wizard("wizard"),
-    healer("healer"),
-    buffer("buffer"),
-    none("none");
+    KNIGHT("knight"),
+    ARCHER("archer"),
+    WIZARD("wizard"),
+    HEALER("healer"),
+    SUPORT("suport"),
+    WARRIOR("warrior"),
+    DAGGER("dagger"),
+    NONE("none");
     private final String type;
     UnitType(String type) {
         this.type = type;
