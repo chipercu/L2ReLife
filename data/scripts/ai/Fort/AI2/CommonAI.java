@@ -17,17 +17,6 @@ import java.util.concurrent.ScheduledFuture;
 public class CommonAI extends L2PlayerAI {
 
 
-    enum FormationType{
-        FRONT_FALANG,
-        BACK_FALANG,
-        BATTLE_FRONT_FALANG,
-        BATTLE_BACK_FALANG,
-        COLUMN,
-        TWO_COLUMN
-
-
-    }
-
     
     protected ScheduledFuture<?> aiTask;
     
@@ -67,6 +56,19 @@ public class CommonAI extends L2PlayerAI {
         PointNSWE2P p1 = new PointNSWE2P(actorPoint, refPoint, FBdist, FBside);
         PointNSWE2P p2 = new PointNSWE2P(actorPoint, refPoint, LRdist, LRside);
         return new Vector2P(actorPoint, p1.getPoint2D(), p2.getPoint2D());
+    }
+
+    protected Location findNewLoc2(Location ref, Location direction, Side FBside, Side LRside, int FBdist, int LRdist){
+        Vector2P vector = getVector2(FBdist, LRdist, ref, direction, FBside, LRside);
+        return new Location(vector.getX(), vector.getY(), direction.z);
+    }
+
+    protected Vector2P getVector2(int FBdist, int LRdist, Location ref, Location direction, Side FBside, Side LRside){
+        Point2D refPoint = new Point2D(ref.x, ref.y);
+        Point2D dirPoint = new Point2D(direction.x, direction.y);
+        PointNSWE2P p1 = new PointNSWE2P(refPoint, dirPoint, FBdist, FBside);
+        PointNSWE2P p2 = new PointNSWE2P(refPoint, dirPoint, LRdist, LRside);
+        return new Vector2P(refPoint, p1.getPoint2D(), p2.getPoint2D());
     }
 
 }

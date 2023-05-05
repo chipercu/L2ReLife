@@ -19,9 +19,10 @@ import static l2open.gameserver.model.base.UnitType.*;
 
 import static l2open.util.geometry.Vector.Side.*;
 
-public class CommanderAI extends CommonAI {
+public class CommanderAI extends CommonAI implements Commander{
 
     private final List<L2Player> units = new ArrayList<>();
+    private final List<Unit> unitList = new ArrayList<>();
 
     public CommanderAI(L2Player actor) {
         super(actor);
@@ -176,6 +177,21 @@ public class CommanderAI extends CommonAI {
         getUnitLocs().get(7).setLoc(findNewLoc(ref, side, LEFT, dist, 175));
     }
 
+    @Override
+    public void addUnit(Unit observer) {
+        this.unitList.add(observer);
+    }
+
+    @Override
+    public void removeUnit(Unit observer) {
+        this.unitList.remove(observer);
+    }
+
+    @Override
+    public void notifyMove(FormationType formationType, Location ref, Location direction) {
+    this.unitList.forEach(u -> u.move(formationType, ref, direction));
+    }
+
 
     private class AiTask implements Runnable {
         @Override
@@ -183,6 +199,7 @@ public class CommanderAI extends CommonAI {
             if (maybeCancelAI()){
                 return;
             }
+            notifyMove(FormationType.TWO_COLUMN, getActor().getLoc(), getActor().getLoc());
 
         }
     }
