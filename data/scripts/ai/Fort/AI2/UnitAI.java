@@ -4,8 +4,11 @@ import l2open.common.RunnableImpl;
 import l2open.common.ThreadPoolManager;
 import l2open.gameserver.model.L2Character;
 import l2open.gameserver.model.L2Player;
+import l2open.gameserver.model.L2Skill;
 import l2open.gameserver.model.UnitLoc;
 import l2open.gameserver.model.base.UnitType;
+import l2open.gameserver.skills.DocumentSkill;
+import l2open.gameserver.tables.SkillTable;
 import l2open.util.Location;
 import l2open.util.geometry.Vector.Side;
 
@@ -31,7 +34,7 @@ public class UnitAI extends CommonAI implements Unit{
 
     @Override
     public void move(FormationType formationType, Location ref, Location direction) {
-        Location loc;
+        Location loc = Location.coordsRandomize(ref, 100, 200);
         switch (formationType){
             case TWO_COLUMN:{
                 if (getFormationPosition()%2 == 0){
@@ -46,30 +49,34 @@ public class UnitAI extends CommonAI implements Unit{
                 break;
             }
             case BACK_FALANG:{
-                loc = findNewLoc2()
-
-
-
+                if (getMaster() != null && getMaster().getUnitsCount() > 0){
+                    int middle = getMaster().getUnitsCount() / 2;
+                    if (formationPosition > middle){
+                        int dist = (formationPosition - middle) * 25;
+                        loc = findNewLoc2(ref, direction, Side.BACK, Side.RIGHT, 50, dist);
+                    }else {
+                        int dist = ((middle + 1) - formationPosition) * -25;
+                        loc = findNewLoc2(ref, direction, Side.BACK, Side.LEFT, 50, dist);
+                    }
+                }
+                break;
             }
-            default: loc = Location.coordsRandomize(ref, 100, 200);
+            case FRONT_FALANG:{
+                if (getMaster() != null && getMaster().getUnitsCount() > 0){
+                    int middle = getMaster().getUnitsCount() / 2;
+                    if (formationPosition > middle){
+                        int dist = (formationPosition - middle) * 25;
+                        loc = findNewLoc2(ref, direction, Side.FRONT, Side.RIGHT, 50, dist);
+                    }else {
+                        int dist = ((middle + 1) - formationPosition) * -25;
+                        loc = findNewLoc2(ref, direction, Side.FRONT, Side.LEFT, 50, dist);
+                    }
+                }
+                break;
+            }
         }
         getActor().moveToLocation(loc, 0, true);
-
-
-
-
-
-
     }
-
-//    @Override
-//    public void move(Location location) {
-//        if (getActor() != null && !getActor().isInRange(location, 25)){
-//            getActor().moveToLocation(location, 0, true);
-//        }
-//
-//    }
-
 
     private class AiTask extends RunnableImpl {
 
@@ -78,10 +85,14 @@ public class UnitAI extends CommonAI implements Unit{
             if (maybeCancelAI()){
                 return;
             }
-            UnitLoc formationLoc = getActor().getFormationLoc();
-            if (formationLoc != null && !getActor().isInRange(formationLoc.getLoc(), 25)){
-                getActor().moveToLocation(formationLoc.getLoc(), 0, true);
+            switch (stateType){
+                case ATTACK:{
+
+                    break;
+                }
             }
+
+
         }
 
     }
@@ -92,21 +103,23 @@ public class UnitAI extends CommonAI implements Unit{
         super.MY_DYING(killer);
     }
 
-
-    //    public UnitLoc getFormationLoc() {
-//        return formationLoc;
-//    }
-//
-//    public void setFormationLoc(UnitLoc formationLoc) {
-//        this.formationLoc = formationLoc;
-//    }
-
     public L2Player getMaster() {
         return master;
     }
 
     public void setMaster(L2Player master) {
         this.master = master;
+    }
+
+    @Override
+    public void attack(L2Character target, boolean dontMove) {
+        Attack(target, true, dontMove);
+    }
+
+    @Override
+    public void castSkill(L2Character target, boolean dontMove) {
+        L2Skill skill = SkillTable.getInstance().getInfo(101, 1); //todo реализовать выбор скилов
+        Cast(skill, target, true, dontMove);
     }
 
     public UnitType getType() {

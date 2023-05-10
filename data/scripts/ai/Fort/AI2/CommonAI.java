@@ -19,6 +19,7 @@ public class CommonAI extends L2PlayerAI {
 
     
     protected ScheduledFuture<?> aiTask;
+    protected StateType stateType;
     
     public CommonAI(L2Player actor) {
         super(actor);

@@ -139,26 +139,32 @@ public class L2Player extends L2Playable
 
 	private final List<UnitLoc> unitLocation = new ArrayList<>();
 	private UnitLoc formationLoc;
+	private int unitsCount = 0;
 
+	public int getUnitsCount() {
+		return unitsCount;
+	}
 
+	public void setUnitsCount(int unitsCount) {
+		this.unitsCount = unitsCount;
+	}
 
-
-/*
-1385	u,Кочевник\0
-1386	u,Вассал\0
-1387	u,Ученик\0
-1388	u,Наследник\0
-1389	u,Рыцарь\0
-1390	u,Старейшина\0
-1391	u,Барон\0
-1392	u,Виконт\0
-1393	u,Граф\0
-1394	u,Маркиз\0
-1395	u,Герцог\0
-1396	u,Великий герцог\0
-1397	u,Король\0
-1398	u,Император\0
-*/
+	/*
+    1385	u,Кочевник\0
+    1386	u,Вассал\0
+    1387	u,Ученик\0
+    1388	u,Наследник\0
+    1389	u,Рыцарь\0
+    1390	u,Старейшина\0
+    1391	u,Барон\0
+    1392	u,Виконт\0
+    1393	u,Граф\0
+    1394	u,Маркиз\0
+    1395	u,Герцог\0
+    1396	u,Великий герцог\0
+    1397	u,Король\0
+    1398	u,Император\0
+    */
 	public static final int RANK_VAGABOND = 0; // Кочевник
 	public static final int RANK_VASSAL = 1; // Вассал
 	public static final int RANK_HEIR = 2; // Наследник
