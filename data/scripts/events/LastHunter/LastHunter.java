@@ -462,8 +462,8 @@ public class LastHunter extends Functions implements ScriptFile {
 
     private void initTimer(boolean new_day) {
         time2.clear();
-        if (LastHunterStart[0] == -1)
-            return;
+//        if (LastHunterStart[0] == -1)
+//            return;
         long cur_time = System.currentTimeMillis();
         for (int i = 0; i < LastHunterStart.length; i += 2) {
             Calendar ci = Calendar.getInstance();
@@ -643,7 +643,7 @@ public class LastHunter extends Functions implements ScriptFile {
     public void onLoad() {
         if (_active){
             _zone.getListenerEngine().addMethodInvokedListener(_zoneListener);
-            initTimer(false);
+            initTimer(true);
             _active = ServerVariables.getString("LastHunter", "on").equalsIgnoreCase("on");
             _log.info("Loaded Event: Last Hunter");
             for (L2Player player : L2ObjectsStorage.getPlayers()) {

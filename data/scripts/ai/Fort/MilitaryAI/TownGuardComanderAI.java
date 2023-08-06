@@ -1,4 +1,5 @@
 package scripts.ai.Fort.MilitaryAI;
+//package ai.Fort.MilitaryAI;
 
 import l2open.common.RunnableImpl;
 import l2open.common.ThreadPoolManager;
@@ -39,10 +40,14 @@ public class TownGuardComanderAI extends L2PlayerAI {
 
     private int currentPatrolPoint = 0;
     private Location[] patrolPoints = {
-            new Location(82712, 147896, -3495),
-            new Location(81128, 147896, -3495),
-            new Location(81144, 149336, -3495),
-            new Location(82728, 149304, -3495),
+            new Location(81528, 144632, -3559),
+            new Location(82440, 144568, -3559),
+            new Location(83864, 144552, -3430),
+            new Location(83880, 146056, -3430),
+            new Location(83896, 147688, -3431),
+            new Location(83048, 147704, -3495),
+            new Location(81528, 147704, -3495),
+            new Location(81544, 146056, -3559)
     };
 
     private Fortress fortress;
@@ -72,9 +77,22 @@ public class TownGuardComanderAI extends L2PlayerAI {
 
     public class MoveTask extends RunnableImpl {
 
+        private boolean isInRange(int range){
+           return  !unit1.isInRange(loc1.loc, range)
+                    || !unit2.isInRange(loc2.loc, range)
+                    || !unit3.isInRange(loc3.loc, range)
+                    || !unit4.isInRange(loc4.loc, range);
+        }
+        private boolean isInMove(){
+            return unit1.isMoving || unit2.isMoving || unit3.isMoving || unit4.isMoving;
+        }
 
         @Override
         public void runImpl() throws Exception {
+
+            if (getActor() == null){
+                moveAi.cancel(true);
+            }
 
             if (!getActor().isInCombat()) {
 //                refLocation = patrolPoints[currentPatrolPoint];
@@ -84,21 +102,24 @@ public class TownGuardComanderAI extends L2PlayerAI {
                 }
 
                 int range = 70;
-                if (!unit1.isInRange(loc1.loc, range)
-                        || !unit2.isInRange(loc2.loc, range)
-                        || !unit3.isInRange(loc3.loc, range)
-                        || !unit4.isInRange(loc4.loc, range)) {
+                if (isInRange(range)) {
                     ThreadPoolManager.getInstance().schedule(() -> {
-                        if (!unit1.isInRange(loc1.loc, range) || !unit2.isInRange(loc2.loc, range) || !unit3.isInRange(loc3.loc, range) || !unit4.isInRange(loc4.loc, range)) {
+                        if (isInRange(range)) {
                             getActor().stopMove();
-                        }}, 1000);
+                        }
+                    }, 1000);
 //                    getActor().stopMove();
                     unitsMove(false);
+                    if (!isInMove()){
+                        say("reform");
+                        findPosition(getActor(), getActor().getLoc(), FormationType.RANDOM);
+                        unitsMove(true);
+                    }
                     return;
                 }
 
 
-                if (getActor().isInRange(refLocation, 10) && !unitsIsInPosition) {
+                if (getActor().isInRange(refLocation, 20) && !unitsIsInPosition) {
 
                     currentPatrolPoint++;
                     say(String.valueOf(currentPatrolPoint));
@@ -107,7 +128,7 @@ public class TownGuardComanderAI extends L2PlayerAI {
                     }
                     unitsIsInPosition = true;
                 }
-                if (getActor().getDistance(patrolPoints[currentPatrolPoint]) > 150){
+                if (getActor().getDistance(patrolPoints[currentPatrolPoint]) > 150) {
                     unitsIsInPosition = false;
                 }
                 refLocation = patrolPoints[currentPatrolPoint];
@@ -223,8 +244,15 @@ public class TownGuardComanderAI extends L2PlayerAI {
         } else if (type == FormationType.INSTUCTAJ) {
             findInstructLoc(getActor(), refLocation);
         } else if (type == FormationType.RANDOM) {
-            findPatrolLoc(actor, refLocation);
+            findRandomLoc(actor, refLocation);
         }
+    }
+
+    private void findRandomLoc(L2Object actor, Location refLocation) {
+        loc1 = new LocForUnit(Location.coordsRandomize(refLocation, 50, 150), knight);
+        loc2 = new LocForUnit(Location.coordsRandomize(refLocation, 50, 150), knight);
+        loc3 = new LocForUnit(Location.coordsRandomize(refLocation, 50, 150), knight);
+        loc4 = new LocForUnit(Location.coordsRandomize(refLocation, 50, 150), knight);
     }
 
 
@@ -236,6 +264,12 @@ public class TownGuardComanderAI extends L2PlayerAI {
         public LocForUnit(Vector2P vector, int height, UnitType locForType) {
             this.loc = new Location((int) vector.getX(), (int) vector.getY(), height);
             this.locForType = locForType;
+            this.isOccupied = false;
+        }
+
+        public LocForUnit(Location coordsRandomize, UnitType knight) {
+            this.loc =coordsRandomize;
+            this.locForType = knight;
             this.isOccupied = false;
         }
 
@@ -259,8 +293,7 @@ public class TownGuardComanderAI extends L2PlayerAI {
     private void findPatrolLoc(L2Object actor, Location ref) {
         clearUnitsLoc();
         int unitDist = 50;
-        int unitWidth = 40;
-        clearUnitsLoc();
+        int unitWidth = 30;
         Point2D actorPoint = new Point2D(actor.getX(), actor.getY());
         Point2D refPoint = new Point2D(ref.x, ref.y);
 

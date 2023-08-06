@@ -105,7 +105,7 @@ public class KetraVarkaWar extends Functions implements ScriptFile {
     private static int _status = 0;
     private static int _time_to_start;
     private static int _category;
-
+    private static boolean _active = true;
     private static int _minLevel;
     private static int _maxLevel;
     private static final int _bonusItemID = 57;
@@ -171,7 +171,7 @@ public class KetraVarkaWar extends Functions implements ScriptFile {
 
             initTimer(false);
 
-            _active = ServerVariables.getString("KetraVarkaWar", "on").equalsIgnoreCase("on");
+//            _active = ServerVariables.getString("KetraVarkaWar", "on").equalsIgnoreCase("on");
 
             if (!_active)
                 _log.info("Loaded Event: " + eventName + " not active.");
@@ -204,7 +204,7 @@ public class KetraVarkaWar extends Functions implements ScriptFile {
         onReload();
     }
 
-    private static boolean _active = false;
+
 
     public static boolean isActive() {
         return _active;

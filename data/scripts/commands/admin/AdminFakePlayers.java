@@ -1,5 +1,7 @@
 package scripts.commands.admin;
+//package commands.admin;
 
+//import ai.Fort.MilitaryAI.TownGuardComanderAI;
 import ai.BotPlayers.BerserkerAI;
 import ai.BotPlayers.Gladiator;
 import ai.BotPlayers.GladiatorAI;
@@ -8,6 +10,7 @@ import ai.chaos.CasterOfChaosAI;
 import l2open.config.ConfigValue;
 import l2open.database.mysql;
 import l2open.extensions.network.MMOConnection;
+import l2open.extensions.scripts.Functions;
 import l2open.extensions.scripts.ScriptFile;
 import l2open.gameserver.cache.Msg;
 import l2open.gameserver.handler.AdminCommandHandler;
@@ -34,10 +37,17 @@ import l2open.gameserver.xml.ItemTemplates;
 import l2open.util.GArray;
 import l2open.util.Location;
 import l2open.util.Rnd;
+import l2open.util.geometry.Vector.Point2D;
+import l2open.util.geometry.Vector.PointNSWE2P;
+import l2open.util.geometry.Vector.Side;
+import l2open.util.geometry.Vector.Vector2P;
+//import scripts.ai.Fort.MilitaryAI.TownGuardComanderAI;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
+
+import static l2open.gameserver.model.base.UnitType.knight;
 
 
 public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
@@ -51,7 +61,8 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
         admin_set_ai,
         admin_autoshot,
         admin_testvector,
-        admin_unit_test
+        admin_unit_test,
+        admin_vector_test
     }
 
     public boolean useAdminCommand(Enum comm, String[] wordList, String fullString, L2Player activeChar) {
@@ -96,47 +107,41 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
                 }).start();
 
 
-//                        L2GameClient client = new L2GameClient(new MMOConnection<L2GameClient>(null), true);
-//                        //client.setCharSelection(268530865);
-//                        L2Player p = client.loadCharFromDisk(0);
-//                        client.setLoginName("BOT");
-//                        p.setLoc(activeChar.getLoc());
-//                        client.OnOfflineTrade();
-//                        //p.restoreBonus();
-//                        p.spawnMe();
-//                        p.updateTerritories();
-//                        p.setOnlineStatus(true);
-//                        //p.setOfflineMode(true);
-//                        p.setConnected(true);
-//                        p.setNameColor(Integer.decode("0x" + ConfigValue.OfflineTradeNameColor));
-//                        //p.restoreEffects();
-//                        //p.restoreDisableSkills();
-//                        p.broadcastUserInfo(true);
-//                        p.setTitle("BOT");
-//                        p.setInvisible(false);
-//
-//                        //p.setAI(new PlayerTest(p));
-//                        if (p.getClan() != null && p.getClan().getClanMember(p.getObjectId()) != null)
-//                            p.getClan().getClanMember(p.getObjectId()).setPlayerInstance(p, false);
-//
-//                        _log.info("Restored " + p.getName() + " in world");
 
                 break;
             }
             case admin_unit_test:{
-//                MilitaryManager.createUnit(5, (byte) 1, "Unit_Tank");
-//                final L2Player player = L2Player.create(5, (byte) 1, "Military", "Unit_Tank", (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), (byte) Rnd.get(0, 2), 0, 78);
-//                if (player != null) {
-//                    player.setVar("unit_type", "Sage_Unit");
-//                    giveAllSkills(player);
-//                }
                 spawnUnit(activeChar);
-//                if (unit != null) {
-//                    giveAllSkills(unit);
-//                }
-//                if (unit != null) {
-//                    unit.setCommander(activeChar);
-//                }
+                break;
+            }
+            case admin_vector_test:{
+
+                int unitDist = 50;
+                int unitWidth = 30;
+                Point2D actorPoint = new Point2D(activeChar.getX(), activeChar.getY());
+                final Location loc = activeChar.getTarget().getLoc();
+                Point2D refPoint = new Point2D(loc.x, loc.y);
+
+                //расчет NSWE координат
+                PointNSWE2P back1 = new PointNSWE2P(actorPoint, refPoint, unitDist, Side.BACK);
+                PointNSWE2P back2 = new PointNSWE2P(actorPoint, refPoint, unitDist * 2, Side.BACK);
+                PointNSWE2P left = new PointNSWE2P(actorPoint, refPoint, unitWidth, Side.LEFT);
+                PointNSWE2P right = new PointNSWE2P(actorPoint, refPoint, unitDist, Side.RIGHT);
+
+                final Vector2P v1 = new Vector2P(actorPoint, left.getPoint2D(), back1.getPoint2D());
+                final Vector2P v2 = new Vector2P(actorPoint, left.getPoint2D(), back2.getPoint2D());
+                final Vector2P v3 = new Vector2P(actorPoint, right.getPoint2D(), back1.getPoint2D());
+                final Vector2P v4 = new Vector2P(actorPoint, right.getPoint2D(), back2.getPoint2D());
+                final Location location1 = new Location((int) v1.getX(), (int) v1.getY(), activeChar.getZ());
+                final Location location2 = new Location((int) v2.getX(), (int) v2.getY(), activeChar.getZ());
+                final Location location3 = new Location((int) v3.getX(), (int) v3.getY(), activeChar.getZ());
+                final Location location4 = new Location((int) v4.getX(), (int) v4.getY(), activeChar.getZ());
+
+                dropItem(activeChar, location1);
+                dropItem(activeChar, location2);
+                dropItem(activeChar, location3);
+                dropItem(activeChar, location4);
+                //создание 3д точки
                 break;
             }
             case admin_fake_delete: {
@@ -234,6 +239,7 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
                     }
 
                     player.setAI(new scripts.ai.Fort.MilitaryAI.TownGuardComanderAI(player));
+//                    player.setAI(new TownGuardComanderAI(player));
 
                 } else if (activeChar.getTarget().isNpc()) {
                     L2NpcInstance npc = (L2NpcInstance) activeChar.getTarget();
@@ -282,6 +288,11 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
             }
         }
         return true;
+    }
+    private void dropItem(L2Player player, Location location) {
+        L2ItemInstance item = ItemTemplates.getInstance().createItem(57);
+        item.setCount(1);
+        item.dropMe(player, location);
     }
 
     private void spawnUnit(L2Player activeChar){

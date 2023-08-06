@@ -1,4 +1,9 @@
-new Location( 82712, 147896 ,-3495); 
-new Location( 81128, 147896 ,-3495); 
-new Location( 81144, 149336 ,-3495); 
-new Location( 82728, 149304 ,-3495); 
+
+new Location( 81528, 144632 ,-3559); 
+new Location( 82440, 144568 ,-3559); 
+new Location( 83864, 144552 ,-3430); 
+new Location( 83880, 146056 ,-3430); 
+new Location( 83896, 147688 ,-3431); 
+new Location( 83048, 147704 ,-3495); 
+new Location( 81528, 147704 ,-3495); 
+new Location( 81544, 146056 ,-3559); 
