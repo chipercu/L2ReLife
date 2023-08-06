@@ -27,7 +27,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.ScheduledFuture;
 
-import static l2open.gameserver.model.base.UnitType.knight;
+import static l2open.gameserver.model.base.UnitType.KNIGHT;
 
 
 public class TownGuardComanderAI extends L2PlayerAI {
@@ -304,10 +304,10 @@ public class TownGuardComanderAI extends L2PlayerAI {
         PointNSWE2P right = new PointNSWE2P(actorPoint, refPoint, unitWidth, Side.RIGHT);
 
         //создание 3д точки
-        loc1 = new LocForUnit(new Vector2P(actorPoint, backPoint1.getPoint2D(), left.getPoint2D()), actor.getZ(), knight);
-        loc2 = new LocForUnit(new Vector2P(actorPoint, backPoint1.getPoint2D(), right.getPoint2D()), actor.getZ(), knight);
-        loc3 = new LocForUnit(new Vector2P(actorPoint, backPoint2.getPoint2D(), left.getPoint2D()), actor.getZ(), knight);
-        loc4 = new LocForUnit(new Vector2P(actorPoint, backPoint2.getPoint2D(), right.getPoint2D()), actor.getZ(), knight);
+        loc1 = new LocForUnit(new Vector2P(actorPoint, backPoint1.getPoint2D(), left.getPoint2D()), actor.getZ(), KNIGHT);
+        loc2 = new LocForUnit(new Vector2P(actorPoint, backPoint1.getPoint2D(), right.getPoint2D()), actor.getZ(), KNIGHT);
+        loc3 = new LocForUnit(new Vector2P(actorPoint, backPoint2.getPoint2D(), left.getPoint2D()), actor.getZ(), KNIGHT);
+        loc4 = new LocForUnit(new Vector2P(actorPoint, backPoint2.getPoint2D(), right.getPoint2D()), actor.getZ(), KNIGHT);
     }
 
     private void findInstructLoc(L2Object actor, Location ref) {
@@ -381,7 +381,7 @@ public class TownGuardComanderAI extends L2PlayerAI {
             if (p == null || p.getVar("unit_type") == null || !p.getVar("unit_type").equals("knight")) {
                 continue;
             }
-            p.setUnitType(knight);
+            p.setUnitType(KNIGHT);
 
             client.setLoginName(e.get("account_name") == null ? "OfflineTrader_" + p.getName() : (String) e.get("account_name"));
             p.setLoc(Location.coordsRandomize(getActor().getLoc(), 100, 200));

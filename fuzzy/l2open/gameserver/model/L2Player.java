@@ -121,6 +121,7 @@ import java.util.logging.Logger;
 import l2open.gameserver.listener.PlayerListenerList;
 
 import static l2open.gameserver.model.L2Zone.ZoneType.*;
+import static l2open.gameserver.model.base.UnitType.*;
 
 public class L2Player extends L2Playable
 {
@@ -136,22 +137,34 @@ public class L2Player extends L2Playable
 	public static final short STORE_PRIVATE_SELL_PACKAGE = 8;
 	public static final short STORE_PRIVATE_BUFF = 9;
 
-/*
-1385	u,Кочевник\0
-1386	u,Вассал\0
-1387	u,Ученик\0
-1388	u,Наследник\0
-1389	u,Рыцарь\0
-1390	u,Старейшина\0
-1391	u,Барон\0
-1392	u,Виконт\0
-1393	u,Граф\0
-1394	u,Маркиз\0
-1395	u,Герцог\0
-1396	u,Великий герцог\0
-1397	u,Король\0
-1398	u,Император\0
-*/
+	private final List<UnitLoc> unitLocation = new ArrayList<>();
+	private UnitLoc formationLoc;
+	private int unitsCount = 0;
+
+	public int getUnitsCount() {
+		return unitsCount;
+	}
+
+	public void setUnitsCount(int unitsCount) {
+		this.unitsCount = unitsCount;
+	}
+
+	/*
+    1385	u,Кочевник\0
+    1386	u,Вассал\0
+    1387	u,Ученик\0
+    1388	u,Наследник\0
+    1389	u,Рыцарь\0
+    1390	u,Старейшина\0
+    1391	u,Барон\0
+    1392	u,Виконт\0
+    1393	u,Граф\0
+    1394	u,Маркиз\0
+    1395	u,Герцог\0
+    1396	u,Великий герцог\0
+    1397	u,Король\0
+    1398	u,Император\0
+    */
 	public static final int RANK_VAGABOND = 0; // Кочевник
 	public static final int RANK_VASSAL = 1; // Вассал
 	public static final int RANK_HEIR = 2; // Наследник
@@ -523,20 +536,20 @@ public class L2Player extends L2Playable
 		String unitType = this.getVar("unit_type");
 		if (unitType != null && !unitType.isEmpty()){
 			if (unitType.equals("knight")){
-				return UnitType.knight;
-			}else if (unitType.equals("ranger")){
-				return UnitType.ranger;
+				return KNIGHT;
+			}else if (unitType.equals("archer")){
+				return ARCHER;
 			}else if (unitType.equals("warrior")){
-				return UnitType.warrior;
+				return WARRIOR;
 			}else if (unitType.equals("wizard")){
-				return UnitType.wizard;
+				return WIZARD;
 			}else if (unitType.equals("healer")){
-				return UnitType.healer;
-			}else if (unitType.equals("buffer")){
-				return UnitType.buffer;
-			}else return UnitType.none;
+				return HEALER;
+			}else if (unitType.equals("suport")){
+				return SUPORT;
+			}
 		}
-		return UnitType.none;
+		return NONE;
 	}
 	public void setUnitType(UnitType type){
 		this.setVar("unit_type", type.getType());
@@ -12298,5 +12311,19 @@ public class L2Player extends L2Playable
 			return null;
 		}
 		return (String) quickVars.get(name);
+	}
+
+
+	public List<UnitLoc> getUnitLocation() {
+		return unitLocation;
+	}
+
+	public UnitLoc getFormationLoc() {
+		return formationLoc;
+	}
+
+	public void setFormationLoc(UnitLoc formationLoc) {
+		this.formationLoc = formationLoc;
+		formationLoc.setOccupied();
 	}
 }
