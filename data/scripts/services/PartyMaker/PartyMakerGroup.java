@@ -7,19 +7,19 @@ public class PartyMakerGroup {
 
     private int minLevel;
     private int maxLevel;
-    private int creatorId;
+    private int groupLeaderId;
     private List<Integer> acceptedPlayers;
     private List<Integer> candidates;
 
     private String description;
     private String instance;
 
-    public PartyMakerGroup(int minLevel, int maxLevel, int creatorId, String description, String instance) {
+    public PartyMakerGroup(int minLevel, int maxLevel, int groupLeaderId, String description, String instance) {
         this.acceptedPlayers = new ArrayList<>();
         this.candidates = new ArrayList<>();
         this.minLevel = minLevel;
         this.maxLevel = maxLevel;
-        this.creatorId = creatorId;
+        this.groupLeaderId = groupLeaderId;
         this.description = description;
         this.instance = instance;
     }
@@ -56,8 +56,8 @@ public class PartyMakerGroup {
         this.maxLevel = maxLevel;
     }
 
-    public void setCreatorId(int creatorId) {
-        this.creatorId = creatorId;
+    public void setGroupLeaderId(int groupLeaderId) {
+        this.groupLeaderId = groupLeaderId;
     }
 
     public void setDescription(String description) {
@@ -72,8 +72,8 @@ public class PartyMakerGroup {
         return maxLevel;
     }
 
-    public int getCreatorId() {
-        return creatorId;
+    public int getGroupLeaderId() {
+        return groupLeaderId;
     }
 
     public String getDescription() {

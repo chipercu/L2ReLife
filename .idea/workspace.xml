@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66e54ec9-4946-49a5-9add-2fc570297884" name="Changes" comment="PartyMaker">
+    <list default="true" id="66e54ec9-4946-49a5-9add-2fc570297884" name="Changes" comment="Реализован АЙ патруль в гиране">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/geodata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/geodata.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/commands/admin/AdminTestCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/commands/admin/AdminTestCommands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/scripts/services/PartyMaker/PartyMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/services/PartyMaker/PartyMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/gameserver/clientpackets/RequestBypassToServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/gameserver/clientpackets/RequestBypassToServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/services/PartyMaker/PartyMakerGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/services/PartyMaker/PartyMakerGroup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;aspect.path.notification.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/FuzzY/IdeaProjects/L2ReLife_Server/data/scripts/fuzzy/Html_Constructor/tags/parameters&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -59,7 +58,8 @@
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.5218391&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;ChangesTree.GroupingKeys&quot;: [
@@ -90,7 +90,7 @@
       <recent name="npc.model.chaos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GameStart">
+  <component name="RunManager" selected="Application.L2LoginStart">
     <configuration name="GameStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="l2open.gameserver.GameStart" />
       <module name="L2ReLife_Server" />
@@ -177,13 +177,12 @@
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.GameStart" />
       <item itemvalue="Application.L2LoginStart" />
-      <item itemvalue="Batch.Unnamed" />
       <item itemvalue="TestNG.AppTest.test1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GameStart" />
         <item itemvalue="Application.L2LoginStart" />
+        <item itemvalue="Application.GameStart" />
         <item itemvalue="Application.Test" />
         <item itemvalue="TestNG.AppTest.test1" />
       </list>
@@ -251,6 +250,7 @@
       <workItem from="1692117815945" duration="647000" />
       <workItem from="1692289666136" duration="2245000" />
       <workItem from="1692336131570" duration="9215000" />
+      <workItem from="1692350831291" duration="1860000" />
     </task>
     <task id="LOCAL-00001" summary="Тут начался путь в боль и страдания">
       <created>1680033000961</created>
@@ -329,7 +329,28 @@
       <option name="project" value="LOCAL" />
       <updated>1691347354723</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Реализован АЙ патруль в гиране">
+      <created>1692364010926</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1692364010926</updated>
+    </task>
+    <task id="LOCAL-00013" summary="PartyMakerGroup">
+      <created>1692364721981</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1692364721981</updated>
+    </task>
+    <task id="LOCAL-00014" summary="345">
+      <created>1692365112454</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692365112454</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,25 +389,22 @@
     <MESSAGE value="fix: доработка хтмл шаблонизатора &#10;добавлены итемы для улучшения брони&#10;дополнен фунцианал по вставке улучшения в броне" />
     <MESSAGE value="fix AI  CasterOfChaosAI" />
     <MESSAGE value="Реализован АЙ патруль в гиране" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализован АЙ патруль в гиране" />
+    <MESSAGE value="PartyMakerGroup" />
+    <MESSAGE value="345" />
+    <option name="LAST_COMMIT_MESSAGE" value="345" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/data/scripts/commands/admin/AdminTestCommands.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="5" />
+          <line>23</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/fuzzy/l2open/extensions/scripts/Scripts.java</url>
-          <line>345</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/data/scripts/services/PartyMaker/PartyMaker.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="24" />
+          <url>file://$PROJECT_DIR$/fuzzy/l2open/extensions/scripts/ScriptObject.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
