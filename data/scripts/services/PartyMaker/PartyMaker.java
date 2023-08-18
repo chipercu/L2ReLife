@@ -157,7 +157,7 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
                 .insert(new Button("Отмена", action(bypass + "showGroups"), 80, 32).build());
         buttonsTable.row(0).col(2).setParams(width(30), height(32)).insert("");
         buttonsTable.row(0).col(3).setParams(width(60), height(32))
-                .insert(new Button("Создать", action(bypass + "createGroup $minLevel:$maxLevel:$instance:$description"), 80, 32).build());
+                .insert(new Button("Создать", action(bypass + "createGroup $minLevel $maxLevel $instance $description"), 80, 32).build());
         buttonsTable.row(0).col(3).setParams(width(30), height(32)).insert("");
 
         mainTable.row(7).col(0).setParams(height(20)).insert(buttonsTable.build());
