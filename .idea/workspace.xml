@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66e54ec9-4946-49a5-9add-2fc570297884" name="Changes" comment="Реализован АЙ патруль в гиране">
-      <change afterPath="$PROJECT_DIR$/data/scripts/commands/admin/AdminTestCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/Combobox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/Edit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/services/PartyMaker/PartyMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/services/PartyMaker/PartyMakerGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/ai/Fort/FortManager/GuardManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/ai/Fort/FortManager/GuardManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/ai/Fort/MilitaryAI/TankCommanderAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/ai/Fort/MilitaryAI/TankCommanderAI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/ai/Fort/MilitaryAI/TownGuardComanderAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/ai/Fort/MilitaryAI/TownGuardComanderAI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/commands/admin/AdminFakePlayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/commands/admin/AdminFakePlayers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/util/geometry/Vector/PointNSWE2P.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/util/geometry/Vector/PointNSWE2P.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/services/PartyMaker/PartyMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/services/PartyMaker/PartyMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/gameserver/clientpackets/RequestBypassToServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/gameserver/clientpackets/RequestBypassToServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "aspect.path.notification.shown": "true",
     "last_opened_file_path": "C:/Users/FuzzY/IdeaProjects/L2ReLife_Server/data/scripts/fuzzy/Html_Constructor/tags/parameters",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -66,7 +58,8 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.5218391",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes",
+    "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -184,7 +177,6 @@
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.GameStart" />
       <item itemvalue="Application.L2LoginStart" />
-      <item itemvalue="Batch.Unnamed" />
       <item itemvalue="TestNG.AppTest.test1" />
     </list>
     <recent_temporary>
@@ -258,6 +250,7 @@
       <workItem from="1692117815945" duration="647000" />
       <workItem from="1692289666136" duration="2245000" />
       <workItem from="1692336131570" duration="9215000" />
+      <workItem from="1692350831291" duration="1860000" />
     </task>
     <task id="LOCAL-00001" summary="Тут начался путь в боль и страдания">
       <created>1680033000961</created>
