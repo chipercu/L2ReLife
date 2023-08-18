@@ -18,16 +18,16 @@ public class PointNSWE2P{
         double radian;
         if (side == Side.RIGHT){
             radian = Math.toRadians(calculateAngleFrom(origin, ref) + 90);
-            return new Point2D(origin.x  + (Math.cos(radian)) * dist, origin.y + (Math.sin(radian)) * dist);
+            return new Point2D((int) (origin.x  + (Math.cos(radian)) * dist), (int) (origin.y + (Math.sin(radian)) * dist));
         }else if (side == Side.LEFT){
             radian = Math.toRadians(calculateAngleFrom(origin, ref) - 90);
-            return new Point2D(origin.x + (Math.cos(radian)) * dist, origin.y + (Math.sin(radian)) * dist);
+            return new Point2D((int) (origin.x + (Math.cos(radian)) * dist), (int) (origin.y + (Math.sin(radian)) * dist));
         } else if (side == Side.BACK) {
             radian = Math.toRadians(calculateAngleFrom(origin, ref) + 90);
-            return new Point2D(origin.x - Math.sin(radian) * dist, origin.y + Math.cos(radian) * dist);
+            return new Point2D((int) (origin.x - Math.sin(radian) * dist), (int) (origin.y + Math.cos(radian) * dist));
         } else if (side == Side.FRONT) {
             radian = Math.toRadians(calculateAngleFrom(origin, ref) - 90);
-            return new Point2D(origin.x - Math.sin(radian) * dist, origin.y + Math.cos(radian) * dist);
+            return new Point2D((int) (origin.x - Math.sin(radian) * dist), (int) (origin.y + Math.cos(radian) * dist));
         }
         return origin;
     }

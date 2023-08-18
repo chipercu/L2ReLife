@@ -19,24 +19,24 @@ public class GuardManager implements ScriptFile {
         initFortressGuards();
     }
 
-    public void addSquad(Fortress fortress){
-        if (fortressGuards.get(fortress.getId()) == null){
-            fortressGuards.put(fortress, new FortressGuards(fortress));
-        }else {
-            fortressGuards.get(fortress.getId()).squadList.add(new Squad(fortress, FortSquadType.WIZARDS));
-            registerSqudToDB();
-        }
+//    public void addSquad(Fortress fortress){
+//        if (fortressGuards.get(fortress.getId()) == null){
+//            fortressGuards.put(fortress, new FortressGuards(fortress));
+//        }else {
+//            fortressGuards.get(fortress.getId()).squadList.add(new Squad(fortress, FortSquadType.WIZARDS));
+//            registerSqudToDB();
+//        }
+//
+//    }
 
-    }
-
-    public void loadFortressGuards(){
-        Collection<Fortress> fortresses = FortressManager.getInstance().getFortresses().values();
-
-        for (Fortress fort: fortresses){
-            fortressGuards.
-        }
-
-    }
+//    public void loadFortressGuards(){
+//        Collection<Fortress> fortresses = FortressManager.getInstance().getFortresses().values();
+//
+//        for (Fortress fort: fortresses){
+//            fortressGuards.
+//        }
+//
+//    }
 
     public void initFortressGuards(){
         Collection<Fortress> fortresses = FortressManager.getInstance().getFortresses().values();

@@ -36,9 +36,9 @@ public class TankCommanderAI extends L2PlayerAI {
 
 
     private UnitType[] patrolPos = {
-            knight, knight, knight,
-            healer, knight, buffer,
-            knight, knight, knight
+            KNIGHT, KNIGHT, KNIGHT,
+            HEALER, KNIGHT, HEALER,
+            KNIGHT, KNIGHT, KNIGHT
     };
 
     public TankCommanderAI(L2Player actor) {
@@ -145,40 +145,40 @@ public class TankCommanderAI extends L2PlayerAI {
         int unitDist = 200;
         int unitWidth = 50;
         clearUnitsLoc();
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, false), healer));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, false), buffer));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, true), knight));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, true), knight));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth * 2, true), knight));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth * 2, true), knight));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth * 3, true), knight));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth * 3, true), knight));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, false), HEALER));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, false), HEALER));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, true), KNIGHT));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, true), KNIGHT));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth * 2, true), KNIGHT));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth * 2, true), KNIGHT));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth * 3, true), KNIGHT));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth * 3, true), KNIGHT));
     }
     private void findPatrolLoc(L2Object actor, L2Object ref){
         int unitDist = 100;
         int unitWidth = 50;
         clearUnitsLoc();
-        unitLocation.add(new LocForUnit(Vector2DRef.getCenterPoint(actor, ref, unitDist, true), knight));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, true), knight));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, true), knight));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, 1, unitWidth, true), buffer));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, 1, unitWidth, true), healer));
-        unitLocation.add(new LocForUnit(Vector2DRef.getCenterPoint(actor, ref, unitDist, false), knight));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, false), knight));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, false), knight));
+        unitLocation.add(new LocForUnit(Vector2DRef.getCenterPoint(actor, ref, unitDist, true), KNIGHT));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, true), KNIGHT));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, true), KNIGHT));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, 1, unitWidth, true), HEALER));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, 1, unitWidth, true), HEALER));
+        unitLocation.add(new LocForUnit(Vector2DRef.getCenterPoint(actor, ref, unitDist, false), KNIGHT));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, false), KNIGHT));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, false), KNIGHT));
     }
     private void findInstructLoc(L2Object actor, L2Object ref){
         int unitDist = 200;
         int unitWidth = 50;
         clearUnitsLoc();
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth * 4, true), healer));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth * 5, true), buffer));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, true), knight));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, true), knight));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth * 2, true), knight));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth * 2, true), knight));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth * 3, true), knight));
-        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth * 3, true), knight));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth * 4, true), HEALER));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth * 5, true), HEALER));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth, true), KNIGHT));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth, true), KNIGHT));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth * 2, true), KNIGHT));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth * 2, true), KNIGHT));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontLeftPoint(actor, ref, unitDist, unitWidth * 3, true), KNIGHT));
+        unitLocation.add(new LocForUnit(Vector2DRef.getFrontRightPoint(actor, ref, unitDist, unitWidth * 3, true), KNIGHT));
     }
 
 

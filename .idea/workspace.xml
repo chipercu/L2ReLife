@@ -5,222 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66e54ec9-4946-49a5-9add-2fc570297884" name="Changes" comment="Реализован АЙ патруль в гиране">
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/GuardFactory/AbstarctGuardFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/GuardFactory/DefaultGuard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/GuardFactory/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/GuardFactory/Mage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/GuardFactory/TownGuardFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/GuardFactory/TownGuardManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/11_23.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/11_24.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/11_25.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/11_26.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/12_23.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/12_24.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/12_25.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/12_26.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/13_21.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/13_22.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/13_23.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/13_24.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/13_25.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/13_26.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/14_21.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/14_22.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/14_23.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/14_24.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/14_25.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/14_26.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/15_10.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/15_11.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/15_12.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/15_18.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/15_19.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/15_20.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/15_21.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/15_22.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/15_23.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/15_24.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/15_25.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/15_26.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_10.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_11.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_12.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_13.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_14.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_15.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_16.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_17.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_18.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_19.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_20.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_21.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_22.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_23.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_24.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_25.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/16_26.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_10.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_11.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_12.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_13.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_14.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_15.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_16.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_17.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_18.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_19.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_20.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_21.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_22.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_23.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_24.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_25.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/17_26.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_10.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_11.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_12.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_13.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_14.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_15.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_16.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_17.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_18.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_19.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_20.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_21.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_22.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_23.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_24.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_25.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/18_26.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_10.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_11.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_12.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_13.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_14.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_15.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_16.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_17.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_18.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_19.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_20.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_21.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_22.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_23.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_24.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_25.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/19_26.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_10.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_11.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_12.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_13.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_14.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_15.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_16.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_17.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_18.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_19.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_20.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_21.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_22.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_23.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_24.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_25.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/20_26.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/21_10.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/21_11.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/21_12.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/21_13.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/21_14.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/21_15.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/21_16.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/21_17.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/21_18.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/21_19.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/21_20.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/21_21.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/21_22.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/21_23.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/21_24.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/21_25.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_10.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_11.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_12.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_13.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_14.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_15.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_16.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_17.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_18.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_19.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_20.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_21.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_22.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_23.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_24.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_25.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/22_26.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_10.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_11.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_12.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_13.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_14.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_15.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_16.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_17.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_18.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_19.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_20.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_21.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_22.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_23.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_24.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_25.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/23_26.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_10.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_11.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_12.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_13.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_14.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_15.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_16.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_17.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_18.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_19.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_20.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_21.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_22.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_23.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_24.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_25.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/24_26.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/25_10.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/25_11.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/25_12.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/25_14.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/25_15.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/25_16.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/25_17.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/25_18.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/25_19.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/25_20.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/25_21.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/25_22.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/25_23.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/25_24.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/26_11.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/26_12.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/26_14.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/26_15.l2j" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geodata/26_16.l2j" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/scripts/commands/admin/AdminTestCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/Combobox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/Edit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/scripts/services/PartyMaker/PartyMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/scripts/services/PartyMaker/PartyMakerGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/ai/Fort/FortManager/GuardManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/ai/Fort/FortManager/GuardManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/ai/Fort/MilitaryAI/TankCommanderAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/ai/Fort/MilitaryAI/TankCommanderAI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/scripts/ai/Fort/MilitaryAI/TownGuardComanderAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/ai/Fort/MilitaryAI/TownGuardComanderAI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/scripts/commands/admin/AdminFakePlayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/commands/admin/AdminFakePlayers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/events/ExpForSkills/ExpForSkills.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/events/ExpForSkills/ExpForSkills.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/events/KetraVarkaWar/KetraVarkaWar.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/events/KetraVarkaWar/KetraVarkaWar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scripts/events/LastHunter/LastHunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/events/LastHunter/LastHunter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/loc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/scripts/fuzzy/Html_Constructor/tags/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuzzy/l2open/util/geometry/Vector/PointNSWE2P.java" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy/l2open/util/geometry/Vector/PointNSWE2P.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,36 +51,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/High Five сборки/T2.6 (High Five) - FT-Last&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.5218391&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/FuzzY/IdeaProjects/L2ReLife_Server/data/scripts/fuzzy/Html_Constructor/tags/parameters",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5218391",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;,
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ai.Fort.MilitaryAI" />
       <recent name="l2open.extensions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FuzzY\IdeaProjects\L2ReLife_Server\data\scripts\fuzzy\Html_Constructor\tags\parameters" />
       <recent name="C:\Users\FuzzY\IdeaProjects\L2ReLife_Server\data\stats\custom_items" />
       <recent name="C:\Users\FuzzY\IdeaProjects\L2ReLife_Server\fuzzy\l2open\util" />
       <recent name="C:\Users\FuzzY\IdeaProjects\L2ReLife_Server\fuzzy\l2open\extensions" />
@@ -293,14 +90,14 @@
       <recent name="C:\Users\FuzzY\IdeaProjects\L2ReLife_Server" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="commands.admin" />
+      <recent name="fuzzy.Html_Constructor.tags" />
       <recent name="ai.Fort.MilitaryAI" />
       <recent name="ai.chaos" />
       <recent name="npc.model.chaos" />
-      <recent name="fuzzy.Html_Constructor.tags" />
-      <recent name="npc.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GameStart">
+  <component name="RunManager" selected="Application.L2LoginStart">
     <configuration name="GameStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="l2open.gameserver.GameStart" />
       <module name="L2ReLife_Server" />
@@ -392,8 +189,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GameStart" />
         <item itemvalue="Application.L2LoginStart" />
+        <item itemvalue="Application.GameStart" />
         <item itemvalue="Application.Test" />
         <item itemvalue="TestNG.AppTest.test1" />
       </list>
@@ -454,7 +251,13 @@
       <workItem from="1690905317879" duration="6223000" />
       <workItem from="1691168175296" duration="2693000" />
       <workItem from="1691317053239" duration="404000" />
-      <workItem from="1691319089413" duration="10634000" />
+      <workItem from="1691319089413" duration="11418000" />
+      <workItem from="1691428717485" duration="3073000" />
+      <workItem from="1691601290418" duration="1238000" />
+      <workItem from="1691684676464" duration="1364000" />
+      <workItem from="1692117815945" duration="647000" />
+      <workItem from="1692289666136" duration="2245000" />
+      <workItem from="1692336131570" duration="9215000" />
     </task>
     <task id="LOCAL-00001" summary="Тут начался путь в боль и страдания">
       <created>1680033000961</created>
@@ -526,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682626745459</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Реализован АЙ патруль в гиране">
+      <created>1691347354723</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691347354723</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,5 +376,21 @@
     <MESSAGE value="fix AI  CasterOfChaosAI" />
     <MESSAGE value="Реализован АЙ патруль в гиране" />
     <option name="LAST_COMMIT_MESSAGE" value="Реализован АЙ патруль в гиране" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data/scripts/commands/admin/AdminTestCommands.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fuzzy/l2open/extensions/scripts/ScriptObject.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

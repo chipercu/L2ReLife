@@ -5,6 +5,7 @@ package scripts.commands.admin;
 import ai.BotPlayers.BerserkerAI;
 import ai.BotPlayers.Gladiator;
 import ai.BotPlayers.GladiatorAI;
+import ai.Fort.MilitaryAI.TownGuardComanderAI;
 import ai.PlayerTest;
 import ai.chaos.CasterOfChaosAI;
 import l2open.config.ConfigValue;
@@ -47,7 +48,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 
-import static l2open.gameserver.model.base.UnitType.knight;
+//import static l2open.gameserver.model.base.UnitType.knight;
 
 
 public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
@@ -238,7 +239,7 @@ public class AdminFakePlayers implements IAdminCommandHandler, ScriptFile {
                             break;
                     }
 
-                    player.setAI(new scripts.ai.Fort.MilitaryAI.TownGuardComanderAI(player));
+                    player.setAI(new TownGuardComanderAI(player));
 //                    player.setAI(new TownGuardComanderAI(player));
 
                 } else if (activeChar.getTarget().isNpc()) {

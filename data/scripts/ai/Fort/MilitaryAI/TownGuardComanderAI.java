@@ -1,4 +1,4 @@
-package scripts.ai.Fort.MilitaryAI;
+package ai.Fort.MilitaryAI;
 //package ai.Fort.MilitaryAI;
 
 import l2open.common.RunnableImpl;
@@ -249,10 +249,10 @@ public class TownGuardComanderAI extends L2PlayerAI {
     }
 
     private void findRandomLoc(L2Object actor, Location refLocation) {
-        loc1 = new LocForUnit(Location.coordsRandomize(refLocation, 50, 150), knight);
-        loc2 = new LocForUnit(Location.coordsRandomize(refLocation, 50, 150), knight);
-        loc3 = new LocForUnit(Location.coordsRandomize(refLocation, 50, 150), knight);
-        loc4 = new LocForUnit(Location.coordsRandomize(refLocation, 50, 150), knight);
+        loc1 = new LocForUnit(Location.coordsRandomize(refLocation, 50, 150), KNIGHT);
+        loc2 = new LocForUnit(Location.coordsRandomize(refLocation, 50, 150), KNIGHT);
+        loc3 = new LocForUnit(Location.coordsRandomize(refLocation, 50, 150), KNIGHT);
+        loc4 = new LocForUnit(Location.coordsRandomize(refLocation, 50, 150), KNIGHT);
     }
 
 
