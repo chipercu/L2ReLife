@@ -75,15 +75,15 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
         header.row(0).col(3).setParams(height(20), width(32)).insert("Удалить");
 
         mainTable.row(0).col(0).setParams(height(60), width(280)).insert(partyMakerGroup.getDescription());
-        mainTable.row(0).col(1).setParams(height(20), width(280)).insert(header.build());
+        mainTable.row(1).col(0).setParams(height(20), width(280)).insert(header.build());
 
         final L2Player creator = L2ObjectsStorage.getPlayer(partyMakerGroup.getGroupLeaderId());
         if (creator != null){
-            mainTable.row(0).col(2).setParams(height(20), width(280)).insert(playerRow(creator).build());
+            mainTable.row(2).col(0).setParams(height(20), width(280)).insert(playerRow(creator).build());
         }
         for (int i = 3; i < partyMakerGroup.getAcceptedPlayers().size(); i++){
             final L2Player member = L2ObjectsStorage.getPlayer(partyMakerGroup.getAcceptedPlayers().get(i - 3));
-            mainTable.row(0).col(i).setParams(height(20), width(280)).insert(playerRow(member).build());
+            mainTable.row(i).col(0).setParams(height(20), width(280)).insert(playerRow(member).build());
         }
 
         sendDialog(player, HTML.append(mainTable.build()).toString());
