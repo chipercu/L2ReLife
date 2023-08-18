@@ -69,12 +69,12 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
         Table mainTable = new Table(partyMakerGroup.getAcceptedPlayers().size() + 3, 1).setParams(border(0), width(280), cellpadding(2), cellspacing(2));
 
         final Table header = new Table(1, 4).setParams(width(280), background("l2ui_ct1.Windows_DF_TooltipBG"));
-        header.row(0).col(0).setParams(height(20), width(62)).insert("Профа");
-        header.row(0).col(1).setParams(height(20), width(120)).insert("Имя");
-        header.row(0).col(2).setParams(height(20), width(66)).insert("Уровень");
-        header.row(0).col(3).setParams(height(20), width(32)).insert("Удалить");
+        header.row(0).col(0).setParams(height(20), width(64)).insert("Профа");
+        header.row(0).col(1).setParams(height(20), width(100)).insert("Имя");
+        header.row(0).col(2).setParams(height(20), width(64)).insert("Уровень");
+        header.row(0).col(3).setParams(height(20), width(52)).insert("Удалить");
 
-        mainTable.row(0).col(0).setParams(height(60), width(280)).insert(partyMakerGroup.getDescription());
+        mainTable.row(0).col(0).setParams(height(40), width(280)).setParams(align(CENTER), valign(BOTTOM)).insert(partyMakerGroup.getDescription());
         mainTable.row(1).col(0).setParams(height(20), width(280)).insert(header.build());
 
         final L2Player creator = L2ObjectsStorage.getPlayer(partyMakerGroup.getGroupLeaderId());
@@ -91,12 +91,12 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
 
     private Table playerRow(L2Player player){
         final Table row = new Table(1, 4).setParams(width(280), background("l2ui_ct1.Windows_DF_TooltipBG"));
-        row.row(0).col(0).setParams(height(20), width(62)).insert(player.getClassId().name());
-        row.row(0).col(1).setParams(height(20), width(120)).insert(player.getName());
-        row.row(0).col(2).setParams(height(20), width(66)).insert(String.valueOf(player.getLevel()));
+        row.row(0).col(0).setParams(height(32), width(64)).insert(player.getClassId().name());
+        row.row(0).col(1).setParams(height(32), width(100)).insert(player.getName());
+        row.row(0).col(2).setParams(height(32), width(64)).insert(String.valueOf(player.getLevel()));
 
         final Button delete = new Button("X", action(bypass + "deletePlayer " + player.getObjectId()), 32, 32);
-        row.row(0).col(3).setParams(height(20), width(32)).insert(delete.build());
+        row.row(0).col(3).setParams(height(32), width(52)).setParams(align(CENTER), valign(TOP)).insert(delete.build());
         return row;
     }
 
