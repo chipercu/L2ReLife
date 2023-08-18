@@ -151,6 +151,7 @@ public class RequestBypassToServer extends L2GameClientPacket {
 			} else if (bp.bypass.startsWith("player_help ")){
 				playerHelp(activeChar, bp.bypass.substring(12));
 			} else if (bp.bypass.startsWith("party_maker:")) {
+                final String bypass1 = bp.bypass;
                 scripts.services.PartyMaker.PartyMaker.getInstance().handleCommands(getClient(), bp.bypass.substring(12));
 			} else if (bp.bypass.startsWith("script_")) {
                 if (activeChar.getEventMaster() != null && activeChar.getEventMaster().blockNpcBypass())

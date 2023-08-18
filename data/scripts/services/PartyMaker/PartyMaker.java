@@ -6,13 +6,8 @@ import fuzzy.Html_Constructor.tags.Combobox;
 import fuzzy.Html_Constructor.tags.Edit;
 import fuzzy.Html_Constructor.tags.Table;
 import fuzzy.Html_Constructor.tags.parameters.Parameters;
-import fuzzy.Html_Constructor.tags.parameters.Position;
 import l2open.extensions.scripts.Functions;
 import l2open.extensions.scripts.ScriptFile;
-import l2open.gameserver.communitybbs.CommunityBoard;
-import l2open.gameserver.listener.PlayerListenerList;
-import l2open.gameserver.listener.actor.player.OnPlayerEnterListener;
-import l2open.gameserver.model.L2Object;
 import l2open.gameserver.model.L2ObjectsStorage;
 import l2open.gameserver.model.L2Player;
 import l2open.gameserver.network.L2GameClient;
@@ -20,11 +15,11 @@ import l2open.gameserver.serverpackets.NpcHtmlMessage;
 import l2open.util.Strings;
 import services.PartyMaker.PartyMakerGroup;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import static fuzzy.Html_Constructor.tags.parameters.Position.*;
+import static fuzzy.Html_Constructor.tags.parameters.Position.CENTER;
+import static fuzzy.Html_Constructor.tags.parameters.Position.TOP;
 
 public class PartyMaker extends Functions implements ScriptFile, Parameters {
 
@@ -53,12 +48,12 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
         }else if (command.startsWith("showGroups")){
             showGroups(player);
         } else if (command.startsWith("createGroup")) {
-            final String[] params = command.split(" ")[1].split(":");
-            createGroup(player, Strings.parseInt(params[0]), Strings.parseInt(params[1]), params[2], params[3]);
+            System.out.println("asdfasdf");
+            final String[] params = command.split(" ");
+            createGroup(player, Strings.parseInt(params[1]), Strings.parseInt(params[2]), params[3], params[4]);
             showGroups(player);
         }
     }
-
 
     public void createGroup(L2Player player, int minLevel, int maxLevel, String instance, String description) {
         final PartyMakerGroup partyMakerGroup = new PartyMakerGroup(minLevel, maxLevel, player.getObjectId(), description, instance);
@@ -69,7 +64,8 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
     public void showGroups(L2Player player) {
 
         StringBuilder HTML = new StringBuilder("<title>Группы</title>");
-        Table mainTable = new Table(partyMakerGroupMap.size() + 2, 1)
+        final int rowSize = partyMakerGroupMap.size() + 2;
+        Table mainTable = new Table(rowSize, 1)
                 .setParams(border(0), width(280), background("l2ui_ct1.Windows_DF_TooltipBG"), cellpadding(2), cellspacing(2));
 
         mainTable.row(0).col(0).setParams(height(20), width(280)).insert("");
@@ -84,16 +80,16 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
 
         mainTable.row(1).col(0).setParams(height(32), width(280)).insert(buttonsTable.build());
 
-        int count = 3;
+        int count = 2;
         for (Map.Entry<Integer, PartyMakerGroup> group : partyMakerGroupMap.entrySet()) {
             final Table table = new Table(1, 5);
             table.row(0).col(0).setParams(width(32), height(32)).insert(group.getValue().getInstance());
             table.row(0).col(1).setParams(width(120), height(32)).insert(group.getValue().getDescription());
             final L2Player creator = L2ObjectsStorage.getPlayer(group.getValue().getCreatorId());
             table.row(0).col(2).setParams(width(66), height(32)).insert(creator.getName());
-            final Button requestButton = new Button("Подать заявку", action(""), 32, 62);
+            final Button requestButton = new Button("Подать заявку", action(""), 62, 32);
             table.row(0).col(3).setParams(width(62), height(32)).insert(requestButton.build());
-            mainTable.row(count).col(0).setParams(height(32), width(280)).insert(buttonsTable.build());
+            mainTable.row(count).col(0).setParams(height(32), width(280)).insert(table.build());
             count++;
         }
         sendDialog(player, HTML.append(mainTable.build()).toString());
@@ -132,7 +128,7 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
                 .insert(new Button("Отмена", action(bypass + "showGroups"), 80, 32).build());
         buttonsTable.row(0).col(2).setParams(width(30), height(32)).insert("");
         buttonsTable.row(0).col(3).setParams(width(60), height(32))
-                .insert(new Button("Создать", action(bypass + "createGroup $minLevel:$maxLevel:$instance:$description"), 80, 32).build());
+                .insert(new Button("Создать", action(bypass + "createGroup $minLevel $maxLevel $instance $description"), 80, 32).build());
         buttonsTable.row(0).col(3).setParams(width(30), height(32)).insert("");
 
         mainTable.row(7).col(0).setParams(height(20)).insert(buttonsTable.build());

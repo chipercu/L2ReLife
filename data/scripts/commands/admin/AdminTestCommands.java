@@ -15,25 +15,13 @@ public class AdminTestCommands implements IAdminCommandHandler, ScriptFile {
         admin_party_all
     }
 
-
-    public static void question(String text) {
-        for (L2Player player : L2ObjectsStorage.getPlayers())
-            if (player != null && player.getLevel() >= 76 && player.getVar("jailed") == null)
-                player.scriptRequest(text, "Vote:addResult", new Object[0]);
-    }
-
-
-
     public boolean useAdminCommand(Enum comm, final String[] wordList, String fullString, final L2Player activeChar) {
         Commands command = (Commands) comm;
 
         if (activeChar.getPlayerAccess().Menu) {
             switch (command) {
                 case admin_party:
-                    Functions.callScripts("scripts.services.PartyMaker.PartyMaker", "showCreateDialog", new Object[] {activeChar.getObjectId()});
-                    break;
-                case admin_party_all:
-                    Functions.callScripts("scripts.services.PartyMaker.PartyMaker", "showGroups", new Object[] {activeChar.getObjectId()});
+                    scripts.services.PartyMaker.PartyMaker.getInstance().showGroups(activeChar);
                     break;
             }
             return true;
