@@ -1,5 +1,6 @@
 package services.PartyMaker;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class PartyMakerGroup {
@@ -7,16 +8,36 @@ public class PartyMakerGroup {
     private int minLevel;
     private int maxLevel;
     private int creatorId;
-    private List<Integer> playersId;
+    private List<Integer> acceptedPlayers;
+    private List<Integer> candidates;
+
     private String description;
     private String instance;
 
     public PartyMakerGroup(int minLevel, int maxLevel, int creatorId, String description, String instance) {
+        this.acceptedPlayers = new ArrayList<>();
+        this.candidates = new ArrayList<>();
         this.minLevel = minLevel;
         this.maxLevel = maxLevel;
         this.creatorId = creatorId;
         this.description = description;
         this.instance = instance;
+    }
+
+    public List<Integer> getAcceptedPlayers() {
+        return acceptedPlayers;
+    }
+
+    public void setAcceptedPlayers(List<Integer> acceptedPlayers) {
+        this.acceptedPlayers = acceptedPlayers;
+    }
+
+    public List<Integer> getCandidates() {
+        return candidates;
+    }
+
+    public void setCandidates(List<Integer> candidates) {
+        this.candidates = candidates;
     }
 
     public String getInstance() {
@@ -39,10 +60,6 @@ public class PartyMakerGroup {
         this.creatorId = creatorId;
     }
 
-    public void setPlayersId(List<Integer> playersId) {
-        this.playersId = playersId;
-    }
-
     public void setDescription(String description) {
         this.description = description;
     }
@@ -57,10 +74,6 @@ public class PartyMakerGroup {
 
     public int getCreatorId() {
         return creatorId;
-    }
-
-    public List<Integer> getPlayersId() {
-        return playersId;
     }
 
     public String getDescription() {

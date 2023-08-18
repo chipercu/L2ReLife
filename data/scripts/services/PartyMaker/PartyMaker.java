@@ -53,9 +53,11 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
         }else if (command.startsWith("showGroups")){
             showGroups(player);
         } else if (command.startsWith("createGroup")) {
-            final String[] params = command.split(" ")[1].split(":");
-            createGroup(player, Strings.parseInt(params[0]), Strings.parseInt(params[1]), params[2], params[3]);
+            final String[] params = command.split(" ");
+            createGroup(player, Strings.parseInt(params[1]), Strings.parseInt(params[2]), params[3], params[4]);
             showGroups(player);
+        } else if (command.startsWith("myGroup")) {
+            myGroup(player);
         }
     }
 
@@ -65,6 +67,18 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
         partyMakerGroupMap.put(player.getObjectId(), partyMakerGroup);
         showGroups(player);
     }
+    public void myGroup(L2Player player){
+        final PartyMakerGroup partyMakerGroup = partyMakerGroupMap.get(player.getObjectId());
+
+
+
+
+
+
+
+    }
+    
+    
 
     public void showGroups(L2Player player) {
 
@@ -73,14 +87,14 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
                 .setParams(border(0), width(280), background("l2ui_ct1.Windows_DF_TooltipBG"), cellpadding(2), cellspacing(2));
 
         mainTable.row(0).col(0).setParams(height(20), width(280)).insert("");
-        Table buttonsTable = new Table(1, 5);
+        Table buttonsTable = new Table(1, 6);
         buttonsTable.row(0).col(0).setParams(width(30), height(32)).insert("");
-        buttonsTable.row(0).col(1).setParams(width(60), height(32))
-                .insert(new Button("Отмена", action(""), 80, 32).build());
+        buttonsTable.row(0).col(1).setParams(width(60), height(32)).insert(new Button("Отмена", action(""), 60, 32).build());
         buttonsTable.row(0).col(2).setParams(width(30), height(32)).insert("");
-        buttonsTable.row(0).col(3).setParams(width(60), height(32))
-                .insert(new Button("Создать", action(bypass + "showCreateDialog"), 80, 32).build());
-        buttonsTable.row(0).col(3).setParams(width(30), height(32)).insert("");
+        buttonsTable.row(0).col(3).setParams(width(60), height(32)).insert(new Button("Создать", action(bypass + "showCreateDialog"), 60, 32).build());
+        buttonsTable.row(0).col(4).setParams(width(30), height(32)).insert("");
+        buttonsTable.row(0).col(5).setParams(width(60), height(32)).insert(new Button("Моя группа", action(bypass + "myGroup"), 60, 32).build());
+
 
         mainTable.row(1).col(0).setParams(height(32), width(280)).insert(buttonsTable.build());
 
@@ -107,6 +121,9 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
         sendDialog(player, HTML.append(mainTable.build()).toString());
 
     }
+
+
+
 
 
     public void showCreateDialog(L2Player player) {
