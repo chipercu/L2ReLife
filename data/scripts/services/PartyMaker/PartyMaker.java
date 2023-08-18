@@ -25,9 +25,7 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
     private static final Map<Integer, PartyMakerGroup> partyMakerGroupMap = new HashMap<>();
     private static final String bypass = "bypass -h party_maker:";
 
-
     private static PartyMaker _instance;
-    private static int MONEY_ID = 4357;
 
     public static PartyMaker getInstance() {
         if (_instance == null)
@@ -55,14 +53,18 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
         }
     }
 
-
     public void createGroup(L2Player player, int minLevel, int maxLevel, String instance, String description) {
         final PartyMakerGroup partyMakerGroup = new PartyMakerGroup(minLevel, maxLevel, player.getObjectId(), description, instance);
         partyMakerGroupMap.put(player.getObjectId(), partyMakerGroup);
         showGroups(player);
     }
+
     public void myGroup(L2Player player){
         final PartyMakerGroup partyMakerGroup = partyMakerGroupMap.get(player.getObjectId());
+        if (partyMakerGroup == null){
+            showGroups(player);
+            return;
+        }
         StringBuilder HTML = new StringBuilder("<title>Моя группа</title>");
         Table mainTable = new Table(partyMakerGroup.getAcceptedPlayers().size() + 3, 1).setParams(border(0), width(280), cellpadding(2), cellspacing(2));
 
@@ -71,10 +73,6 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
         header.row(0).col(1).setParams(height(20), width(120)).insert("Имя");
         header.row(0).col(2).setParams(height(20), width(66)).insert("Уровень");
         header.row(0).col(3).setParams(height(20), width(32)).insert("Удалить");
-
-
-
-
 
         mainTable.row(0).col(0).setParams(height(60), width(280)).insert(partyMakerGroup.getDescription());
         mainTable.row(0).col(1).setParams(height(20), width(280)).insert(header.build());
@@ -88,10 +86,7 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
             mainTable.row(0).col(i).setParams(height(20), width(280)).insert(playerRow(member).build());
         }
 
-
         sendDialog(player, HTML.append(mainTable.build()).toString());
-
-
     }
 
     private Table playerRow(L2Player player){
@@ -104,8 +99,6 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
         row.row(0).col(3).setParams(height(20), width(32)).insert(delete.build());
         return row;
     }
-    
-    
 
     public void showGroups(L2Player player) {
 
@@ -142,16 +135,12 @@ public class PartyMaker extends Functions implements ScriptFile, Parameters {
             table.row(0).col(2).setParams(width(66), height(32)).insert(creator.getName());
             final Button requestButton = new Button("+", action(""), 32, 32);
             table.row(0).col(3).setParams(width(32), height(32)).insert(requestButton.build());
-            mainTable.row(count).col(0).setParams(height(32), width(280)).insert(buttonsTable.build());
+            mainTable.row(count).col(0).setParams(height(32), width(280)).insert(table.build());
             count++;
         }
         sendDialog(player, HTML.append(mainTable.build()).toString());
 
     }
-
-
-
-
 
     public void showCreateDialog(L2Player player) {
         String descriptionText = "Description Description Description Description Description Description Description Description Description ";
