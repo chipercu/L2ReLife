@@ -1,13 +1,10 @@
 package commands.admin;
 
-import l2open.extensions.scripts.Functions;
 import l2open.extensions.scripts.ScriptFile;
-import l2open.extensions.scripts.Scripts;
-import l2open.gameserver.GameServer;
 import l2open.gameserver.handler.AdminCommandHandler;
 import l2open.gameserver.handler.IAdminCommandHandler;
-import l2open.gameserver.model.L2ObjectsStorage;
 import l2open.gameserver.model.L2Player;
+import services.PartyMaker.PartyMaker;
 
 public class AdminTestCommands implements IAdminCommandHandler, ScriptFile {
     private static enum Commands {
@@ -21,7 +18,7 @@ public class AdminTestCommands implements IAdminCommandHandler, ScriptFile {
         if (activeChar.getPlayerAccess().Menu) {
             switch (command) {
                 case admin_party:
-                    scripts.services.PartyMaker.PartyMaker.getInstance().showGroups(activeChar);
+                    PartyMaker.getInstance().showGroups(activeChar);
                     break;
             }
             return true;

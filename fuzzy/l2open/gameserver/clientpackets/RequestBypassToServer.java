@@ -29,6 +29,7 @@ import l2open.gameserver.serverpackets.ShowPCCafeCouponShowUI;
 import l2open.gameserver.model.items.L2ItemInstance;
 import l2open.util.Files;
 import l2open.util.Log;
+import services.PartyMaker.PartyMaker;
 
 public class RequestBypassToServer extends L2GameClientPacket {
     //Format: cS
@@ -152,7 +153,7 @@ public class RequestBypassToServer extends L2GameClientPacket {
 				playerHelp(activeChar, bp.bypass.substring(12));
 			} else if (bp.bypass.startsWith("party_maker:")) {
                 final String bypass1 = bp.bypass;
-                scripts.services.PartyMaker.PartyMaker.getInstance().handleCommands(getClient(), bp.bypass.substring(12));
+                PartyMaker.getInstance().handleCommands(getClient(), bp.bypass.substring(12));
 			} else if (bp.bypass.startsWith("script_")) {
                 if (activeChar.getEventMaster() != null && activeChar.getEventMaster().blockNpcBypass())
                     return;
